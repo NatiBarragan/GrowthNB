@@ -1,0 +1,54 @@
+# Claude Code and planning files
+.claude/
+*.claude.*
+agency.yaml
+CLAUDE.md
+
+# Documentation (local only, not in GitHub)
+docs/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+!events/package-lock.json
+!humanoid-task-glossary/package-lock.json
+yarn.lock
+
+# Python virtual environments
+scripts/venv/
+__pycache__/
+*.pyc
+
+# Data files (CSVs, databases - never in repo)
+*.csv
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Netlify build artifacts
+.netlify/
+
+# Testing artifacts
+.playwright-mcp/
+dapta-test/DAPTA-FLOW-DEBUG-PROMPT.md
+
+# Compressed files (not needed in repo)
+*.zip
+
+*storybook.log
+storybook-static
+
+# GTC aftermovie local video file (now on YouTube)
+gtc-aftermovie/aftermovie.mov
+.gstack/

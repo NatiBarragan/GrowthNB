@@ -1,0 +1,992 @@
+# Netlify configuration for Robot.com landing pages
+# Public folders: /that-day-is-here/, /dasboards/
+# Blocked folders: /emails/, /components/, /lead-qualification-form/
+# /docs/ is local-only (not in GitHub)
+
+[build]
+  publish = "."
+  command = "cd events && npm install --no-audit --no-fund && npm run build && cd ../humanoid-task-glossary && npm install --no-audit --no-fund && npm run build"
+
+# Netlify Functions configuration
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# ============================================
+# Automate 2026 · lp.robot.com/automate (Booth 1592)
+# Event-mode QR capture -> TrueList -> deep-research enrichment -> HubSpot.
+# Clean URL for the QR (no 301 hop).
+# ============================================
+# --- Documentacion interna: no debe servirse publicamente ---
+# publish = "." publica el repositorio entero, asi que todo .md queda expuesto
+# salvo que se bloquee aqui. Netlify solo admite splat al final de una ruta,
+# no comodines de extension, por eso las rutas van explicitas.
+# Verificado el 2026-08-19: los 20 archivos de abajo respondian 200 en produccion.
+# Al agregar documentacion nueva al repositorio, agregar aqui su bloqueo en el mismo commit.
+
+[[redirects]]
+  from = "/docs/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/documentation/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/AB_TEST_UPDATE.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/DEBUG_CHECKLIST.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/DOCUMENTATION_INDEX.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/FINAL_STATUS.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/IMPLEMENTATION_SUMMARY.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/NEXT_STEPS.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/PROYECTO_WEBINAR_RESUMEN.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/QUICK_REFERENCE_EMAIL_FIX.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/README_EMAIL_FIX.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/README.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/baird/README.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/cannes/README.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/cannes/ipad/README.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/rnoid/README.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/sales-lp/README.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/static/assets/README.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/webinar/automation-robot-deployment/SPEC.md"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/automate"
+  to = "/automate/index.html"
+  status = 200
+  force = true
+
+[[headers]]
+  for = "/automate"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/automate/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+# Tomorrow's internal preview surfaces. Keep the pages and every referenced
+# asset out of search results even if an individual HTML tag is changed later.
+[[headers]]
+  for = "/blog"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/blog/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/events"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/events/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[redirects]]
+  from = "/blog/articles/why-granular-measurement-changes-the-ooh-conversation-judah-longgrear/"
+  to = "/blog/articles/why-granular-measurement-changes-the-ooh-conversation/"
+  status = 301
+  force = true
+
+# ============================================
+# Robot Directory · lp.robot.com/events/[slug]/
+# Astro subproject built into events/dist/ at deploy time.
+# Owner: Natalia Gutierrez (ng@robot.com).
+# ============================================
+[[redirects]]
+  from = "/events"
+  to = "/events/dist/"
+  status = 200
+  force = true
+
+[[redirects]]
+from = "/events/"
+to = "/events/dist/"
+status = 200
+force = true
+
+# Robotics leadership directory. These canonical public URLs live outside the
+# event taxonomy, while Astro's static files continue to build under events.
+[[redirects]]
+from = "/leaders"
+to = "/events/dist/people/robotics/"
+status = 200
+force = true
+
+[[redirects]]
+from = "/leaders/"
+to = "/events/dist/people/robotics/"
+status = 200
+force = true
+
+[[redirects]]
+from = "/leaders/*"
+to = "/events/dist/people/robotics/:splat"
+status = 200
+force = true
+
+[[redirects]]
+from = "/directories"
+to = "/events/dist/directories/"
+status = 200
+force = true
+
+[[redirects]]
+from = "/directories/"
+to = "/events/dist/directories/"
+status = 200
+force = true
+
+[[redirects]]
+from = "/events/people/robotics"
+to = "/leaders/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/events/people/robotics/"
+to = "/leaders/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/events/people/robotics/*"
+to = "/leaders/:splat"
+status = 301
+force = true
+
+# The national event directory now lives directly at /events/.
+[[redirects]]
+  from = "/events/united-states"
+  to = "/events/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/united-states/"
+  to = "/events/"
+  status = 301
+  force = true
+
+# Legacy directory URL: the taxonomy now reads location before category.
+[[redirects]]
+  from = "/events/ai-california"
+  to = "/events/california/ai/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/ai-california/*"
+  to = "/events/california/ai/:splat"
+  status = 301
+  force = true
+
+# Retire the legacy bespoke AI pages that contained unpublished details. Each
+# destination is a confirmed event page; entries without a confirmed U.S.
+# edition return to the verified AI directory instead.
+[[redirects]]
+  from = "/events/california/ai/ada-av-expo-2026/"
+  to = "/events/novi/ai/ada-av-expo-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/ai-engineer-worlds-fair-2026/"
+  to = "/events/california/ai/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/aws-summit-la-2026/"
+  to = "/events/california/ai/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/databricks-data-ai-summit-2026/"
+  to = "/events/california/ai/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/dreamforce-2026/"
+  to = "/events/san-francisco/automation/dreamforce-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/google-io-2026/"
+  to = "/events/california/ai/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/google-marketing-live-2026/"
+  to = "/events/california/ai/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/ieee-humanoids-2026/"
+  to = "/events/santa-clara/humanoids/ieee-humanoids-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/la-tech-week-2026/"
+  to = "/events/los-angeles/ai/la-tech-week-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/neurips-2026/"
+  to = "/events/california/ai/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/nvidia-gtc-2027/"
+  to = "/events/san-jose/ai/nvidia-gtc-2027/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/openai-devday-2026/"
+  to = "/events/san-francisco/ai/openai-devday-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/ray-summit-2026/"
+  to = "/events/san-francisco/ai/ray-summit-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/rsa-conference-2027/"
+  to = "/events/san-francisco/ai/rsa-conference-2027/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/saastr-annual-2026/"
+  to = "/events/san-mateo/ai/saastr-annual-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/sdv-av-summit-2026/"
+  to = "/events/santa-clara/ai/sdv-av-summit-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/sf-tech-week-2026/"
+  to = "/events/san-francisco/ai/sf-tech-week-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/snowflake-summit-2026/"
+  to = "/events/california/ai/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/tedai-vienna-2026/"
+  to = "/events/california/ai/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/techcrunch-disrupt-2026/"
+  to = "/events/san-francisco/ai/techcrunch-disrupt-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/the-ai-conference-2026/"
+  to = "/events/san-francisco/ai/the-ai-conference-2026/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/ai/wwdc-2026/"
+  to = "/events/california/ai/"
+  status = 301
+  force = true
+
+# Robotics is the only event directory that has moved from a California
+# taxonomy to a national URL. The 301 must precede the generic /events/*
+# rewrite below so both crawlers and browsers see the permanent migration.
+[[redirects]]
+  from = "/events/california/robotics"
+  to = "/events/robotics/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/california/robotics/"
+  to = "/events/robotics/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/robotics"
+  to = "/events/robotics/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/robotics/"
+  to = "/events/dist/california/robotics/index.html"
+  status = 200
+  force = true
+
+# Global robotics companies directory. The Astro project is still built into
+# events/dist, but this public taxonomy intentionally lives outside /events/.
+# Keep these ahead of the generic /events/* rewrite.
+[[redirects]]
+  from = "/events/companies/robotics"
+  to = "/companies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/companies/robotics/"
+  to = "/companies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/companies/robotics/:slug"
+  to = "/companies/:slug/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/companies/robotics/*"
+  to = "/companies/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/events/*"
+  to = "/events/dist/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/companies"
+  to = "/events/dist/companies/robotics/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/companies/"
+  to = "/events/dist/companies/robotics/"
+  status = 200
+  force = true
+
+# Robot.com belongs to the company directory but its card must always open the
+# official homepage, never an internal company-profile page.
+[[redirects]]
+  from = "/companies/robot-com"
+  to = "https://www.robot.com/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/companies/robot-com/"
+  to = "https://www.robot.com/"
+  status = 301
+  force = true
+
+# Remove the former taxonomy segment from existing company profile URLs.
+[[redirects]]
+  from = "/companies/robotics"
+  to = "/companies/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/companies/robotics/:slug"
+  to = "/companies/:slug/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/companies/robotics/*"
+  to = "/companies/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/companies/*"
+  to = "/events/dist/companies/robotics/:splat"
+  status = 200
+  force = true
+
+# The directory surfaces are visible for private review but must not enter
+# search results until the editorial team explicitly opens the rollout.
+[[headers]]
+  for = "/directories"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/directories/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/leaders"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/leaders/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/companies"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/companies/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/sales-lp"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/sales-lp/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+# Event directories and their guides are in private editorial review.
+[[headers]]
+  for = "/events"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/events/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+# Expose the events sitemap at the conventional /sitemap.xml so crawlers find
+# it without needing to read robots.txt first. Targets the built file directly
+# because Netlify rewrites don't chain — `to = "/events/sitemap.xml"` would
+# otherwise hit no real file and 404.
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/events/dist/sitemap.xml"
+  status = 200
+  force = true
+
+# ============================================
+# Block private folders (in GitHub but not public on Netlify)
+# ============================================
+
+[[redirects]]
+  from = "/emails/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/components/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/lead-qualification-form/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/scripts/*"
+  to = "/404.html"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/automation"
+  to = "/webinar/automation-robot-deployment/next-step"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/webinar/warehouse-automation/*"
+  to = "/webinar/automation-robot-deployment/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/webinar/warehouse-automation"
+  to = "/webinar/automation-robot-deployment/"
+  status = 301
+  force = true
+
+# ============================================
+# Futbol 2026 · R-ads tournament activation · lp.robot.com/futbol/
+# Aliases redirect to canonical /futbol/ to avoid trademark issues
+# and capture organic variations.
+# ============================================
+[[redirects]]
+  from = "/fifa"
+  to = "/futbol/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/fifa/*"
+  to = "/futbol/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/soccer"
+  to = "/futbol/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/soccer/*"
+  to = "/futbol/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/worldcup"
+  to = "/futbol/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/worldcup/*"
+  to = "/futbol/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/world-cup"
+  to = "/futbol/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/world-cup/*"
+  to = "/futbol/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mundial"
+  to = "/futbol/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/mundial/*"
+  to = "/futbol/:splat"
+  status = 301
+  force = true
+
+# ============================================
+# Bitcoin 2026 · Scan-To-Open (Fold · Edge Of Co · Las Vegas Apr 27-29)
+# Event ended — all /bitcoin paths redirect to robot.com
+# ============================================
+[[redirects]]
+  from = "/bitcoin"
+  to = "https://www.robot.com?utm_source=bitcoin-2026&utm_medium=event"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bitcoin/*"
+  to = "https://www.robot.com?utm_source=bitcoin-2026&utm_medium=event"
+  status = 301
+  force = true
+
+# ============================================
+# Dashboards folder - publicly accessible
+# ============================================
+
+# Redirect /dasboards/ to main dashboard
+[[redirects]]
+  from = "/dasboards"
+  to = "/dasboards/robot_advertising_keywords_dashboard_v2.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/dasboards/"
+  to = "/dasboards/robot_advertising_keywords_dashboard_v2.html"
+  status = 200
+  force = true
+
+# ============================================
+# Main redirects
+# ============================================
+
+# that-day-is-here landing redirect to main site
+[[redirects]]
+  from = "/that-day-is-here"
+  to = "https://www.robot.com"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/that-day-is-here/*"
+  to = "https://www.robot.com"
+  status = 301
+  force = true
+
+# Root domain redirect
+[[redirects]]
+  from = "/"
+  to = "https://www.robot.com"
+  status = 301
+  force = true
+
+# ============================================
+# UTM Redirects for Social Media Channels
+# ============================================
+
+# General social media channel redirects to homepage
+[[redirects]]
+  from = "/lkn"
+  to = "https://www.robot.com?utm_source=LinkedIn&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ig"
+  to = "https://www.robot.com?utm_source=Instagram&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/x"
+  to = "https://www.robot.com?utm_source=Twitter&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tt"
+  to = "https://www.robot.com?utm_source=TikTok&utm_medium=social"
+  status = 301
+  force = true
+
+# /ads channel redirects
+[[redirects]]
+  from = "/ads/lkn"
+  to = "https://www.robot.com/ads?utm_source=LinkedIn&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ads/ig"
+  to = "https://www.robot.com/ads?utm_source=Instagram&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ads/x"
+  to = "https://www.robot.com/ads?utm_source=Twitter&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/ads/tt"
+  to = "https://www.robot.com/ads?utm_source=TikTok&utm_medium=social"
+  status = 301
+  force = true
+
+# /robot-cargo channel redirects
+[[redirects]]
+  from = "/robot-cargo/lkn"
+  to = "https://www.robot.com/robot-cargo?utm_source=LinkedIn&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/robot-cargo/ig"
+  to = "https://www.robot.com/robot-cargo?utm_source=Instagram&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/robot-cargo/x"
+  to = "https://www.robot.com/robot-cargo?utm_source=Twitter&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/robot-cargo/tt"
+  to = "https://www.robot.com/robot-cargo?utm_source=TikTok&utm_medium=social"
+  status = 301
+  force = true
+
+# /robot-dog channel redirects
+[[redirects]]
+  from = "/robot-dog/lkn"
+  to = "https://www.robot.com/robot-dog?utm_source=LinkedIn&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/robot-dog/ig"
+  to = "https://www.robot.com/robot-dog?utm_source=Instagram&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/robot-dog/x"
+  to = "https://www.robot.com/robot-dog?utm_source=Twitter&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/robot-dog/tt"
+  to = "https://www.robot.com/robot-dog?utm_source=TikTok&utm_medium=social"
+  status = 301
+  force = true
+
+# /robot-kiwi channel redirects
+[[redirects]]
+  from = "/robot-kiwi/lkn"
+  to = "https://www.robot.com/robot-kiwi?utm_source=LinkedIn&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/robot-kiwi/ig"
+  to = "https://www.robot.com/robot-kiwi?utm_source=Instagram&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/robot-kiwi/x"
+  to = "https://www.robot.com/robot-kiwi?utm_source=Twitter&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/robot-kiwi/tt"
+  to = "https://www.robot.com/robot-kiwi?utm_source=TikTok&utm_medium=social"
+  status = 301
+  force = true
+
+# /robotics channel redirects
+[[redirects]]
+  from = "/robotics/lkn"
+  to = "https://www.robot.com/robotics?utm_source=LinkedIn&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/robotics/ig"
+  to = "https://www.robot.com/robotics?utm_source=Instagram&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/robotics/x"
+  to = "https://www.robot.com/robotics?utm_source=Twitter&utm_medium=social"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/robotics/tt"
+  to = "https://www.robot.com/robotics?utm_source=TikTok&utm_medium=social"
+  status = 301
+  force = true
+
+# ============================================
+# Google Ads Data Manager — HTTPS feed (needs .csv extension)
+# ============================================
+[[redirects]]
+  from = "/feeds/conversions.csv"
+  to = "/.netlify/functions/conversion-feed"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/feeds/qualified-leads.csv"
+  to = "/.netlify/functions/qualified-leads-feed"
+  status = 200
+  force = true
+
+# ============================================================
+# R-Noid lead widget · lp.robot.com/rnoid/
+# Loader embebible (v1.js) + form (modal.html). Se pega en cualquier pagina
+# host con <script src=".../rnoid/v1.js"> + botones class="cta-rnoid".
+# modal.html se sirve dentro de un iframe en dominios de terceros -> hay que
+# permitir framing (override del X-Frame-Options DENY global de abajo) y dejar
+# cache corto para poder iterar el form sin que el host toque nada.
+# ============================================================
+[[redirects]]
+  from = "/hooks/cal-rnoid"
+  to = "/.netlify/functions/cal-webhook"
+  status = 200
+  force = true
+
+# ============================================
+# Humanoid Task Glossary · lp.robot.com/humanoid-task-glossary/
+# Subproyecto Vite + React compilado en deploy hacia humanoid-task-glossary/dist/.
+# Publico e indexable: a diferencia del resto de superficies internas, no lleva
+# X-Robots-Tag. Los 33 videos se sirven desde dist/videos/ con nombres estables
+# (sin hash), para que Netlify los deduplique entre deploys.
+# ============================================
+[[redirects]]
+  from = "/humanoid-task-glossary"
+  to = "/humanoid-task-glossary/dist/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/humanoid-task-glossary/*"
+  to = "/humanoid-task-glossary/dist/:splat"
+  status = 200
+  force = true
+
+# Headers for security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# R-Noid iframe widget: override the global DENY rule above.
+[[headers]]
+  for = "/rnoid/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    X-Frame-Options = "ALLOWALL"
+    Content-Security-Policy = "frame-ancestors *"
+    Cache-Control = "public, max-age=60, must-revalidate"
+    X-Content-Type-Options = "nosniff"
+
+# Dashboards: Allow embeds (Notion) and prevent Google indexing
+[[headers]]
+  for = "/dasboards/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    X-Frame-Options = "ALLOWALL"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# ============================================
+# Ads Gallery - Hidden from search engines
+# ============================================
+[[headers]]
+  for = "/ads-gallery/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    X-Content-Type-Options = "nosniff"

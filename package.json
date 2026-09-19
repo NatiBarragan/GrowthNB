@@ -1,0 +1,33 @@
+{
+  "name": "robot-segmentation-landing",
+  "version": "1.0.0",
+  "description": "Robot.com segmentation landing page with Notion backup",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "netlify deploy --prod",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^10.7.0",
+    "@notionhq/client": "^2.2.15",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^5.0.2",
+    "@storybook/addon-a11y": "^10.3.3",
+    "@storybook/addon-docs": "^10.3.3",
+    "@storybook/addon-mcp": "^0.4.2",
+    "@storybook/addon-vitest": "^10.3.3",
+    "@storybook/html-vite": "^10.3.3",
+    "@vitest/browser-playwright": "^4.0.18",
+    "@vitest/coverage-v8": "^4.0.18",
+    "netlify-cli": "^17.0.0",
+    "playwright": "^1.58.2",
+    "storybook": "^10.3.3",
+    "vitest": "^4.0.18"
+  }
+}

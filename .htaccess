@@ -1,0 +1,16 @@
+# Robot.com Landing Pages - URL Redirects
+# Enable URL rewriting
+RewriteEngine On
+
+# Redirect /temporal-audience to /that-day-is-here (301 Permanent Redirect)
+# This ensures old URLs are properly redirected to the new structure
+RewriteRule ^temporal-audience/?(.*)$ /that-day-is-here/$1 [R=301,L]
+
+# Optional: Force HTTPS (uncomment if needed)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Optional: Remove trailing slashes (uncomment if needed)
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_URI} (.+)/$
+# RewriteRule ^ %1 [R=301,L]
