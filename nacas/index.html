@@ -5,72 +5,109 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Robot.com × NACAS — Autonomous Delivery for College Campuses</title>
 <meta name="description" content="Robot.com brings autonomous, on-demand delivery to college campuses — 371,000+ deliveries completed and counting. Talk to our campus team at NACAS.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#15171A">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Robot.com × NACAS — Autonomous Delivery for College Campuses">
 <meta property="og:description" content="371,000+ deliveries completed on college campuses. See what Robot.com can do for yours.">
 <meta property="og:url" content="https://lp.robot.com/nacas/">
 
+<link rel="preload" as="image" href="assets/robot-logo-white.webp">
+
 <style>
+  /* Brand tokens: same ink / cream palette as the root index.html */
   :root {
     --ink: #15171A;
-    --ink-soft: rgba(21, 23, 26, 0.65);
-    --ink-faint: rgba(21, 23, 26, 0.45);
+    --ink-2: #1f2226;
+    --ink-soft: rgba(21, 23, 26, 0.68);
+    --ink-faint: rgba(21, 23, 26, 0.48);
     --cream: #f2f1ee;
+    --cream-soft: rgba(242, 241, 238, 0.72);
+    --cream-faint: rgba(242, 241, 238, 0.5);
     --panel: #ffffff;
     --border: rgba(21, 23, 26, 0.12);
-    --accent: #15171A;
+    --border-dark: rgba(242, 241, 238, 0.14);
+    --live: #2ecc71;
+    --error: #b3261e;
+    --radius-lg: 24px;
+    --radius: 12px;
   }
 
   * { box-sizing: border-box; }
 
-  html, body {
-    margin: 0;
-    padding: 0;
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition: none !important; animation: none !important; }
   }
 
   body {
+    margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     background: var(--cream);
     color: var(--ink);
     -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
   }
 
   a { color: inherit; }
+  img { max-width: 100%; }
 
   .wrap {
-    max-width: 1120px;
+    max-width: 1180px;
     margin: 0 auto;
     padding: 0 24px;
   }
 
-  /* Header */
-  header {
-    padding: 28px 0;
+  .sr-only {
+    position: absolute;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0);
+    white-space: nowrap; border: 0;
   }
 
-  header .wrap {
+  /* ---------- Hero (dark) ---------- */
+  .hero {
+    position: relative;
+    background: var(--ink);
+    color: var(--cream);
+    overflow: hidden;
+    isolation: isolate;
+  }
+
+  /* Soft light + dot grid, kept subtle so the form stays the focal point */
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background:
+      radial-gradient(900px 520px at 85% 10%, rgba(242, 241, 238, 0.10), transparent 60%),
+      radial-gradient(700px 480px at 0% 100%, rgba(46, 204, 113, 0.07), transparent 60%);
+  }
+  .hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image: radial-gradient(rgba(242, 241, 238, 0.09) 1px, transparent 1px);
+    background-size: 22px 22px;
+    -webkit-mask-image: linear-gradient(to bottom, #000 0%, transparent 85%);
+            mask-image: linear-gradient(to bottom, #000 0%, transparent 85%);
+  }
+
+  .topbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 16px;
-    flex-wrap: wrap;
+    padding: 28px 0;
   }
 
-  .logo {
-    display: inline-flex;
-    align-items: center;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    text-decoration: none;
-  }
-
-  .logo img {
-    height: 28px;
-    width: auto;
-    display: block;
-  }
+  .logo { display: inline-flex; }
+  .logo img { height: 28px; width: auto; display: block; }
 
   .badge {
     display: inline-flex;
@@ -78,466 +115,630 @@
     gap: 8px;
     padding: 8px 14px;
     border-radius: 999px;
-    background: var(--panel);
-    border: 1px solid var(--border);
+    border: 1px solid var(--border-dark);
+    background: rgba(242, 241, 238, 0.06);
     font-size: 13px;
     font-weight: 600;
-    color: var(--ink);
+    white-space: nowrap;
   }
 
-  .badge .dot {
-    width: 7px;
-    height: 7px;
+  .dot {
+    width: 7px; height: 7px;
     border-radius: 50%;
-    background: #2ecc71;
+    background: var(--live);
+    box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.6);
+    animation: pulse 2.4s ease-out infinite;
   }
-
-  /* Hero */
-  .hero {
-    padding: 40px 0 24px;
+  @keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.55); }
+    70%, 100% { box-shadow: 0 0 0 8px rgba(46, 204, 113, 0); }
   }
 
   .hero-grid {
     display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 56px;
-    align-items: start;
+    grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+    grid-template-areas: "copy card" "stat card";
+    grid-template-rows: auto auto;
+    column-gap: 64px;
+    align-items: center;
+    padding: 48px 0 96px;
+  }
+  .hero-copy { grid-area: copy; align-self: end; }
+  .hero-grid .card { grid-area: card; }
+  .hero-grid .stat { grid-area: stat; align-self: start; }
+
+  .eyebrow {
+    margin: 0 0 18px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--cream-faint);
   }
 
   h1 {
-    font-size: clamp(32px, 4.4vw, 52px);
-    line-height: 1.08;
-    letter-spacing: -0.02em;
-    margin: 0 0 20px;
+    margin: 0 0 22px;
+    font-size: clamp(38px, 5.4vw, 66px);
+    line-height: 1.03;
+    letter-spacing: -0.035em;
     font-weight: 700;
   }
 
-  .hero p.lead {
-    font-size: 18px;
-    line-height: 1.55;
-    color: var(--ink-soft);
+  .lead {
+    margin: 0 0 40px;
     max-width: 46ch;
-    margin: 0 0 32px;
+    font-size: clamp(17px, 1.5vw, 19px);
+    line-height: 1.55;
+    color: var(--cream-soft);
   }
 
-  /* Stat block */
   .stat {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 28px;
+    border-top: 1px solid var(--border-dark);
+    max-width: 520px;
+  }
+  .stat .number {
+    margin: 0;
+    font-size: clamp(40px, 4.6vw, 56px);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat .label {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.4;
+    color: var(--cream-soft);
+    max-width: 24ch;
+  }
+
+  /* ---------- Form card ---------- */
+  .card {
+    background: var(--panel);
+    color: var(--ink);
+    border-radius: var(--radius-lg);
+    padding: 40px;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.6) inset,
+      0 30px 80px -20px rgba(0, 0, 0, 0.55),
+      0 0 0 1px rgba(242, 241, 238, 0.08);
+    scroll-margin-top: 24px;
+  }
+
+  .card h2 {
+    margin: 0 0 8px;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+  .card .sub {
+    margin: 0 0 28px;
+    font-size: 15px;
+    color: var(--ink-soft);
+  }
+
+  .field { margin-bottom: 18px; }
+
+  .field label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .field input {
+    width: 100%;
+    padding: 15px 16px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: var(--cream);
+    font: inherit;
+    font-size: 16px; /* 16px prevents iOS zoom-on-focus */
+    color: var(--ink);
+    outline: none;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  }
+  .field input::placeholder { color: var(--ink-faint); }
+  .field input:hover { border-color: rgba(21, 23, 26, 0.24); }
+  .field input:focus {
+    background: var(--panel);
+    border-color: var(--ink);
+    box-shadow: 0 0 0 4px rgba(21, 23, 26, 0.08);
+  }
+  .field input[aria-invalid="true"] {
+    border-color: var(--error);
+    background: #fff;
+    box-shadow: 0 0 0 4px rgba(179, 38, 30, 0.08);
+  }
+
+  .field .hint,
+  .field .error {
+    margin: 7px 0 0;
+    font-size: 13px;
+  }
+  .field .hint { color: var(--ink-faint); }
+  .field .error { color: var(--error); font-weight: 500; }
+  .field .error:empty { display: none; }
+  .field .error:not(:empty) + .hint { display: none; }
+
+  /* Honeypot: off-screen for humans, still in the DOM for bots */
+  .hp {
+    position: absolute;
+    left: -10000px;
+    width: 1px; height: 1px;
+    overflow: hidden;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 6px;
+    padding: 17px 20px;
+    border: 0;
+    border-radius: var(--radius);
     background: var(--ink);
     color: var(--cream);
-    border-radius: 20px;
-    padding: 32px 28px;
-    margin: 0 0 32px;
-    display: inline-block;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
+  }
+  .btn:hover { background: #000; box-shadow: 0 10px 24px -10px rgba(0, 0, 0, 0.5); }
+  .btn:active { transform: translateY(1px); }
+  .btn:focus-visible { outline: 3px solid rgba(21, 23, 26, 0.35); outline-offset: 3px; }
+  .btn[disabled] { opacity: 0.6; cursor: default; box-shadow: none; }
+  .btn .arrow { transition: transform 0.15s ease; }
+  .btn:hover .arrow { transform: translateX(3px); }
+
+  .spinner {
+    display: none;
+    width: 16px; height: 16px;
+    border-radius: 50%;
+    border: 2px solid rgba(242, 241, 238, 0.35);
+    border-top-color: var(--cream);
+    animation: spin 0.7s linear infinite;
+  }
+  .btn.loading .spinner { display: inline-block; }
+  .btn.loading .arrow { display: none; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .legal {
+    margin: 16px 0 0;
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: var(--ink-faint);
+  }
+  .legal a { color: var(--ink-soft); }
+
+  .form-error {
+    margin: 0 0 18px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    background: #fdecea;
+    border: 1px solid rgba(179, 38, 30, 0.22);
+    color: var(--error);
+    font-size: 14px;
+  }
+  .form-error[hidden] { display: none; }
+
+  .success { text-align: center; padding: 16px 0 8px; }
+  .success[hidden] { display: none; }
+  .success .check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px; height: 56px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: var(--ink);
+    color: var(--cream);
+  }
+  .success h2:focus { outline: none; }
+  .success p { margin: 0 auto; max-width: 32ch; color: var(--ink-soft); }
+
+  /* ---------- Value props (light) ---------- */
+  .section { padding: 96px 0; }
+
+  .section-head {
+    max-width: 640px;
+    margin: 0 0 48px;
+  }
+  .section-head .eyebrow { color: var(--ink-faint); }
+  .section-head h2 {
+    margin: 0;
+    font-size: clamp(28px, 3.4vw, 42px);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
   }
 
-  .stat .number {
-    font-size: clamp(40px, 5vw, 56px);
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    line-height: 1;
-    margin: 0 0 8px;
-  }
-
-  .stat .label {
-    font-size: 15px;
-    color: rgba(242, 241, 238, 0.75);
-    max-width: 34ch;
-    line-height: 1.4;
-  }
-
-  /* Features */
   .features {
     list-style: none;
     margin: 0;
     padding: 0;
     display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
   }
-
   .features li {
-    display: flex;
-    gap: 14px;
-    align-items: flex-start;
-  }
-
-  .features .icon {
-    flex: none;
-    width: 26px;
-    height: 26px;
-    border-radius: 8px;
-    background: var(--ink);
-    color: var(--cream);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    font-weight: 700;
-    margin-top: 2px;
-  }
-
-  .features h3 {
-    margin: 0 0 4px;
-    font-size: 16px;
-    font-weight: 700;
-  }
-
-  .features p {
-    margin: 0;
-    font-size: 15px;
-    color: var(--ink-soft);
-    line-height: 1.5;
-  }
-
-  /* Form card */
-  .card {
+    padding: 32px 28px;
+    border-radius: var(--radius-lg);
     background: var(--panel);
     border: 1px solid var(--border);
-    border-radius: 20px;
-    padding: 32px;
-    position: sticky;
-    top: 24px;
   }
-
-  .card h2 {
-    margin: 0 0 6px;
-    font-size: 22px;
-    letter-spacing: -0.01em;
-  }
-
-  .card p.sub {
-    margin: 0 0 24px;
-    font-size: 14px;
-    color: var(--ink-soft);
-    line-height: 1.5;
-  }
-
-  form .field {
-    margin-bottom: 16px;
-  }
-
-  form label {
-    display: block;
-    font-size: 13px;
-    font-weight: 600;
-    margin-bottom: 6px;
-    color: var(--ink);
-  }
-
-  form input[type="text"],
-  form input[type="email"] {
-    width: 100%;
-    padding: 13px 14px;
-    border-radius: 10px;
-    border: 1px solid var(--border);
-    background: var(--cream);
-    font-size: 15px;
-    color: var(--ink);
-    font-family: inherit;
-    outline: none;
-    transition: border-color 0.15s ease, box-shadow 0.15s ease;
-  }
-
-  form input[type="text"]:focus,
-  form input[type="email"]:focus {
-    border-color: var(--ink);
-    box-shadow: 0 0 0 3px rgba(21, 23, 26, 0.08);
-  }
-
-  form input:invalid {
-    box-shadow: none;
-  }
-
-  form .hint {
-    margin-top: 6px;
-    font-size: 12px;
-    color: var(--ink-faint);
-  }
-
-  .honeypot {
-    position: absolute;
-    left: -9999px;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-  }
-
-  button[type="submit"] {
-    width: 100%;
-    padding: 14px 18px;
-    border-radius: 10px;
-    border: none;
-    background: var(--accent);
-    color: var(--cream);
-    font-size: 15px;
-    font-weight: 700;
-    font-family: inherit;
-    cursor: pointer;
-    transition: opacity 0.15s ease, transform 0.15s ease;
-    margin-top: 4px;
-  }
-
-  button[type="submit"]:hover { opacity: 0.88; }
-  button[type="submit"]:active { transform: scale(0.99); }
-  button[type="submit"]:disabled {
-    opacity: 0.55;
-    cursor: default;
-  }
-
-  .card .legal {
-    margin-top: 14px;
-    font-size: 12px;
-    color: var(--ink-faint);
-    line-height: 1.5;
-  }
-
-  .form-error {
-    display: none;
-    margin-bottom: 16px;
-    padding: 12px 14px;
-    border-radius: 10px;
-    background: #fdecea;
-    border: 1px solid rgba(211, 47, 47, 0.25);
-    color: #b3261e;
-    font-size: 13px;
-  }
-
-  .form-error.visible { display: block; }
-
-  /* Success state */
-  .success {
-    display: none;
-    text-align: center;
-    padding: 12px 0 4px;
-  }
-
-  .success.visible { display: block; }
-
-  .success .check {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background: var(--ink);
-    color: var(--cream);
-    display: flex;
+  .features .num {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
-    margin: 0 auto 16px;
-  }
-
-  .success h2 {
-    margin: 0 0 8px;
-  }
-
-  .success p {
-    margin: 0;
+    width: 36px; height: 36px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    background: var(--ink);
+    color: var(--cream);
     font-size: 14px;
+    font-weight: 700;
+  }
+  .features h3 {
+    margin: 0 0 8px;
+    font-size: 19px;
+    letter-spacing: -0.01em;
+  }
+  .features p {
+    margin: 0;
+    font-size: 15.5px;
     color: var(--ink-soft);
-    line-height: 1.5;
   }
 
-  form.hidden { display: none; }
-
-  footer {
-    padding: 48px 0 40px;
-    margin-top: 24px;
-    border-top: 1px solid var(--border);
+  /* ---------- Closing CTA ---------- */
+  .cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    margin-top: 64px;
+    padding: 48px;
+    border-radius: var(--radius-lg);
+    background: var(--ink);
+    color: var(--cream);
   }
+  .cta h2 {
+    margin: 0 0 6px;
+    font-size: clamp(24px, 2.6vw, 32px);
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+  }
+  .cta p { margin: 0; color: var(--cream-soft); }
+  .cta .btn {
+    width: auto;
+    flex: none;
+    margin: 0;
+    padding: 16px 28px;
+    background: var(--cream);
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .cta .btn:hover { background: #fff; }
+  .cta .btn:focus-visible { outline-color: rgba(242, 241, 238, 0.6); }
 
+  /* ---------- Footer ---------- */
+  footer { padding: 32px 0 40px; border-top: 1px solid var(--border); }
   footer .wrap {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 16px;
     font-size: 13px;
     color: var(--ink-faint);
   }
+  footer img { height: 20px; width: auto; display: block; opacity: 0.85; }
+  footer nav { display: flex; gap: 20px; }
+  footer nav a { text-decoration: none; }
+  footer nav a:hover { color: var(--ink); text-decoration: underline; }
 
-  footer a { text-decoration: underline; }
-
-  @media (max-width: 860px) {
+  /* ---------- Responsive ---------- */
+  @media (max-width: 960px) {
     .hero-grid {
       grid-template-columns: 1fr;
-      gap: 40px;
+      grid-template-areas: "copy" "card" "stat";
+      row-gap: 32px;
+      padding: 24px 0 64px;
     }
-    .card { position: static; }
+    .hero-grid .stat { max-width: none; }
+    .features { grid-template-columns: 1fr; }
+    .cta { flex-direction: column; align-items: flex-start; padding: 36px 28px; }
+  }
+
+  @media (max-width: 560px) {
+    .wrap { padding: 0 16px; }
+    .topbar { padding: 20px 0; }
+    .logo img { height: 22px; }
+    .badge { padding: 7px 12px; font-size: 12px; }
+    .lead { margin-bottom: 28px; }
+    .stat { gap: 16px; padding-top: 22px; }
+    .card { padding: 28px 22px; border-radius: 20px; }
+    .card h2 { font-size: 23px; }
+    .section { padding: 64px 0; }
+    .section-head { margin-bottom: 32px; }
+    .features li { padding: 26px 22px; }
+    .cta { margin-top: 40px; }
+    .cta .btn { width: 100%; }
   }
 </style>
 </head>
 <body>
 
-<header>
+<section class="hero">
   <div class="wrap">
-    <a class="logo" href="https://www.robot.com">
-      <img src="assets/robot-logo.webp" alt="Robot.com" width="184" height="28">
-    </a>
-    <!-- TODO: swap in your confirmed NACAS booth number / session dates -->
-    <span class="badge"><span class="dot"></span> Meet us at NACAS</span>
-  </div>
-</header>
+    <header class="topbar">
+      <a class="logo" href="https://www.robot.com" aria-label="Robot.com home">
+        <img src="assets/robot-logo-white.webp" alt="Robot.com" width="184" height="28">
+      </a>
+      <!-- TODO: swap in the confirmed NACAS booth number once assigned, e.g. "Booth 412 · NACAS" -->
+      <span class="badge"><span class="dot" aria-hidden="true"></span> Meet us at NACAS</span>
+    </header>
 
-<main class="hero">
-  <div class="wrap hero-grid">
-    <div>
-      <h1>Delivery robots your students already trust.</h1>
-      <p class="lead">
-        Robot.com powers autonomous, on-demand delivery for dining, retail, and campus
-        services — built for the realities of a real college campus, not a warehouse.
-      </p>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Autonomous campus delivery</p>
+        <h1>Delivery robots your students already trust.</h1>
+        <p class="lead">
+          Robot.com powers autonomous, on-demand delivery for dining, retail, and campus
+          services — built for the realities of a real college campus, not a warehouse.
+        </p>
+
+      </div>
 
       <div class="stat">
         <p class="number">371,000+</p>
-        <p class="label">Deliveries completed on college campuses — and counting.</p>
+        <p class="label">deliveries completed on college campuses — and counting.</p>
       </div>
 
-      <ul class="features">
-        <li>
-          <span class="icon">1</span>
-          <div>
-            <h3>Live in weeks, not semesters</h3>
-            <p>We integrate with the dining and retail operations you already run — no rebuild required.</p>
-          </div>
-        </li>
-        <li>
-          <span class="icon">2</span>
-          <div>
-            <h3>Built for campus life</h3>
-            <p>Our robots navigate dorms, quads, and class-change traffic, ordered from an app students already love.</p>
-          </div>
-        </li>
-        <li>
-          <span class="icon">3</span>
-          <div>
-            <h3>A team that already speaks NACAS</h3>
-            <p>We work directly with auxiliary services, procurement, and student life teams — we know how your campus decides.</p>
-          </div>
-        </li>
-      </ul>
-    </div>
+      <div class="card" id="get-in-touch">
+        <div id="form-view">
+          <h2>Let's talk about your campus</h2>
+          <p class="sub">Leave your details and our campus team will follow up with you personally.</p>
 
-    <div class="card">
-      <div id="form-state">
-        <h2>Let's talk about your campus</h2>
-        <p class="sub">Share your info and our campus team will follow up with you.</p>
+          <div class="form-error" id="form-error" role="alert" hidden>
+            Something went wrong sending the form. Please try again, or email us at
+            <a href="mailto:hello@robot.com">hello@robot.com</a>.
+          </div>
 
-        <div class="form-error" id="form-error">
-          Something went wrong submitting the form. Please try again, or email us at
-          <a href="mailto:hello@robot.com">hello@robot.com</a>.
+          <form id="nacas-form" novalidate>
+            <div class="hp" aria-hidden="true">
+              <label for="nacas_hp">Leave this field empty</label>
+              <input type="text" id="nacas_hp" name="nacas_hp" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="field">
+              <label for="fullname">Full name</label>
+              <input type="text" id="fullname" name="fullname" placeholder="Jane Doe"
+                     autocomplete="name" required aria-describedby="fullname-error">
+              <p class="error" id="fullname-error" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">Institutional or work email</label>
+              <input type="email" id="email" name="email" placeholder="you@university.edu"
+                     autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false"
+                     required aria-describedby="email-error email-hint">
+              <p class="error" id="email-error" aria-live="polite"></p>
+              <p class="hint" id="email-hint">Please use your university or organization email.</p>
+            </div>
+
+            <button type="submit" class="btn" id="submit-btn">
+              <span class="btn-label">Get in touch</span>
+              <span class="arrow" aria-hidden="true">→</span>
+              <span class="spinner" aria-hidden="true"></span>
+            </button>
+
+            <p class="legal">
+              By submitting, you agree to be contacted by Robot.com about campus delivery.
+              See our <a href="https://www.robot.com/privacy-policy" target="_blank" rel="noopener">privacy policy</a>.
+            </p>
+          </form>
         </div>
 
-        <form id="nacas-form" name="nacas-lead">
-          <p class="honeypot">
-            <label>Don't fill this out if you're human: <input name="company" id="company" tabindex="-1" autocomplete="off"></label>
-          </p>
-
-          <div class="field">
-            <label for="name">Full name</label>
-            <input type="text" id="name" name="name" placeholder="Jane Doe" required autocomplete="name">
+        <div class="success" id="form-success" hidden>
+          <div class="check" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
           </div>
-
-          <div class="field">
-            <label for="email">Institutional email</label>
-            <input type="email" id="email" name="email" placeholder="you@youruniversity.edu" required autocomplete="email">
-            <p class="hint">Please use your university or organization email.</p>
-          </div>
-
-          <button type="submit" id="submit-btn">Get in touch</button>
-
-          <p class="legal">
-            By submitting, you agree to be contacted by Robot.com about campus delivery.
-            We never share your information.
-          </p>
-        </form>
-
-        <div class="success" id="form-success">
-          <div class="check">✓</div>
-          <h2>Thanks — you're on our list.</h2>
+          <h2 tabindex="-1">Thanks — you're on our list.</h2>
           <p>Our campus team will reach out shortly. See you at NACAS.</p>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<main class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Why Robot.com</p>
+      <h2>Built for auxiliary services, loved by students.</h2>
+    </div>
+
+    <ul class="features">
+      <li>
+        <span class="num" aria-hidden="true">01</span>
+        <h3>Live in weeks, not semesters</h3>
+        <p>We integrate with the dining and retail operations you already run — no rebuild required.</p>
+      </li>
+      <li>
+        <span class="num" aria-hidden="true">02</span>
+        <h3>Built for campus life</h3>
+        <p>Our robots navigate dorms, quads, and class-change traffic, ordered from an app students already love.</p>
+      </li>
+      <li>
+        <span class="num" aria-hidden="true">03</span>
+        <h3>A team that speaks NACAS</h3>
+        <p>We work directly with auxiliary services, procurement, and student life teams — we know how your campus decides.</p>
+      </li>
+    </ul>
+
+    <div class="cta">
+      <div>
+        <h2>Bring autonomous delivery to your campus.</h2>
+        <p>It takes less than a minute to start the conversation.</p>
+      </div>
+      <a class="btn" href="#get-in-touch" id="cta-scroll">Get in touch <span class="arrow" aria-hidden="true">→</span></a>
     </div>
   </div>
 </main>
 
 <footer>
   <div class="wrap">
+    <a href="https://www.robot.com" aria-label="Robot.com home">
+      <img src="assets/robot-logo.webp" alt="Robot.com" width="132" height="20" loading="lazy">
+    </a>
+    <nav aria-label="Footer">
+      <a href="https://www.robot.com">robot.com</a>
+      <a href="https://www.robot.com/privacy-policy" target="_blank" rel="noopener">Privacy</a>
+    </nav>
     <span>© 2026 Robot.com. All rights reserved.</span>
-    <a href="https://www.robot.com">robot.com</a>
   </div>
 </footer>
 
 <script>
   (function () {
-    // TODO: replace with the real HubSpot Portal ID and Form GUID for this campaign
-    // before deploying. Submissions will fail (404) until these are set.
-    var HUBSPOT_PORTAL_ID = 'REPLACE_WITH_HUBSPOT_PORTAL_ID';
-    var HUBSPOT_FORM_GUID = 'REPLACE_WITH_HUBSPOT_FORM_GUID';
+    // HubSpot Forms API (same portal as the webinar forms — see IMPLEMENTATION_SUMMARY.md).
+    // TODO: create a dedicated "NACAS" form in HubSpot (fields: firstname, lastname, email)
+    // and paste its GUID below. Do not reuse the webinar form GUID, or NACAS leads will be
+    // attributed to the webinar.
+    var HUBSPOT_PORTAL_ID = '6409226';
+    var HUBSPOT_FORM_GUID = 'REPLACE_WITH_NACAS_FORM_GUID';
+
+    // Consumer mailboxes are rejected so the list stays institutional/work contacts.
+    var FREE_EMAIL_DOMAINS = [
+      'gmail.com', 'googlemail.com', 'yahoo.com', 'ymail.com', 'hotmail.com', 'outlook.com',
+      'live.com', 'msn.com', 'aol.com', 'icloud.com', 'me.com', 'mac.com', 'proton.me',
+      'protonmail.com', 'gmx.com', 'mail.com', 'yandex.com', 'zoho.com'
+    ];
 
     var form = document.getElementById('nacas-form');
+    var nameInput = document.getElementById('fullname');
+    var emailInput = document.getElementById('email');
+    var formView = document.getElementById('form-view');
     var errorBox = document.getElementById('form-error');
     var successBox = document.getElementById('form-success');
     var submitBtn = document.getElementById('submit-btn');
+    var submitLabel = submitBtn.querySelector('.btn-label');
 
     function getCookie(name) {
       var match = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
-      return match ? match.pop() : '';
+      return match ? decodeURIComponent(match.pop()) : '';
     }
 
     function splitName(fullName) {
       var parts = fullName.trim().split(/\s+/);
-      return {
-        firstname: parts.shift() || '',
-        lastname: parts.join(' '),
-      };
+      return { firstname: parts.shift() || '', lastname: parts.join(' ') };
+    }
+
+    function validateName() {
+      var value = nameInput.value.trim();
+      if (!value) return 'Please enter your full name.';
+      if (value.length < 2) return 'Please enter your full name.';
+      return '';
+    }
+
+    function validateEmail() {
+      var value = emailInput.value.trim().toLowerCase();
+      if (!value) return 'Please enter your email.';
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(value)) return 'Please enter a valid email address.';
+      var domain = value.split('@')[1];
+      if (FREE_EMAIL_DOMAINS.indexOf(domain) !== -1) {
+        return 'Please use your institutional or work email.';
+      }
+      return '';
+    }
+
+    function showFieldError(input, message) {
+      document.getElementById(input.id + '-error').textContent = message;
+      input.setAttribute('aria-invalid', message ? 'true' : 'false');
+    }
+
+    // Validate on blur, then live-correct once a field has been flagged.
+    [[nameInput, validateName], [emailInput, validateEmail]].forEach(function (pair) {
+      var input = pair[0], validate = pair[1];
+      input.addEventListener('blur', function () {
+        if (input.value) showFieldError(input, validate());
+      });
+      input.addEventListener('input', function () {
+        if (input.getAttribute('aria-invalid') === 'true') showFieldError(input, validate());
+      });
+    });
+
+    function setLoading(loading) {
+      submitBtn.disabled = loading;
+      submitBtn.classList.toggle('loading', loading);
+      submitLabel.textContent = loading ? 'Sending…' : 'Get in touch';
+    }
+
+    function showSuccess() {
+      formView.hidden = true;
+      successBox.hidden = false;
+      successBox.querySelector('h2').focus();
     }
 
     form.addEventListener('submit', function (e) {
       e.preventDefault();
+      errorBox.hidden = true;
 
-      // Honeypot: bots fill every field, humans never see or fill this one.
-      if (form.company.value) return;
+      var nameError = validateName();
+      var emailError = validateEmail();
+      showFieldError(nameInput, nameError);
+      showFieldError(emailInput, emailError);
+      if (nameError) { nameInput.focus(); return; }
+      if (emailError) { emailInput.focus(); return; }
 
-      errorBox.classList.remove('visible');
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Sending...';
+      // Honeypot: pretend it worked so bots don't retry.
+      if (form.nacas_hp.value) { showSuccess(); return; }
 
-      var name = splitName(form.name.value);
-      var fields = [
-        { name: 'firstname', value: name.firstname },
-        { name: 'lastname', value: name.lastname },
-        { name: 'email', value: form.email.value },
-      ];
+      if (HUBSPOT_FORM_GUID.indexOf('REPLACE') === 0) {
+        console.error('[NACAS] HubSpot form GUID is not configured in nacas/index.html.');
+        errorBox.hidden = false;
+        return;
+      }
 
+      setLoading(true);
+
+      var name = splitName(nameInput.value);
       var payload = {
-        fields: fields,
+        fields: [
+          { name: 'firstname', value: name.firstname },
+          { name: 'lastname', value: name.lastname },
+          { name: 'email', value: emailInput.value.trim() }
+        ],
         context: {
           pageUri: window.location.href,
-          pageName: document.title,
-        },
+          pageName: document.title
+        }
       };
 
       var hutk = getCookie('hubspotutk');
       if (hutk) payload.context.hutk = hutk;
 
-      fetch(
-        'https://api.hsforms.com/submissions/v3/integration/submit/' +
-          HUBSPOT_PORTAL_ID + '/' + HUBSPOT_FORM_GUID,
-        {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload),
-        }
-      )
+      fetch('https://api.hsforms.com/submissions/v3/integration/submit/' +
+            HUBSPOT_PORTAL_ID + '/' + HUBSPOT_FORM_GUID, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      })
         .then(function (response) {
-          if (!response.ok) throw new Error('HubSpot submission failed');
-          form.classList.add('hidden');
-          successBox.classList.add('visible');
+          if (!response.ok) throw new Error('HubSpot responded ' + response.status);
+          showSuccess();
         })
-        .catch(function () {
-          errorBox.classList.add('visible');
-          submitBtn.disabled = false;
-          submitBtn.textContent = 'Get in touch';
+        .catch(function (err) {
+          console.error('[NACAS] Submission failed:', err);
+          errorBox.hidden = false;
+          setLoading(false);
         });
     });
   })();

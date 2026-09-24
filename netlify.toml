@@ -716,12 +716,23 @@ force = true
 # Lead-capture landing page for the NACAS conference. Name + institutional
 # email form, submitted client-side to the HubSpot Forms API (see
 # HUBSPOT_PORTAL_ID / HUBSPOT_FORM_GUID in nacas/index.html).
+# Event page: kept out of search results, same as /automate.
 # ============================================
 [[redirects]]
   from = "/nacas"
   to = "/nacas/index.html"
   status = 200
   force = true
+
+[[headers]]
+  for = "/nacas"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/nacas/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
 
 # ============================================
 # Dashboards folder - publicly accessible
