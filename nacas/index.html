@@ -58,10 +58,18 @@
   }
 
   .logo {
+    display: inline-flex;
+    align-items: center;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: -0.02em;
     text-decoration: none;
+  }
+
+  .logo img {
+    height: 28px;
+    width: auto;
+    display: block;
   }
 
   .badge {
@@ -361,7 +369,10 @@
 
 <header>
   <div class="wrap">
-    <a class="logo" href="https://www.robot.com">Robot.com</a>
+    <!-- Placeholder wordmark at assets/robot-logo.svg — swap for the real Robot.com logo file when provided -->
+    <a class="logo" href="https://www.robot.com">
+      <img src="assets/robot-logo.svg" alt="Robot.com" width="130" height="28">
+    </a>
     <!-- TODO: swap in your confirmed NACAS booth number / session dates -->
     <span class="badge"><span class="dot"></span> Meet us at NACAS</span>
   </div>
@@ -416,10 +427,9 @@
           <a href="mailto:hello@robot.com">hello@robot.com</a>.
         </div>
 
-        <form id="nacas-form" name="nacas-lead" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="nacas-lead">
+        <form id="nacas-form" name="nacas-lead">
           <p class="honeypot">
-            <label>Don't fill this out if you're human: <input name="bot-field"></label>
+            <label>Don't fill this out if you're human: <input name="company" id="company" tabindex="-1" autocomplete="off"></label>
           </p>
 
           <div class="field">
@@ -460,36 +470,68 @@
 
 <script>
   (function () {
+    // TODO: replace with the real HubSpot Portal ID and Form GUID for this campaign
+    // before deploying. Submissions will fail (404) until these are set.
+    var HUBSPOT_PORTAL_ID = 'REPLACE_WITH_HUBSPOT_PORTAL_ID';
+    var HUBSPOT_FORM_GUID = 'REPLACE_WITH_HUBSPOT_FORM_GUID';
+
     var form = document.getElementById('nacas-form');
     var errorBox = document.getElementById('form-error');
     var successBox = document.getElementById('form-success');
     var submitBtn = document.getElementById('submit-btn');
 
-    function encode(data) {
-      return Object.keys(data)
-        .map(function (key) {
-          return encodeURIComponent(key) + '=' + encodeURIComponent(data[key]);
-        })
-        .join('&');
+    function getCookie(name) {
+      var match = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
+      return match ? match.pop() : '';
+    }
+
+    function splitName(fullName) {
+      var parts = fullName.trim().split(/\s+/);
+      return {
+        firstname: parts.shift() || '',
+        lastname: parts.join(' '),
+      };
     }
 
     form.addEventListener('submit', function (e) {
       e.preventDefault();
+
+      // Honeypot: bots fill every field, humans never see or fill this one.
+      if (form.company.value) return;
+
       errorBox.classList.remove('visible');
       submitBtn.disabled = true;
       submitBtn.textContent = 'Sending...';
 
-      var formData = new FormData(form);
-      var payload = {};
-      formData.forEach(function (value, key) { payload[key] = value; });
+      var name = splitName(form.name.value);
+      var fields = [
+        { name: 'firstname', value: name.firstname },
+        { name: 'lastname', value: name.lastname },
+        { name: 'email', value: form.email.value },
+      ];
 
-      fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: encode(payload),
-      })
+      var payload = {
+        fields: fields,
+        context: {
+          pageUri: window.location.href,
+          pageName: document.title,
+        },
+      };
+
+      var hutk = getCookie('hubspotutk');
+      if (hutk) payload.context.hutk = hutk;
+
+      fetch(
+        'https://api.hsforms.com/submissions/v3/integration/submit/' +
+          HUBSPOT_PORTAL_ID + '/' + HUBSPOT_FORM_GUID,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        }
+      )
         .then(function (response) {
-          if (!response.ok) throw new Error('Network response was not ok');
+          if (!response.ok) throw new Error('HubSpot submission failed');
           form.classList.add('hidden');
           successBox.classList.add('visible');
         })
