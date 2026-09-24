@@ -92,6 +92,7 @@ This repository is deployed to Netlify:
 Each page is accessible via:
 - https://lp.robot.com/that-day-is-here/
 - https://lp.robot.com/contact-form/
+- https://lp.robot.com/nacas/
 
 ## Documentation
 

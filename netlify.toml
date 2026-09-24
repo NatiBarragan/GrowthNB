@@ -1,5 +1,5 @@
 # Netlify configuration for Robot.com landing pages
-# Public folders: /that-day-is-here/, /dasboards/
+# Public folders: /that-day-is-here/, /dasboards/, /nacas/
 # Blocked folders: /emails/, /components/, /lead-qualification-form/
 # /docs/ is local-only (not in GitHub)
 
@@ -709,6 +709,17 @@ force = true
   from = "/bitcoin/*"
   to = "https://www.robot.com?utm_source=bitcoin-2026&utm_medium=event"
   status = 301
+  force = true
+
+# ============================================
+# NACAS · lp.robot.com/nacas/
+# Lead-capture landing page for the NACAS conference. Name + institutional
+# email form, submitted via Netlify Forms (no external function needed).
+# ============================================
+[[redirects]]
+  from = "/nacas"
+  to = "/nacas/index.html"
+  status = 200
   force = true
 
 # ============================================
