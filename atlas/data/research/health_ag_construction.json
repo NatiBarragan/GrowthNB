@@ -1,0 +1,2508 @@
+{
+  "organizations": [
+    {
+      "id": "intuitive-surgical",
+      "name": "Intuitive Surgical",
+      "kind": "robotics",
+      "website": "https://www.intuitive.com",
+      "hq_city": "Sunnyvale",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.37,
+      "lon": -122.04,
+      "founded": 1995,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Soft-tissue surgical robotics",
+      "product": "da Vinci 5; da Vinci Xi; Ion endoluminal system",
+      "robot_type": "Surgical system",
+      "ai_approach": "Teleoperated surgical robot with computer-assisted features",
+      "models": [],
+      "stage": "Public",
+      "ticker": "ISRG",
+      "funding_usd": null,
+      "funding_note": "Public company; equity funding total not applicable",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "11,710 da Vinci systems installed as of Jun 30, 2026; 468 placed in Q2 2026 incl. 246 da Vinci 5 (company-reported earnings)",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "surgical-robotics",
+        "fda-cleared"
+      ],
+      "summary": "Market leader in robot-assisted soft-tissue surgery with the da Vinci and Ion platforms.",
+      "sources": [
+        {
+          "url": "https://investor.intuitivesurgical.com/news-releases/news-release-details/intuitive-announces-second-quarter-earnings-6",
+          "label": "Q2 2026 earnings release"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "medtronic",
+      "name": "Medtronic",
+      "kind": "robotics",
+      "website": "https://www.medtronic.com",
+      "hq_city": "Minneapolis",
+      "hq_state": "MN",
+      "hq_country": "IE",
+      "lat": 44.98,
+      "lon": -93.27,
+      "founded": 1949,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Soft-tissue surgical robotics",
+      "product": "Hugo RAS system",
+      "robot_type": "Surgical system",
+      "ai_approach": "Teleoperated modular multi-arm surgical robot",
+      "models": [],
+      "stage": "Public",
+      "ticker": "MDT",
+      "funding_usd": null,
+      "funding_note": "Public company",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "FDA 510(k) clearance for urologic procedures Dec 3, 2025 (Expand URO IDE study); staged US launch; used in 30+ countries; legal HQ Dublin, Ireland, US operational HQ Minneapolis area",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "surgical-robotics",
+        "fda-cleared"
+      ],
+      "summary": "Global medtech company whose Hugo RAS system received US FDA clearance for urologic surgery in Dec 2025.",
+      "sources": [
+        {
+          "url": "https://news.medtronic.com/2025-12-03-Medtronic-announces-FDA-clearance-of-Hugo-TM-robotic-assisted-surgery-system-for-urologic-surgical-procedures",
+          "label": "Medtronic press release Dec 2025"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "stryker",
+      "name": "Stryker",
+      "kind": "robotics",
+      "website": "https://www.stryker.com",
+      "hq_city": "Kalamazoo",
+      "hq_state": "MI",
+      "hq_country": "US",
+      "lat": 42.29,
+      "lon": -85.59,
+      "founded": 1941,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Orthopedic surgical robotics",
+      "product": "Mako SmartRobotics",
+      "robot_type": "Surgical system",
+      "ai_approach": "CT-based planning with haptic-constrained robotic arm",
+      "models": [],
+      "stage": "Public",
+      "ticker": "SYK",
+      "funding_usd": null,
+      "funding_note": "Public company; acquired MAKO Surgical in 2013",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Mako used for total knee, partial knee and total hip (FDA-cleared). Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "orthopedic-robotics",
+        "fda-cleared",
+        "needs-reverification"
+      ],
+      "summary": "Medtech major whose Mako robotic-arm system is a leading orthopedic joint-replacement robot.",
+      "sources": [
+        {
+          "url": "https://www.stryker.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "zimmer-biomet",
+      "name": "Zimmer Biomet",
+      "kind": "robotics",
+      "website": "https://www.zimmerbiomet.com",
+      "hq_city": "Warsaw",
+      "hq_state": "IN",
+      "hq_country": "US",
+      "lat": 41.24,
+      "lon": -85.85,
+      "founded": 1927,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Orthopedic surgical robotics",
+      "product": "ROSA Robotics (knee, hip, partial knee); Monogram semi-autonomous TKA robot",
+      "robot_type": "Surgical system",
+      "ai_approach": "Robotic arm with navigation; acquired Monogram AI-navigated semi-autonomous robot",
+      "models": [],
+      "stage": "Public",
+      "ticker": "ZBH",
+      "funding_usd": null,
+      "funding_note": "Public company",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "ROSA commercial (FDA-cleared); Monogram TKA robot (510(k) Mar 2025) expected with ZB implants by early 2027 (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "orthopedic-robotics",
+        "fda-cleared"
+      ],
+      "summary": "Orthopedic leader selling the ROSA robot; acquired Monogram Technologies in Oct 2025 to pursue autonomous knee surgery.",
+      "sources": [
+        {
+          "url": "https://investor.zimmerbiomet.com/news-and-events/news/2025/10-07-2025-140729614",
+          "label": "Zimmer Biomet completes Monogram acquisition"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "monogram-technologies",
+      "name": "Monogram Technologies",
+      "kind": "robotics",
+      "website": null,
+      "hq_city": "Austin",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 30.27,
+      "lon": -97.74,
+      "founded": null,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Orthopedic surgical robotics",
+      "product": "Monogram mBôs semi-autonomous total knee robot",
+      "robot_type": "Surgical system",
+      "ai_approach": "CT-based, AI-navigated semi-autonomous robotics",
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Acquired by Zimmer Biomet Oct 7, 2025 for $4.04/share cash plus CVR up to $12.37/share",
+      "investors": [],
+      "customers": [],
+      "deployment": "Pilot",
+      "deployment_note": "FDA 510(k) Mar 2025; fully autonomous version in clinical study since Jul 2025",
+      "suppliers": [],
+      "tags": [
+        "acquired",
+        "orthopedic-robotics",
+        "autonomous-surgery"
+      ],
+      "summary": "Austin orthopedic robotics company acquired by Zimmer Biomet in Oct 2025.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1136869/000119312525266884/zbh-20250930.htm",
+          "label": "Zimmer Biomet 10-Q Q3 2025"
+        },
+        {
+          "url": "https://www.nasdaq.com/articles/zimmer-biomet-completes-acquisition-monogram",
+          "label": "Nasdaq"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "johnson-and-johnson-medtech",
+      "name": "Johnson & Johnson MedTech",
+      "kind": "robotics",
+      "website": "https://www.jnjmedtech.com",
+      "hq_city": "New Brunswick",
+      "hq_state": "NJ",
+      "hq_country": "US",
+      "lat": 40.49,
+      "lon": -74.45,
+      "founded": null,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Soft-tissue & endoluminal surgical robotics",
+      "product": "OTTAVA Robotic Surgical System; MONARCH Platform (bronchoscopy/urology)",
+      "robot_type": "Surgical system",
+      "ai_approach": "Teleoperated table-integrated multi-arm robot",
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": "JNJ",
+      "funding_usd": null,
+      "funding_note": "Segment of Johnson & Johnson (NYSE: JNJ); MONARCH came from 2019 Auris Health acquisition",
+      "investors": [],
+      "customers": [
+        "Memorial Hermann-Texas Medical Center (OTTAVA clinical trial site)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "MONARCH commercial; OTTAVA received FDA De Novo authorization Jul 22, 2026 for upper-abdominal general surgery, limited US launch with select customers; first OTTAVA clinical cases Apr 2025",
+      "suppliers": [],
+      "tags": [
+        "corporate",
+        "surgical-robotics",
+        "fda-cleared"
+      ],
+      "summary": "J&J's medtech arm; its OTTAVA soft-tissue robot won FDA De Novo authorization in July 2026.",
+      "sources": [
+        {
+          "url": "https://www.bioworld.com/articles/732766-j-and-j-wins-fda-authorization-for-ottava-robotic-surgical-system",
+          "label": "BioWorld - OTTAVA authorization"
+        },
+        {
+          "url": "https://www.massdevice.com/johnson-johnson-medtech-first-ottava-cases/",
+          "label": "MassDevice - first OTTAVA cases"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "globus-medical",
+      "name": "Globus Medical",
+      "kind": "robotics",
+      "website": "https://www.globusmedical.com",
+      "hq_city": "Audubon",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.13,
+      "lon": -75.43,
+      "founded": 2003,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Spine & orthopedic surgical robotics",
+      "product": "ExcelsiusGPS; ExcelsiusFlex; ExcelsiusHub",
+      "robot_type": "Surgical system",
+      "ai_approach": "Robotic guidance and navigation",
+      "models": [],
+      "stage": "Public",
+      "ticker": "GMED",
+      "funding_usd": null,
+      "funding_note": "Public company; merged with NuVasive 2023",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "ExcelsiusGPS FDA-cleared and commercial. Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "spine-robotics",
+        "fda-cleared",
+        "needs-reverification"
+      ],
+      "summary": "Spine and orthopedic device maker selling the ExcelsiusGPS robotic navigation platform.",
+      "sources": [
+        {
+          "url": "https://www.globusmedical.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "moon-surgical",
+      "name": "Moon Surgical",
+      "kind": "robotics",
+      "website": "https://www.moonsurgical.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "FR",
+      "lat": null,
+      "lon": null,
+      "founded": 2019,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Laparoscopic surgical assistance",
+      "product": "Maestro System",
+      "robot_type": "Surgical system",
+      "ai_approach": "Collaborative surgeon-controlled robotic assistant with ScoPilot AI camera control",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 90000000,
+      "funding_note": "~$90M total incl. $55.5M round (2023) led by Sofinnova Partners and NVentures; $31.3M Series A (2022) led by GT Healthcare Capital",
+      "investors": [
+        "sofinnova-partners",
+        "nvidia",
+        "gt-healthcare-capital"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "FDA cleared Maestro for laparoscopic procedures (2024); US commercial rollout",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "surgical-robotics",
+        "fda-cleared",
+        "nvidia-backed"
+      ],
+      "summary": "Paris-founded surgical robotics startup selling the Maestro laparoscopic assistant in the US and Europe; US office location not verified.",
+      "sources": [
+        {
+          "url": "https://medcitynews.com/?p=42504",
+          "label": "MedCity News - $55.5M round"
+        },
+        {
+          "url": "https://www.therobotreport.com/moon-surgical-raises-31-3m-for-robotic-surgery-system/",
+          "label": "The Robot Report - Series A"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "vicarious-surgical",
+      "name": "Vicarious Surgical",
+      "kind": "robotics",
+      "website": "https://www.vicarioussurgical.com",
+      "hq_city": "Waltham",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.38,
+      "lon": -71.24,
+      "founded": 2014,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Soft-tissue surgical robotics",
+      "product": "Vicarious Surgical System (single-incision, VR-based)",
+      "robot_type": "Surgical system",
+      "ai_approach": "Teleoperated humanoid-arm robot with 3D visualization",
+      "models": [],
+      "stage": "Public",
+      "ticker": "RBOT",
+      "funding_usd": null,
+      "funding_note": "Public via SPAC (2021); $5.9M registered direct offering Oct 2025; 2026 cash-burn guidance ~$35M",
+      "investors": [],
+      "customers": [],
+      "deployment": "Prototype",
+      "deployment_note": "Pre-clinical; design freeze targeted end-2026, clinical trial delayed; NYSE delisting notice Mar 2026, moved to OTCQB Mar 25, 2026 (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "surgical-robotics",
+        "pre-clinical"
+      ],
+      "summary": "Waltham-based developer of a single-incision surgical robot, still pre-clinical and trading OTC since Mar 2026.",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20251215000624/en/Vicarious-Surgical-Announces-Full-Year-2026-Cash-Burn-Guidance",
+          "label": "Business Wire - 2026 cash burn guidance"
+        },
+        {
+          "url": "https://www.massdevice.com/vicarious-surgical-completes-preclinical-lab/",
+          "label": "MassDevice"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "virtual-incision",
+      "name": "Virtual Incision",
+      "kind": "robotics",
+      "website": "https://virtualincision.com",
+      "hq_city": "Lincoln",
+      "hq_state": "NE",
+      "hq_country": "US",
+      "lat": 40.81,
+      "lon": -96.7,
+      "founded": 2006,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Miniaturized surgical robotics",
+      "product": "MIRA Surgical System",
+      "robot_type": "Surgical system",
+      "ai_approach": "Miniature robotic-assisted surgery platform",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Series C $46M (2021, led by Endeavour Vision and Baird Capital) plus $30M extension (Sep 2023); earlier $20M Series B+ (Bluestem); total not confirmed",
+      "investors": [
+        "endeavour-vision",
+        "baird-capital",
+        "bluestem-capital"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "MIRA FDA De Novo authorization (2024) for colectomy; early commercial use. FDA date not re-verified this pass",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "surgical-robotics",
+        "fda-cleared"
+      ],
+      "summary": "Nebraska maker of MIRA, a miniaturized, portable robotic-assisted surgery system.",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20230919457089/en/Virtual-Incision-Extends-Series-C-Round-with-Additional-30M-Funding",
+          "label": "Business Wire - Series C extension"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "procept-biorobotics",
+      "name": "PROCEPT BioRobotics",
+      "kind": "robotics",
+      "website": "https://www.procept-biorobotics.com",
+      "hq_city": "San Jose",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.34,
+      "lon": -121.89,
+      "founded": 2007,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Urologic surgical robotics",
+      "product": "AquaBeam / HYDROS Robotic Systems (Aquablation therapy)",
+      "robot_type": "Surgical system",
+      "ai_approach": "Image-guided heat-free waterjet robotics; HYDROS adds AI-assisted treatment planning",
+      "models": [],
+      "stage": "Public",
+      "ticker": "PRCT",
+      "funding_usd": null,
+      "funding_note": "Public company",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "912 systems installed globally (718 US) as of Dec 31, 2025; FY2026 revenue guidance $410-430M",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "surgical-robotics",
+        "fda-cleared"
+      ],
+      "summary": "Public surgical robotics company treating BPH with waterjet Aquablation therapy.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1588978/000158897826000009/prct-20251231.htm",
+          "label": "FY2025 10-K"
+        },
+        {
+          "url": "https://ir.procept-biorobotics.com/news-releases/news-release-details/procept-biorobotics-reports-fourth-quarter-2025-financial",
+          "label": "Q4 2025 results"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "neocis",
+      "name": "Neocis",
+      "kind": "robotics",
+      "website": "https://www.neocis.com",
+      "hq_city": "Miami",
+      "hq_state": "FL",
+      "hq_country": "US",
+      "lat": 25.76,
+      "lon": -80.19,
+      "founded": 2009,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Dental surgical robotics",
+      "product": "Yomi",
+      "robot_type": "Surgical system",
+      "ai_approach": "Haptic-guided robotic dental implant surgery",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": 180000000,
+      "funding_note": "~$180M total after $20M round (Jan 2024) incl. NVentures and Mirae Asset; $72M Series D (2020) led by DFJ Growth",
+      "investors": [
+        "nvidia",
+        "mirae-asset",
+        "dfj-growth"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Yomi is FDA-cleared and sold to dental practices (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "dental-robotics",
+        "fda-cleared",
+        "nvidia-backed"
+      ],
+      "summary": "Miami company behind Yomi, the FDA-cleared robot for dental implant surgery.",
+      "sources": [
+        {
+          "url": "https://www.therobotreport.com/neocis-brings-in-20m-for-robotic-dental-surgeries/",
+          "label": "The Robot Report - $20M"
+        },
+        {
+          "url": "https://www.bioworld.com/articles/498749-neocis-raises-72m-in-series-d-funding",
+          "label": "BioWorld - Series D"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "noah-medical",
+      "name": "Noah Medical",
+      "kind": "robotics",
+      "website": "https://www.noahmed.com",
+      "hq_city": "San Carlos",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.51,
+      "lon": -122.26,
+      "founded": 2018,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Endoluminal robotic bronchoscopy",
+      "product": "Galaxy System",
+      "robot_type": "Surgical system",
+      "ai_approach": "Robotic bronchoscopy with integrated tomosynthesis/AR navigation",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "$150M Series B (Apr 2023) co-led by SoftBank Vision Fund and Prosperity7; total not confirmed",
+      "investors": [
+        "softbank",
+        "prosperity7-ventures",
+        "tiger-global"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Galaxy FDA-cleared (2023) and commercial; FDA warning letter reported May 2025 after late-2024 inspection",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "surgical-robotics",
+        "fda-cleared"
+      ],
+      "summary": "Bay Area developer of the Galaxy robotic bronchoscopy system for lung biopsy.",
+      "sources": [
+        {
+          "url": "https://www.therobotreport.com/noah-medical-brings-in-150m-for-galaxy-system/",
+          "label": "The Robot Report - Series B"
+        },
+        {
+          "url": "https://www.bioworld.com/keywords/40596-noah-medical-inc",
+          "label": "BioWorld - Noah Medical"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "ekso-bionics",
+      "name": "Ekso Bionics",
+      "kind": "robotics",
+      "website": "https://eksobionics.com",
+      "hq_city": "San Rafael",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.97,
+      "lon": -122.53,
+      "founded": 2005,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Rehabilitation exoskeletons",
+      "product": "EksoNR; Indego Personal",
+      "robot_type": "Exoskeleton",
+      "ai_approach": "Powered exoskeleton control",
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Parent Ekso Bionics Holdings merged with Applied Digital Cloud (renamed ChronoScale) in 2026; exoskeleton business sold to Wandercraft (announced Oct 1, 2026; terms undisclosed)",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "FDA-cleared rehab and personal exoskeletons in clinical use; now part of Wandercraft; HQ city from prior knowledge",
+      "suppliers": [],
+      "tags": [
+        "acquired",
+        "exoskeleton",
+        "rehab",
+        "fda-cleared"
+      ],
+      "summary": "Exoskeleton pioneer (EksoNR, Indego) acquired by France's Wandercraft in Oct 2026.",
+      "sources": [
+        {
+          "url": "https://www.hmenews.com/article/wandercraft-acquires-ekso-bionics",
+          "label": "HME News - Wandercraft acquires Ekso"
+        },
+        {
+          "url": "https://www.massdevice.com/wandercraft-acquires-exoskeleton-rival-ekso-bionics/",
+          "label": "MassDevice"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "wandercraft",
+      "name": "Wandercraft",
+      "kind": "robotics",
+      "website": "https://www.wandercraft.eu",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "FR",
+      "lat": null,
+      "lon": null,
+      "founded": 2012,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Rehabilitation & personal exoskeletons",
+      "product": "Atalante X; Eve personal exoskeleton",
+      "robot_type": "Exoskeleton",
+      "ai_approach": "Self-balancing hands-free exoskeleton control",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not re-verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Atalante X used in rehab clinics; acquired Ekso Bionics Oct 2026 to combine four products (Atalante X, EksoNR, Eve, Indego Personal)",
+      "suppliers": [],
+      "tags": [
+        "exoskeleton",
+        "rehab",
+        "acquirer"
+      ],
+      "summary": "Paris-based self-balancing exoskeleton maker that acquired Ekso Bionics in Oct 2026; US office location not verified.",
+      "sources": [
+        {
+          "url": "https://hlth.com/insights/news/wandercraft-acquires-ekso-bionics-to-create-global-medical-exoskeleton-leader",
+          "label": "HLTH - Wandercraft acquires Ekso"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "lifeward",
+      "name": "Lifeward",
+      "kind": "robotics",
+      "website": "https://golifeward.com",
+      "hq_city": "Marlborough",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.35,
+      "lon": -71.55,
+      "founded": 2001,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Rehabilitation exoskeletons & rehab tech",
+      "product": "ReWalk Personal Exoskeleton; AlterG anti-gravity treadmills",
+      "robot_type": "Exoskeleton",
+      "ai_approach": "Powered exoskeleton control",
+      "models": [],
+      "stage": "Public",
+      "ticker": "LFWD",
+      "funding_usd": null,
+      "funding_note": "Public company (formerly ReWalk Robotics); Israel and US operations",
+      "investors": [],
+      "customers": [
+        "Shirley Ryan AbilityLab (clinic access collaboration)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "ReWalk FDA-cleared; Medicare Advantage coverage by Aetna, Humana, UnitedHealthcare; Q1 2026 revenue $3.9M (ReWalk $1.6M)",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "exoskeleton",
+        "rehab",
+        "fda-cleared"
+      ],
+      "summary": "Maker of the FDA-cleared ReWalk personal exoskeleton for spinal cord injury.",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/03/02/3247345/0/en/Lifeward-Announces-Collaboration-With-Shirley-Ryan-AbilityLab-to-Expand-Access-for-the-ReWalk-Personal-Exoskeleton.html",
+          "label": "GlobeNewswire - Shirley Ryan collaboration"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "microbot-medical",
+      "name": "Microbot Medical",
+      "kind": "robotics",
+      "website": "https://www.microbotmedical.com",
+      "hq_city": "Hingham",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.24,
+      "lon": -70.89,
+      "founded": null,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Endovascular robotics",
+      "product": "LIBERTY Endovascular Robotic System",
+      "robot_type": "Surgical system",
+      "ai_approach": "Single-use remotely operated endovascular robot",
+      "models": [],
+      "stage": "Public",
+      "ticker": "MBOT",
+      "funding_usd": null,
+      "funding_note": "Public company",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "FDA 510(k) clearance Sep 8, 2025; US commercial launch planned from Q4 2025 (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "endovascular",
+        "fda-cleared"
+      ],
+      "summary": "Developer of LIBERTY, the first FDA-cleared single-use remotely operated robot for peripheral endovascular procedures.",
+      "sources": [
+        {
+          "url": "https://ir.microbotmedical.com/news-releases/news-release-details/microbot-medicalr-receives-fda-510k-clearance-its-libertyr",
+          "label": "Microbot IR - FDA clearance"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "omnicell",
+      "name": "Omnicell",
+      "kind": "robotics",
+      "website": "https://www.omnicell.com",
+      "hq_city": "Fort Worth",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 32.76,
+      "lon": -97.33,
+      "founded": 1992,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Pharmacy automation",
+      "product": "Medication dispensing automation; IV compounding robotics; central pharmacy automation",
+      "robot_type": "Pharmacy automation system",
+      "ai_approach": "Classical automation with software analytics",
+      "models": [],
+      "stage": "Public",
+      "ticker": "OMCL",
+      "funding_usd": null,
+      "funding_note": "Public company",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Widely deployed in US hospitals. Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "pharmacy-automation",
+        "needs-reverification"
+      ],
+      "summary": "US provider of hospital and retail pharmacy automation including robotic dispensing and IV compounding.",
+      "sources": [
+        {
+          "url": "https://www.omnicell.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "opentrons",
+      "name": "Opentrons",
+      "kind": "robotics",
+      "website": "https://opentrons.com",
+      "hq_city": "Long Island City",
+      "hq_state": "NY",
+      "hq_country": "US",
+      "lat": 40.74,
+      "lon": -73.95,
+      "founded": 2014,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Lab automation",
+      "product": "Flex and OT-2 liquid-handling robots",
+      "robot_type": "Lab automation robot",
+      "ai_approach": "Open-source protocol API; AI protocol generation tools",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Raised $200M Series C (2021) led by SoftBank Vision Fund 2 per prior knowledge; total not re-verified",
+      "investors": [
+        "softbank"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Benchtop liquid handlers sold to life-science labs. Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "lab-automation",
+        "needs-reverification"
+      ],
+      "summary": "New York maker of low-cost, open-source benchtop lab automation robots.",
+      "sources": [
+        {
+          "url": "https://opentrons.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "aethon",
+      "name": "Aethon",
+      "kind": "robotics",
+      "website": "https://aethon.com",
+      "hq_city": "Pittsburgh",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.44,
+      "lon": -79.99,
+      "founded": 2001,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Hospital logistics",
+      "product": "TUG autonomous mobile robot",
+      "robot_type": "AMR",
+      "ai_approach": "Classical autonomy (mapping/navigation)",
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Owned by ST Engineering (Singapore) since 2017 per prior knowledge",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "TUG robots deployed in US hospitals for medication/linen/meal delivery. Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "hospital-logistics",
+        "amr",
+        "needs-reverification"
+      ],
+      "summary": "Pittsburgh maker of TUG autonomous mobile robots used for hospital deliveries.",
+      "sources": [
+        {
+          "url": "https://aethon.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "palladyne-ai",
+      "name": "Palladyne AI",
+      "kind": "ai",
+      "website": "https://www.palladyneai.com",
+      "hq_city": "Salt Lake City",
+      "hq_state": "UT",
+      "hq_country": "US",
+      "lat": 40.76,
+      "lon": -111.89,
+      "founded": null,
+      "segment": "Defense & Security",
+      "subsegment": "AI software for robots and defense systems (formerly Sarcos)",
+      "product": "Palladyne IQ AI software; GuideTech BRAIN flight computer / FLEX software",
+      "robot_type": null,
+      "ai_approach": "AI/ML robot-autonomy software",
+      "models": [],
+      "stage": "Public",
+      "ticker": "PDYN",
+      "funding_usd": null,
+      "funding_note": "Public company; formerly Sarcos Technology and Robotics; acquisitions in 2025-26",
+      "investors": [],
+      "customers": [
+        "U.S. Air Force ($4.2M satellite integration contract)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Q2 2026 revenue $5.8M, backlog $24.6M; FY2026 revenue guide $24-27M; describes itself as vertically integrated defense and industrial AI company (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "former-sarcos",
+        "pivot",
+        "defense"
+      ],
+      "summary": "Former Sarcos (exoskeletons, solar-install and inspection robots) now repositioned as a defense and industrial AI company.",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20260806302133/en/Palladyne-AI-Reports-Second-Quarter-2026-Results",
+          "label": "Business Wire - Q2 2026 results"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "carbon-robotics",
+      "name": "Carbon Robotics",
+      "kind": "robotics",
+      "website": "https://carbonrobotics.com",
+      "hq_city": "Seattle",
+      "hq_state": "WA",
+      "hq_country": "US",
+      "lat": 47.61,
+      "lon": -122.33,
+      "founded": 2018,
+      "segment": "Agriculture",
+      "subsegment": "Laser weeding & autonomy",
+      "product": "LaserWeeder; Carbon AutoTractor / autonomy kit",
+      "robot_type": "Agricultural robot (implement)",
+      "ai_approach": "Deep-learning computer vision for crop/weed detection",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": 157000000,
+      "funding_note": "$157M total after $70M Series D (Oct 2024) led by BOND; a $20M Series D-2 (Oct 2025, Giant Ventures) appears only in a directory listing (unverified)",
+      "investors": [
+        "bond",
+        "nvidia",
+        "anthos-capital",
+        "fuse-venture-capital",
+        "ignition-partners",
+        "revolution",
+        "sozo-ventures",
+        "voyager-capital"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "LaserWeeder sold commercially to growers; manufacturing in Eastern Washington (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "laser-weeding",
+        "nvidia-backed"
+      ],
+      "summary": "Seattle company selling AI-powered LaserWeeder implements that kill weeds with lasers.",
+      "sources": [
+        {
+          "url": "https://www.therobotreport.com/carbon-robotics-brings-in-70m-to-scale-laserweeder/",
+          "label": "The Robot Report - Series D"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "monarch-tractor",
+      "name": "Monarch Tractor",
+      "kind": "robotics",
+      "website": "https://www.monarchtractor.com",
+      "hq_city": "Livermore",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.68,
+      "lon": -121.77,
+      "founded": 2018,
+      "segment": "Agriculture",
+      "subsegment": "Autonomous electric tractors",
+      "product": "MK-V electric tractor; WingspanAI",
+      "robot_type": "Autonomous tractor",
+      "ai_approach": "Driver-optional autonomy with computer vision",
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": 251000000,
+      "funding_note": "Raised ~$251M incl. $133M Series C (2024); assets acquired by Caterpillar (reported Apr 2026, price undisclosed)",
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": "Defunct as independent company: layoffs late 2024 and Nov 2025, lost Foxconn as contract manufacturer, dealer lawsuits; technology/assets acquired by Caterpillar Apr 2026 per USPTO filings",
+      "suppliers": [],
+      "tags": [
+        "defunct",
+        "acquired",
+        "autonomous-tractor"
+      ],
+      "summary": "Livermore autonomous electric tractor startup that collapsed in 2025-26; Caterpillar acquired its assets.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/04/15/monarch-tractors-collapse-ends-in-with-an-acquisition-by-caterpillar/",
+          "label": "TechCrunch - Caterpillar acquisition"
+        },
+        {
+          "url": "https://techcrunch.com/2025/11/19/monarch-tractor-preps-for-layoffs-and-warns-employees-it-may-shut-down",
+          "label": "TechCrunch - layoffs"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "caterpillar",
+      "name": "Caterpillar",
+      "kind": "robotics",
+      "website": "https://www.caterpillar.com",
+      "hq_city": "Irving",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 32.81,
+      "lon": -96.95,
+      "founded": 1925,
+      "segment": "Construction & Infrastructure",
+      "subsegment": "Autonomous heavy equipment",
+      "product": "Cat Command autonomy; MineStar; acquired Monarch Tractor assets",
+      "robot_type": "Autonomous heavy equipment",
+      "ai_approach": "Classical autonomy",
+      "models": [],
+      "stage": "Public",
+      "ticker": "CAT",
+      "funding_usd": null,
+      "funding_note": "Public company",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Autonomous haulage commercial in mining (prior knowledge); bought Monarch Tractor assets Apr 2026",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "heavy-equipment",
+        "acquirer"
+      ],
+      "summary": "Heavy-equipment maker with autonomy programs that acquired Monarch Tractor's technology in 2026.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/04/15/monarch-tractors-collapse-ends-in-with-an-acquisition-by-caterpillar/",
+          "label": "TechCrunch"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "bonsai-robotics",
+      "name": "Bonsai Robotics",
+      "kind": "robotics",
+      "website": "https://www.bonsairobotics.ai",
+      "hq_city": "San Jose",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.34,
+      "lon": -121.89,
+      "founded": null,
+      "segment": "Agriculture",
+      "subsegment": "Orchard autonomy (physical AI)",
+      "product": "Vision-based autonomy for orchard equipment (OEM integrations)",
+      "robot_type": "Autonomous farm vehicle",
+      "ai_approach": "Vision-only physical AI autonomy",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 25500000,
+      "funding_note": "$15M Series A (Jan 2025) led by Bison Ventures; CB Insights lists $25.5M over 3 rounds",
+      "investors": [
+        "bison-ventures",
+        "cibus-capital",
+        "acre-venture-partners",
+        "congruent-ventures",
+        "fall-line-capital",
+        "e14-fund",
+        "serra-ventures"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercializing through OEM partnerships (company-reported); HQ city not re-verified",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "orchard",
+        "physical-ai"
+      ],
+      "summary": "Bay Area startup selling vision-based autonomy for orchard machinery.",
+      "sources": [
+        {
+          "url": "https://pulse2.com/bonsai-robotics-15-million-series-a-raised-for-advancing-physical-ai-solutions-for-agriculture-applications",
+          "label": "Pulse 2.0 - Series A"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "burro",
+      "name": "Burro",
+      "kind": "robotics",
+      "website": "https://burro.ai",
+      "hq_city": "Philadelphia",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 39.95,
+      "lon": -75.17,
+      "founded": 2017,
+      "segment": "Agriculture",
+      "subsegment": "Collaborative ag carts",
+      "product": "Burro autonomous collaborative robots",
+      "robot_type": "AMR",
+      "ai_approach": "Computer vision follow-me and route autonomy",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": 35000000,
+      "funding_note": "$24M Series B (Jan 2024) co-led by Catalyst Investors and Translink Capital + $11M Series A (2021); total ~$35M (derived)",
+      "investors": [
+        "catalyst-investors",
+        "translink-capital",
+        "s2g-ventures",
+        "toyota-ventures",
+        "f-prime-capital",
+        "cibus-capital"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "300+ robots working in citrus, berries, vineyards and nurseries (company-reported, early 2024)",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "specialty-crops",
+        "amr"
+      ],
+      "summary": "Philadelphia maker of autonomous collaborative carts for specialty-crop harvest.",
+      "sources": [
+        {
+          "url": "https://www.thepacker.com/news/packer-tech/agtech-company-burro-gets-24m-investment",
+          "label": "The Packer - Series B"
+        },
+        {
+          "url": "https://technical.ly/startups/robotics-philadelphia-burro-series-b-raise",
+          "label": "Technical.ly"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "advanced-farm",
+      "name": "Advanced Farm",
+      "kind": "robotics",
+      "website": "https://advanced.farm",
+      "hq_city": "Davis",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 38.54,
+      "lon": -121.74,
+      "founded": null,
+      "segment": "Agriculture",
+      "subsegment": "Robotic harvesting",
+      "product": "Strawberry and apple harvesting robots",
+      "robot_type": "Harvesting robot",
+      "ai_approach": "Computer vision + manipulation",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "harvesting",
+        "needs-reverification"
+      ],
+      "summary": "California developer of robotic strawberry and apple harvesters.",
+      "sources": [
+        {
+          "url": "https://advanced.farm",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "tortuga-agtech",
+      "name": "Tortuga AgTech",
+      "kind": "robotics",
+      "website": "https://www.tortugaagtech.com",
+      "hq_city": "Denver",
+      "hq_state": "CO",
+      "hq_country": "US",
+      "lat": 39.74,
+      "lon": -104.99,
+      "founded": 2016,
+      "segment": "Agriculture",
+      "subsegment": "Robotic harvesting",
+      "product": "Strawberry and table-grape harvesting robots",
+      "robot_type": "Harvesting robot",
+      "ai_approach": "AI vision models + robotic picking",
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": 55000000,
+      "funding_note": "Raised ~$50-55M since 2016; key IP, assets and engineering team acquired by Oishii (announced Mar/Apr 2025, terms undisclosed)",
+      "investors": [],
+      "customers": [
+        "Oishii (acquirer)"
+      ],
+      "deployment": "N/A",
+      "deployment_note": "No longer independent; technology integrated into Oishii vertical farms",
+      "suppliers": [],
+      "tags": [
+        "acquired",
+        "harvesting"
+      ],
+      "summary": "Colorado harvesting-robot startup whose IP and team were acquired by vertical farmer Oishii in 2025.",
+      "sources": [
+        {
+          "url": "https://agfundernews.com/oishii-acquires-tortuga-agtechs-ip-assets-and-engineering-team-to-supercharge-its-vertical-farms",
+          "label": "AgFunderNews"
+        },
+        {
+          "url": "https://www.thepacker.com/news/packer-tech/oishii-acquires-robotics-company-tortuga-agtech-extends-harvesting-capabilities",
+          "label": "The Packer"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "oishii",
+      "name": "Oishii",
+      "kind": "robotics",
+      "website": "https://oishii.com",
+      "hq_city": "Jersey City",
+      "hq_state": "NJ",
+      "hq_country": "US",
+      "lat": 40.73,
+      "lon": -74.08,
+      "founded": 2016,
+      "segment": "Agriculture",
+      "subsegment": "Vertical farming with robotic harvest",
+      "product": "Robotic indoor strawberry farms",
+      "robot_type": "Harvesting robot",
+      "ai_approach": "AI vision + robotic harvesting (incl. Tortuga tech)",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not re-verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Operates vertical farms; integrating Tortuga robotics with Yaskawa partnership; claims up to 50% harvest-cost reduction (company-reported). HQ city from prior knowledge",
+      "suppliers": [],
+      "tags": [
+        "vertical-farming",
+        "acquirer"
+      ],
+      "summary": "Vertical strawberry farmer that acquired Tortuga AgTech's robotics and partners with Yaskawa.",
+      "sources": [
+        {
+          "url": "https://agfundernews.com/oishii-acquires-tortuga-agtechs-ip-assets-and-engineering-team-to-supercharge-its-vertical-farms",
+          "label": "AgFunderNews"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "iron-ox",
+      "name": "Iron Ox",
+      "kind": "robotics",
+      "website": "https://ironox.com",
+      "hq_city": "San Carlos",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.51,
+      "lon": -122.26,
+      "founded": 2015,
+      "segment": "Agriculture",
+      "subsegment": "Indoor farming robotics",
+      "product": "Robotic greenhouse system",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": "Classical autonomy + plant monitoring",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 98000000,
+      "funding_note": "$98M total (last round Sep 2021)",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": "Large layoffs reported; current operating status (shutdown) not verified this pass",
+      "suppliers": [],
+      "tags": [
+        "indoor-farming",
+        "status-unclear",
+        "needs-reverification"
+      ],
+      "summary": "Bay Area indoor robotic farming startup that cut much of its staff; current status unverified.",
+      "sources": [
+        {
+          "url": "https://agfundernews.com/another-blow-for-indoor-farm-robotics-as-iron-ox-lays-off-nearly-half-its-staff",
+          "label": "AgFunderNews - layoffs"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "farmwise",
+      "name": "FarmWise",
+      "kind": "robotics",
+      "website": "https://farmwise.io",
+      "hq_city": null,
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": 2016,
+      "segment": "Agriculture",
+      "subsegment": "Mechanical weeding",
+      "product": "Titan FT-35; Vulcan tractor-pulled weeder",
+      "robot_type": "Agricultural robot (implement)",
+      "ai_approach": "Machine-learning plant detection with mechanical blades",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not re-verified; Apr 2025 report says company hit a funding wall",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": "Vulcan launched commercially 2024 with several growers; Apr 2025 Farm Progress reported FarmWise 'ran out of options'; no formal shutdown found",
+      "suppliers": [],
+      "tags": [
+        "status-unclear",
+        "weeding"
+      ],
+      "summary": "California weeding-robot maker (Titan, Vulcan) reported in 2025 to have run out of funding.",
+      "sources": [
+        {
+          "url": "https://www.farmprogress.com/farm-business/farm-progress-america-april-8-2025",
+          "label": "Farm Progress Apr 2025"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "bluewhite",
+      "name": "Bluewhite",
+      "kind": "robotics",
+      "website": "https://www.bluewhite.co",
+      "hq_city": null,
+      "hq_state": "CA",
+      "hq_country": "IL",
+      "lat": null,
+      "lon": null,
+      "founded": 2017,
+      "segment": "Agriculture",
+      "subsegment": "Autonomous tractors (retrofit)",
+      "product": "Pathfinder autonomy kit / Robot-as-a-Service",
+      "robot_type": "Autonomous tractor",
+      "ai_approach": "Sensor-fusion autonomy retrofit",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": 89000000,
+      "funding_note": "$89M total after $39M Series C (Jan 2024) led by Insight Partners",
+      "investors": [
+        "insight-partners",
+        "alumni-ventures",
+        "entree-capital",
+        "peregrine-ventures"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "50,000+ autonomous hours over 150,000 acres in California and Washington (company-reported); Israel-founded, US ops city not verified",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "autonomous-tractor",
+        "raas"
+      ],
+      "summary": "Israeli-founded autonomous orchard/vineyard tractor company operating commercially in California and Washington.",
+      "sources": [
+        {
+          "url": "https://www.insightpartners.com/ideas/bluewhite-raises-39m-to-bring-sustainable-autonomous-innovation-to-farms-worldwide/",
+          "label": "Insight Partners - Series C"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "john-deere",
+      "name": "John Deere",
+      "kind": "robotics",
+      "website": "https://www.deere.com",
+      "hq_city": "Moline",
+      "hq_state": "IL",
+      "hq_country": "US",
+      "lat": 41.51,
+      "lon": -90.52,
+      "founded": 1837,
+      "segment": "Agriculture",
+      "subsegment": "Autonomous tractors & precision ag",
+      "product": "Autonomous 8R/9RX tractors; See & Spray; autonomy kits",
+      "robot_type": "Autonomous tractor",
+      "ai_approach": "Stereo-camera perception + deep learning (See & Spray)",
+      "models": [],
+      "stage": "Public",
+      "ticker": "DE",
+      "funding_usd": null,
+      "funding_note": "Public company; acquired Blue River Technology (2017) and Bear Flag Robotics (2021) per prior knowledge",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "See & Spray commercial; autonomy offered in limited release. Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "autonomous-tractor",
+        "needs-reverification"
+      ],
+      "summary": "Largest US farm-equipment maker, commercializing autonomy and computer-vision spraying.",
+      "sources": [
+        {
+          "url": "https://www.deere.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "agtonomy",
+      "name": "Agtonomy",
+      "kind": "robotics",
+      "website": "https://www.agtonomy.com",
+      "hq_city": "South San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.65,
+      "lon": -122.41,
+      "founded": null,
+      "segment": "Agriculture",
+      "subsegment": "Autonomy for specialty-crop equipment",
+      "product": "TeleFarmer autonomy platform for OEM tractors",
+      "robot_type": "Autonomous tractor",
+      "ai_approach": "Software autonomy + teleoperation for OEM equipment",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 32800000,
+      "funding_note": "$32.8M Series A: $22.5M (Dec 2023, led by Momenta) + $10M extension (Oct 2024, led by Autotech Ventures)",
+      "investors": [
+        "momenta",
+        "doosan-bobcat",
+        "toyota-ventures",
+        "autotech-ventures",
+        "allison-transmission",
+        "black-forest-ventures"
+      ],
+      "customers": [],
+      "deployment": "Pilot",
+      "deployment_note": "Paid pilot program in permanent crops; planned 500% expansion in 2025 (company-reported); HQ city from prior knowledge",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "autonomy-software",
+        "oem"
+      ],
+      "summary": "Bay Area company retrofitting OEM tractors (e.g., Doosan Bobcat) with autonomy software.",
+      "sources": [
+        {
+          "url": "https://agtechnavigator.com/Article/2024/10/21/agtonomy-hails-common-sense-approach-after-raising-32.8-million",
+          "label": "AgTechNavigator"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "verdant-robotics",
+      "name": "Verdant Robotics",
+      "kind": "robotics",
+      "website": "https://www.verdantrobotics.com",
+      "hq_city": "Hayward",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.67,
+      "lon": -122.08,
+      "founded": 2018,
+      "segment": "Agriculture",
+      "subsegment": "Precision spraying/weeding",
+      "product": "Sharpshooter precision-application implement",
+      "robot_type": "Agricultural robot (implement)",
+      "ai_approach": "Computer vision for plant-level treatment",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "precision-ag",
+        "needs-reverification"
+      ],
+      "summary": "California developer of plant-level precision spraying robots.",
+      "sources": [
+        {
+          "url": "https://www.verdantrobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "four-growers",
+      "name": "Four Growers",
+      "kind": "robotics",
+      "website": "https://www.fourgrowers.com",
+      "hq_city": "Pittsburgh",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.44,
+      "lon": -79.99,
+      "founded": null,
+      "segment": "Agriculture",
+      "subsegment": "Greenhouse harvesting",
+      "product": "GR-100 tomato harvesting robot",
+      "robot_type": "Harvesting robot",
+      "ai_approach": "Computer vision + manipulation",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "greenhouse",
+        "harvesting",
+        "needs-reverification"
+      ],
+      "summary": "Pittsburgh developer of greenhouse tomato harvesting robots.",
+      "sources": [
+        {
+          "url": "https://www.fourgrowers.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "guss-automation",
+      "name": "GUSS Automation",
+      "kind": "robotics",
+      "website": "https://www.gussag.com",
+      "hq_city": "Kingsburg",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 36.51,
+      "lon": -119.55,
+      "founded": null,
+      "segment": "Agriculture",
+      "subsegment": "Autonomous orchard spraying",
+      "product": "GUSS autonomous sprayers",
+      "robot_type": "Autonomous farm vehicle",
+      "ai_approach": "Classical autonomy (GPS/LiDAR)",
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Joint venture with John Deere (prior knowledge); ownership status not re-verified",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "autonomous-sprayer",
+        "needs-reverification"
+      ],
+      "summary": "California maker of autonomous orchard and vineyard sprayers, linked to John Deere.",
+      "sources": [
+        {
+          "url": "https://www.gussag.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "lely",
+      "name": "Lely",
+      "kind": "robotics",
+      "website": "https://www.lely.com",
+      "hq_city": "Pella",
+      "hq_state": "IA",
+      "hq_country": "NL",
+      "lat": 41.41,
+      "lon": -92.92,
+      "founded": 1948,
+      "segment": "Agriculture",
+      "subsegment": "Dairy robotics",
+      "product": "Astronaut robotic milking; Juno feed pusher; Discovery barn cleaner",
+      "robot_type": "Milking robot",
+      "ai_approach": "Sensor-based automation",
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Private Dutch company; North America office in Pella, IA (prior knowledge)",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "dairy",
+        "needs-reverification"
+      ],
+      "summary": "Dutch dairy-robotics leader whose Astronaut milking robots are widely used on US farms.",
+      "sources": [
+        {
+          "url": "https://www.lely.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "built-robotics",
+      "name": "Built Robotics",
+      "kind": "robotics",
+      "website": "https://www.builtrobotics.com",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2016,
+      "segment": "Construction & Infrastructure",
+      "subsegment": "Autonomous solar piling",
+      "product": "RPD 35 autonomous solar pile driver",
+      "robot_type": "Autonomous construction machine",
+      "ai_approach": "Classical autonomy (GPS/LiDAR)",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Prior knowledge: ~$112M total incl. $64M Series C (2021); not re-verified",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "needs-reverification"
+      ],
+      "summary": "San Francisco company building autonomous solar pile-driving robots (formerly autonomous excavators).",
+      "sources": [
+        {
+          "url": "https://www.builtrobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "dusty-robotics",
+      "name": "Dusty Robotics",
+      "kind": "robotics",
+      "website": "https://www.dustyrobotics.com",
+      "hq_city": "Mountain View",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.39,
+      "lon": -122.08,
+      "founded": 2018,
+      "segment": "Construction & Infrastructure",
+      "subsegment": "Site layout",
+      "product": "FieldPrinter layout robot",
+      "robot_type": "Layout robot",
+      "ai_approach": "Total-station localization + BIM",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "needs-reverification"
+      ],
+      "summary": "Mountain View maker of FieldPrinter robots that print BIM layouts on construction floors.",
+      "sources": [
+        {
+          "url": "https://www.dustyrobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "canvas",
+      "name": "Canvas",
+      "kind": "robotics",
+      "website": "https://www.canvas.build",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2017,
+      "segment": "Construction & Infrastructure",
+      "subsegment": "Drywall finishing",
+      "product": "Canvas drywall finishing robot",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": "3D scanning + robotic spraying",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "needs-reverification"
+      ],
+      "summary": "Bay Area developer of a drywall-finishing robot offered as a subcontracting service.",
+      "sources": [
+        {
+          "url": "https://www.canvas.build",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "civ-robotics",
+      "name": "Civ Robotics",
+      "kind": "robotics",
+      "website": "https://www.civrobotics.com",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": null,
+      "segment": "Construction & Infrastructure",
+      "subsegment": "Survey & site layout",
+      "product": "CivDot autonomous survey staking robot",
+      "robot_type": "Layout robot",
+      "ai_approach": "GNSS-RTK autonomy",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "needs-reverification"
+      ],
+      "summary": "Bay Area maker of autonomous surveying robots for solar and civil sites.",
+      "sources": [
+        {
+          "url": "https://www.civrobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "gecko-robotics",
+      "name": "Gecko Robotics",
+      "kind": "robotics",
+      "website": "https://www.geckorobotics.com",
+      "hq_city": "Pittsburgh",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.44,
+      "lon": -79.99,
+      "founded": 2013,
+      "segment": "Construction & Infrastructure",
+      "subsegment": "Industrial inspection",
+      "product": "Wall-climbing inspection robots; Cantilever data platform",
+      "robot_type": "Inspection robot (crawler)",
+      "ai_approach": "Robotic NDT sensing + AI analytics",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Prior knowledge: unicorn after $125M Series D (Jun 2025) at $1.25B valuation; not re-verified",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "unicorn",
+        "needs-reverification"
+      ],
+      "summary": "Pittsburgh maker of wall-climbing inspection robots and an AI asset-integrity platform for industrial and defense customers.",
+      "sources": [
+        {
+          "url": "https://www.geckorobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "safeai",
+      "name": "SafeAI",
+      "kind": "robotics",
+      "website": "https://safeai.ai",
+      "hq_city": "Milpitas",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.43,
+      "lon": -121.9,
+      "founded": 2017,
+      "segment": "Construction & Infrastructure",
+      "subsegment": "Autonomous heavy equipment retrofit",
+      "product": "Autonomy retrofit for mining/construction vehicles",
+      "robot_type": "Autonomous heavy equipment",
+      "ai_approach": "AI autonomy stack",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "needs-reverification"
+      ],
+      "summary": "Silicon Valley company retrofitting heavy mining and construction equipment for autonomy.",
+      "sources": [
+        {
+          "url": "https://safeai.ai",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "pronto",
+      "name": "Pronto",
+      "kind": "robotics",
+      "website": "https://pronto.ai",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2018,
+      "segment": "Construction & Infrastructure",
+      "subsegment": "Autonomous haulage",
+      "product": "Autonomous haulage system for off-road trucks",
+      "robot_type": "Autonomous heavy equipment",
+      "ai_approach": "Camera-based autonomy",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "needs-reverification"
+      ],
+      "summary": "Bay Area autonomous-haulage company for quarries and construction sites.",
+      "sources": [
+        {
+          "url": "https://pronto.ai",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "aes",
+      "name": "AES Corporation",
+      "kind": "enabler",
+      "website": "https://www.aes.com",
+      "hq_city": "Arlington",
+      "hq_state": "VA",
+      "hq_country": "US",
+      "lat": 38.88,
+      "lon": -77.1,
+      "founded": 1981,
+      "segment": "Construction & Infrastructure",
+      "subsegment": "Solar installation robotics",
+      "product": "Maximo solar module installation robot",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": "AI vision-guided module placement",
+      "models": [],
+      "stage": "Public",
+      "ticker": "AES",
+      "funding_usd": null,
+      "funding_note": "Public utility/power company; Maximo developed in-house",
+      "investors": [],
+      "customers": [],
+      "deployment": "Pilot",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "solar",
+        "needs-reverification"
+      ],
+      "summary": "Power company that developed Maximo, an AI-guided robot for installing utility-scale solar panels.",
+      "sources": [
+        {
+          "url": "https://www.aes.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "terabase-energy",
+      "name": "Terabase Energy",
+      "kind": "robotics",
+      "website": "https://www.terabase.energy",
+      "hq_city": null,
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Construction & Infrastructure",
+      "subsegment": "Solar installation automation",
+      "product": "Terafab automated field factory for solar installation",
+      "robot_type": "Automated construction system",
+      "ai_approach": "Digital twin + automation",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "needs-reverification"
+      ],
+      "summary": "California company automating utility-scale solar construction with a field-deployed assembly line.",
+      "sources": [
+        {
+          "url": "https://www.terabase.energy",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "advanced-construction-robotics",
+      "name": "Advanced Construction Robotics",
+      "kind": "robotics",
+      "website": "https://www.advancedconstructionrobotics.com",
+      "hq_city": "Allison Park",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.56,
+      "lon": -79.96,
+      "founded": null,
+      "segment": "Construction & Infrastructure",
+      "subsegment": "Rebar tying",
+      "product": "TyBot and IronBot rebar robots",
+      "robot_type": "Gantry robot",
+      "ai_approach": "Machine vision for rebar detection",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "needs-reverification"
+      ],
+      "summary": "Pittsburgh-area maker of TyBot, a gantry robot that ties rebar on bridge decks.",
+      "sources": [
+        {
+          "url": "https://www.advancedconstructionrobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "construction-robotics",
+      "name": "Construction Robotics",
+      "kind": "robotics",
+      "website": "https://www.construction-robotics.com",
+      "hq_city": "Victor",
+      "hq_state": "NY",
+      "hq_country": "US",
+      "lat": 42.98,
+      "lon": -77.41,
+      "founded": null,
+      "segment": "Construction & Infrastructure",
+      "subsegment": "Masonry",
+      "product": "SAM bricklaying robot; MULE lift assist",
+      "robot_type": "Bricklaying robot",
+      "ai_approach": "Classical automation",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "needs-reverification"
+      ],
+      "summary": "New York maker of the SAM semi-automated bricklaying robot and MULE material-handling lift.",
+      "sources": [
+        {
+          "url": "https://www.construction-robotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "teleo",
+      "name": "Teleo",
+      "kind": "robotics",
+      "website": "https://www.teleo.ai",
+      "hq_city": "Palo Alto",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.44,
+      "lon": -122.14,
+      "founded": null,
+      "segment": "Construction & Infrastructure",
+      "subsegment": "Teleoperation & autonomy for heavy equipment",
+      "product": "Supervised autonomy kit for loaders/excavators",
+      "robot_type": "Autonomous heavy equipment",
+      "ai_approach": "Supervised autonomy + teleoperation",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": "Not re-verified in 2026-10-15 pass (web search budget exhausted); from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "needs-reverification"
+      ],
+      "summary": "Palo Alto startup converting construction equipment to remote and supervised-autonomous operation.",
+      "sources": [
+        {
+          "url": "https://www.teleo.ai",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    }
+  ],
+  "funding_rounds": [
+    {
+      "org": "carbon-robotics",
+      "date": "2024-10",
+      "round": "Series D",
+      "amount_usd": 70000000,
+      "lead": "bond",
+      "investors": [
+        "nvidia",
+        "anthos-capital",
+        "fuse-venture-capital",
+        "ignition-partners",
+        "revolution",
+        "sozo-ventures",
+        "voyager-capital"
+      ],
+      "note": "Brought total to $157M",
+      "source": "https://www.therobotreport.com/carbon-robotics-brings-in-70m-to-scale-laserweeder/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "bonsai-robotics",
+      "date": "2025-01",
+      "round": "Series A",
+      "amount_usd": 15000000,
+      "lead": "bison-ventures",
+      "investors": [
+        "cibus-capital",
+        "acre-venture-partners",
+        "congruent-ventures",
+        "fall-line-capital",
+        "e14-fund",
+        "serra-ventures"
+      ],
+      "note": "Oversubscribed",
+      "source": "https://pulse2.com/bonsai-robotics-15-million-series-a-raised-for-advancing-physical-ai-solutions-for-agriculture-applications",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "burro",
+      "date": "2024-01",
+      "round": "Series B",
+      "amount_usd": 24000000,
+      "lead": "catalyst-investors",
+      "investors": [
+        "translink-capital",
+        "s2g-ventures",
+        "toyota-ventures",
+        "f-prime-capital",
+        "cibus-capital"
+      ],
+      "note": "Co-led by Catalyst Investors and Translink Capital; round ran Aug-Dec 2023, announced Jan 2024",
+      "source": "https://www.thepacker.com/news/packer-tech/agtech-company-burro-gets-24m-investment",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "bluewhite",
+      "date": "2024-01",
+      "round": "Series C",
+      "amount_usd": 39000000,
+      "lead": "insight-partners",
+      "investors": [
+        "alumni-ventures",
+        "lip-ventures",
+        "entree-capital",
+        "peregrine-ventures"
+      ],
+      "note": "Total funding $89M",
+      "source": "https://www.insightpartners.com/ideas/bluewhite-raises-39m-to-bring-sustainable-autonomous-innovation-to-farms-worldwide/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "agtonomy",
+      "date": "2024-10",
+      "round": "Series A extension",
+      "amount_usd": 10000000,
+      "lead": "autotech-ventures",
+      "investors": [
+        "allison-transmission",
+        "black-forest-ventures"
+      ],
+      "note": "Brought Series A total to $32.8M",
+      "source": "https://agtechnavigator.com/Article/2024/10/21/agtonomy-hails-common-sense-approach-after-raising-32.8-million",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "neocis",
+      "date": "2024-01",
+      "round": "Venture (some listings: Series E)",
+      "amount_usd": 20000000,
+      "lead": null,
+      "investors": [
+        "nvidia",
+        "mirae-asset"
+      ],
+      "note": "Cumulative ~$180M",
+      "source": "https://www.therobotreport.com/neocis-brings-in-20m-for-robotic-dental-surgeries/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "monarch-tractor",
+      "date": "2024-07",
+      "round": "Series C",
+      "amount_usd": 133000000,
+      "lead": null,
+      "investors": [],
+      "note": "Per igrownews headline; lead/investors not re-verified; company later collapsed and assets sold to Caterpillar (Apr 2026)",
+      "source": "https://igrownews.com/monarch-tractor-secures-historic-133-million-series-c-funding-round/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "vicarious-surgical",
+      "date": "2025-10",
+      "round": "Registered direct offering",
+      "amount_usd": 5900000,
+      "lead": null,
+      "investors": [],
+      "note": "Public-company offering; reported via company profile",
+      "source": "https://www.roic.ai/quote/RBOT",
+      "confidence": "company-reported"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "zimmer-biomet",
+      "to": "monogram-technologies",
+      "type": "acquisition",
+      "note": "Completed Oct 7, 2025; $4.04/share cash + CVR",
+      "source": "https://www.nasdaq.com/articles/zimmer-biomet-completes-acquisition-monogram",
+      "confidence": "verified"
+    },
+    {
+      "from": "wandercraft",
+      "to": "ekso-bionics",
+      "type": "acquisition",
+      "note": "Announced Oct 1, 2026 from ChronoScale subsidiary; terms undisclosed",
+      "source": "https://www.hmenews.com/article/wandercraft-acquires-ekso-bionics",
+      "confidence": "verified"
+    },
+    {
+      "from": "caterpillar",
+      "to": "monarch-tractor",
+      "type": "acquisition",
+      "note": "Asset acquisition reported Apr 2026 via USPTO filings; price undisclosed",
+      "source": "https://techcrunch.com/2026/04/15/monarch-tractors-collapse-ends-in-with-an-acquisition-by-caterpillar/",
+      "confidence": "verified"
+    },
+    {
+      "from": "oishii",
+      "to": "tortuga-agtech",
+      "type": "acquisition",
+      "note": "Acquired key IP, assets and engineering team (Mar/Apr 2025)",
+      "source": "https://agfundernews.com/oishii-acquires-tortuga-agtechs-ip-assets-and-engineering-team-to-supercharge-its-vertical-farms",
+      "confidence": "verified"
+    },
+    {
+      "from": "oishii",
+      "to": "yaskawa",
+      "type": "partnership",
+      "note": "Strategic robotics partnership with Yaskawa Robotics",
+      "source": "https://www.perishablenews.com/produce/oishii-acquires-cutting-edge-robotics-technologies-from-tortuga-agtech-expanding-its-leadership-in-smart-farming/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "foxconn",
+      "to": "monarch-tractor",
+      "type": "supplies",
+      "note": "Former contract manufacturer; relationship ended 2025",
+      "source": "https://techcrunch.com/2025/11/19/monarch-tractor-preps-for-layoffs-and-warns-employees-it-may-shut-down",
+      "confidence": "verified"
+    },
+    {
+      "from": "lifeward",
+      "to": "shirley-ryan-abilitylab",
+      "type": "partnership",
+      "note": "Collaboration for ReWalk evaluation clinic days (Mar 2026)",
+      "source": "https://www.globenewswire.com/news-release/2026/03/02/3247345/0/en/Lifeward-Announces-Collaboration-With-Shirley-Ryan-AbilityLab-to-Expand-Access-for-the-ReWalk-Personal-Exoskeleton.html",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "memorial-hermann",
+      "to": "johnson-and-johnson-medtech",
+      "type": "research_collab",
+      "note": "First OTTAVA clinical-trial case (Roux-en-Y gastric bypass), Apr 2025",
+      "source": "https://www.massdevice.com/johnson-johnson-medtech-first-ottava-cases/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "bond",
+      "to": "carbon-robotics",
+      "type": "invests",
+      "note": "Led $70M Series D (Oct 2024)",
+      "source": "https://www.therobotreport.com/carbon-robotics-brings-in-70m-to-scale-laserweeder/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "carbon-robotics",
+      "type": "invests",
+      "note": "NVentures participated in Series D (Oct 2024)",
+      "source": "https://www.therobotreport.com/carbon-robotics-brings-in-70m-to-scale-laserweeder/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "bison-ventures",
+      "to": "bonsai-robotics",
+      "type": "invests",
+      "note": "Led $15M Series A (Jan 2025)",
+      "source": "https://pulse2.com/bonsai-robotics-15-million-series-a-raised-for-advancing-physical-ai-solutions-for-agriculture-applications",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "cibus-capital",
+      "to": "bonsai-robotics",
+      "type": "invests",
+      "note": "Series A participant (Jan 2025)",
+      "source": "https://pulse2.com/bonsai-robotics-15-million-series-a-raised-for-advancing-physical-ai-solutions-for-agriculture-applications",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "catalyst-investors",
+      "to": "burro",
+      "type": "invests",
+      "note": "Co-led $24M Series B (Jan 2024)",
+      "source": "https://www.thepacker.com/news/packer-tech/agtech-company-burro-gets-24m-investment",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "translink-capital",
+      "to": "burro",
+      "type": "invests",
+      "note": "Co-led $24M Series B (Jan 2024)",
+      "source": "https://www.thepacker.com/news/packer-tech/agtech-company-burro-gets-24m-investment",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "toyota-ventures",
+      "to": "burro",
+      "type": "invests",
+      "note": "Series B participant",
+      "source": "https://www.thepacker.com/news/packer-tech/agtech-company-burro-gets-24m-investment",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "insight-partners",
+      "to": "bluewhite",
+      "type": "invests",
+      "note": "Led $39M Series C (Jan 2024)",
+      "source": "https://www.insightpartners.com/ideas/bluewhite-raises-39m-to-bring-sustainable-autonomous-innovation-to-farms-worldwide/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "momenta",
+      "to": "agtonomy",
+      "type": "invests",
+      "note": "Led $22.5M Series A (Dec 2023)",
+      "source": "https://pulse2.com/agtonomy-22-5-million-funding/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "doosan-bobcat",
+      "to": "agtonomy",
+      "type": "invests",
+      "note": "Strategic investor in Series A",
+      "source": "https://pulse2.com/agtonomy-22-5-million-funding/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "toyota-ventures",
+      "to": "agtonomy",
+      "type": "invests",
+      "note": "Strategic investor in Series A",
+      "source": "https://pulse2.com/agtonomy-22-5-million-funding/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "autotech-ventures",
+      "to": "agtonomy",
+      "type": "invests",
+      "note": "Led $10M Series A extension (Oct 2024)",
+      "source": "https://agtechnavigator.com/Article/2024/10/21/agtonomy-hails-common-sense-approach-after-raising-32.8-million",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "endeavour-vision",
+      "to": "virtual-incision",
+      "type": "invests",
+      "note": "Co-led $46M Series C (2021); backed 2023 extension",
+      "source": "https://www.therobotreport.com/virtual-incision-raises-46m-miniature-surgical-robot/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "baird-capital",
+      "to": "virtual-incision",
+      "type": "invests",
+      "note": "Co-led $46M Series C (2021)",
+      "source": "https://www.therobotreport.com/virtual-incision-raises-46m-miniature-surgical-robot/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "softbank",
+      "to": "noah-medical",
+      "type": "invests",
+      "note": "SoftBank Vision Fund co-led $150M Series B (Apr 2023)",
+      "source": "https://www.therobotreport.com/noah-medical-brings-in-150m-for-galaxy-system/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "prosperity7-ventures",
+      "to": "noah-medical",
+      "type": "invests",
+      "note": "Co-led $150M Series B (Apr 2023)",
+      "source": "https://www.therobotreport.com/noah-medical-brings-in-150m-for-galaxy-system/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "neocis",
+      "type": "invests",
+      "note": "NVentures in $20M round (Jan 2024)",
+      "source": "https://www.therobotreport.com/neocis-brings-in-20m-for-robotic-dental-surgeries/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "dfj-growth",
+      "to": "neocis",
+      "type": "invests",
+      "note": "Led $72M Series D (2020)",
+      "source": "https://www.bioworld.com/articles/498749-neocis-raises-72m-in-series-d-funding",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "sofinnova-partners",
+      "to": "moon-surgical",
+      "type": "invests",
+      "note": "Co-led $55.5M round (2023)",
+      "source": "https://medcitynews.com/?p=42504",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "moon-surgical",
+      "type": "invests",
+      "note": "NVentures co-led $55.5M round (2023)",
+      "source": "https://medcitynews.com/?p=42504",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "gt-healthcare-capital",
+      "to": "moon-surgical",
+      "type": "invests",
+      "note": "Led $31.3M Series A (2022)",
+      "source": "https://www.therobotreport.com/moon-surgical-raises-31-3m-for-robotic-surgery-system/",
+      "confidence": "company-reported"
+    }
+  ]
+}

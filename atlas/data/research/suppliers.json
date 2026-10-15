@@ -1,0 +1,3344 @@
+{
+  "organizations": [
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "kind": "supplier",
+      "website": "https://www.nvidia.com",
+      "hq_city": "Santa Clara",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.35,
+      "lon": -121.96,
+      "founded": 1993,
+      "segment": "Compute & Semiconductors",
+      "subsegment": "Edge Compute & GPUs",
+      "product": "Jetson AGX Thor (Blackwell), Jetson Orin, Isaac/Holoscan Sensor Bridge",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: NVDA",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [
+        "Agility Robotics",
+        "Amazon Robotics",
+        "Boston Dynamics",
+        "Figure",
+        "Caterpillar",
+        "Hexagon",
+        "Medtronic",
+        "Meta"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Early-adopter list is NVIDIA's characterization (Aug 2025); 1X, John Deere, OpenAI and Physical Intelligence named as evaluating.",
+      "suppliers": [],
+      "tags": [
+        "humanoids",
+        "amr",
+        "industrial-automation",
+        "medical-robotics",
+        "physical-ai"
+      ],
+      "summary": "Jetson AGX Thor became generally available on Aug 25, 2025; NVIDIA named Agility Robotics, Amazon Robotics, Boston Dynamics, Figure, Caterpillar, Hexagon, Medtronic and Meta as early adopters.",
+      "sources": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Powered-Jetson-Thor-Now-Available-Accelerating-the-Age-of-General-Robotics/default.aspx",
+          "label": "NVIDIA press release: Jetson Thor now available (Aug 2025)"
+        },
+        {
+          "url": "https://www.datacenterdynamics.com/en/news/nvidia-launches-jetson-thor-compute-modules-for-humanoid-robots/",
+          "label": "DatacenterDynamics"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "qualcomm",
+      "name": "Qualcomm",
+      "kind": "supplier",
+      "website": "https://www.qualcomm.com",
+      "hq_city": "San Diego",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 32.72,
+      "lon": -117.16,
+      "founded": 1985,
+      "segment": "Compute & Semiconductors",
+      "subsegment": "AI Accelerators",
+      "product": "Dragonwing IQ9 / IQ10 robotics processors, robotics reference architecture (RB platforms)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: QCOM",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [
+        "VinMotion (Motion 2 on IQ9, CES 2026)",
+        "Booster Robotics (Dragonwing roadmap)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "IQ10 700 TOPS figure and early-access partners (NEURA, Advantech, Thundercomm, Radxa) come from a single secondary source (aiweekly.co) — unconfirmed.",
+      "suppliers": [],
+      "tags": [
+        "humanoids",
+        "amr",
+        "home-robots",
+        "industrial-automation"
+      ],
+      "summary": "At CES 2026 Qualcomm launched a robotics stack and the Dragonwing IQ10 series for AMRs and full-size humanoids, and said it is working with Figure on next-generation compute architecture.",
+      "sources": [
+        {
+          "url": "https://pulse2.com/qualcomm-introduces-new-robotics-stack-and-dragonwing-iq10-processor-to-power-physical-ai",
+          "label": "Pulse 2.0 (CES 2026)"
+        },
+        {
+          "url": "https://gamesbeat.com/qualcomm-enables-new-generation-of-humanoid-robots/",
+          "label": "GamesBeat"
+        },
+        {
+          "url": "https://www.barchart.com/story/news/36885616/qualcomm-introduces-a-full-suite-of-robotics-technologies-powering-physical-ai-from-household-robots-up-to-full-size-humanoids",
+          "label": "Qualcomm release via Barchart"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "intel",
+      "name": "Intel",
+      "kind": "supplier",
+      "website": "https://www.intel.com",
+      "hq_city": "Santa Clara",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.35,
+      "lon": -121.96,
+      "founded": 1968,
+      "segment": "Compute & Semiconductors",
+      "subsegment": "Semiconductors",
+      "product": "Core/Xeon edge processors, OpenVINO; RealSense spun out Jul 2025",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: INTC",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-automation",
+        "edge-ai"
+      ],
+      "summary": "Intel completed the spinout of its RealSense depth-camera business in July 2025, retaining an investment via Intel Capital.",
+      "sources": [
+        {
+          "url": "https://www.intel.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.intelcapital.com/realsense-completes-spin-out-from-intel-raises-50-million-to-accelerate-ai-powered-vision-for-robotics-and-biometrics/",
+          "label": "Intel Capital: RealSense spinout"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "intel-realsense",
+      "name": "RealSense",
+      "kind": "supplier",
+      "website": "https://www.realsenseai.com",
+      "hq_city": "Santa Clara",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.35,
+      "lon": -121.96,
+      "founded": 2025,
+      "segment": "Components & Hardware",
+      "subsegment": "Cameras & Vision",
+      "product": "RealSense D400/D500-series stereo depth cameras for robotics and biometrics",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 50000000,
+      "funding_note": "$50M Series A at spinout (Jul 2025), led by a semiconductor PE firm with Intel Capital and MediaTek Innovation Fund; Cognex signed definitive agreement to acquire for ~$500M cash (Sep 22, 2026), close expected Q4 2026",
+      "investors": [
+        "intel-capital",
+        "mediatek-innovation-fund"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "HQ: spinout release says Santa Clara; Wikipedia lists Cupertino. Website URL not re-verified. Cognex deal pending; facial-authentication line to be spun off before close.",
+      "suppliers": [],
+      "tags": [
+        "amr",
+        "humanoids",
+        "biometrics",
+        "industrial-automation"
+      ],
+      "summary": "RealSense spun out of Intel in July 2025 with $50M and in September 2026 agreed to be acquired by Cognex for about $500M, with closing expected in Q4 2026.",
+      "sources": [
+        {
+          "url": "https://www.intelcapital.com/realsense-completes-spin-out-from-intel-raises-50-million-to-accelerate-ai-powered-vision-for-robotics-and-biometrics/",
+          "label": "Spinout press release (Intel Capital)"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000851205/000085120526000071/exhibit991-pressrelease.htm",
+          "label": "Cognex 8-K press release (Sep 2026)"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "amd",
+      "name": "AMD",
+      "kind": "supplier",
+      "website": "https://www.amd.com",
+      "hq_city": "Santa Clara",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.35,
+      "lon": -121.96,
+      "founded": 1969,
+      "segment": "Compute & Semiconductors",
+      "subsegment": "AI Accelerators",
+      "product": "Kria SOMs / Versal adaptive SoCs (ex-Xilinx), Ryzen Embedded",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: AMD",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-automation",
+        "machine-vision",
+        "edge-ai"
+      ],
+      "summary": "AMD supplies Xilinx-derived adaptive SoCs and Kria system-on-modules used for robotics and machine-vision edge compute.",
+      "sources": [
+        {
+          "url": "https://www.amd.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "ambarella",
+      "name": "Ambarella",
+      "kind": "supplier",
+      "website": "https://www.ambarella.com",
+      "hq_city": "Santa Clara",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.35,
+      "lon": -121.96,
+      "founded": 2004,
+      "segment": "Compute & Semiconductors",
+      "subsegment": "AI Accelerators",
+      "product": "CVflow edge-AI SoCs (CV7x/CV5/N1) for vision perception",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: AMBA",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [
+        "Insta360 (robotic aerial drone, CV5 SoC)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "No named US AMR customer found.",
+      "suppliers": [],
+      "tags": [
+        "drones",
+        "amr",
+        "edge-ai",
+        "automotive"
+      ],
+      "summary": "Ambarella's CVflow edge-AI SoCs fuse camera, lidar, radar and thermal inputs; on its Q2 FY2026 earnings call it cited robotics demand and a first drone win with Insta360.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1280263/000119312526119321/amba-20260131.htm",
+          "label": "Ambarella FY2026 10-K"
+        },
+        {
+          "url": "https://www.nasdaq.com/articles/ambarella-lifts-2026-outlook-ai-surge",
+          "label": "Nasdaq earnings coverage"
+        },
+        {
+          "url": "https://www.eejournal.com/industry_news/e-con-systems-launches-robotics-computing-platform-during-ces-partners-with-ambarella-for-industrial-amr-and-outdoor-robots",
+          "label": "EEJournal: e-con Systems CV72S platform"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "texas-instruments",
+      "name": "Texas Instruments",
+      "kind": "supplier",
+      "website": "https://www.ti.com",
+      "hq_city": "Dallas",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 32.78,
+      "lon": -96.8,
+      "founded": 1930,
+      "segment": "Compute & Semiconductors",
+      "subsegment": "Semiconductors",
+      "product": "mmWave radar, motor drivers, GaN power stages, Sitara processors",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: TXN",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "humanoids",
+        "amr",
+        "industrial-automation"
+      ],
+      "summary": "TI built a mmWave radar sensor-fusion design with NVIDIA Jetson Thor via Holoscan Sensor Bridge, aimed at humanoid perception and safety, shown at NVIDIA GTC 2026.",
+      "sources": [
+        {
+          "url": "https://tech.yahoo.com/ai/meta-ai/articles/texas-instruments-accelerate-deployment-humanoid-141914711.html",
+          "label": "TheFly via Yahoo: TI with NVIDIA on humanoids"
+        },
+        {
+          "url": "https://www.ti.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "nxp",
+      "name": "NXP Semiconductors",
+      "kind": "supplier",
+      "website": "https://www.nxp.com",
+      "hq_city": "Austin",
+      "hq_state": "TX",
+      "hq_country": "NL",
+      "lat": 30.27,
+      "lon": -97.74,
+      "founded": 2006,
+      "segment": "Compute & Semiconductors",
+      "subsegment": "Embedded & Motion Control",
+      "product": "i.MX application processors, MCUs, Kinara NPUs, safety/motor-control silicon",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: NXPI",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Global HQ Eindhoven, Netherlands; Austin, TX is a major US site (HQ city per prior knowledge).",
+      "suppliers": [],
+      "tags": [
+        "humanoids",
+        "drones",
+        "industrial-automation",
+        "automotive"
+      ],
+      "summary": "NXP completed its ~$307M acquisition of NPU maker Kinara on Oct 27, 2025 and in March 2026 announced robotics solutions with NVIDIA Holoscan Sensor Bridge aimed at full-body humanoids.",
+      "sources": [
+        {
+          "url": "https://investors.nxp.com/news-releases/news-release-details/nxp-delivers-new-innovations-advanced-physical-ai-nvidia",
+          "label": "NXP press release (Mar 2026)"
+        },
+        {
+          "url": "https://www.nxp.jp/company/about-nxp/newsroom/NW-NXP-COMPLETES-ACQUISITIONS-AVIVA-LINKS-KINARA",
+          "label": "NXP: Kinara acquisition completed"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "analog-devices",
+      "name": "Analog Devices",
+      "kind": "supplier",
+      "website": "https://www.analog.com",
+      "hq_city": "Wilmington",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.55,
+      "lon": -71.17,
+      "founded": 1965,
+      "segment": "Compute & Semiconductors",
+      "subsegment": "Semiconductors",
+      "product": "Precision sensing, motion control, power, GMSL/deterministic connectivity; humanoid reference designs",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: ADI",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "humanoids",
+        "amr",
+        "industrial-automation"
+      ],
+      "summary": "ADI announced a collaboration with NVIDIA around Jetson Thor for humanoids and AMRs, and is a strategic sponsor of MassRobotics.",
+      "sources": [
+        {
+          "url": "https://digitalterminal.in/tech-companies/adi-adopts-nvidia-jetson-thor-to-advance-humanoid-robot-intelligence",
+          "label": "Digital Terminal: ADI and Jetson Thor"
+        },
+        {
+          "url": "https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/",
+          "label": "The Robot Report: ADI MassRobotics sponsorship"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "infineon",
+      "name": "Infineon Technologies",
+      "kind": "supplier",
+      "website": "https://www.infineon.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "DE",
+      "lat": null,
+      "lon": null,
+      "founded": 1999,
+      "segment": "Compute & Semiconductors",
+      "subsegment": "Semiconductors",
+      "product": "Power semiconductors, motor-control MCUs, smart actuators, sensors",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "FWB: IFX",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [
+        "VinRobotics (MoU, 2026)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Global HQ Neubiberg, Germany; US HQ city not verified this pass.",
+      "suppliers": [],
+      "tags": [
+        "humanoids",
+        "industrial-automation"
+      ],
+      "summary": "Infineon signed a humanoid-development MoU with Vietnam's VinRobotics in 2026, expanded humanoid reference-design work with NVIDIA Jetson Thor, and focused its 2026 Startup Challenge on humanoids.",
+      "sources": [
+        {
+          "url": "https://humanoid.guide/?p=12152",
+          "label": "Humanoid.guide: Infineon and VinRobotics"
+        },
+        {
+          "url": "https://www.barchart.com/story/news/1847506/infineon-startup-challenge-2026-puts-humanoid-robotics-in-the-spotlight",
+          "label": "Infineon Startup Challenge 2026"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "stmicroelectronics",
+      "name": "STMicroelectronics",
+      "kind": "supplier",
+      "website": "https://www.st.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "CH",
+      "lat": null,
+      "lon": null,
+      "founded": 1987,
+      "segment": "Compute & Semiconductors",
+      "subsegment": "Semiconductors",
+      "product": "STM32 MCUs, MEMS IMUs, motor drivers, ToF sensors",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NYSE: STM",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Global HQ Geneva; US office not verified this pass. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-automation",
+        "consumer-robots"
+      ],
+      "summary": "STMicroelectronics supplies MCUs, MEMS motion sensors and motor-control ICs widely used in robots.",
+      "sources": [
+        {
+          "url": "https://www.st.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "bosch-sensortec",
+      "name": "Bosch Sensortec",
+      "kind": "supplier",
+      "website": "https://www.bosch-sensortec.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "DE",
+      "lat": null,
+      "lon": null,
+      "founded": 2005,
+      "segment": "Components & Hardware",
+      "subsegment": "IMUs & Motion Sensors",
+      "product": "MEMS IMUs (BMI/BHI series), accelerometers, gyroscopes",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "HQ Reutlingen, Germany; US office not verified. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "consumer-robots",
+        "drones"
+      ],
+      "summary": "Bosch Sensortec, a Bosch subsidiary, makes MEMS inertial sensors used in drones and consumer robots.",
+      "sources": [
+        {
+          "url": "https://www.bosch-sensortec.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "tdk-invensense",
+      "name": "TDK InvenSense",
+      "kind": "supplier",
+      "website": "https://invensense.tdk.com",
+      "hq_city": "San Jose",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.34,
+      "lon": -121.89,
+      "founded": 2003,
+      "segment": "Components & Hardware",
+      "subsegment": "IMUs & Motion Sensors",
+      "product": "MEMS 6-axis IMUs, ultrasonic ToF sensors",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "drones",
+        "consumer-robots",
+        "industrial-automation"
+      ],
+      "summary": "TDK InvenSense, a TDK Group company based in San Jose, supplies MEMS IMUs and ultrasonic ToF sensors used in robots and drones.",
+      "sources": [
+        {
+          "url": "https://invensense.tdk.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "harmonic-drive",
+      "name": "Harmonic Drive LLC",
+      "kind": "supplier",
+      "website": "https://www.harmonicdrive.net",
+      "hq_city": "Beverly",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.56,
+      "lon": -70.88,
+      "founded": 1970,
+      "segment": "Components & Hardware",
+      "subsegment": "Gearboxes & Harmonic Drives",
+      "product": "Strain wave gears, gearheads and servo actuators, incl. lightweight humanoid gears",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "No named humanoid customers found in public sources this pass. Founded year from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "humanoids",
+        "industrial-arms",
+        "semiconductor-equipment",
+        "mobile-robots",
+        "aerospace"
+      ],
+      "summary": "Harmonic Drive LLC makes strain wave gears and actuators at its ISO9001/AS9100 facility in Beverly, MA, and markets lightweight gears for humanoid robots.",
+      "sources": [
+        {
+          "url": "https://global.harmonicdrive.net/about-us",
+          "label": "Harmonic Drive LLC: about"
+        },
+        {
+          "url": "https://humanoidroboticstechnology.com/company/harmonic-drive-llc/",
+          "label": "Humanoid Robotics Technology profile"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "nabtesco",
+      "name": "Nabtesco",
+      "kind": "supplier",
+      "website": "https://www.nabtesco.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "JP",
+      "lat": null,
+      "lon": null,
+      "founded": 2003,
+      "segment": "Components & Hardware",
+      "subsegment": "Gearboxes & Harmonic Drives",
+      "product": "RV cycloidal precision reducers for industrial robot joints",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "TSE: 6268",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "US subsidiary (Nabtesco Motion Control) city not verified this pass. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-arms"
+      ],
+      "summary": "Nabtesco makes RV precision cycloidal reducers widely used in industrial robot joints.",
+      "sources": [
+        {
+          "url": "https://www.nabtesco.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "maxon",
+      "name": "maxon",
+      "kind": "supplier",
+      "website": "https://www.maxongroup.us",
+      "hq_city": null,
+      "hq_state": "MA",
+      "hq_country": "CH",
+      "lat": null,
+      "lon": null,
+      "founded": 1961,
+      "segment": "Components & Hardware",
+      "subsegment": "Actuators & Motors",
+      "product": "Brushless/brushed DC motors, gearheads, encoders, EPOS controllers, actuators",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "US subsidiary city not verified this pass. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "humanoids",
+        "medical-robotics",
+        "space",
+        "exoskeletons"
+      ],
+      "summary": "Swiss motor maker maxon supplies precision DC drives for robotics, medical and space applications, with a US subsidiary in Massachusetts.",
+      "sources": [
+        {
+          "url": "https://www.maxongroup.us",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "kollmorgen",
+      "name": "Kollmorgen",
+      "kind": "supplier",
+      "website": "https://www.kollmorgen.com",
+      "hq_city": "Radford",
+      "hq_state": "VA",
+      "hq_country": "US",
+      "lat": 37.13,
+      "lon": -80.58,
+      "founded": 1916,
+      "segment": "Components & Hardware",
+      "subsegment": "Actuators & Motors",
+      "product": "Frameless servo motors, robotic joint modules, servo drives, AGV navigation",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "cobots",
+        "amr",
+        "surgical-robotics",
+        "industrial-automation"
+      ],
+      "summary": "Kollmorgen, part of Regal Rexnord, makes frameless servo motors and drives used in cobots, surgical robots and AGVs.",
+      "sources": [
+        {
+          "url": "https://www.kollmorgen.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "allient",
+      "name": "Allient (formerly Allied Motion)",
+      "kind": "supplier",
+      "website": "https://allient.com",
+      "hq_city": "Amherst",
+      "hq_state": "NY",
+      "hq_country": "US",
+      "lat": 42.98,
+      "lon": -78.8,
+      "founded": 1962,
+      "segment": "Components & Hardware",
+      "subsegment": "Actuators & Motors",
+      "product": "Servo motors, drives, integrated motion systems",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: ALNT",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "medical-robotics",
+        "industrial-automation",
+        "defense"
+      ],
+      "summary": "Allient, renamed from Allied Motion Technologies, supplies precision motors and motion-control systems.",
+      "sources": [
+        {
+          "url": "https://allient.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "moog",
+      "name": "Moog",
+      "kind": "supplier",
+      "website": "https://www.moog.com",
+      "hq_city": "East Aurora",
+      "hq_state": "NY",
+      "hq_country": "US",
+      "lat": 42.77,
+      "lon": -78.61,
+      "founded": 1951,
+      "segment": "Components & Hardware",
+      "subsegment": "Actuators & Motors",
+      "product": "Electromechanical/hydraulic actuators, servo drives, slip rings",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NYSE: MOG.A",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "defense",
+        "aerospace",
+        "industrial-automation"
+      ],
+      "summary": "Moog makes precision motion-control actuators and servo systems for aerospace, defense and industrial machines.",
+      "sources": [
+        {
+          "url": "https://www.moog.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "faulhaber",
+      "name": "FAULHABER MICROMO",
+      "kind": "supplier",
+      "website": "https://www.faulhaber.com",
+      "hq_city": "Clearwater",
+      "hq_state": "FL",
+      "hq_country": "US",
+      "lat": 27.97,
+      "lon": -82.8,
+      "founded": 1961,
+      "segment": "Components & Hardware",
+      "subsegment": "Actuators & Motors",
+      "product": "Micro DC/brushless motors, gearheads, encoders for grippers and hands",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Parent Dr. Fritz Faulhaber GmbH (Germany). Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "robotic-hands",
+        "medical-robotics",
+        "grippers"
+      ],
+      "summary": "FAULHABER's US arm MICROMO supplies miniature motors and gearheads used in robotic hands, grippers and medical devices.",
+      "sources": [
+        {
+          "url": "https://www.faulhaber.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "schaeffler",
+      "name": "Schaeffler",
+      "kind": "supplier",
+      "website": "https://www.schaeffler.us",
+      "hq_city": "Fort Mill",
+      "hq_state": "SC",
+      "hq_country": "DE",
+      "lat": 35.01,
+      "lon": -80.95,
+      "founded": 1946,
+      "segment": "Components & Hardware",
+      "subsegment": "Actuators & Motors",
+      "product": "Planetary gear and strain wave actuators for humanoid joints, bearings, linear guides",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "FWB: SHA0",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [
+        "NEURA Robotics (humanoid actuators, Nov 2025)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Global HQ Herzogenaurach, Germany; US HQ Fort Mill, SC per prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "humanoids",
+        "industrial-automation",
+        "automotive"
+      ],
+      "summary": "Schaeffler agreed in Nov 2025 to develop and supply humanoid joint actuators to NEURA Robotics, and it is also an investor in and customer of Agility Robotics.",
+      "sources": [
+        {
+          "url": "https://www.automationworld.com/factory/robotics/news/55332013/schaeffler-partners-with-neura-robotics-to-integrate-humanoids-into-production-operations",
+          "label": "Automation World: Schaeffler–NEURA"
+        },
+        {
+          "url": "https://mail.schaeffler-tomorrow.com/en/article/an-alliance-for-the-future",
+          "label": "Schaeffler Tomorrow"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "timken",
+      "name": "Timken (Cone Drive)",
+      "kind": "supplier",
+      "website": "https://www.timken.com",
+      "hq_city": "North Canton",
+      "hq_state": "OH",
+      "hq_country": "US",
+      "lat": 40.88,
+      "lon": -81.4,
+      "founded": 1899,
+      "segment": "Components & Hardware",
+      "subsegment": "Gearboxes & Harmonic Drives",
+      "product": "Cone Drive harmonic/precision gearing, robotic bearings, drives",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NYSE: TKR",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-arms",
+        "solar",
+        "aerospace"
+      ],
+      "summary": "Timken owns Cone Drive, a maker of harmonic and precision gearing used in robot joints, along with bearings for robotics.",
+      "sources": [
+        {
+          "url": "https://www.timken.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "ati-industrial-automation",
+      "name": "ATI Industrial Automation",
+      "kind": "supplier",
+      "website": "https://www.ati-ia.com",
+      "hq_city": "Apex",
+      "hq_state": "NC",
+      "hq_country": "US",
+      "lat": 35.73,
+      "lon": -78.85,
+      "founded": 1989,
+      "segment": "Components & Hardware",
+      "subsegment": "Force/Torque Sensors",
+      "product": "Multi-axis force/torque sensors, tool changers, compliance devices",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-arms",
+        "cobots",
+        "research",
+        "surgical-robotics"
+      ],
+      "summary": "ATI Industrial Automation, a Novanta company in Apex, NC, makes multi-axis force/torque sensors and robotic tool changers.",
+      "sources": [
+        {
+          "url": "https://www.ati-ia.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "novanta",
+      "name": "Novanta",
+      "kind": "supplier",
+      "website": "https://www.novanta.com",
+      "hq_city": "Bedford",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.49,
+      "lon": -71.28,
+      "founded": 1968,
+      "segment": "Components & Hardware",
+      "subsegment": "Precision Manufacturing",
+      "product": "Precision motion (encoders, motors), ATI force/torque sensing, medical subsystems",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: NOVT",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "surgical-robotics",
+        "industrial-automation"
+      ],
+      "summary": "Novanta supplies precision motion and sensing components to medical and industrial OEMs and owns ATI Industrial Automation.",
+      "sources": [
+        {
+          "url": "https://www.novanta.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "bota-systems",
+      "name": "Bota Systems",
+      "kind": "supplier",
+      "website": "https://www.botasys.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "CH",
+      "lat": null,
+      "lon": null,
+      "founded": 2020,
+      "segment": "Components & Hardware",
+      "subsegment": "Force/Torque Sensors",
+      "product": "Compact 6-axis force/torque sensors for cobots and legged robots",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "US presence not verified. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "cobots",
+        "research",
+        "legged-robots"
+      ],
+      "summary": "Swiss startup Bota Systems makes compact six-axis force/torque sensors for robot arms.",
+      "sources": [
+        {
+          "url": "https://www.botasys.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "robotiq",
+      "name": "Robotiq",
+      "kind": "supplier",
+      "website": "https://robotiq.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "CA",
+      "lat": null,
+      "lon": null,
+      "founded": 2008,
+      "segment": "Components & Hardware",
+      "subsegment": "Grippers & End Effectors",
+      "product": "Adaptive grippers, vacuum grippers, palletizing solutions, wrist cameras",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "US office not verified. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "cobots",
+        "palletizing",
+        "machine-tending"
+      ],
+      "summary": "Robotiq, from Lévis, Quebec, makes adaptive grippers and palletizing kits widely paired with cobots.",
+      "sources": [
+        {
+          "url": "https://robotiq.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "onrobot",
+      "name": "OnRobot",
+      "kind": "supplier",
+      "website": "https://onrobot.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "DK",
+      "lat": null,
+      "lon": null,
+      "founded": 2015,
+      "segment": "Components & Hardware",
+      "subsegment": "Grippers & End Effectors",
+      "product": "Electric, vacuum and soft grippers, screwdrivers, tool changers",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "US office not verified. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "cobots",
+        "industrial-arms"
+      ],
+      "summary": "Danish OnRobot sells end-of-arm tooling compatible with major cobot and industrial-arm brands.",
+      "sources": [
+        {
+          "url": "https://onrobot.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "schunk",
+      "name": "SCHUNK",
+      "kind": "supplier",
+      "website": "https://schunk.com",
+      "hq_city": "Morrisville",
+      "hq_state": "NC",
+      "hq_country": "DE",
+      "lat": 35.82,
+      "lon": -78.83,
+      "founded": 1945,
+      "segment": "Components & Hardware",
+      "subsegment": "Grippers & End Effectors",
+      "product": "Grippers, tool changers, robotic hands (SVH), clamping technology",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-arms",
+        "cobots",
+        "humanoids"
+      ],
+      "summary": "Family-owned SCHUNK makes grippers, tool changers and clamping systems; SCHUNK USA is based in Morrisville, NC.",
+      "sources": [
+        {
+          "url": "https://schunk.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "zimmer-group",
+      "name": "Zimmer Group",
+      "kind": "supplier",
+      "website": "https://www.zimmer-group.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "DE",
+      "lat": null,
+      "lon": null,
+      "founded": 1980,
+      "segment": "Components & Hardware",
+      "subsegment": "Grippers & End Effectors",
+      "product": "Pneumatic/electric grippers, robot accessories, HRC grippers",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "US office not verified. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-arms",
+        "cobots"
+      ],
+      "summary": "German Zimmer Group makes pneumatic and electric grippers and end-of-arm components.",
+      "sources": [
+        {
+          "url": "https://www.zimmer-group.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "piab",
+      "name": "Piab",
+      "kind": "supplier",
+      "website": "https://www.piab.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "SE",
+      "lat": null,
+      "lon": null,
+      "founded": 1951,
+      "segment": "Components & Hardware",
+      "subsegment": "Grippers & End Effectors",
+      "product": "Vacuum grippers, suction cups, vacuum pumps, soft grippers",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "US office not verified. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "warehouse",
+        "palletizing",
+        "food-handling"
+      ],
+      "summary": "Swedish Piab supplies vacuum gripping and handling components for pick-and-place and palletizing.",
+      "sources": [
+        {
+          "url": "https://www.piab.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "schmalz",
+      "name": "Schmalz",
+      "kind": "supplier",
+      "website": "https://www.schmalz.com",
+      "hq_city": "Raleigh",
+      "hq_state": "NC",
+      "hq_country": "DE",
+      "lat": 35.78,
+      "lon": -78.64,
+      "founded": 1910,
+      "segment": "Components & Hardware",
+      "subsegment": "Grippers & End Effectors",
+      "product": "Vacuum grippers, mGrip soft finger grippers (ex-Soft Robotics)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "US subsidiary (J. Schmalz Inc.) city per prior knowledge. Deal date per CB Insights ~Aug 2024 (not in articles).",
+      "suppliers": [],
+      "tags": [
+        "food-handling",
+        "warehouse",
+        "palletizing"
+      ],
+      "summary": "Schmalz acquired the soft-gripper (mGrip) business of Soft Robotics, which rebranded as Oxipital AI.",
+      "sources": [
+        {
+          "url": "https://www.robotics247.com/article/soft_robotics_divests_hardware_business_to_schmalz_rebrands/soft_robotics",
+          "label": "Robotics 24/7: Soft Robotics divests to Schmalz"
+        },
+        {
+          "url": "https://www.manufacturing.net/artificial-intelligence/news/22916923/soft-robotics-divests-soft-gripping-business-becomes-oxipital-ai",
+          "label": "Manufacturing.net"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "shadow-robot",
+      "name": "Shadow Robot",
+      "kind": "supplier",
+      "website": "https://www.shadowrobot.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "GB",
+      "lat": null,
+      "lon": null,
+      "founded": 1987,
+      "segment": "Components & Hardware",
+      "subsegment": "Robotic Hands",
+      "product": "Shadow Dexterous Hand, DEX-EE hand",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "No US office verified. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "research",
+        "dexterous-manipulation"
+      ],
+      "summary": "London-based Shadow Robot makes dexterous robotic hands used in research.",
+      "sources": [
+        {
+          "url": "https://www.shadowrobot.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "psyonic",
+      "name": "PSYONIC",
+      "kind": "supplier",
+      "website": "https://www.psyonic.io",
+      "hq_city": "Champaign",
+      "hq_state": "IL",
+      "hq_country": "US",
+      "lat": 40.12,
+      "lon": -88.24,
+      "founded": 2015,
+      "segment": "Components & Hardware",
+      "subsegment": "Robotic Hands",
+      "product": "Ability Hand (bionic prosthetic and robotic hand with touch sensing)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [
+        "ABB Robotics (GoFa pairing, Jun 2026)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Profiles cite integration partnerships with Apptronik and Universal Robots and a demo on Apollo at Mercedes-Benz (secondary sources). Funding figures conflict ($2M vs >$10M).",
+      "suppliers": [],
+      "tags": [
+        "prosthetics",
+        "humanoids",
+        "cobots",
+        "data-collection"
+      ],
+      "summary": "PSYONIC's Ability Hand serves both prosthetics and robotics; in June 2026 it announced work with ABB Robotics pairing the hand with the GoFa cobot.",
+      "sources": [
+        {
+          "url": "https://runtimewire.com/article/psyonic-ability-hand-nvidia-abb-dexterity-data",
+          "label": "Runtime Wire: PSYONIC, ABB"
+        },
+        {
+          "url": "https://sandiegomagazine.com/features/psyonic-bionic-prosthetic-hand-technology/",
+          "label": "San Diego Magazine"
+        },
+        {
+          "url": "https://www.robotics.press/news/psyonic-company-profile/",
+          "label": "Robotics.press profile"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "gelsight",
+      "name": "GelSight",
+      "kind": "supplier",
+      "website": "https://www.gelsight.com",
+      "hq_city": "Waltham",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.38,
+      "lon": -71.24,
+      "founded": 2011,
+      "segment": "Components & Hardware",
+      "subsegment": "Tactile Sensing",
+      "product": "GelSight Mini, DIGIT and Digit 360 vision-based tactile sensors",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [
+        "Meta AI (DIGIT / Digit 360 manufacturing partner)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "research",
+        "dexterous-manipulation",
+        "inspection"
+      ],
+      "summary": "GelSight manufactures and sells Meta's DIGIT tactile sensor (since 2021) and co-introduced the Digit 360 fingertip sensor with Meta AI in Oct 2024.",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20241031980322/en/GelSight-and-Meta-AI-Introduce-Digit-360-Tactile-Sensor/",
+          "label": "Business Wire: GelSight and Meta AI introduce Digit 360"
+        },
+        {
+          "url": "https://www.therobotreport.com/gelsight-meta-ai-release-digit-360-tactile-sensor-for-robotic-fingers/",
+          "label": "The Robot Report"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "ouster",
+      "name": "Ouster",
+      "kind": "supplier",
+      "website": "https://ouster.com",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2015,
+      "segment": "Components & Hardware",
+      "subsegment": "LiDAR & Depth",
+      "product": "OS/REV7 digital lidar, StereoLabs ZED stereo cameras (since Feb 2026)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NYSE: OUST",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [
+        "Serve Robotics"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "sidewalk-delivery",
+        "amr",
+        "industrial-automation",
+        "smart-infrastructure",
+        "automotive"
+      ],
+      "summary": "Ouster supplies lidar to Serve Robotics under a 2022 multi-year agreement extended in 2024, merged with Velodyne in 2023 and acquired StereoLabs in February 2026.",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20220120005327/en/Ouster-and-Serve-Robotics-Sign-Multi-Year-Strategic-Agreement-to-Support-Expansion-of-Autonomous-Delivery-Fleets",
+          "label": "Business Wire: Ouster–Serve agreement (2022)"
+        },
+        {
+          "url": "https://www.businesswire.com/news/home/20260209715094/en/Ouster-Acquires-StereoLabs-Creating-a-World-Leading-Physical-AI-Sensing",
+          "label": "Business Wire: Ouster acquires StereoLabs (2026)"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "velodyne",
+      "name": "Velodyne Lidar",
+      "kind": "supplier",
+      "website": "https://ouster.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": 1983,
+      "segment": "Components & Hardware",
+      "subsegment": "LiDAR & Depth",
+      "product": "Legacy Velodyne lidar (now Ouster)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Merged into Ouster (per schema canonical note).",
+      "suppliers": [],
+      "tags": [
+        "lidar"
+      ],
+      "summary": "Velodyne Lidar merged into Ouster in 2023.",
+      "sources": [
+        {
+          "url": "https://ouster.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "stereolabs",
+      "name": "StereoLabs",
+      "kind": "supplier",
+      "website": "https://www.stereolabs.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "FR",
+      "lat": null,
+      "lon": null,
+      "founded": 2010,
+      "segment": "Components & Hardware",
+      "subsegment": "Cameras & Vision",
+      "product": "ZED stereo depth cameras, ZED Box, AI perception SDK",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Paris-founded; US office city not verified this pass.",
+      "suppliers": [],
+      "tags": [
+        "amr",
+        "humanoids",
+        "drones",
+        "research"
+      ],
+      "summary": "StereoLabs, maker of ZED stereo cameras, was acquired by Ouster (closed Feb 4, 2026) for ~$35M plus 1.8M shares and reported ~$16M 2025 revenue.",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20260209715094/en/Ouster-Acquires-StereoLabs-Creating-a-World-Leading-Physical-AI-Sensing",
+          "label": "Business Wire: Ouster acquires StereoLabs"
+        },
+        {
+          "url": "https://techcrunch.com/?p=3090990",
+          "label": "TechCrunch"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "hesai",
+      "name": "Hesai Technology",
+      "kind": "supplier",
+      "website": "https://www.hesaitech.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "CN",
+      "lat": null,
+      "lon": null,
+      "founded": 2014,
+      "segment": "Components & Hardware",
+      "subsegment": "LiDAR & Depth",
+      "product": "JT-series mini 3D lidar for robotics; XT/QT/AT lidar",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: HSAI",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [
+        "MOVA (robotic lawn mower)",
+        "Kutting Technology (300k JT units)",
+        "Gausium (cleaning robots)",
+        "Grab"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "HQ Shanghai; US office not verified. Kutting order single-sourced. No US robotics customer found.",
+      "suppliers": [],
+      "tags": [
+        "lawn-mowers",
+        "cleaning-robots",
+        "delivery-robots",
+        "amr",
+        "automotive"
+      ],
+      "summary": "Hesai launched its JT mini 3D lidar for robotics at CES 2025 and says it serves robotics customers in 40+ countries, delivering 20,000+ robotics units in Dec 2024 alone.",
+      "sources": [
+        {
+          "url": "https://www.hesaitech.com/?p=7281",
+          "label": "Hesai: CES 2025 MOVA lawn mowers"
+        },
+        {
+          "url": "https://www.hesaitech.com/?p=7160",
+          "label": "Hesai: 100K units/month"
+        },
+        {
+          "url": "https://metal.com/en/newscontent/103292478",
+          "label": "SMM: Kutting Technology order"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "luminar",
+      "name": "Luminar Technologies",
+      "kind": "supplier",
+      "website": "https://www.luminartech.com",
+      "hq_city": "Orlando",
+      "hq_state": "FL",
+      "hq_country": "US",
+      "lat": 28.54,
+      "lon": -81.38,
+      "founded": 2012,
+      "segment": "Components & Hardware",
+      "subsegment": "LiDAR & Depth",
+      "product": "Iris lidar (business sold to MicroVision)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": "Ceased operations; MicroVision lidar sale price reported as $22M or $33M (conflicting). Case 25-90807 (S.D. Tex.).",
+      "suppliers": [],
+      "tags": [
+        "automotive"
+      ],
+      "summary": "Luminar filed Chapter 11, sold its lidar business to MicroVision and its LSI semiconductor unit to Quantum Computing Inc., and its liquidation plan became effective Apr 6, 2026.",
+      "sources": [
+        {
+          "url": "https://www.tipranks.com/news/company-announcements/luminar-technologies-confirms-liquidation-plan-and-ends-operations",
+          "label": "TipRanks: liquidation plan"
+        },
+        {
+          "url": "https://chapter11cases.com/blogs/news/luminar-technologies-proposes-liquidation-through-143-million-asset-sale-to-quantum-computing-and-microvision",
+          "label": "Chapter11Cases"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "microvision",
+      "name": "MicroVision",
+      "kind": "supplier",
+      "website": "https://microvision.com",
+      "hq_city": "Redmond",
+      "hq_state": "WA",
+      "hq_country": "US",
+      "lat": 47.67,
+      "lon": -122.12,
+      "founded": 1993,
+      "segment": "Components & Hardware",
+      "subsegment": "LiDAR & Depth",
+      "product": "MOVIA lidar; acquired Luminar lidar assets (2026)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: MVIS",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "automotive",
+        "industrial-automation"
+      ],
+      "summary": "MicroVision won the auction for Luminar's lidar business in Luminar's Chapter 11 case.",
+      "sources": [
+        {
+          "url": "https://chapter11cases.com/blogs/news/luminar-technologies-proposes-liquidation-through-143-million-asset-sale-to-quantum-computing-and-microvision",
+          "label": "Chapter11Cases"
+        },
+        {
+          "url": "https://microvision.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "aeva",
+      "name": "Aeva",
+      "kind": "supplier",
+      "website": "https://www.aeva.com",
+      "hq_city": "Mountain View",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.39,
+      "lon": -122.08,
+      "founded": 2017,
+      "segment": "Components & Hardware",
+      "subsegment": "LiDAR & Depth",
+      "product": "FMCW 4D lidar (Atlas), industrial metrology sensors",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: AEVA",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [
+        "Nikon (industrial metrology partnership)",
+        "The Indoor Lab (security production win)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "No named 2026 industrial robotics customer found.",
+      "suppliers": [],
+      "tags": [
+        "industrial-automation",
+        "automotive",
+        "security",
+        "metrology"
+      ],
+      "summary": "Aeva makes FMCW 4D lidar and reported production wins in industrial robotics, security and infrastructure, with 2024 revenue of $9.1M.",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20250319343204/en",
+          "label": "Aeva FY2024 results"
+        },
+        {
+          "url": "https://businesswire.com/news/home/20210810005226/en/5027495/Aeva-and-Nikon-to-Bring-4D-LiDAR-to-Industrial-Automation-and-Metrology-Markets",
+          "label": "Aeva–Nikon"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "cepton",
+      "name": "Cepton",
+      "kind": "supplier",
+      "website": "https://www.cepton.com",
+      "hq_city": "San Jose",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.34,
+      "lon": -121.89,
+      "founded": 2016,
+      "segment": "Components & Hardware",
+      "subsegment": "LiDAR & Depth",
+      "product": "Lidar sensors for automotive and smart infrastructure",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Acquisition per prior knowledge; not re-verified this pass.",
+      "suppliers": [],
+      "tags": [
+        "automotive",
+        "smart-infrastructure"
+      ],
+      "summary": "San Jose lidar maker Cepton was acquired by Japanese auto supplier Koito Manufacturing (closed Jan 2025).",
+      "sources": [
+        {
+          "url": "https://www.cepton.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "robosense",
+      "name": "RoboSense",
+      "kind": "supplier",
+      "website": "https://www.robosense.ai",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "CN",
+      "lat": null,
+      "lon": null,
+      "founded": 2014,
+      "segment": "Components & Hardware",
+      "subsegment": "LiDAR & Depth",
+      "product": "E1R/Airy digital lidar for robotics, automotive lidar",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "HKEX: 2498",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "US office not verified. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "amr",
+        "lawn-mowers",
+        "automotive"
+      ],
+      "summary": "Shenzhen-based RoboSense makes lidar for automotive and robotics markets.",
+      "sources": [
+        {
+          "url": "https://www.robosense.ai",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "orbbec",
+      "name": "Orbbec",
+      "kind": "supplier",
+      "website": "https://www.orbbec.com",
+      "hq_city": "Troy",
+      "hq_state": "MI",
+      "hq_country": "CN",
+      "lat": 42.61,
+      "lon": -83.15,
+      "founded": 2013,
+      "segment": "Components & Hardware",
+      "subsegment": "Cameras & Vision",
+      "product": "Gemini 330-series stereo depth cameras (incl. GMSL2 335Lg), Femto ToF",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "SSE: 688322",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Global HQ Shenzhen. No named robotics customers found. Ticker from prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "amr",
+        "humanoids",
+        "industrial-arms"
+      ],
+      "summary": "Orbbec's Gemini 330 stereo cameras integrate with NVIDIA Isaac Perceptor and were validated on Jetson Thor at CES 2026; a trade listing gives Troy, MI as its US base.",
+      "sources": [
+        {
+          "url": "https://www.therobotreport.com/orbbec-releases-two-new-gemini-stereo-cameras-for-robotics/",
+          "label": "The Robot Report"
+        },
+        {
+          "url": "https://en.startuprecipe.co.kr/archives/pr-newswire/orbbec-gemini-330-series-stereo-vision-cameras-integrated-with-nvidia-isaac-robotics-platform",
+          "label": "PR Newswire: Gemini 330 with NVIDIA Isaac"
+        },
+        {
+          "url": "https://www.vision-systems.com/cameras-accessories/article/55237731/orbbec-launches-new-stereo-vision-3d-camera",
+          "label": "Vision Systems Design"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "sony",
+      "name": "Sony Semiconductor Solutions",
+      "kind": "supplier",
+      "website": "https://www.sony-semicon.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "JP",
+      "lat": null,
+      "lon": null,
+      "founded": 2016,
+      "segment": "Compute & Semiconductors",
+      "subsegment": "Semiconductors",
+      "product": "CMOS image sensors, ToF depth sensors, IMX500 AI vision sensor",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "US office not verified. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "machine-vision",
+        "amr",
+        "drones"
+      ],
+      "summary": "Sony Semiconductor Solutions makes CMOS image sensors used in most robotics cameras.",
+      "sources": [
+        {
+          "url": "https://www.sony-semicon.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "basler",
+      "name": "Basler",
+      "kind": "supplier",
+      "website": "https://www.baslerweb.com",
+      "hq_city": "Exton",
+      "hq_state": "PA",
+      "hq_country": "DE",
+      "lat": 40.03,
+      "lon": -75.62,
+      "founded": 1988,
+      "segment": "Components & Hardware",
+      "subsegment": "Cameras & Vision",
+      "product": "Industrial area-scan cameras, 3D ToF/stereo cameras, embedded vision kits",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "XETRA: BSL",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "machine-vision",
+        "industrial-automation",
+        "amr"
+      ],
+      "summary": "Basler makes industrial and embedded vision cameras; Basler Inc. is based in Exton, PA.",
+      "sources": [
+        {
+          "url": "https://www.baslerweb.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "teledyne-flir",
+      "name": "Teledyne FLIR",
+      "kind": "supplier",
+      "website": "https://www.flir.com",
+      "hq_city": "Wilsonville",
+      "hq_state": "OR",
+      "hq_country": "US",
+      "lat": 45.3,
+      "lon": -122.77,
+      "founded": 1978,
+      "segment": "Components & Hardware",
+      "subsegment": "Cameras & Vision",
+      "product": "Thermal camera cores (Boson/Lepton), machine-vision cameras, unmanned systems",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "drones",
+        "defense",
+        "inspection",
+        "machine-vision"
+      ],
+      "summary": "Teledyne FLIR, part of Teledyne Technologies (NYSE: TDY), supplies thermal and visible camera modules used on robots and drones.",
+      "sources": [
+        {
+          "url": "https://www.flir.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "zebra-technologies",
+      "name": "Zebra Technologies",
+      "kind": "supplier",
+      "website": "https://www.zebra.com",
+      "hq_city": "Lincolnshire",
+      "hq_state": "IL",
+      "hq_country": "US",
+      "lat": 42.19,
+      "lon": -87.91,
+      "founded": 1969,
+      "segment": "Components & Hardware",
+      "subsegment": "Cameras & Vision",
+      "product": "Machine vision (incl. Photoneo 3D), fixed industrial scanners",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: ZBRA",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "warehouse",
+        "logistics",
+        "industrial-automation"
+      ],
+      "summary": "Zebra acquired Slovak 3D-vision maker Photoneo (announced Dec 2024, completed early 2025) to add 3D machine vision for bin picking and depalletizing.",
+      "sources": [
+        {
+          "url": "https://www.photoneo.com/photoneo-acquired-by-zebra-technologies/",
+          "label": "Photoneo: acquired by Zebra"
+        },
+        {
+          "url": "https://www.mmh.com/article/zebra_technologies_to_acquire_photoneo_from_photoneo_brightpick_group/Zebra_Technologies",
+          "label": "MMH"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "cognex",
+      "name": "Cognex",
+      "kind": "supplier",
+      "website": "https://www.cognex.com",
+      "hq_city": "Natick",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.28,
+      "lon": -71.35,
+      "founded": 1981,
+      "segment": "Components & Hardware",
+      "subsegment": "Cameras & Vision",
+      "product": "Machine-vision systems, 3D sensors, barcode readers; acquiring RealSense",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: CGNX",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-automation",
+        "logistics",
+        "robot-guidance"
+      ],
+      "summary": "Cognex signed a definitive agreement on Sep 22, 2026 to acquire RealSense for ~$500M cash to expand into robotic perception.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/0000851205/000085120526000071/exhibit991-pressrelease.htm",
+          "label": "Cognex 8-K press release"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "sick",
+      "name": "SICK",
+      "kind": "supplier",
+      "website": "https://www.sick.com",
+      "hq_city": "Minneapolis",
+      "hq_state": "MN",
+      "hq_country": "DE",
+      "lat": 44.98,
+      "lon": -93.27,
+      "founded": 1946,
+      "segment": "Components & Hardware",
+      "subsegment": "Safety Systems",
+      "product": "Safety laser scanners, 2D/3D lidar, safety controllers, vision sensors",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "amr",
+        "agv",
+        "industrial-automation"
+      ],
+      "summary": "SICK makes safety laser scanners and lidar used for AMR/AGV navigation and safeguarding.",
+      "sources": [
+        {
+          "url": "https://www.sick.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "pilz",
+      "name": "Pilz",
+      "kind": "supplier",
+      "website": "https://www.pilz.com",
+      "hq_city": "Canton",
+      "hq_state": "MI",
+      "hq_country": "DE",
+      "lat": 42.31,
+      "lon": -83.48,
+      "founded": 1948,
+      "segment": "Components & Hardware",
+      "subsegment": "Safety Systems",
+      "product": "Safety controllers, PSENscan safety scanners, robot safety solutions",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-arms",
+        "cobots"
+      ],
+      "summary": "Pilz supplies machine-safety controllers, scanners and robot safeguarding.",
+      "sources": [
+        {
+          "url": "https://www.pilz.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "keyence",
+      "name": "Keyence",
+      "kind": "supplier",
+      "website": "https://www.keyence.com",
+      "hq_city": "Itasca",
+      "hq_state": "IL",
+      "hq_country": "JP",
+      "lat": 41.97,
+      "lon": -88.02,
+      "founded": 1974,
+      "segment": "Components & Hardware",
+      "subsegment": "Cameras & Vision",
+      "product": "Vision systems, 3D robot vision, laser sensors, safety scanners",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "TSE: 6861",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-automation",
+        "robot-guidance"
+      ],
+      "summary": "Keyence sells vision systems and sensors, including 3D robot-guidance vision; Keyence Corporation of America is based in Itasca, IL.",
+      "sources": [
+        {
+          "url": "https://www.keyence.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "omron",
+      "name": "OMRON",
+      "kind": "supplier",
+      "website": "https://automation.omron.com",
+      "hq_city": "Hoffman Estates",
+      "hq_state": "IL",
+      "hq_country": "JP",
+      "lat": 42.04,
+      "lon": -88.08,
+      "founded": 1933,
+      "segment": "Components & Hardware",
+      "subsegment": "Safety Systems",
+      "product": "Safety scanners, PLCs, motion control, mobile robots and cobots",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "TSE: 6645",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-automation",
+        "amr"
+      ],
+      "summary": "OMRON Automation Americas supplies safety, motion-control and automation components.",
+      "sources": [
+        {
+          "url": "https://automation.omron.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "amprius",
+      "name": "Amprius Technologies",
+      "kind": "supplier",
+      "website": "https://amprius.com",
+      "hq_city": "Fremont",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.55,
+      "lon": -121.99,
+      "founded": 2008,
+      "segment": "Components & Hardware",
+      "subsegment": "Batteries & Power",
+      "product": "High-energy silicon-anode lithium-ion cells (SiCore/SiMaxx)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NYSE: AMPX",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "drones",
+        "defense",
+        "aviation"
+      ],
+      "summary": "Amprius makes high-energy silicon-anode lithium-ion cells aimed at drones and aviation.",
+      "sources": [
+        {
+          "url": "https://amprius.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "enersys",
+      "name": "EnerSys",
+      "kind": "supplier",
+      "website": "https://www.enersys.com",
+      "hq_city": "Reading",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.34,
+      "lon": -75.93,
+      "founded": 2000,
+      "segment": "Components & Hardware",
+      "subsegment": "Batteries & Power",
+      "product": "Motive-power lithium/TPPL batteries and chargers for AGVs/AMRs",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NYSE: ENS",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "agv",
+        "amr",
+        "warehouse"
+      ],
+      "summary": "EnerSys supplies motive-power batteries and chargers for material-handling vehicles and AGVs.",
+      "sources": [
+        {
+          "url": "https://www.enersys.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "wibotic",
+      "name": "WiBotic",
+      "kind": "supplier",
+      "website": "https://www.wibotic.com",
+      "hq_city": "Seattle",
+      "hq_state": "WA",
+      "hq_country": "US",
+      "lat": 47.61,
+      "lon": -122.33,
+      "founded": 2015,
+      "segment": "Components & Hardware",
+      "subsegment": "Batteries & Power",
+      "product": "Wireless charging and power optimization for robots and drones",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "amr",
+        "drones",
+        "quadrupeds"
+      ],
+      "summary": "Seattle startup WiBotic makes wireless charging systems for mobile robots and drones.",
+      "sources": [
+        {
+          "url": "https://www.wibotic.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "foxconn",
+      "name": "Foxconn (Hon Hai)",
+      "kind": "supplier",
+      "website": "https://www.honhai.com",
+      "hq_city": "Houston",
+      "hq_state": "TX",
+      "hq_country": "TW",
+      "lat": 29.76,
+      "lon": -95.37,
+      "founded": 1974,
+      "segment": "Components & Hardware",
+      "subsegment": "Contract Manufacturing",
+      "product": "Electronics manufacturing; AI-server plant in Houston planned to use humanoid robots",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "TWSE: 2317",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "HQ Tucheng, Taiwan; Houston listed as robotics-relevant US site. 2026 deployment status unconfirmed.",
+      "suppliers": [],
+      "tags": [
+        "contract-manufacturing",
+        "ai-servers"
+      ],
+      "summary": "Foxconn said it would deploy humanoid robots running NVIDIA Isaac GR00T N at its Houston NVIDIA AI-server plant, which NVIDIA said Foxconn designed with Omniverse.",
+      "sources": [
+        {
+          "url": "https://techinformed.com/foxconn-to-use-humanoid-robots-at-houston-ai-server-plant/",
+          "label": "TechInformed"
+        },
+        {
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-products-could-be-made-using-humanoid-robots-for-the-first-time-ever-company-in-talks-with-foxconn-to-deploy-them-in-houston-factory-building-gb300-ai-servers",
+          "label": "Tom's Hardware"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "jabil",
+      "name": "Jabil",
+      "kind": "supplier",
+      "website": "https://www.jabil.com",
+      "hq_city": "St. Petersburg",
+      "hq_state": "FL",
+      "hq_country": "US",
+      "lat": 27.77,
+      "lon": -82.64,
+      "founded": 1966,
+      "segment": "Components & Hardware",
+      "subsegment": "Contract Manufacturing",
+      "product": "Contract manufacturing; building Apptronik Apollo humanoids",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NYSE: JBL",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [
+        "Apptronik"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "contract-manufacturing",
+        "humanoids"
+      ],
+      "summary": "Jabil and Apptronik announced (Feb 2025) a pilot and strategic collaboration under which Jabil will build Apollo humanoids and pilot them in its factories.",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/press-release/apptronik-and-jabil-collaborate-scale-production-apollo-humanoid-robots-and-deploy",
+          "label": "Business Wire via Nasdaq"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "magna",
+      "name": "Magna International",
+      "kind": "supplier",
+      "website": "https://www.magna.com",
+      "hq_city": "Troy",
+      "hq_state": "MI",
+      "hq_country": "CA",
+      "lat": 42.61,
+      "lon": -83.15,
+      "founded": 1957,
+      "segment": "Components & Hardware",
+      "subsegment": "Contract Manufacturing",
+      "product": "Contract manufacturing of delivery robots",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NYSE: MGA",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [
+        "Serve Robotics"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Global HQ Aurora, Ontario; Troy, MI US office per prior knowledge.",
+      "suppliers": [],
+      "tags": [
+        "contract-manufacturing",
+        "sidewalk-delivery",
+        "automotive"
+      ],
+      "summary": "Magna became the exclusive contract manufacturer of Serve Robotics' delivery robots under an April 2024 production agreement.",
+      "sources": [
+        {
+          "url": "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-enters-production-agreement-magna-scale-robot",
+          "label": "Serve Robotics press release"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "flex",
+      "name": "Flex",
+      "kind": "supplier",
+      "website": "https://flex.com",
+      "hq_city": "Austin",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 30.27,
+      "lon": -97.74,
+      "founded": 1969,
+      "segment": "Components & Hardware",
+      "subsegment": "Contract Manufacturing",
+      "product": "Electronics/contract manufacturing, power modules",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: FLEX",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Legally domiciled in Singapore. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "contract-manufacturing"
+      ],
+      "summary": "Flex is a contract electronics manufacturer with principal executive offices in Austin, TX.",
+      "sources": [
+        {
+          "url": "https://flex.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "sanmina",
+      "name": "Sanmina",
+      "kind": "supplier",
+      "website": "https://www.sanmina.com",
+      "hq_city": "San Jose",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.34,
+      "lon": -121.89,
+      "founded": 1980,
+      "segment": "Components & Hardware",
+      "subsegment": "Contract Manufacturing",
+      "product": "Electronics manufacturing services, precision mechanicals",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: SANM",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "contract-manufacturing",
+        "medical",
+        "defense"
+      ],
+      "summary": "Sanmina is a San Jose-based electronics manufacturing services provider.",
+      "sources": [
+        {
+          "url": "https://www.sanmina.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "kinova",
+      "name": "Kinova",
+      "kind": "supplier",
+      "website": "https://www.kinovarobotics.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "CA",
+      "lat": null,
+      "lon": null,
+      "founded": 2006,
+      "segment": "Components & Hardware",
+      "subsegment": "Embedded & Motion Control",
+      "product": "Lightweight robotic arms (Gen3, Link 6), assistive arms, actuators",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "US office not verified. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "research",
+        "assistive",
+        "medical-robotics"
+      ],
+      "summary": "Canadian Kinova makes lightweight robot arms for research, assistive and medical uses.",
+      "sources": [
+        {
+          "url": "https://www.kinovarobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "mitsubishi-electric",
+      "name": "Mitsubishi Electric Automation",
+      "kind": "supplier",
+      "website": "https://us.mitsubishielectric.com/fa",
+      "hq_city": "Vernon Hills",
+      "hq_state": "IL",
+      "hq_country": "JP",
+      "lat": 42.22,
+      "lon": -87.96,
+      "founded": 1921,
+      "segment": "Components & Hardware",
+      "subsegment": "Embedded & Motion Control",
+      "product": "Servo systems, PLCs, CNC, industrial robots",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-automation"
+      ],
+      "summary": "Mitsubishi Electric Automation, the US arm of Mitsubishi Electric (TSE: 6503), supplies servos, PLCs and robots.",
+      "sources": [
+        {
+          "url": "https://us.mitsubishielectric.com/fa",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "siemens",
+      "name": "Siemens",
+      "kind": "supplier",
+      "website": "https://www.siemens.com",
+      "hq_city": "Washington",
+      "hq_state": "DC",
+      "hq_country": "DE",
+      "lat": 38.91,
+      "lon": -77.04,
+      "founded": 1847,
+      "segment": "Components & Hardware",
+      "subsegment": "Embedded & Motion Control",
+      "product": "SIMATIC PLCs, SINAMICS drives, Simcenter/Process Simulate robotics software",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "XETRA: SIE",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-automation",
+        "digital-twin"
+      ],
+      "summary": "Siemens supplies automation controllers, drives and simulation software used across robotic cells.",
+      "sources": [
+        {
+          "url": "https://www.siemens.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "beckhoff",
+      "name": "Beckhoff Automation",
+      "kind": "supplier",
+      "website": "https://www.beckhoff.com",
+      "hq_city": "Savage",
+      "hq_state": "MN",
+      "hq_country": "DE",
+      "lat": 44.78,
+      "lon": -93.34,
+      "founded": 1980,
+      "segment": "Components & Hardware",
+      "subsegment": "Embedded & Motion Control",
+      "product": "PC-based control (TwinCAT), EtherCAT I/O, servo drives",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-automation",
+        "semiconductor-equipment"
+      ],
+      "summary": "Beckhoff makes PC-based controllers and EtherCAT systems; its US subsidiary is in Savage, MN.",
+      "sources": [
+        {
+          "url": "https://www.beckhoff.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "elmo-motion-control",
+      "name": "Elmo Motion Control",
+      "kind": "supplier",
+      "website": "https://www.elmomc.com",
+      "hq_city": "Nashua",
+      "hq_state": "NH",
+      "hq_country": "IL",
+      "lat": 42.77,
+      "lon": -71.47,
+      "founded": 1988,
+      "segment": "Components & Hardware",
+      "subsegment": "Embedded & Motion Control",
+      "product": "Compact servo drives (Gold/Platinum), multi-axis motion controllers",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Bosch Rexroth ownership and US office per prior knowledge. Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "humanoids",
+        "exoskeletons",
+        "surgical-robotics",
+        "semiconductor-equipment"
+      ],
+      "summary": "Israeli Elmo Motion Control, part of Bosch Rexroth, makes compact servo drives used in mobile and medical robots.",
+      "sources": [
+        {
+          "url": "https://www.elmomc.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "regal-rexnord",
+      "name": "Regal Rexnord",
+      "kind": "supplier",
+      "website": "https://www.regalrexnord.com",
+      "hq_city": "Milwaukee",
+      "hq_state": "WI",
+      "hq_country": "US",
+      "lat": 43.04,
+      "lon": -87.91,
+      "founded": 1955,
+      "segment": "Components & Hardware",
+      "subsegment": "Actuators & Motors",
+      "product": "Motors, gearing, bearings; parent of Kollmorgen",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NYSE: RRX",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-automation",
+        "humanoids"
+      ],
+      "summary": "Regal Rexnord is a Milwaukee-based power-transmission company and the parent of Kollmorgen.",
+      "sources": [
+        {
+          "url": "https://www.regalrexnord.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "rockwell-automation",
+      "name": "Rockwell Automation",
+      "kind": "supplier",
+      "website": "https://www.rockwellautomation.com",
+      "hq_city": "Milwaukee",
+      "hq_state": "WI",
+      "hq_country": "US",
+      "lat": 43.04,
+      "lon": -87.91,
+      "founded": 1903,
+      "segment": "Components & Hardware",
+      "subsegment": "Embedded & Motion Control",
+      "product": "Logix controllers, Kinetix servo, safety systems; owns Clearpath/OTTO Motors",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NYSE: ROK",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "industrial-automation",
+        "amr"
+      ],
+      "summary": "Rockwell Automation supplies controllers, servo motion and safety products and owns AMR maker Clearpath Robotics/OTTO Motors.",
+      "sources": [
+        {
+          "url": "https://www.rockwellautomation.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "mediatek-innovation-fund",
+      "name": "MediaTek Innovation Fund",
+      "kind": "investor",
+      "website": "https://www.mediatek.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "TW",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Corporate VC",
+      "product": "Corporate venture arm of MediaTek",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": "Profile (HQ/products) from company site and prior public knowledge; named customers not verified in this pass (web search budget exhausted).",
+      "suppliers": [],
+      "tags": [
+        "investor"
+      ],
+      "summary": "MediaTek's corporate fund co-invested in RealSense's $50M Series A (Jul 2025).",
+      "sources": [
+        {
+          "url": "https://www.intelcapital.com/realsense-completes-spin-out-from-intel-raises-50-million-to-accelerate-ai-powered-vision-for-robotics-and-biometrics/",
+          "label": "RealSense spinout press release"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "nvidia",
+      "to": "agility-robotics",
+      "type": "supplies",
+      "note": "Named Jetson Thor early adopter; Jetson already integrated in Digit gen 5, Thor planned for gen 6 (NVIDIA press release, Aug 25 2025)",
+      "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Powered-Jetson-Thor-Now-Available-Accelerating-the-Age-of-General-Robotics/default.aspx",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "amazon",
+      "type": "supplies",
+      "note": "Amazon Robotics named Jetson Thor early adopter (NVIDIA press release, Aug 25 2025)",
+      "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Powered-Jetson-Thor-Now-Available-Accelerating-the-Age-of-General-Robotics/default.aspx",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "boston-dynamics",
+      "type": "supplies",
+      "note": "Named Jetson Thor early adopter (NVIDIA press release, Aug 25 2025)",
+      "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Powered-Jetson-Thor-Now-Available-Accelerating-the-Age-of-General-Robotics/default.aspx",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "figure-ai",
+      "type": "supplies",
+      "note": "Named Jetson Thor early adopter; CEO quoted on running gen-AI models onboard (NVIDIA press release, Aug 25 2025)",
+      "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Powered-Jetson-Thor-Now-Available-Accelerating-the-Age-of-General-Robotics/default.aspx",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "caterpillar",
+      "type": "supplies",
+      "note": "Named Jetson Thor early adopter (NVIDIA press release, Aug 25 2025)",
+      "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Powered-Jetson-Thor-Now-Available-Accelerating-the-Age-of-General-Robotics/default.aspx",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "hexagon",
+      "type": "supplies",
+      "note": "Named Jetson Thor early adopter (NVIDIA press release, Aug 25 2025)",
+      "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Powered-Jetson-Thor-Now-Available-Accelerating-the-Age-of-General-Robotics/default.aspx",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "medtronic",
+      "type": "supplies",
+      "note": "Named Jetson Thor early adopter (NVIDIA press release, Aug 25 2025)",
+      "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Powered-Jetson-Thor-Now-Available-Accelerating-the-Age-of-General-Robotics/default.aspx",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "meta",
+      "type": "supplies",
+      "note": "Named Jetson Thor early adopter (NVIDIA press release, Aug 25 2025)",
+      "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Powered-Jetson-Thor-Now-Available-Accelerating-the-Age-of-General-Robotics/default.aspx",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "ouster",
+      "to": "serve-robotics",
+      "type": "supplies",
+      "note": "Multi-year lidar supply agreement (Jan 2022; OS1 on each robot), extended Jun 2024 to REV7 sensors for 2,000 robots",
+      "source": "https://www.businesswire.com/news/home/20220120005327/en/Ouster-and-Serve-Robotics-Sign-Multi-Year-Strategic-Agreement-to-Support-Expansion-of-Autonomous-Delivery-Fleets",
+      "confidence": "verified"
+    },
+    {
+      "from": "magna",
+      "to": "serve-robotics",
+      "type": "supplies",
+      "note": "Exclusive contract manufacturer of Serve delivery robots (production agreement, Apr 2024)",
+      "source": "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-enters-production-agreement-magna-scale-robot",
+      "confidence": "verified"
+    },
+    {
+      "from": "jabil",
+      "to": "apptronik",
+      "type": "supplies",
+      "note": "Pilot and strategic collaboration to build Apollo humanoids and pilot them in Jabil factories (Feb 2025); release does not state full-scale production volume",
+      "source": "https://www.nasdaq.com/press-release/apptronik-and-jabil-collaborate-scale-production-apollo-humanoid-robots-and-deploy",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "schaeffler",
+      "to": "neura-robotics",
+      "type": "supplies",
+      "note": "Technology partnership to develop and supply humanoid joint actuators (Nov 2025); Schaeffler to deploy NEURA humanoids",
+      "source": "https://www.automationworld.com/factory/robotics/news/55332013/schaeffler-partners-with-neura-robotics-to-integrate-humanoids-into-production-operations",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "schaeffler",
+      "to": "agility-robotics",
+      "type": "invests",
+      "note": "Minority investment in Agility Robotics",
+      "source": "https://www.automationworld.com/factory/robotics/news/55332013/schaeffler-partners-with-neura-robotics-to-integrate-humanoids-into-production-operations",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "schaeffler",
+      "to": "agility-robotics",
+      "type": "customer",
+      "note": "Agreement to purchase Digit humanoids for Schaeffler plants",
+      "source": "https://www.automationworld.com/factory/robotics/news/55332013/schaeffler-partners-with-neura-robotics-to-integrate-humanoids-into-production-operations",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "qualcomm",
+      "to": "figure-ai",
+      "type": "partnership",
+      "note": "Qualcomm says it is working with Figure to define next-gen compute architecture (CES 2026); not a disclosed supply contract",
+      "source": "https://pulse2.com/qualcomm-introduces-new-robotics-stack-and-dragonwing-iq10-processor-to-power-physical-ai",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "gelsight",
+      "to": "meta",
+      "type": "partnership",
+      "note": "GelSight manufactures/sells Meta's DIGIT (since 2021) and co-introduced Digit 360 (Oct 2024)",
+      "source": "https://www.businesswire.com/news/home/20241031980322/en/GelSight-and-Meta-AI-Introduce-Digit-360-Tactile-Sensor/",
+      "confidence": "verified"
+    },
+    {
+      "from": "psyonic",
+      "to": "abb",
+      "type": "partnership",
+      "note": "ABB Robotics and PSYONIC announced pairing the Ability Hand with GoFa cobot (Jun 2026)",
+      "source": "https://runtimewire.com/article/psyonic-ability-hand-nvidia-abb-dexterity-data",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "ouster",
+      "to": "stereolabs",
+      "type": "acquisition",
+      "note": "Acquired StereoLabs (closed Feb 4 2026) for ~$35M + 1.8M shares",
+      "source": "https://www.businesswire.com/news/home/20260209715094/en/Ouster-Acquires-StereoLabs-Creating-a-World-Leading-Physical-AI-Sensing",
+      "confidence": "verified"
+    },
+    {
+      "from": "ouster",
+      "to": "velodyne",
+      "type": "acquisition",
+      "note": "Velodyne merged into Ouster (2023)",
+      "source": "https://ouster.com",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "cognex",
+      "to": "intel-realsense",
+      "type": "acquisition",
+      "note": "Definitive agreement to acquire RealSense for ~$500M cash (Sep 22 2026); close expected Q4 2026 — pending",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000851205/000085120526000071/exhibit991-pressrelease.htm",
+      "confidence": "verified"
+    },
+    {
+      "from": "intel",
+      "to": "intel-realsense",
+      "type": "spinout",
+      "note": "RealSense completed spinout from Intel (Jul 2025)",
+      "source": "https://www.intelcapital.com/realsense-completes-spin-out-from-intel-raises-50-million-to-accelerate-ai-powered-vision-for-robotics-and-biometrics/",
+      "confidence": "verified"
+    },
+    {
+      "from": "intel-capital",
+      "to": "intel-realsense",
+      "type": "invests",
+      "note": "Participated in $50M Series A at spinout (Jul 2025)",
+      "source": "https://www.intelcapital.com/realsense-completes-spin-out-from-intel-raises-50-million-to-accelerate-ai-powered-vision-for-robotics-and-biometrics/",
+      "confidence": "verified"
+    },
+    {
+      "from": "mediatek-innovation-fund",
+      "to": "intel-realsense",
+      "type": "invests",
+      "note": "Participated in $50M Series A at spinout (Jul 2025)",
+      "source": "https://www.intelcapital.com/realsense-completes-spin-out-from-intel-raises-50-million-to-accelerate-ai-powered-vision-for-robotics-and-biometrics/",
+      "confidence": "verified"
+    },
+    {
+      "from": "zebra-technologies",
+      "to": "photoneo",
+      "type": "acquisition",
+      "note": "Acquired Photoneo 3D vision from Photoneo Brightpick Group (announced Dec 2024; completed early 2025)",
+      "source": "https://www.photoneo.com/photoneo-acquired-by-zebra-technologies/",
+      "confidence": "verified"
+    },
+    {
+      "from": "schmalz",
+      "to": "soft-robotics",
+      "type": "acquisition",
+      "note": "Acquired Soft Robotics' mGrip soft-gripper business; remaining company rebranded Oxipital AI",
+      "source": "https://www.robotics247.com/article/soft_robotics_divests_hardware_business_to_schmalz_rebrands/soft_robotics",
+      "confidence": "verified"
+    },
+    {
+      "from": "microvision",
+      "to": "luminar",
+      "type": "acquisition",
+      "note": "Winning bidder for Luminar's lidar business in Chapter 11 (2026)",
+      "source": "https://chapter11cases.com/blogs/news/luminar-technologies-proposes-liquidation-through-143-million-asset-sale-to-quantum-computing-and-microvision",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nxp",
+      "to": "kinara",
+      "type": "acquisition",
+      "note": "Acquired NPU maker Kinara (~$307M), completed Oct 27 2025",
+      "source": "https://www.nxp.jp/company/about-nxp/newsroom/NW-NXP-COMPLETES-ACQUISITIONS-AVIVA-LINKS-KINARA",
+      "confidence": "verified"
+    },
+    {
+      "from": "infineon",
+      "to": "vinrobotics",
+      "type": "partnership",
+      "note": "MoU to develop humanoid robots; joint competency center in Hanoi (2026)",
+      "source": "https://humanoid.guide/?p=12152",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "analog-devices",
+      "to": "mass-robotics",
+      "type": "partnership",
+      "note": "Strategic sponsor of MassRobotics startup programs",
+      "source": "https://www.therobotreport.com/analog-devices-returns-strategic-sponsor-aid-massrobotics-startups/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "foxconn",
+      "to": "nvidia",
+      "type": "partnership",
+      "note": "Foxconn to deploy GR00T-powered humanoids at Houston NVIDIA AI-server plant designed with Omniverse",
+      "source": "https://techinformed.com/foxconn-to-use-humanoid-robots-at-houston-ai-server-plant/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "aeva",
+      "to": "nikon",
+      "type": "partnership",
+      "note": "Partnership to bring FMCW 4D lidar to industrial automation and metrology (2021)",
+      "source": "https://businesswire.com/news/home/20210810005226/en/5027495/Aeva-and-Nikon-to-Bring-4D-LiDAR-to-Industrial-Automation-and-Metrology-Markets",
+      "confidence": "verified"
+    }
+  ],
+  "compatibility": [
+    {
+      "from": "nvidia",
+      "to": "1x-technologies",
+      "note": "Named by NVIDIA as evaluating Jetson Thor (Aug 2025) — not a confirmed supply relationship",
+      "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Powered-Jetson-Thor-Now-Available-Accelerating-the-Age-of-General-Robotics/default.aspx",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "nvidia",
+      "to": "john-deere",
+      "note": "Named by NVIDIA as evaluating Jetson Thor (Aug 2025) — not a confirmed supply relationship",
+      "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Powered-Jetson-Thor-Now-Available-Accelerating-the-Age-of-General-Robotics/default.aspx",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "nvidia",
+      "to": "openai",
+      "note": "Named by NVIDIA as evaluating Jetson Thor (Aug 2025) — not a confirmed supply relationship",
+      "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Powered-Jetson-Thor-Now-Available-Accelerating-the-Age-of-General-Robotics/default.aspx",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "nvidia",
+      "to": "physical-intelligence",
+      "note": "Named by NVIDIA as evaluating Jetson Thor (Aug 2025) — not a confirmed supply relationship",
+      "source": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-Powered-Jetson-Thor-Now-Available-Accelerating-the-Age-of-General-Robotics/default.aspx",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "texas-instruments",
+      "to": "nvidia",
+      "note": "mmWave radar sensor-fusion reference design with Jetson Thor via Holoscan Sensor Bridge (GTC 2026)",
+      "source": "https://tech.yahoo.com/ai/meta-ai/articles/texas-instruments-accelerate-deployment-humanoid-141914711.html",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "nxp",
+      "to": "nvidia",
+      "note": "NXP SoC robotics solutions implementing NVIDIA Holoscan Sensor Bridge (Mar 2026)",
+      "source": "https://investors.nxp.com/news-releases/news-release-details/nxp-delivers-new-innovations-advanced-physical-ai-nvidia",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "analog-devices",
+      "to": "nvidia",
+      "note": "ADI sensing/motion/connectivity paired with Jetson Thor and Holoscan Sensor Bridge for humanoids/AMRs",
+      "source": "https://digitalterminal.in/tech-companies/adi-adopts-nvidia-jetson-thor-to-advance-humanoid-robot-intelligence",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "infineon",
+      "to": "nvidia",
+      "note": "Reference designs integrating Infineon smart actuators with Jetson Thor (date not given in sources)",
+      "source": "https://www.eenewseurope.com/en/wp-json/wp/v2/posts/496430",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "orbbec",
+      "to": "nvidia",
+      "note": "Gemini 330 cameras integrated with Isaac Perceptor and validated on Jetson Thor (CES 2026)",
+      "source": "https://en.startuprecipe.co.kr/archives/pr-newswire/orbbec-gemini-330-series-stereo-vision-cameras-integrated-with-nvidia-isaac-robotics-platform",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "ambarella",
+      "to": "e-con-systems",
+      "note": "e-con Systems robotics computing platform built on Ambarella CV72S for AMRs/outdoor robots (Jan 2024)",
+      "source": "https://www.eejournal.com/industry_news/e-con-systems-launches-robotics-computing-platform-during-ces-partners-with-ambarella-for-industrial-amr-and-outdoor-robots",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "qualcomm",
+      "to": "booster-robotics",
+      "note": "Named humanoid maker on Qualcomm Dragonwing roadmap (CES 2026)",
+      "source": "https://gamesbeat.com/qualcomm-enables-new-generation-of-humanoid-robots/",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "qualcomm",
+      "to": "vinmotion",
+      "note": "Motion 2 humanoid shown on Dragonwing IQ9 at CES 2026",
+      "source": "https://www.barchart.com/story/news/36885616/qualcomm-introduces-a-full-suite-of-robotics-technologies-powering-physical-ai-from-household-robots-up-to-full-size-humanoids",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "qualcomm",
+      "to": "kuka",
+      "note": "Qualcomm reported to be in discussions with KUKA (CES 2026) — not a deal",
+      "source": "https://www.itiger.com/news/1152041674",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "qualcomm",
+      "to": "neura-robotics",
+      "note": "Listed as IQ10 early-access partner by a single secondary source — unconfirmed",
+      "source": "https://aiweekly.co/alerts/qualcomm-iq10-hits-700-tops-for-industrial-robots",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "psyonic",
+      "to": "apptronik",
+      "note": "Secondary profile cites integration partnership; Ability Hand demonstrated on Apollo at a Mercedes-Benz facility — not confirmed supply",
+      "source": "https://www.robotics.press/news/psyonic-company-profile/",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "psyonic",
+      "to": "universal-robots",
+      "note": "Secondary profile cites integration partnership with Universal Robots",
+      "source": "https://www.robotics.press/news/psyonic-company-profile/",
+      "verified": "2026-10-15"
+    },
+    {
+      "from": "hesai",
+      "to": "mova",
+      "note": "Hesai JT16 lidar in MOVA 1000 robotic lawn mower (CES 2025 joint showcase) — non-US robotics customer",
+      "source": "https://www.hesaitech.com/?p=7281",
+      "verified": "2026-10-15"
+    }
+  ]
+}

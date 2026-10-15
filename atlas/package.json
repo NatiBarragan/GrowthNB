@@ -1,0 +1,12 @@
+{
+  "name": "us-robotics-ecosystem-atlas",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "merge": "node build/merge.mjs",
+    "build": "node build/merge.mjs && node build/build.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.2"
+  }
+}

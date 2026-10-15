@@ -1,0 +1,2303 @@
+{
+  "organizations": [
+    {
+      "id": "figure-ai",
+      "name": "Figure AI",
+      "kind": "robotics",
+      "website": "https://www.figure.ai",
+      "hq_city": "San Jose",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.34,
+      "lon": -121.89,
+      "founded": 2022,
+      "segment": "Humanoid",
+      "subsegment": "General-purpose humanoid",
+      "product": "Figure 03 (Figure 02 used in BMW pilot)",
+      "robot_type": "Humanoid",
+      "ai_approach": "VLA (Helix)",
+      "models": [
+        "helix"
+      ],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 1900000000,
+      "funding_note": "~$1.9B cumulative (third-party tallies); Series B $675M (Feb 2024), Series C >$1B at $39B post-money (Sep 2025), company-reported",
+      "investors": [
+        "parkway-venture-capital",
+        "brookfield",
+        "nvidia",
+        "microsoft",
+        "openai",
+        "bezos-expeditions",
+        "intel-capital",
+        "amazon-industrial-innovation-fund"
+      ],
+      "customers": [
+        "BMW Manufacturing (Spartanburg, SC)",
+        "Brookfield (data collection partner)"
+      ],
+      "deployment": "Pilot",
+      "deployment_note": "Figure 02 ran an ~11-month production pilot at BMW Spartanburg ending Nov 2025 (company-reported); secondary sources report 350+ Figure 03 units built at BotQ by May 2026 - not independently verified",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "physical-ai",
+        "humanoid",
+        "vla"
+      ],
+      "summary": "San Jose-based developer of general-purpose humanoid robots (Figure 02/03) powered by its in-house Helix vision-language-action model.",
+      "sources": [
+        {
+          "url": "https://figure.ai/news/figure-announces-strategic-partnership-with-brookfield",
+          "label": "Figure press release: Brookfield partnership (Sep 2025)"
+        },
+        {
+          "url": "https://www.gunder.com/print/v2/content/23138/figure-announces-1-billioin-dollar-series-c-and-strategic-partnership-with-brookfield.pdf?lang=en",
+          "label": "Gunderson Dettmer: Series C"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Figure_AI",
+          "label": "Wikipedia: Figure AI"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "agility-robotics",
+      "name": "Agility Robotics",
+      "kind": "robotics",
+      "website": "https://www.agilityrobotics.com",
+      "hq_city": "Salem",
+      "hq_state": "OR",
+      "hq_country": "US",
+      "lat": 44.94,
+      "lon": -123.04,
+      "founded": 2015,
+      "segment": "Humanoid",
+      "subsegment": "Logistics humanoid",
+      "product": "Digit",
+      "robot_type": "Humanoid",
+      "ai_approach": "Learned whole-body control + Agility Arc cloud fleet software",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": 640000000,
+      "funding_note": "~$640M private funding reported (third-party); 2026 SPAC merger with Churchill Capital Corp XI at $2.5B pre-money equity value, expected ticker AGLT (announced, pending)",
+      "investors": [
+        "amazon-industrial-innovation-fund",
+        "nvidia",
+        "softbank",
+        "dcvc"
+      ],
+      "customers": [
+        "GXO Logistics",
+        "Schaeffler",
+        "Toyota Motor Manufacturing Canada",
+        "Mercado Libre"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "GXO multi-year RaaS agreement (Jun 2024); company reports Digit at nine customer facilities and >$300M Digit v5 orders (company-reported via SPAC materials)",
+      "suppliers": [],
+      "tags": [
+        "humanoid",
+        "logistics",
+        "spac"
+      ],
+      "summary": "Oregon-based maker of the Digit bipedal humanoid, deployed commercially in logistics and manufacturing and going public via SPAC.",
+      "sources": [
+        {
+          "url": "https://www.geekwire.com/2026/digit-maker-agility-robotics-to-go-public-in-2-5b-deal-heres-what-the-filings-say-about-its-finances/",
+          "label": "GeekWire: SPAC filings"
+        },
+        {
+          "url": "https://aibusiness.com/robotics/maker-digit-the-robot-goes-public",
+          "label": "AI Business: Agility to go public"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "apptronik",
+      "name": "Apptronik",
+      "kind": "robotics",
+      "website": "https://apptronik.com",
+      "hq_city": "Austin",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 30.27,
+      "lon": -97.74,
+      "founded": 2016,
+      "segment": "Humanoid",
+      "subsegment": "General-purpose humanoid",
+      "product": "Apollo",
+      "robot_type": "Humanoid",
+      "ai_approach": "Partnership with Google DeepMind (Gemini Robotics)",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 1000000000,
+      "funding_note": "Series A total >$935M after $520M A-X extension (Feb 2026); total raised ~ $1B; valuation reported >$5.5B (company-reported)",
+      "investors": [
+        "b-capital",
+        "google",
+        "mercedes-benz",
+        "peak6",
+        "att-ventures",
+        "john-deere",
+        "qatar-investment-authority"
+      ],
+      "customers": [
+        "Mercedes-Benz",
+        "GXO Logistics",
+        "Jabil"
+      ],
+      "deployment": "Pilot",
+      "deployment_note": "Commercial and pilot deployments claimed by company; named pilots with Mercedes-Benz and GXO; new robot due 2026 (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "humanoid",
+        "physical-ai"
+      ],
+      "summary": "Austin-based developer of the Apollo humanoid robot, backed by Google and Mercedes-Benz, scaling production after a >$935M Series A.",
+      "sources": [
+        {
+          "url": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+          "label": "Apptronik press release (Feb 2026)"
+        },
+        {
+          "url": "https://www.therobotreport.com/apptronik-brings-in-another-520m-to-ramp-up-apollo-production/",
+          "label": "The Robot Report"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla (Optimus)",
+      "kind": "robotics",
+      "website": "https://www.tesla.com/AI",
+      "hq_city": "Austin",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 30.27,
+      "lon": -97.74,
+      "founded": 2003,
+      "segment": "Humanoid",
+      "subsegment": "General-purpose humanoid (corporate program)",
+      "product": "Optimus (Gen 3 / V3)",
+      "robot_type": "Humanoid",
+      "ai_approach": "End-to-end neural networks (shared with FSD stack)",
+      "models": [],
+      "stage": "Public",
+      "ticker": "TSLA",
+      "funding_usd": null,
+      "funding_note": "Corporate program; no separate funding",
+      "investors": [],
+      "customers": [],
+      "deployment": "Pilot",
+      "deployment_note": "Musk said Optimus production would begin at Fremont in late Jul/Aug 2026 after Model S/X lines end, with slow initial output; broader ramp expected 2027. No verified external customers; start of production not confirmed as of 2026-10-15",
+      "suppliers": [],
+      "tags": [
+        "humanoid",
+        "corporate",
+        "public"
+      ],
+      "summary": "Tesla's Optimus humanoid program, with first production lines being installed at Fremont in 2026.",
+      "sources": [
+        {
+          "url": "https://electrek.co/?p=464555",
+          "label": "Electrek: Q1 2026 earnings call coverage"
+        },
+        {
+          "url": "https://driveteslacanada.ca/news/tesla-delaying-optimus-v3-reveal-fears-copycats/",
+          "label": "Drive Tesla Canada"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "1x-technologies",
+      "name": "1X Technologies",
+      "kind": "robotics",
+      "website": "https://www.1x.tech",
+      "hq_city": "Palo Alto",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.44,
+      "lon": -122.14,
+      "founded": 2014,
+      "segment": "Humanoid",
+      "subsegment": "Home humanoid",
+      "product": "NEO (consumer); EVE (wheeled, legacy)",
+      "robot_type": "Humanoid",
+      "ai_approach": "Learned policies + teleoperation; world model",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 125000000,
+      "funding_note": "~$125M+ disclosed (Series A2 $23.5M 2023; Series B $100M Jan 2024 led by EQT Ventures). Reported 2025-26 raise up to $1B at $10B+ not confirmed; Aug 2026 reports of SoftBank acquisition talks (unconfirmed)",
+      "investors": [
+        "eqt-ventures",
+        "samsung",
+        "openai"
+      ],
+      "customers": [
+        "EQT (up to 10,000 NEO units 2026-2030)",
+        "ADT (EVE)"
+      ],
+      "deployment": "Pilot",
+      "deployment_note": "NEO preorders opened Oct 2025 ($20,000 or $499/mo); US deliveries slated for 2026 but paid deliveries not verified as of Aug 2026",
+      "suppliers": [],
+      "tags": [
+        "humanoid",
+        "home",
+        "norway-origin"
+      ],
+      "summary": "Norwegian-founded humanoid maker with US HQ in Palo Alto, selling the NEO home humanoid by preorder.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/1X_Technologies",
+          "label": "Wikipedia: 1X Technologies"
+        },
+        {
+          "url": "https://en.cryptonomist.ch/2026/08/27/softbank-1x-technologies-acquisition/",
+          "label": "Cryptonomist: SoftBank talks (Aug 2026)"
+        },
+        {
+          "url": "https://www.pymnts.com/artificial-intelligence-2/2025/1x-acquires-kind-humanoid-to-accelerate-development-of-humanoid-robots/",
+          "label": "PYMNTS: Kind Humanoid acquisition"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "boston-dynamics",
+      "name": "Boston Dynamics",
+      "kind": "robotics",
+      "website": "https://bostondynamics.com",
+      "hq_city": "Waltham",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.38,
+      "lon": -71.24,
+      "founded": 1992,
+      "segment": "Humanoid",
+      "subsegment": "Humanoid, quadruped and logistics robots",
+      "product": "Atlas (electric, production version), Spot, Stretch",
+      "robot_type": "Humanoid",
+      "ai_approach": "Model-predictive control + learned policies; Gemini Robotics collaboration on Atlas",
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Majority-owned by Hyundai Motor Group",
+      "investors": [
+        "hyundai"
+      ],
+      "customers": [
+        "Hyundai Robotics Metaplant Application Center (Atlas)",
+        "Google DeepMind (Atlas)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Spot and Stretch are commercial products; production Atlas unveiled CES Jan 2026 with all 2026 units committed to Hyundai RMAC and Google DeepMind (company-reported); Hyundai plant use of Atlas from 2028",
+      "suppliers": [],
+      "tags": [
+        "humanoid",
+        "quadruped",
+        "hyundai"
+      ],
+      "summary": "Waltham-based Hyundai subsidiary making Spot, Stretch and the production electric Atlas humanoid.",
+      "sources": [
+        {
+          "url": "https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry/",
+          "label": "Boston Dynamics: Atlas unveiling (Jan 2026)"
+        },
+        {
+          "url": "https://engadget.com/big-tech/boston-dynamics-unveils-production-ready-version-of-atlas-robot-at-ces-2026-234047882.html",
+          "label": "Engadget"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "sanctuary-ai",
+      "name": "Sanctuary AI",
+      "kind": "robotics",
+      "website": "https://sanctuary.ai",
+      "hq_city": "Vancouver",
+      "hq_state": "BC",
+      "hq_country": "CA",
+      "lat": 49.28,
+      "lon": -123.12,
+      "founded": 2018,
+      "segment": "Humanoid",
+      "subsegment": "General-purpose humanoid / physical AI platform",
+      "product": "Phoenix",
+      "robot_type": "Humanoid",
+      "ai_approach": "Carbon AI control system",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 140000000,
+      "funding_note": "~$140M cumulative per company 2024 announcement (incl. C$75.5M Series A 2022 and $30M Canada SIF); no confirmed 2026 round",
+      "investors": [],
+      "customers": [],
+      "deployment": "Pilot",
+      "deployment_note": "Pilots only; no verified US office (Canadian company, included for North American relevance)",
+      "suppliers": [],
+      "tags": [
+        "humanoid",
+        "canada",
+        "non-us-hq"
+      ],
+      "summary": "Vancouver-based developer of the Phoenix general-purpose humanoid and its Carbon AI control system.",
+      "sources": [
+        {
+          "url": "https://physicalsciences.uchicago.edu/news/article/sanctuary-ai-marks-140-million-in-funding-for-humanlike-robots",
+          "label": "UChicago repost: $140M funding milestone"
+        },
+        {
+          "url": "https://sanctuary.ai/blog/category/Funding",
+          "label": "Sanctuary AI blog: Funding"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "unitree-robotics",
+      "name": "Unitree Robotics",
+      "kind": "robotics",
+      "website": "https://www.unitree.com",
+      "hq_city": "Hangzhou",
+      "hq_state": null,
+      "hq_country": "CN",
+      "lat": 30.27,
+      "lon": 120.16,
+      "founded": 2016,
+      "segment": "Quadrupeds & Mobile Platforms",
+      "subsegment": "Quadrupeds and low-cost humanoids",
+      "product": "Go2, B2 quadrupeds; G1, H1 humanoids",
+      "robot_type": "Quadruped",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "STAR Market IPO priced Aug 2026 at ~$9B valuation raising ~6.1B yuan (~$904M); DeepSeek among strategic investors",
+      "investors": [
+        "deepseek"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Sold widely including to US research labs; US was 13.3% of 2025 revenue; new US import restrictions on Chinese humanoid/quadruped robots. No verified US office",
+      "suppliers": [],
+      "tags": [
+        "quadruped",
+        "humanoid",
+        "china",
+        "non-us-hq",
+        "us-sales"
+      ],
+      "summary": "Chinese maker of low-cost quadrupeds and humanoids with significant US sales, listed on Shanghai's STAR Market in 2026.",
+      "sources": [
+        {
+          "url": "https://www.automate.org/robotics/industry-insights/unitree-prices-long-awaited-ipo-at-9b/aph",
+          "label": "A3: Unitree prices IPO at $9B"
+        },
+        {
+          "url": "https://seedtable.com/exits/unitree-robotics",
+          "label": "Seedtable"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "persona-ai",
+      "name": "Persona AI",
+      "kind": "robotics",
+      "website": null,
+      "hq_city": "Houston",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 29.76,
+      "lon": -95.37,
+      "founded": 2024,
+      "segment": "Humanoid",
+      "subsegment": "Industrial humanoid (shipbuilding, welding)",
+      "product": "Industrial humanoid (shipyard welding)",
+      "robot_type": "Humanoid",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 27000000,
+      "funding_note": "$27M oversubscribed pre-seed (May 2025, co-led by Unity Growth and Tides Ventures); Daiwa House growth fund investment announced Oct 2026 (amount undisclosed)",
+      "investors": [
+        "unity-growth",
+        "tides-ventures",
+        "mirae-asset",
+        "embedded-ventures",
+        "goose-capital",
+        "daiwa-house"
+      ],
+      "customers": [
+        "HD Hyundai (MOU)",
+        "ABS (MOU)"
+      ],
+      "deployment": "Prototype",
+      "deployment_note": "MOU with HD Hyundai units and Vazil for welding humanoids; prototypes due end-2026, field testing/commercial deployment from 2027 (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "humanoid",
+        "shipbuilding"
+      ],
+      "summary": "Houston startup building industrial humanoids for shipyard welding with HD Hyundai.",
+      "sources": [
+        {
+          "url": "https://www.newswire.ca/news-releases/persona-ai-raises-27m-oversubscribed-pre-seed-to-deliver-the-future-of-humanoid-robotics-863812574.html",
+          "label": "Press release: $27M pre-seed"
+        },
+        {
+          "url": "https://www.tradeandindustrydev.com/region/texas/tx-hd-hyundai-persona-ai-deploy-humanoid-welding-34491.md",
+          "label": "Trade & Industry Dev: HD Hyundai MOU"
+        },
+        {
+          "url": "https://dealroom.co/news/158471-daiwa-house-growth-fund-backs-texas-humanoid-robot-maker-persona-ai/",
+          "label": "Dealroom: Daiwa House investment"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "foundation-future-industries",
+      "name": "Foundation (Foundation Future Industries)",
+      "kind": "robotics",
+      "website": null,
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2024,
+      "segment": "Humanoid",
+      "subsegment": "Defense / industrial humanoid",
+      "product": "Phantom MK-1",
+      "robot_type": "Humanoid",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 21000000,
+      "funding_note": "~$21M total per third-party profile ($11M pre-seed Aug 2024 led by Tribe Capital + Q1 2025 raise); reports of $500M round talks at >$3B unconfirmed; ~$24M in Pentagon research contracts reported",
+      "investors": [
+        "tribe-capital"
+      ],
+      "customers": [
+        "US Department of Defense (research contracts)"
+      ],
+      "deployment": "Pilot",
+      "deployment_note": "Two Phantom MK-1 units reportedly shipped to Ukraine for logistics/recon testing; AMD co-development partnership (third-party reports)",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "humanoid",
+        "defense"
+      ],
+      "summary": "San Francisco startup building the Phantom humanoid for defense and industrial use.",
+      "sources": [
+        {
+          "url": "https://sacra.com/c/foundation",
+          "label": "Sacra profile"
+        },
+        {
+          "url": "https://letsdatascience.com/news/foundation-moves-humanoid-robots-toward-military-use-2c8dd52d",
+          "label": "Let's Data Science"
+        }
+      ],
+      "confidence": "third-party-estimate",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "k-scale-labs",
+      "name": "K-Scale Labs",
+      "kind": "robotics",
+      "website": null,
+      "hq_city": "Palo Alto",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.44,
+      "lon": -122.14,
+      "founded": 2024,
+      "segment": "Humanoid",
+      "subsegment": "Open-source low-cost humanoid",
+      "product": "K-Bot (~$8,999)",
+      "robot_type": "Humanoid",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 4000000,
+      "funding_note": "~$4M seed (Feb 2024, ~$50M valuation) per press; shut down Nov 2025 after failed financing",
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": "Company shut down Nov 2025; hardware/software open-sourced; preorders refunded",
+      "suppliers": [],
+      "tags": [
+        "humanoid",
+        "open-source",
+        "defunct"
+      ],
+      "summary": "Palo Alto open-source humanoid startup that shut down in November 2025 and open-sourced its K-Bot designs.",
+      "sources": [
+        {
+          "url": "https://eu.36kr.com/en/p/3560806255967110",
+          "label": "36Kr: K-Scale Labs shutdown"
+        }
+      ],
+      "confidence": "third-party-estimate",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "dyna-robotics",
+      "name": "Dyna Robotics",
+      "kind": "robotics",
+      "website": "https://www.dyna.co",
+      "hq_city": "Redwood City",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.49,
+      "lon": -122.24,
+      "founded": 2024,
+      "segment": "Physical AI & General-Purpose",
+      "subsegment": "Robot foundation model + deployed manipulation stations",
+      "product": "DYNA-1 (bimanual arms on wheeled base)",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": "Robot foundation model (DYNA-1)",
+      "models": [
+        "dyna-1"
+      ],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 143500000,
+      "funding_note": "$23.5M seed (Mar 2025, CRV & First Round) + $120M Series A (Sep 2025)",
+      "investors": [
+        "robostrategy",
+        "crv",
+        "first-round-capital",
+        "salesforce-ventures",
+        "nvidia",
+        "amazon-industrial-innovation-fund",
+        "samsung",
+        "lg"
+      ],
+      "customers": [
+        "Hotels, restaurants, laundromats, gyms (unnamed)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Company reports robots folding laundry etc. in commercial settings, 99%+ success over 24h (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "physical-ai",
+        "foundation-model"
+      ],
+      "summary": "Bay Area physical-AI startup deploying DYNA-1-powered bimanual robots in commercial service settings.",
+      "sources": [
+        {
+          "url": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+          "label": "Gunderson: $120M Series A"
+        },
+        {
+          "url": "https://www.builtinsf.com/articles/dyna-robotics-raises-120-million-series-a-20250918",
+          "label": "Built In SF"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "genesis-ai",
+      "name": "Genesis AI",
+      "kind": "robotics",
+      "website": null,
+      "hq_city": "Palo Alto",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.44,
+      "lon": -122.14,
+      "founded": 2024,
+      "segment": "Physical AI & General-Purpose",
+      "subsegment": "Robot foundation model + data engine",
+      "product": "General-purpose robotics foundation model and platform",
+      "robot_type": null,
+      "ai_approach": "Robot foundation model; simulation-driven data engine",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 105000000,
+      "funding_note": "$105M seed (Jul 2025, co-led by Eclipse and Khosla); reported talks to raise ~$500M at ~$3B (2026, unconfirmed)",
+      "investors": [
+        "eclipse-ventures",
+        "khosla-ventures",
+        "alven",
+        "bpifrance",
+        "hsg"
+      ],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "physical-ai",
+        "foundation-model",
+        "france"
+      ],
+      "summary": "Palo Alto/Paris physical-AI lab building a universal robotics foundation model and full-stack robotics platform.",
+      "sources": [
+        {
+          "url": "https://siliconangle.com/2025/07/01/robotics-lab-genesis-ai-launches-105m-develop-universal-robot-foundation-model-ai-platform/",
+          "label": "SiliconANGLE: $105M launch"
+        },
+        {
+          "url": "https://thenextweb.com/news/genesis-ai-500m-raise-robotics-foundation-model",
+          "label": "TNW: $500M talks"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "the-bot-company",
+      "name": "The Bot Company",
+      "kind": "robotics",
+      "website": "https://bot.co",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2024,
+      "segment": "Physical AI & General-Purpose",
+      "subsegment": "Home robot",
+      "product": "Undisclosed home robot",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 300000000,
+      "funding_note": "$150M (2024, ~$550M val; Spark Capital, Nat Friedman) + $150M (Mar 2025, led by Greenoaks, $2B val); reported $250M at >$4B not confirmed closed",
+      "investors": [
+        "greenoaks",
+        "spark-capital"
+      ],
+      "customers": [],
+      "deployment": "Prototype",
+      "deployment_note": "No public product reveal verified",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "home-robot"
+      ],
+      "summary": "Kyle Vogt's San Francisco home-robot startup, valued at $2B+ before any public product.",
+      "sources": [
+        {
+          "url": "https://www.therobotreport.com/the-bot-company-led-by-kyle-vogt-brings-in-another-150m/",
+          "label": "The Robot Report"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "mytra",
+      "name": "Mytra",
+      "kind": "robotics",
+      "website": "https://mytra.ai",
+      "hq_city": null,
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Modular 3D storage/material-movement robots",
+      "product": "Mytra storage & retrieval system",
+      "robot_type": "AMR",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": 200000000,
+      "funding_note": ">$200M total after $120M Series C (Jan 2026) led by Avenir Growth",
+      "investors": [
+        "avenir-growth",
+        "kivu-ventures",
+        "liquid-2",
+        "d-e-shaw",
+        "offline-ventures",
+        "eclipse-ventures",
+        "greenoaks",
+        "abstract-ventures",
+        "promus-ventures",
+        "lineage",
+        "ryder-ventures"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Company says it is scaling deployments to meet customer demand (company-reported); city of HQ not re-verified this pass",
+      "suppliers": [],
+      "tags": [
+        "warehouse",
+        "out-of-scope-segment"
+      ],
+      "summary": "Bay Area company building robotic heavy-material storage and movement systems for warehouses and factories.",
+      "sources": [
+        {
+          "url": "https://www.vcaonline.com/news/2026011501/mytra-raises-120m-series-c-to-scale-operating-system-for-supply-chain/",
+          "label": "VCA: Series C"
+        },
+        {
+          "url": "https://pulse2.com/mytra-120-million-series-c/",
+          "label": "Pulse 2.0"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "collaborative-robotics",
+      "name": "Collaborative Robotics (Cobot)",
+      "kind": "robotics",
+      "website": "https://www.co.bot",
+      "hq_city": "Santa Clara",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.35,
+      "lon": -121.96,
+      "founded": 2022,
+      "segment": "Quadrupeds & Mobile Platforms",
+      "subsegment": "Mobile manipulator",
+      "product": "Proxie",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 140000000,
+      "funding_note": ">$140M total after $100M Series B (Apr 2024) led by General Catalyst at >$500M valuation",
+      "investors": [
+        "general-catalyst",
+        "sequoia-capital",
+        "khosla-ventures",
+        "mayo-clinic"
+      ],
+      "customers": [
+        "Maersk",
+        "Mayo Clinic",
+        "Moderna",
+        "Owens & Minor",
+        "Tampa General Hospital"
+      ],
+      "deployment": "Pilot",
+      "deployment_note": "Early customer trials (company-reported); customer list from secondary profile",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "mobile-manipulator"
+      ],
+      "summary": "Brad Porter's Santa Clara startup building the Proxie mobile manipulator for logistics and healthcare.",
+      "sources": [
+        {
+          "url": "https://wsau.com/2024/04/10/collaborative-robotics-raises-100-million-amid-robots-funding-boom/",
+          "label": "Reuters (via WSAU): $100M Series B"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "diligent-robotics",
+      "name": "Diligent Robotics",
+      "kind": "robotics",
+      "website": "https://www.diligentrobots.com",
+      "hq_city": "Austin",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 30.27,
+      "lon": -97.74,
+      "founded": 2017,
+      "segment": "Healthcare & Medical",
+      "subsegment": "Hospital service mobile manipulator",
+      "product": "Moxi",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "At least ~$65M disclosed: $10M Series A (2020), $30M Series B (Apr 2022, Tiger Global), $25M (2023, Canaan); third-party tally ~$126M",
+      "investors": [
+        "canaan",
+        "true-ventures",
+        "dnx-ventures",
+        "next-coast-ventures",
+        "northwestern-medicine",
+        "tiger-global"
+      ],
+      "customers": [
+        "Northwestern Medicine",
+        "22+ US health systems (company-reported)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Moxi reported operating in 22+ health systems / 200+ hospitals (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "healthcare",
+        "service"
+      ],
+      "summary": "Austin-based maker of Moxi, a mobile manipulator that runs deliveries for hospital clinical staff.",
+      "sources": [
+        {
+          "url": "https://www.therobotreport.com/diligent-brings-in-30m-to-put-moxi-in-hospitals/",
+          "label": "The Robot Report: Series B"
+        },
+        {
+          "url": "https://iotworldtoday.com/robotics/diligent-robotics-raises-25m-for-hospital-robot-expansion",
+          "label": "IoT World Today: $25M"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "ghost-robotics",
+      "name": "Ghost Robotics",
+      "kind": "robotics",
+      "website": "https://www.ghostrobotics.io",
+      "hq_city": "Philadelphia",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 39.95,
+      "lon": -75.17,
+      "founded": 2015,
+      "segment": "Quadrupeds & Mobile Platforms",
+      "subsegment": "Defense/industrial quadruped",
+      "product": "Vision 60",
+      "robot_type": "Quadruped",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "LIG Nex1 acquired 60% stake ($240M deal at ~$400M enterprise value, 2024)",
+      "investors": [
+        "lig-nex1"
+      ],
+      "customers": [
+        "US military customers (unspecified)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Vision 60 used for reconnaissance, intruder detection and disaster response",
+      "suppliers": [],
+      "tags": [
+        "quadruped",
+        "defense"
+      ],
+      "summary": "Philadelphia maker of the Vision 60 legged UGV, majority-owned by South Korea's LIG Nex1.",
+      "sources": [
+        {
+          "url": "https://www.koreajoongangdaily.com/business/lig-nex1-acquires-ghost-robotics-in-240-million-deal/10482814",
+          "label": "Korea JoongAng Daily"
+        },
+        {
+          "url": "https://technical.ly/startups/ghost-robotics-acquisition-lig-nex-1/",
+          "label": "Technical.ly"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "anybotics",
+      "name": "ANYbotics",
+      "kind": "robotics",
+      "website": "https://www.anybotics.com",
+      "hq_city": "Zurich",
+      "hq_state": null,
+      "hq_country": "CH",
+      "lat": 47.38,
+      "lon": 8.54,
+      "founded": 2016,
+      "segment": "Quadrupeds & Mobile Platforms",
+      "subsegment": "Industrial inspection quadruped",
+      "product": "ANYmal",
+      "robot_type": "Quadruped",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": 130000000,
+      "funding_note": ">$130M total after $60M (Dec 2024) led by Qualcomm Ventures and Supernova Invest, for US expansion",
+      "investors": [
+        "qualcomm",
+        "supernova-invest",
+        "tdk-ventures"
+      ],
+      "customers": [
+        "BP",
+        "Equinor",
+        "Petrobras"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "US office opened in Silicon Valley/San Francisco (exact city not verified)",
+      "suppliers": [],
+      "tags": [
+        "quadruped",
+        "inspection",
+        "non-us-hq"
+      ],
+      "summary": "Swiss maker of the ANYmal autonomous inspection quadruped, expanding into the US.",
+      "sources": [
+        {
+          "url": "https://www.robotics247.com/article/anybotics_raises_an_additional_60_million_to_drive_u.s_expansion",
+          "label": "Robotics 24/7: $60M for US expansion"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "reflex-robotics",
+      "name": "Reflex Robotics",
+      "kind": "robotics",
+      "website": null,
+      "hq_city": "New York",
+      "hq_state": "NY",
+      "hq_country": "US",
+      "lat": 40.71,
+      "lon": -74.01,
+      "founded": 2022,
+      "segment": "Humanoid",
+      "subsegment": "Wheeled humanoid for warehouses/manufacturing",
+      "product": "Reflex wheeled humanoid",
+      "robot_type": "Humanoid",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 7000000,
+      "funding_note": "~$7M seed (2023) led by Khosla Ventures (third-party trackers)",
+      "investors": [
+        "khosla-ventures"
+      ],
+      "customers": [],
+      "deployment": "Prototype",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "humanoid"
+      ],
+      "summary": "New York startup building lower-cost wheeled humanoid robots for warehouse and manufacturing work.",
+      "sources": [
+        {
+          "url": "https://www.cbinsights.com/company/reflex-robotics",
+          "label": "CB Insights profile"
+        }
+      ],
+      "confidence": "third-party-estimate",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "weave-robotics",
+      "name": "Weave Robotics",
+      "kind": "robotics",
+      "website": "https://weaverobots.com",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2024,
+      "segment": "Physical AI & General-Purpose",
+      "subsegment": "Home robot",
+      "product": "Isaac 0 (laundry folding), Isaac 1 (mobile)",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 500000,
+      "funding_note": "~$500K pre-seed (YC S24); larger rounds not disclosed",
+      "investors": [
+        "y-combinator"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Isaac 0 deliveries reportedly began Feb 2026, Bay Area only (secondary report)",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "home-robot",
+        "yc"
+      ],
+      "summary": "San Francisco YC startup selling Isaac home robots, starting with a laundry-folding unit.",
+      "sources": [
+        {
+          "url": "https://sacra.com/c/weave-robotics",
+          "label": "Sacra profile"
+        },
+        {
+          "url": "https://olhardigital.com.br/2026/02/12/robotica/robo-de-40-mil-reais-promete-te-ajudar-em-tarefas-domesticas/",
+          "label": "Olhar Digital (Feb 2026)"
+        }
+      ],
+      "confidence": "third-party-estimate",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "hello-robot",
+      "name": "Hello Robot",
+      "kind": "robotics",
+      "website": "https://hello-robot.com",
+      "hq_city": "Martinez",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 38.02,
+      "lon": -122.13,
+      "founded": 2017,
+      "segment": "Quadrupeds & Mobile Platforms",
+      "subsegment": "Open-source mobile manipulator",
+      "product": "Stretch 3",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Primarily NIH SBIR grants (Phase II $2.54M 2023; Phase IIB ~$3M reported Oct 2026) plus $400K ALS Association investment (Dec 2024)",
+      "investors": [
+        "als-association"
+      ],
+      "customers": [
+        "University and corporate research labs",
+        "ALS Association (partnership)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Stretch 3 sold commercially ($24,950) mainly to researchers",
+      "suppliers": [],
+      "tags": [
+        "mobile-manipulator",
+        "open-source",
+        "assistive"
+      ],
+      "summary": "Martinez, CA maker of the Stretch open-source mobile manipulator used in research and assistive in-home robotics.",
+      "sources": [
+        {
+          "url": "https://hello-robot.com/press-release-nih-sbir-2023",
+          "label": "Hello Robot: NIH SBIR"
+        },
+        {
+          "url": "https://hello-robot.com/press-release-als-2024",
+          "label": "Hello Robot: ALS Association partnership"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "kind-humanoid",
+      "name": "Kind Humanoid",
+      "kind": "robotics",
+      "website": null,
+      "hq_city": "Palo Alto",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.44,
+      "lon": -122.14,
+      "founded": null,
+      "segment": "Humanoid",
+      "subsegment": "Home/healthcare humanoid",
+      "product": "Mona",
+      "robot_type": "Humanoid",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Undisclosed seed; acquired by 1X Technologies Jan 2025 for undisclosed sum",
+      "investors": [],
+      "customers": [],
+      "deployment": "Prototype",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "humanoid",
+        "acquired"
+      ],
+      "summary": "Palo Alto startup behind the Mona bipedal humanoid, acquired by 1X in January 2025.",
+      "sources": [
+        {
+          "url": "https://www.pymnts.com/artificial-intelligence-2/2025/1x-acquires-kind-humanoid-to-accelerate-development-of-humanoid-robots/",
+          "label": "PYMNTS"
+        },
+        {
+          "url": "https://techcrunch.com/2024/10/13/this-three-person-robotics-startup-is-working-with-designer-yves-behar-to-bring-humanoids-home",
+          "label": "TechCrunch"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "under-control-robotics",
+      "name": "Under Control Robotics (Noble Machines)",
+      "kind": "robotics",
+      "website": null,
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Humanoid",
+      "subsegment": "Industrial humanoid for hazardous work",
+      "product": null,
+      "robot_type": "Humanoid",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Seed rounds Sep 2024 and Mar 2026 listed; amounts undisclosed",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "humanoid",
+        "needs-verification"
+      ],
+      "summary": "Startup (operating as Noble Machines) developing humanoids for hazardous heavy-industry work; HQ not verified.",
+      "sources": [
+        {
+          "url": "https://www.caplight.com/company/undercontrol",
+          "label": "Caplight profile"
+        }
+      ],
+      "confidence": "third-party-estimate",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "clone-robotics",
+      "name": "Clone Robotics",
+      "kind": "robotics",
+      "website": "https://clonerobotics.com",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2021,
+      "segment": "Humanoid",
+      "subsegment": "Musculoskeletal (artificial muscle) humanoid",
+      "product": "Protoclone V1",
+      "robot_type": "Humanoid",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 7100000,
+      "funding_note": "~$7.1M total reported (third-party)",
+      "investors": [],
+      "customers": [],
+      "deployment": "Prototype",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "humanoid",
+        "poland",
+        "artificial-muscle"
+      ],
+      "summary": "Wroclaw/San Francisco startup building a musculoskeletal humanoid driven by synthetic muscles.",
+      "sources": [
+        {
+          "url": "https://www.3djuegos.com/tecnologia/noticias/bienvenidos-al-futuro-presentan-al-primer-robot-bipedo-musculos-esqueletos-humano-que-roza-terrorifico/amp",
+          "label": "3DJuegos"
+        },
+        {
+          "url": "https://www.rdworldonline.com/protoclone-v1-1000-artificial-muscles-power-this-sweating-robots-human-like-moves/",
+          "label": "R&D World"
+        }
+      ],
+      "confidence": "third-party-estimate",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "generalist-ai",
+      "name": "Generalist AI",
+      "kind": "robotics",
+      "website": "https://generalistai.com",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2024,
+      "segment": "Physical AI & General-Purpose",
+      "subsegment": "Robot foundation model",
+      "product": "GEN-0 embodied foundation model",
+      "robot_type": null,
+      "ai_approach": "Robot foundation model (GEN-0)",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "physical-ai",
+        "needs-verification"
+      ],
+      "summary": "Robot foundation-model startup founded by ex-Google DeepMind researchers; details not re-verified this pass.",
+      "sources": [
+        {
+          "url": "https://generalistai.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "sunday-robotics",
+      "name": "Sunday Robotics",
+      "kind": "robotics",
+      "website": "https://www.sunday.ai",
+      "hq_city": "Mountain View",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.39,
+      "lon": -122.08,
+      "founded": 2024,
+      "segment": "Physical AI & General-Purpose",
+      "subsegment": "Home robot",
+      "product": "Memo",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Reported ~$35M at launch (Nov 2025; Benchmark, Conviction) - not re-verified this pass",
+      "investors": [],
+      "customers": [],
+      "deployment": "Prototype",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "home-robot",
+        "needs-verification"
+      ],
+      "summary": "Home-robot startup that unveiled the Memo wheeled household robot in late 2025; details not re-verified.",
+      "sources": [
+        {
+          "url": "https://www.sunday.ai",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "boardwalk-robotics",
+      "name": "Boardwalk Robotics",
+      "kind": "robotics",
+      "website": "https://www.boardwalkrobotics.com",
+      "hq_city": "Pensacola",
+      "hq_state": "FL",
+      "hq_country": "US",
+      "lat": 30.42,
+      "lon": -87.22,
+      "founded": null,
+      "segment": "Humanoid",
+      "subsegment": "Upper-body/wheeled humanoid (IHMC spinout)",
+      "product": "Alex",
+      "robot_type": "Humanoid",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Prototype",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "humanoid",
+        "needs-verification"
+      ],
+      "summary": "Pensacola humanoid startup spun out of IHMC, building the Alex humanoid; details not re-verified.",
+      "sources": [
+        {
+          "url": "https://www.boardwalkrobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "dexmate",
+      "name": "Dexmate",
+      "kind": "robotics",
+      "website": "https://www.dexmate.ai",
+      "hq_city": "Santa Clara",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.35,
+      "lon": -121.96,
+      "founded": null,
+      "segment": "Humanoid",
+      "subsegment": "Wheeled semi-humanoid",
+      "product": "Vega",
+      "robot_type": "Humanoid",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "humanoid",
+        "needs-verification"
+      ],
+      "summary": "Bay Area startup making the Vega wheeled semi-humanoid; details not re-verified.",
+      "sources": [
+        {
+          "url": "https://www.dexmate.ai",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "piaggio-fast-forward",
+      "name": "Piaggio Fast Forward",
+      "kind": "robotics",
+      "website": "https://www.piaggiofastforward.com",
+      "hq_city": "Boston",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.36,
+      "lon": -71.06,
+      "founded": 2015,
+      "segment": "Quadrupeds & Mobile Platforms",
+      "subsegment": "Following cargo robot",
+      "product": "gita / gitamini",
+      "robot_type": "AMR",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Piaggio Group subsidiary",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "mobile-platform",
+        "consumer",
+        "needs-verification"
+      ],
+      "summary": "Boston-based Piaggio Group subsidiary selling the gita person-following cargo robots; details not re-verified.",
+      "sources": [
+        {
+          "url": "https://www.piaggiofastforward.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    }
+  ],
+  "funding_rounds": [
+    {
+      "org": "figure-ai",
+      "date": "2024-02",
+      "round": "Series B",
+      "amount_usd": 675000000,
+      "lead": null,
+      "investors": [
+        "microsoft",
+        "openai",
+        "nvidia",
+        "bezos-expeditions",
+        "intel-capital",
+        "amazon-industrial-innovation-fund",
+        "parkway-venture-capital"
+      ],
+      "note": "$2.6B valuation",
+      "source": "https://en.wikipedia.org/wiki/Figure_AI",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "figure-ai",
+      "date": "2025-09",
+      "round": "Series C",
+      "amount_usd": 1000000000,
+      "lead": "parkway-venture-capital",
+      "investors": [
+        "brookfield",
+        "nvidia",
+        "intel-capital"
+      ],
+      "note": ">$1B at $39B post-money",
+      "source": "https://www.gunder.com/print/v2/content/23138/figure-announces-1-billioin-dollar-series-c-and-strategic-partnership-with-brookfield.pdf?lang=en",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "apptronik",
+      "date": "2026-02",
+      "round": "Series A-X (extension)",
+      "amount_usd": 520000000,
+      "lead": null,
+      "investors": [
+        "b-capital",
+        "google",
+        "mercedes-benz",
+        "peak6",
+        "att-ventures",
+        "john-deere",
+        "qatar-investment-authority"
+      ],
+      "note": "Series A total >$935M; valuation reported >$5.5B",
+      "source": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "agility-robotics",
+      "date": "2026",
+      "round": "SPAC merger (announced)",
+      "amount_usd": null,
+      "lead": null,
+      "investors": [],
+      "note": "Merger with Churchill Capital Corp XI at $2.5B pre-money equity value; reported >$620M gross proceeds incl. ~$200M from institutions; ticker AGLT expected",
+      "source": "https://www.geekwire.com/2026/digit-maker-agility-robotics-to-go-public-in-2-5b-deal-heres-what-the-filings-say-about-its-finances/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "1x-technologies",
+      "date": "2024-01",
+      "round": "Series B",
+      "amount_usd": 100000000,
+      "lead": "eqt-ventures",
+      "investors": [
+        "samsung"
+      ],
+      "note": "",
+      "source": "https://www.pymnts.com/artificial-intelligence-2/2025/1x-acquires-kind-humanoid-to-accelerate-development-of-humanoid-robots/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "dyna-robotics",
+      "date": "2025-03",
+      "round": "Seed",
+      "amount_usd": 23500000,
+      "lead": "crv",
+      "investors": [
+        "first-round-capital"
+      ],
+      "note": "",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "dyna-robotics",
+      "date": "2025-09",
+      "round": "Series A",
+      "amount_usd": 120000000,
+      "lead": "robostrategy",
+      "investors": [
+        "crv",
+        "first-round-capital",
+        "salesforce-ventures",
+        "nvidia",
+        "amazon-industrial-innovation-fund",
+        "samsung",
+        "lg"
+      ],
+      "note": "Co-led by Robostrategy, CRV, First Round",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "genesis-ai",
+      "date": "2025-07",
+      "round": "Seed",
+      "amount_usd": 105000000,
+      "lead": "eclipse-ventures",
+      "investors": [
+        "khosla-ventures",
+        "alven",
+        "bpifrance",
+        "hsg"
+      ],
+      "note": "Co-led by Eclipse and Khosla",
+      "source": "https://siliconangle.com/2025/07/01/robotics-lab-genesis-ai-launches-105m-develop-universal-robot-foundation-model-ai-platform/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "the-bot-company",
+      "date": "2024",
+      "round": "Seed/early",
+      "amount_usd": 150000000,
+      "lead": null,
+      "investors": [
+        "spark-capital"
+      ],
+      "note": "~$550M valuation",
+      "source": "https://www.therobotreport.com/the-bot-company-led-by-kyle-vogt-brings-in-another-150m/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "the-bot-company",
+      "date": "2025-03",
+      "round": "Series (unnamed)",
+      "amount_usd": 150000000,
+      "lead": "greenoaks",
+      "investors": [],
+      "note": "$2B valuation (Reuters)",
+      "source": "https://www.therobotreport.com/the-bot-company-led-by-kyle-vogt-brings-in-another-150m/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "mytra",
+      "date": "2026-01",
+      "round": "Series C",
+      "amount_usd": 120000000,
+      "lead": "avenir-growth",
+      "investors": [
+        "kivu-ventures",
+        "liquid-2",
+        "d-e-shaw",
+        "offline-ventures",
+        "eclipse-ventures",
+        "greenoaks",
+        "abstract-ventures",
+        "promus-ventures"
+      ],
+      "note": "Total >$200M",
+      "source": "https://www.vcaonline.com/news/2026011501/mytra-raises-120m-series-c-to-scale-operating-system-for-supply-chain/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "collaborative-robotics",
+      "date": "2024-04",
+      "round": "Series B",
+      "amount_usd": 100000000,
+      "lead": "general-catalyst",
+      "investors": [
+        "sequoia-capital",
+        "khosla-ventures",
+        "mayo-clinic"
+      ],
+      "note": ">$500M valuation",
+      "source": "https://wsau.com/2024/04/10/collaborative-robotics-raises-100-million-amid-robots-funding-boom/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "anybotics",
+      "date": "2024-12",
+      "round": "Growth",
+      "amount_usd": 60000000,
+      "lead": "qualcomm",
+      "investors": [
+        "supernova-invest",
+        "tdk-ventures"
+      ],
+      "note": "Co-led by Qualcomm Ventures and Supernova Invest; for US expansion",
+      "source": "https://www.robotics247.com/article/anybotics_raises_an_additional_60_million_to_drive_u.s_expansion",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "persona-ai",
+      "date": "2025-05",
+      "round": "Pre-seed",
+      "amount_usd": 27000000,
+      "lead": "unity-growth",
+      "investors": [
+        "tides-ventures",
+        "mirae-asset",
+        "embedded-ventures",
+        "goose-capital"
+      ],
+      "note": "Co-led by Unity Growth and Tides Ventures",
+      "source": "https://www.newswire.ca/news-releases/persona-ai-raises-27m-oversubscribed-pre-seed-to-deliver-the-future-of-humanoid-robotics-863812574.html",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "foundation-future-industries",
+      "date": "2024-08",
+      "round": "Pre-seed",
+      "amount_usd": 11000000,
+      "lead": "tribe-capital",
+      "investors": [],
+      "note": "Third-party profile",
+      "source": "https://sacra.com/c/foundation",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "unitree-robotics",
+      "date": "2026-08",
+      "round": "IPO (STAR Market)",
+      "amount_usd": 904000000,
+      "lead": null,
+      "investors": [
+        "deepseek"
+      ],
+      "note": "~6.1B yuan at ~$9B valuation",
+      "source": "https://www.automate.org/robotics/industry-insights/unitree-prices-long-awaited-ipo-at-9b/aph",
+      "confidence": "verified"
+    },
+    {
+      "org": "hello-robot",
+      "date": "2024-12",
+      "round": "Strategic investment",
+      "amount_usd": 400000,
+      "lead": "als-association",
+      "investors": [],
+      "note": "Part of ALS Association partnership",
+      "source": "https://hello-robot.com/press-release-als-2024",
+      "confidence": "company-reported"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "parkway-venture-capital",
+      "to": "figure-ai",
+      "type": "invests",
+      "note": "Led Series C (Sep 2025)",
+      "source": "https://www.gunder.com/print/v2/content/23138/figure-announces-1-billioin-dollar-series-c-and-strategic-partnership-with-brookfield.pdf?lang=en",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "brookfield",
+      "to": "figure-ai",
+      "type": "invests",
+      "note": "Series C participant (Sep 2025)",
+      "source": "https://www.gunder.com/print/v2/content/23138/figure-announces-1-billioin-dollar-series-c-and-strategic-partnership-with-brookfield.pdf?lang=en",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "brookfield",
+      "to": "figure-ai",
+      "type": "partnership",
+      "note": "Strategic partnership: humanoid pretraining dataset, AI infrastructure, data collection in Brookfield properties",
+      "source": "https://figure.ai/news/figure-announces-strategic-partnership-with-brookfield",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "figure-ai",
+      "to": "helix",
+      "type": "uses_model",
+      "note": "Helix VLA powers Figure humanoids",
+      "source": "https://figure.ai/news/figure-announces-strategic-partnership-with-brookfield",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "figure-ai",
+      "to": "helix",
+      "type": "develops",
+      "note": "In-house VLA",
+      "source": "https://figure.ai/news/figure-announces-strategic-partnership-with-brookfield",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "bmw",
+      "to": "figure-ai",
+      "type": "customer",
+      "note": "Figure 02 pilot at BMW Spartanburg plant",
+      "source": "https://en.wikipedia.org/wiki/Figure_AI",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "microsoft",
+      "to": "figure-ai",
+      "type": "invests",
+      "note": "Series B (Feb 2024)",
+      "source": "https://en.wikipedia.org/wiki/Figure_AI",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "openai",
+      "to": "figure-ai",
+      "type": "invests",
+      "note": "Series B (Feb 2024)",
+      "source": "https://en.wikipedia.org/wiki/Figure_AI",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "figure-ai",
+      "type": "invests",
+      "note": "Series B (Feb 2024)",
+      "source": "https://en.wikipedia.org/wiki/Figure_AI",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "bezos-expeditions",
+      "to": "figure-ai",
+      "type": "invests",
+      "note": "Series B (Feb 2024)",
+      "source": "https://en.wikipedia.org/wiki/Figure_AI",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "intel-capital",
+      "to": "figure-ai",
+      "type": "invests",
+      "note": "Series B (Feb 2024)",
+      "source": "https://en.wikipedia.org/wiki/Figure_AI",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "amazon-industrial-innovation-fund",
+      "to": "figure-ai",
+      "type": "invests",
+      "note": "Series B (Feb 2024)",
+      "source": "https://en.wikipedia.org/wiki/Figure_AI",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "amazon-industrial-innovation-fund",
+      "to": "agility-robotics",
+      "type": "invests",
+      "note": "Disclosed investor",
+      "source": "https://www.geekwire.com/2026/digit-maker-agility-robotics-to-go-public-in-2-5b-deal-heres-what-the-filings-say-about-its-finances/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "agility-robotics",
+      "type": "invests",
+      "note": "Disclosed investor",
+      "source": "https://www.geekwire.com/2026/digit-maker-agility-robotics-to-go-public-in-2-5b-deal-heres-what-the-filings-say-about-its-finances/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "softbank",
+      "to": "agility-robotics",
+      "type": "invests",
+      "note": "Disclosed investor",
+      "source": "https://www.geekwire.com/2026/digit-maker-agility-robotics-to-go-public-in-2-5b-deal-heres-what-the-filings-say-about-its-finances/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "dcvc",
+      "to": "agility-robotics",
+      "type": "invests",
+      "note": "Disclosed investor",
+      "source": "https://www.geekwire.com/2026/digit-maker-agility-robotics-to-go-public-in-2-5b-deal-heres-what-the-filings-say-about-its-finances/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "gxo",
+      "to": "agility-robotics",
+      "type": "customer",
+      "note": "Digit customer",
+      "source": "https://www.geekwire.com/2026/digit-maker-agility-robotics-to-go-public-in-2-5b-deal-heres-what-the-filings-say-about-its-finances/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "schaeffler",
+      "to": "agility-robotics",
+      "type": "customer",
+      "note": "Digit customer",
+      "source": "https://www.geekwire.com/2026/digit-maker-agility-robotics-to-go-public-in-2-5b-deal-heres-what-the-filings-say-about-its-finances/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "toyota",
+      "to": "agility-robotics",
+      "type": "customer",
+      "note": "Digit customer",
+      "source": "https://www.geekwire.com/2026/digit-maker-agility-robotics-to-go-public-in-2-5b-deal-heres-what-the-filings-say-about-its-finances/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "mercado-libre",
+      "to": "agility-robotics",
+      "type": "customer",
+      "note": "Digit customer",
+      "source": "https://www.geekwire.com/2026/digit-maker-agility-robotics-to-go-public-in-2-5b-deal-heres-what-the-filings-say-about-its-finances/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "churchill-capital-xi",
+      "to": "agility-robotics",
+      "type": "acquisition",
+      "note": "SPAC merger agreement (pending), $2.5B pre-money equity value",
+      "source": "https://www.geekwire.com/2026/digit-maker-agility-robotics-to-go-public-in-2-5b-deal-heres-what-the-filings-say-about-its-finances/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "b-capital",
+      "to": "apptronik",
+      "type": "invests",
+      "note": "Series A / A-X investor",
+      "source": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "google",
+      "to": "apptronik",
+      "type": "invests",
+      "note": "Series A / A-X investor",
+      "source": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "mercedes-benz",
+      "to": "apptronik",
+      "type": "invests",
+      "note": "Series A / A-X investor",
+      "source": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "peak6",
+      "to": "apptronik",
+      "type": "invests",
+      "note": "Series A / A-X investor",
+      "source": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "att-ventures",
+      "to": "apptronik",
+      "type": "invests",
+      "note": "Series A / A-X investor",
+      "source": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "john-deere",
+      "to": "apptronik",
+      "type": "invests",
+      "note": "Series A / A-X investor",
+      "source": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "qatar-investment-authority",
+      "to": "apptronik",
+      "type": "invests",
+      "note": "Series A / A-X investor",
+      "source": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "mercedes-benz",
+      "to": "apptronik",
+      "type": "customer",
+      "note": "Apollo pilot (company-reported)",
+      "source": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "google-deepmind",
+      "to": "apptronik",
+      "type": "partnership",
+      "note": "Gemini Robotics collaboration on Apollo (company-reported)",
+      "source": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "hyundai",
+      "to": "boston-dynamics",
+      "type": "acquisition",
+      "note": "Hyundai Motor Group majority owner (2021)",
+      "source": "https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry/",
+      "confidence": "verified"
+    },
+    {
+      "from": "hyundai",
+      "to": "boston-dynamics",
+      "type": "customer",
+      "note": "2026 Atlas fleet to Hyundai Robotics Metaplant Application Center",
+      "source": "https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "google-deepmind",
+      "to": "boston-dynamics",
+      "type": "partnership",
+      "note": "Receives Atlas fleet; integrating Gemini Robotics models",
+      "source": "https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "eqt-ventures",
+      "to": "1x-technologies",
+      "type": "invests",
+      "note": "Led Series B (Jan 2024)",
+      "source": "https://www.pymnts.com/artificial-intelligence-2/2025/1x-acquires-kind-humanoid-to-accelerate-development-of-humanoid-robots/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "1x-technologies",
+      "to": "kind-humanoid",
+      "type": "acquisition",
+      "note": "Acquired Jan 2025, undisclosed",
+      "source": "https://www.pymnts.com/artificial-intelligence-2/2025/1x-acquires-kind-humanoid-to-accelerate-development-of-humanoid-robots/",
+      "confidence": "verified"
+    },
+    {
+      "from": "eqt",
+      "to": "1x-technologies",
+      "type": "customer",
+      "note": "Agreement for up to 10,000 NEO units for EQT portfolio companies 2026-2030 (Dec 2025)",
+      "source": "https://neuronfeed.com/startups/1x",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "robostrategy",
+      "to": "dyna-robotics",
+      "type": "invests",
+      "note": "Series A (Sep 2025)",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "crv",
+      "to": "dyna-robotics",
+      "type": "invests",
+      "note": "Series A (Sep 2025)",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "first-round-capital",
+      "to": "dyna-robotics",
+      "type": "invests",
+      "note": "Series A (Sep 2025)",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "salesforce-ventures",
+      "to": "dyna-robotics",
+      "type": "invests",
+      "note": "Series A (Sep 2025)",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "dyna-robotics",
+      "type": "invests",
+      "note": "Series A (Sep 2025)",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "amazon-industrial-innovation-fund",
+      "to": "dyna-robotics",
+      "type": "invests",
+      "note": "Series A (Sep 2025)",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "samsung",
+      "to": "dyna-robotics",
+      "type": "invests",
+      "note": "Series A (Sep 2025)",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "lg",
+      "to": "dyna-robotics",
+      "type": "invests",
+      "note": "Series A (Sep 2025)",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "dyna-robotics",
+      "to": "dyna-1",
+      "type": "develops",
+      "note": "In-house robot foundation model",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "eclipse-ventures",
+      "to": "genesis-ai",
+      "type": "invests",
+      "note": "Seed (Jul 2025)",
+      "source": "https://siliconangle.com/2025/07/01/robotics-lab-genesis-ai-launches-105m-develop-universal-robot-foundation-model-ai-platform/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "khosla-ventures",
+      "to": "genesis-ai",
+      "type": "invests",
+      "note": "Seed (Jul 2025)",
+      "source": "https://siliconangle.com/2025/07/01/robotics-lab-genesis-ai-launches-105m-develop-universal-robot-foundation-model-ai-platform/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "greenoaks",
+      "to": "the-bot-company",
+      "type": "invests",
+      "note": "Led $150M round at $2B (Mar 2025)",
+      "source": "https://www.therobotreport.com/the-bot-company-led-by-kyle-vogt-brings-in-another-150m/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "spark-capital",
+      "to": "the-bot-company",
+      "type": "invests",
+      "note": "Early investor",
+      "source": "https://www.therobotreport.com/the-bot-company-led-by-kyle-vogt-brings-in-another-150m/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "avenir-growth",
+      "to": "mytra",
+      "type": "invests",
+      "note": "Led Series C (Jan 2026)",
+      "source": "https://www.vcaonline.com/news/2026011501/mytra-raises-120m-series-c-to-scale-operating-system-for-supply-chain/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "eclipse-ventures",
+      "to": "mytra",
+      "type": "invests",
+      "note": "Existing investor, Series C",
+      "source": "https://www.vcaonline.com/news/2026011501/mytra-raises-120m-series-c-to-scale-operating-system-for-supply-chain/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "general-catalyst",
+      "to": "collaborative-robotics",
+      "type": "invests",
+      "note": "Series B (Apr 2024)",
+      "source": "https://wsau.com/2024/04/10/collaborative-robotics-raises-100-million-amid-robots-funding-boom/",
+      "confidence": "verified"
+    },
+    {
+      "from": "sequoia-capital",
+      "to": "collaborative-robotics",
+      "type": "invests",
+      "note": "Series B (Apr 2024)",
+      "source": "https://wsau.com/2024/04/10/collaborative-robotics-raises-100-million-amid-robots-funding-boom/",
+      "confidence": "verified"
+    },
+    {
+      "from": "khosla-ventures",
+      "to": "collaborative-robotics",
+      "type": "invests",
+      "note": "Series B (Apr 2024)",
+      "source": "https://wsau.com/2024/04/10/collaborative-robotics-raises-100-million-amid-robots-funding-boom/",
+      "confidence": "verified"
+    },
+    {
+      "from": "mayo-clinic",
+      "to": "collaborative-robotics",
+      "type": "invests",
+      "note": "Series B (Apr 2024)",
+      "source": "https://wsau.com/2024/04/10/collaborative-robotics-raises-100-million-amid-robots-funding-boom/",
+      "confidence": "verified"
+    },
+    {
+      "from": "canaan",
+      "to": "diligent-robotics",
+      "type": "invests",
+      "note": "Led $25M round (2023)",
+      "source": "https://iotworldtoday.com/robotics/diligent-robotics-raises-25m-for-hospital-robot-expansion",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "northwestern-medicine",
+      "to": "diligent-robotics",
+      "type": "invests",
+      "note": "Strategic investor (2023)",
+      "source": "https://iotworldtoday.com/robotics/diligent-robotics-raises-25m-for-hospital-robot-expansion",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "lig-nex1",
+      "to": "ghost-robotics",
+      "type": "acquisition",
+      "note": "Acquired 60% stake, $240M deal (2024)",
+      "source": "https://www.koreajoongangdaily.com/business/lig-nex1-acquires-ghost-robotics-in-240-million-deal/10482814",
+      "confidence": "verified"
+    },
+    {
+      "from": "qualcomm",
+      "to": "anybotics",
+      "type": "invests",
+      "note": "Co-led $60M round (Dec 2024)",
+      "source": "https://www.robotics247.com/article/anybotics_raises_an_additional_60_million_to_drive_u.s_expansion",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "hd-hyundai",
+      "to": "persona-ai",
+      "type": "partnership",
+      "note": "MOU to develop shipyard welding humanoids",
+      "source": "https://www.tradeandindustrydev.com/region/texas/tx-hd-hyundai-persona-ai-deploy-humanoid-welding-34491.md",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "abs",
+      "to": "persona-ai",
+      "type": "partnership",
+      "note": "MOU on inspection technologies for Persona humanoid",
+      "source": "https://www.marinelog.com/?p=103537",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "daiwa-house",
+      "to": "persona-ai",
+      "type": "invests",
+      "note": "Growth fund investment (Oct 2026)",
+      "source": "https://dealroom.co/news/158471-daiwa-house-growth-fund-backs-texas-humanoid-robot-maker-persona-ai/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "amd",
+      "to": "foundation-future-industries",
+      "type": "partnership",
+      "note": "Co-development of autonomous humanoids (reported)",
+      "source": "https://sacra.com/c/foundation",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "tribe-capital",
+      "to": "foundation-future-industries",
+      "type": "invests",
+      "note": "Led $11M pre-seed (Aug 2024)",
+      "source": "https://sacra.com/c/foundation",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "khosla-ventures",
+      "to": "reflex-robotics",
+      "type": "invests",
+      "note": "Seed lead",
+      "source": "https://www.cbinsights.com/company/reflex-robotics",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "als-association",
+      "to": "hello-robot",
+      "type": "invests",
+      "note": "$400K investment + partnership (Dec 2024)",
+      "source": "https://hello-robot.com/press-release-als-2024",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "deepseek",
+      "to": "unitree-robotics",
+      "type": "invests",
+      "note": "Strategic investor in 2026 IPO",
+      "source": "https://www.automate.org/robotics/industry-insights/unitree-prices-long-awaited-ipo-at-9b/aph",
+      "confidence": "company-reported"
+    }
+  ],
+  "models": [
+    {
+      "id": "helix",
+      "name": "Helix",
+      "developer": "figure-ai",
+      "released": "2025-02",
+      "category": "VLA",
+      "embodiments": [
+        "humanoid"
+      ],
+      "license": "proprietary",
+      "docs": null,
+      "integrations": [
+        "Figure 02",
+        "Figure 03"
+      ],
+      "capabilities": "Vision-language-action model for whole-upper-body humanoid control; Brookfield partnership to build pretraining dataset for scaling Helix",
+      "availability": "Internal",
+      "sources": [
+        {
+          "url": "https://figure.ai/news/figure-announces-strategic-partnership-with-brookfield",
+          "label": "Figure: Brookfield partnership"
+        }
+      ],
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "dyna-1",
+      "name": "DYNA-1",
+      "developer": "dyna-robotics",
+      "released": "2025",
+      "category": "Robot foundation model",
+      "embodiments": [
+        "bimanual",
+        "mobile manipulator"
+      ],
+      "license": "proprietary",
+      "docs": null,
+      "integrations": [
+        "Dyna bimanual stations"
+      ],
+      "capabilities": "Foundation model for dexterous tasks (e.g., laundry folding); company reports 99%+ success over 24h continuous operation",
+      "availability": "Commercial",
+      "sources": [
+        {
+          "url": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+          "label": "Gunderson: Dyna Series A"
+        },
+        {
+          "url": "https://www.verdict.co.uk/dyna-robotics-series-a-robotic-model-development/",
+          "label": "Verdict"
+        }
+      ],
+      "verified": "2026-10-15"
+    }
+  ]
+}

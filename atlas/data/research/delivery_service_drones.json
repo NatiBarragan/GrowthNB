@@ -1,0 +1,2736 @@
+{
+  "organizations": [
+    {
+      "id": "robot-com",
+      "name": "Robot.com (formerly Kiwibot)",
+      "kind": "robotics",
+      "website": "https://www.robot.com",
+      "hq_city": "Miami",
+      "hq_state": "FL",
+      "hq_country": "US",
+      "lat": 25.76,
+      "lon": -80.19,
+      "founded": 2017,
+      "segment": "Delivery & Last-Mile",
+      "subsegment": "Sidewalk delivery robots; robot advertising network (R-ads); wheeled humanoid (R-noid)",
+      "product": "Sidewalk delivery robots; R-ads robot media network; R-noid wheeled humanoid (RaaS); R-dog legged delivery concept; REMI fleet-management platform",
+      "robot_type": "Sidewalk delivery robot",
+      "ai_approach": "Semi-autonomous navigation with remote supervision; FieldAI navigation stack planned for R-dog",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 14000000,
+      "funding_note": "~$14M total as of Feb 2022 pre-Series A ($7.5M); no later round verified (company-reported)",
+      "investors": [
+        "headline",
+        "sodexo",
+        "berkeley-skydeck-fund"
+      ],
+      "customers": [
+        "Sodexo",
+        "Grubhub",
+        "Aramark",
+        "Amazon Web Services (ad campaign)",
+        "Harbor Links Golf Course (R-noid)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Company reports ~500 robots in operation across campuses, warehouses and streets and 1.7M+ (later 2.5M+) tasks; R-noid: fewer than 40 units commercially deployed across ~a dozen customers (CEO, Jun 2026); R-dog is a prototype with commercial deployments planned 2027 (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "sidewalk-delivery",
+        "robot-advertising",
+        "humanoid",
+        "rebrand",
+        "latam-founded"
+      ],
+      "summary": "Kiwibot, founded by Felipe Chavez and piloted at UC Berkeley in 2017, rebranded as Robot.com in 2025 and now runs sidewalk delivery robots, the R-ads robot advertising network and the R-noid wheeled humanoid from its Miami HQ.",
+      "sources": [
+        {
+          "url": "https://roboticsandautomationnews.com/2025/10/31/kiwibot-relaunches-as-robot-com-with-1-7-million-real-world-robot-tasks-completed/96107/",
+          "label": "Robotics & Automation News: Kiwibot relaunches as Robot.com"
+        },
+        {
+          "url": "https://www.newswire.com/news/kiwibot-transforms-into-robot-com-setting-stage-for-global-automation-22570341",
+          "label": "Press release: Kiwibot transforms into Robot.com"
+        },
+        {
+          "url": "https://www.robot.com/blog/robot-com-launches-r-ads-autonomous-robot-media-network",
+          "label": "Robot.com: R-ads launch"
+        },
+        {
+          "url": "https://www.robotics247.com/article/automate-2026-robot.com-launches-r-noid-humanoid-robot",
+          "label": "Robotics 24/7: R-noid launch at Automate 2026"
+        },
+        {
+          "url": "https://runtimewire.com/article/robot-com-r-dog-legged-delivery-robot-fieldai",
+          "label": "RuntimeWire: R-dog with FieldAI"
+        },
+        {
+          "url": "https://www.robotics247.com/article/kiwibot_completes_preseries_a_7M_closes_expansion_deal_sodexo",
+          "label": "Robotics 24/7: $7.5M pre-Series A, Miami HQ, Sodexo deal"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "serve-robotics",
+      "name": "Serve Robotics",
+      "kind": "robotics",
+      "website": "https://www.serverobotics.com",
+      "hq_city": "Redwood City",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.49,
+      "lon": -122.24,
+      "founded": 2017,
+      "segment": "Delivery & Last-Mile",
+      "subsegment": "Sidewalk delivery robots; hospital robots (Moxi)",
+      "product": "Serve sidewalk delivery robots; Moxi hospital robots",
+      "robot_type": "Sidewalk delivery robot",
+      "ai_approach": "Level 4 autonomy (company-described)",
+      "models": [],
+      "stage": "Public",
+      "ticker": "SERV",
+      "funding_usd": null,
+      "funding_note": "Public (Nasdaq: SERV); $240.4M liquidity at end Q2 2026; total raised not verified this pass",
+      "investors": [
+        "uber"
+      ],
+      "customers": [
+        "Uber Eats",
+        "DoorDash"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "2,000+ sidewalk robots across 44 US cities and 100+ Moxi hospital robots; Q2 2026 revenue $3.2M (+404% YoY); FY2026 guidance cut to $9-10M (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "sidewalk-delivery",
+        "uber-spinout"
+      ],
+      "summary": "Nasdaq-listed Serve Robotics, spun out of Uber's Postmates, operates 2,000+ autonomous sidewalk delivery robots on Uber Eats and DoorDash and also operates Moxi hospital robots.",
+      "sources": [
+        {
+          "url": "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-announces-second-quarter-2026-results",
+          "label": "Serve Q2 2026 results"
+        },
+        {
+          "url": "https://www.quiverquant.com/news/Serve+Robotics+Q2+Revenue+Reaches+%243.2+Million+as+Fleet+Expands",
+          "label": "Quiver Quant: Q2 2026 summary"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "starship-technologies",
+      "name": "Starship Technologies",
+      "kind": "robotics",
+      "website": "https://www.starship.xyz",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2014,
+      "segment": "Delivery & Last-Mile",
+      "subsegment": "Sidewalk delivery robots (campus, city, grocery)",
+      "product": "Starship six-wheeled delivery robot",
+      "robot_type": "Sidewalk delivery robot",
+      "ai_approach": "Autonomous navigation with remote assistance",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": 280000000,
+      "funding_note": "Total >$280M after $50M Series C led by Plural (Oct 2025), company-reported",
+      "investors": [
+        "plural",
+        "karma-vc",
+        "latitude",
+        "coefficient-capital",
+        "smartcap",
+        "skaala"
+      ],
+      "customers": [
+        "Grubhub (US campuses)",
+        "~60 US university campuses"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "~2,700 robots, 9M+ deliveries, ~30 European cities and ~60 US campuses; targets ~12,000 robots by 2027 and US city expansion (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "sidewalk-delivery",
+        "campus",
+        "europe-us"
+      ],
+      "summary": "Starship Technologies operates a fleet of about 2,700 autonomous sidewalk delivery robots on US college campuses and in European cities and raised a $50M Series C in October 2025 to expand into US cities.",
+      "sources": [
+        {
+          "url": "https://www.businesswire.com/news/home/20251015387447/en",
+          "label": "Business Wire: Starship $50M Series C"
+        },
+        {
+          "url": "https://www.restaurantdive.com/news/starship-technologies-raises-50-million-us-robotics-delivery/802863/",
+          "label": "Restaurant Dive"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "coco-robotics",
+      "name": "Coco Robotics",
+      "kind": "robotics",
+      "website": "https://www.cocodelivery.com",
+      "hq_city": "Los Angeles",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 34.05,
+      "lon": -118.24,
+      "founded": 2020,
+      "segment": "Delivery & Last-Mile",
+      "subsegment": "Sidewalk delivery robots for restaurants and retail",
+      "product": "Coco 2 autonomous delivery robot (Feb 2026)",
+      "robot_type": "Sidewalk delivery robot",
+      "ai_approach": "Autonomous navigation (Coco 2 described as fully autonomous)",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 110000000,
+      "funding_note": ">$110M total incl. $80M (Jun 2025); legal name Cyan Robotics Inc.",
+      "investors": [
+        "sam-altman",
+        "pelion-venture-partners",
+        "offline-ventures",
+        "outlander",
+        "founders-fund"
+      ],
+      "customers": [
+        "DoorDash",
+        "Uber Eats",
+        "DashMart"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "1,000+ robots deployed across LA, Chicago, Miami, Jersey City, San Jose, Washington DC and Helsinki/Turku (company/press-reported)",
+      "suppliers": [],
+      "tags": [
+        "sidewalk-delivery",
+        "startup"
+      ],
+      "summary": "Los Angeles-based Coco Robotics runs 1,000+ sidewalk delivery robots for DoorDash and Uber Eats orders and launched its next-generation Coco 2 robot in February 2026.",
+      "sources": [
+        {
+          "url": "https://about.doordash.com/en-us/news/doordash-coco-expand-partnership",
+          "label": "DoorDash: Coco partnership expands to Miami"
+        },
+        {
+          "url": "https://techcrunch.com/2025/06/11/sam-altman-backed-coco-robotics-raises-80m/",
+          "label": "TechCrunch: Coco raises $80M"
+        },
+        {
+          "url": "https://www.aol.com/articles/delivery-bot-coming-l-built-110000914.html",
+          "label": "LA Times (via AOL): Coco 2"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "nuro",
+      "name": "Nuro",
+      "kind": "robotics",
+      "website": "https://www.nuro.ai",
+      "hq_city": "Mountain View",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.39,
+      "lon": -122.08,
+      "founded": 2016,
+      "segment": "Delivery & Last-Mile",
+      "subsegment": "Autonomous driving platform (licensing); robotaxi via Lucid/Uber; formerly delivery vehicles",
+      "product": "Nuro Driver (AI-first autonomy, licensed to OEMs/mobility)",
+      "robot_type": "Autonomous vehicle",
+      "ai_approach": "AI-first end-to-end autonomy (company-described)",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "$203M Series E at $6B valuation (closed Aug 2025, incl. $106M Apr 2025 tranche); Uber commitment ~ $500M milestone-based (Reuters via Dealroom)",
+      "investors": [
+        "uber",
+        "nvidia",
+        "baillie-gifford",
+        "icehouse-ventures",
+        "kindred-ventures",
+        "pledge-ventures"
+      ],
+      "customers": [
+        "Uber",
+        "Lucid"
+      ],
+      "deployment": "Pilot",
+      "deployment_note": "CA driverless testing permit (Apr 2026) and passenger testing with drivers (May 2026); Bay Area robotaxi launch with Lucid Gravity on Uber planned; Houston 2027 announced (press-reported)",
+      "suppliers": [],
+      "tags": [
+        "autonomous-driving",
+        "robotaxi",
+        "licensing"
+      ],
+      "summary": "Nuro licenses its AI-first autonomous driving system and is building a robotaxi program with Lucid and Uber after closing a $203M Series E at a $6B valuation in 2025.",
+      "sources": [
+        {
+          "url": "https://www.nuro.ai/blog/nuro-closes-203-million-series-e-financing-to-advance-its-ai-first-self-driving-technology-and-commercial-partnerships",
+          "label": "Nuro: $203M Series E"
+        },
+        {
+          "url": "https://autotechinsight.spglobal.com/news/5288731/uber-commits-nearly-500-million-to-nuro-in-robo-taxi-partnership-with-lucid",
+          "label": "S&P AutoTechInsight: Uber/Nuro/Lucid"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "cartken",
+      "name": "Cartken",
+      "kind": "robotics",
+      "website": "https://www.cartken.com",
+      "hq_city": "Oakland",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.8,
+      "lon": -122.27,
+      "founded": 2019,
+      "segment": "Delivery & Last-Mile",
+      "subsegment": "Sidewalk delivery and industrial/campus hauling robots",
+      "product": "Cartken Courier; Cartken Hauler (industrial)",
+      "robot_type": "AMR",
+      "ai_approach": "Vision-based autonomy (company-described)",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 22500000,
+      "funding_note": "$22.5M total incl. $10M round led by 468 Capital (Jul 2024), company-reported",
+      "investors": [
+        "468-capital",
+        "magna",
+        "shell-ventures",
+        "mitsubishi-electric"
+      ],
+      "customers": [
+        "Melco Mobility Solutions (Mitsubishi Electric group)",
+        "Grubhub (campuses)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Melco ordered nearly 100 Hauler robots for Japanese industrial sites (Jun 2025); campus delivery with Grubhub (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "sidewalk-delivery",
+        "industrial-logistics"
+      ],
+      "summary": "Cartken builds AI-powered wheeled robots for campus delivery and industrial material hauling, with Mitsubishi Electric as strategic investor and Japan distributor.",
+      "sources": [
+        {
+          "url": "https://www.cartken.com/press-release/a-mitsubishi-electric-group-company-expands-partnership-with-cartken-and-orders-nearly-100-autonomous-cartken-hauler-robots-for-industrial-applications",
+          "label": "Cartken press release (Jun 2025)"
+        },
+        {
+          "url": "https://www.startbase.com/news/cartken-hat-finanzierung-in-hoehe-von-225-millionen-usd-abgeschlossen/",
+          "label": "Startbase: $22.5M total funding"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "avride",
+      "name": "Avride",
+      "kind": "robotics",
+      "website": "https://www.avride.ai",
+      "hq_city": "Austin",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 30.27,
+      "lon": -97.74,
+      "founded": null,
+      "segment": "Delivery & Last-Mile",
+      "subsegment": "Sidewalk delivery robots and robotaxis",
+      "product": "Avride sidewalk delivery robots; Avride robotaxi (Hyundai Ioniq 5 base not verified this pass)",
+      "robot_type": "Sidewalk delivery robot",
+      "ai_approach": "In-house autonomy stack",
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": 375000000,
+      "funding_note": "$375M from Uber and Nebius (2025, press-reported); Avride is part of Nebius Group",
+      "investors": [
+        "uber",
+        "nebius"
+      ],
+      "customers": [
+        "Uber Eats",
+        "Grubhub",
+        "Uber (robotaxi, Dallas)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Uber Eats robot delivery in Austin, Dallas (2024) and Jersey City (Feb 2025); Grubhub pilot in Jersey City; Uber robotaxi service in downtown Dallas from Dec 3, 2025",
+      "suppliers": [],
+      "tags": [
+        "sidewalk-delivery",
+        "robotaxi"
+      ],
+      "summary": "Avride, part of Nebius Group, operates sidewalk delivery robots on Uber Eats and Grubhub and a robotaxi service on Uber in Dallas.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Avride",
+          "label": "Wikipedia: Avride"
+        },
+        {
+          "url": "https://njbiz.com/uber-eats-enlists-robots-for-jersey-city-deliveries/",
+          "label": "NJBiz: Uber Eats robots in Jersey City"
+        },
+        {
+          "url": "https://www.therobotreport.com/grubhub-partners-avride-future-food-delivery/",
+          "label": "The Robot Report: Grubhub x Avride"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "vayu-robotics",
+      "name": "Vayu Robotics",
+      "kind": "robotics",
+      "website": "https://www.vayurobotics.com",
+      "hq_city": "Palo Alto",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.44,
+      "lon": -122.14,
+      "founded": null,
+      "segment": "Delivery & Last-Mile",
+      "subsegment": "Delivery robots using camera-only foundation-model navigation",
+      "product": "Vayu delivery robot",
+      "robot_type": "Sidewalk delivery robot",
+      "ai_approach": "Learned (foundation-model) navigation without lidar (company-described)",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. Seed led by Khosla Ventures (2023) per prior reporting.",
+      "investors": [
+        "khosla-ventures"
+      ],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "sidewalk-delivery"
+      ],
+      "summary": "Vayu Robotics develops low-cost delivery robots driven by a learned, camera-based navigation model.",
+      "sources": [
+        {
+          "url": "https://www.vayurobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "doordash",
+      "name": "DoorDash",
+      "kind": "enabler",
+      "website": "https://www.doordash.com",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2013,
+      "segment": "Delivery & Last-Mile",
+      "subsegment": "Delivery platform; own autonomous delivery robot (Dot)",
+      "product": "DoorDash Dot delivery robot; autonomous delivery platform partnerships",
+      "robot_type": "Autonomous delivery vehicle",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "DASH",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Pilot",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. Dot unveiled 2025 for pilot in Phoenix area; partners Coco, Serve, Wing, Flytrex.",
+      "suppliers": [],
+      "tags": [
+        "platform",
+        "customer-partner"
+      ],
+      "summary": "DoorDash is a delivery marketplace that partners with sidewalk-robot and drone operators and has developed its own Dot delivery robot.",
+      "sources": [
+        {
+          "url": "https://about.doordash.com/en-us/news/doordash-coco-expand-partnership",
+          "label": "DoorDash newsroom"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "grubhub",
+      "name": "Grubhub",
+      "kind": "enabler",
+      "website": "https://www.grubhub.com",
+      "hq_city": "Chicago",
+      "hq_state": "IL",
+      "hq_country": "US",
+      "lat": 41.88,
+      "lon": -87.63,
+      "founded": 2004,
+      "segment": "Delivery & Last-Mile",
+      "subsegment": "Delivery platform; campus robot delivery partner",
+      "product": "Robot delivery on college campuses (with Starship, Cartken, Kiwibot) and Avride in Jersey City",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "platform",
+        "customer-partner"
+      ],
+      "summary": "Grubhub offers robot delivery on US college campuses through partners including Starship, Cartken and Kiwibot (Robot.com), and piloted Avride robots in Jersey City.",
+      "sources": [
+        {
+          "url": "https://hospitalitytech.com/grubhub-kiwibot-partner-robot-delivery-college-campuses",
+          "label": "Hospitality Tech: Grubhub x Kiwibot"
+        },
+        {
+          "url": "https://www.therobotreport.com/grubhub-partners-avride-future-food-delivery/",
+          "label": "The Robot Report: Grubhub x Avride"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "sodexo",
+      "name": "Sodexo",
+      "kind": "enabler",
+      "website": "https://us.sodexo.com",
+      "hq_city": "Gaithersburg",
+      "hq_state": "MD",
+      "hq_country": "US",
+      "lat": 39.14,
+      "lon": -77.2,
+      "founded": 1966,
+      "segment": "Service & Commercial",
+      "subsegment": "Food services; campus robot delivery customer and investor",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": "US HQ city from baseline knowledge; parent HQ in France",
+      "suppliers": [],
+      "tags": [
+        "customer",
+        "corporate-investor"
+      ],
+      "summary": "Sodexo, a global food-services company, invested in Kiwibot (now Robot.com) and signed a $20M contract expansion in 2022 to deploy its delivery robots on US campuses.",
+      "sources": [
+        {
+          "url": "https://us.sodexo.com/newsroom/2022/kiwibot-sodexo",
+          "label": "Sodexo newsroom: Kiwibot pre-Series A and expansion deal"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "zipline",
+      "name": "Zipline",
+      "kind": "robotics",
+      "website": "https://www.zipline.com",
+      "hq_city": "South San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.65,
+      "lon": -122.41,
+      "founded": 2014,
+      "segment": "Drones & Autonomous Systems",
+      "subsegment": "Drone delivery (healthcare, retail, restaurants)",
+      "product": "Platform 2 (P2) home delivery drone; Platform 1 long-range",
+      "robot_type": "Drone",
+      "ai_approach": "Autonomous flight with detect-and-avoid",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Series H: $600M+ at $7.6B led by Valor (Jan 2026) + $200M extension with Paradigm (Mar 2026); reported talks for ~$1B at $20B (Sep 2026, unconfirmed)",
+      "investors": [
+        "valor-equity-partners",
+        "tiger-global",
+        "fidelity",
+        "baillie-gifford",
+        "paradigm"
+      ],
+      "customers": [
+        "Walmart",
+        "Chipotle"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "2M+ commercial deliveries; P2 sites at Walmart Mesquite and Waxahachie TX; Houston and Phoenix expansion early 2026 (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "drone-delivery",
+        "growth"
+      ],
+      "summary": "Zipline operates autonomous delivery drones for Walmart and restaurants in the US and for health systems globally, valued at $7.6B after its 2026 Series H.",
+      "sources": [
+        {
+          "url": "https://www.therobotreport.com/zipline-raises-over-600m-in-funding-surpasses-2m-commercial-drone-deliveries/",
+          "label": "The Robot Report: Zipline raises $600M+"
+        },
+        {
+          "url": "https://dronexl.co/2026/01/20/zipline-reaches-7-6-billion-valuation-drone",
+          "label": "DroneXL: $7.6B valuation"
+        },
+        {
+          "url": "https://runtimewire.com/article/zipline-seeks-1-billion-20-billion-valuation-us-drone-delivery",
+          "label": "RuntimeWire: $20B talks (unconfirmed)"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "wing",
+      "name": "Wing",
+      "kind": "robotics",
+      "website": "https://wing.com",
+      "hq_city": "Palo Alto",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.44,
+      "lon": -122.14,
+      "founded": 2012,
+      "segment": "Drones & Autonomous Systems",
+      "subsegment": "Drone delivery (Alphabet)",
+      "product": "Wing delivery drone and UTM software",
+      "robot_type": "Drone",
+      "ai_approach": "Autonomous flight",
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Alphabet subsidiary; no external funding disclosed",
+      "investors": [
+        "alphabet"
+      ],
+      "customers": [
+        "Walmart",
+        "DoorDash"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Walmart expansion to 150 more stores (Jan 2026) for 270+ stores total; Houston, LA, St. Louis, Cincinnati, Miami; ~40M Americans covered by end-2026 (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "drone-delivery",
+        "alphabet"
+      ],
+      "summary": "Alphabet's Wing operates drone delivery from Walmart stores across multiple US metros and is expanding to more than 270 Walmart stores.",
+      "sources": [
+        {
+          "url": "https://www.axios.com/2026/01/11/walmart-drone-delivery-wing-los-angeles-miami",
+          "label": "Axios: Walmart expands Wing to 150 stores"
+        },
+        {
+          "url": "https://techcrunch.com/2025/06/05/walmart-and-wing-expand-drone-delivery-to-five-more-u-s-cities",
+          "label": "TechCrunch"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "flytrex",
+      "name": "Flytrex",
+      "kind": "robotics",
+      "website": "https://www.flytrex.com",
+      "hq_city": "Tel Aviv",
+      "hq_state": null,
+      "hq_country": "IL",
+      "lat": 32.09,
+      "lon": 34.78,
+      "founded": 2013,
+      "segment": "Drones & Autonomous Systems",
+      "subsegment": "Suburban drone delivery",
+      "product": "Flytrex delivery drone system",
+      "robot_type": "Drone",
+      "ai_approach": "Autonomous flight (FAA BVLOS-authorized)",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Uber strategic investment (Sep 2025, undisclosed, 'not material'); earlier $40M raise reported by Hospitality Tech",
+      "investors": [
+        "uber"
+      ],
+      "customers": [
+        "Walmart",
+        "DoorDash",
+        "Uber Eats (pilot)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "200,000+ US deliveries; US operations in North Carolina and Texas (US office city not verified); one of four FAA BVLOS-authorized drone delivery providers",
+      "suppliers": [],
+      "tags": [
+        "drone-delivery",
+        "israel-us"
+      ],
+      "summary": "Israel-founded Flytrex runs suburban drone delivery in the US for Walmart and DoorDash and received a strategic investment from Uber in 2025 for Uber Eats pilots.",
+      "sources": [
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-09-18/uber-gets-back-into-drone-delivery-with-flytrex-investment",
+          "label": "Bloomberg: Uber invests in Flytrex"
+        },
+        {
+          "url": "https://www.restaurantdive.com/news/uber-invests-flytrex-expand-drone-delivery/760429/",
+          "label": "Restaurant Dive"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "droneup",
+      "name": "DroneUp",
+      "kind": "robotics",
+      "website": "https://www.droneup.com",
+      "hq_city": "Virginia Beach",
+      "hq_state": "VA",
+      "hq_country": "US",
+      "lat": 36.85,
+      "lon": -75.98,
+      "founded": 2016,
+      "segment": "Drones & Autonomous Systems",
+      "subsegment": "Drone delivery; pivoting to airspace management",
+      "product": "ATOMx airspace management (2026); drone delivery hubs",
+      "robot_type": "Drone",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 27300000,
+      "funding_note": "~$27.3M total (aggregator; third-party)",
+      "investors": [],
+      "customers": [
+        "Walmart (ended 2025, per aggregator)"
+      ],
+      "deployment": "Unknown",
+      "deployment_note": "2023 layoffs reported; aggregator reports Walmart partnership ended 2025 and pivot to airspace management (ATOMx, Jul 2026) - not confirmed by primary source",
+      "suppliers": [],
+      "tags": [
+        "drone-delivery",
+        "airspace-management"
+      ],
+      "summary": "Virginia Beach-based DroneUp operated drone delivery hubs for Walmart and is reported to have pivoted toward airspace-management software in 2026.",
+      "sources": [
+        {
+          "url": "https://www.freightwaves.com/news/walmart-delivery-partner-droneup-cuts-jobs",
+          "label": "FreightWaves: DroneUp cuts jobs"
+        },
+        {
+          "url": "https://simplify.jobs/c/DroneUp",
+          "label": "Simplify (aggregator)"
+        }
+      ],
+      "confidence": "third-party-estimate",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "matternet",
+      "name": "Matternet",
+      "kind": "robotics",
+      "website": "https://www.matternet.com",
+      "hq_city": "Mountain View",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.39,
+      "lon": -122.08,
+      "founded": 2011,
+      "segment": "Drones & Autonomous Systems",
+      "subsegment": "Drone delivery (healthcare, food, retail)",
+      "product": "M2 delivery drone (FAA Type & Production certified, company-reported)",
+      "robot_type": "Drone",
+      "ai_approach": "Autonomous flight",
+      "models": [],
+      "stage": "Public",
+      "ticker": null,
+      "funding_usd": 81800000,
+      "funding_note": "~$81.8M lifetime (Sacra); $33M PIPE with reverse merger into Los Altos Ventures Corp (May 2026); ticker not verified",
+      "investors": [
+        "ee-holdings",
+        "montrose-capital-partners"
+      ],
+      "customers": [
+        "UPS (healthcare)",
+        "Dave's Hot Chicken",
+        "NHS (UK)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "B2B healthcare delivery since 2019; consumer drone delivery in Silicon Valley since 2024; 60,000+ commercial flights (company) vs 20,000+ (other summary)",
+      "suppliers": [],
+      "tags": [
+        "drone-delivery",
+        "public"
+      ],
+      "summary": "Matternet makes the FAA-certified M2 delivery drone, runs healthcare and consumer drone delivery, and became publicly reporting via a reverse merger in May 2026.",
+      "sources": [
+        {
+          "url": "https://www.matternet.com/newsroom/matternet-the-worlds-only-faa-type-certified-drone-delivery-platform-raises-33m-private-placement-as-part-of-go-public-transaction",
+          "label": "Matternet press release"
+        },
+        {
+          "url": "https://sacra.com/c/matternet",
+          "label": "Sacra"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "skydio",
+      "name": "Skydio",
+      "kind": "robotics",
+      "website": "https://www.skydio.com",
+      "hq_city": "San Mateo",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.56,
+      "lon": -122.32,
+      "founded": 2014,
+      "segment": "Drones & Autonomous Systems",
+      "subsegment": "Autonomous drones for defense, public safety and inspection",
+      "product": "X10 / X10D drones; Skydio Dock",
+      "robot_type": "Drone",
+      "ai_approach": "Onboard visual autonomy (Skydio Autonomy)",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "$110M Series F at $4.4B post (Apr 2026), company-reported",
+      "investors": [
+        "andreessen-horowitz",
+        "nvidia",
+        "linse-capital"
+      ],
+      "customers": [
+        "US Army",
+        "SAIC (partner)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "US Army order >$52M for ~2,500-3,000 X10D (Mar 2026); SRR Tranche 2 award (Oct 2025); 60,000+ units shipped (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "drones",
+        "defense",
+        "public-safety",
+        "inspection"
+      ],
+      "summary": "Skydio builds autonomous X10/X10D drones used by every US military branch and public-safety agencies, valued at $4.4B after an April 2026 Series F.",
+      "sources": [
+        {
+          "url": "https://dronexl.co/2026/04/23/skydio-110m-series-f-44-billion-valuation/",
+          "label": "DroneXL: Series F"
+        },
+        {
+          "url": "https://www.army.mil/article/289642/army_awards_skydio_inc_contract_for_tranche_2_short_range_reconnaissance_systems",
+          "label": "US Army: SRR Tranche 2"
+        },
+        {
+          "url": "https://dronexl.co/2026/03/22/skydio-x10d-army-52-million-order",
+          "label": "DroneXL: $52M Army order"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "shield-ai",
+      "name": "Shield AI",
+      "kind": "robotics",
+      "website": "https://shield.ai",
+      "hq_city": "San Diego",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 32.72,
+      "lon": -117.16,
+      "founded": 2015,
+      "segment": "Defense & Security",
+      "subsegment": "AI pilot software and autonomous aircraft",
+      "product": "Hivemind AI pilot; V-BAT; X-BAT (VTOL, unveiled Oct 2025)",
+      "robot_type": "Drone",
+      "ai_approach": "Hivemind autonomy (AI pilot)",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Series G $1.5B equity at $12.7B post led by Advent (Mar 2026) + $500M preferred from Blackstone (aggregators); Series F-1 $240M at $5.3B (Mar 2025)",
+      "investors": [
+        "advent-international",
+        "blackstone",
+        "jpmorgan"
+      ],
+      "customers": [
+        "US Air Force (CCA program, Hivemind)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "V-BAT fielded; Hivemind selected for USAF Collaborative Combat Aircraft prototype work (Feb 2026); X-BAT operational target 2028 (aggregator-reported)",
+      "suppliers": [],
+      "tags": [
+        "defense",
+        "autonomy",
+        "drones"
+      ],
+      "summary": "Shield AI develops the Hivemind AI pilot and V-BAT/X-BAT aircraft and reached a $12.7B valuation in a March 2026 Series G.",
+      "sources": [
+        {
+          "url": "https://sacra.com/c/shield-ai/",
+          "label": "Sacra: Shield AI"
+        },
+        {
+          "url": "https://thenextweb.com/news/shield-ai-2-billion-hivemind-autonomous-defence",
+          "label": "TNW: Shield AI raises $2B"
+        }
+      ],
+      "confidence": "third-party-estimate",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "anduril",
+      "name": "Anduril Industries",
+      "kind": "robotics",
+      "website": "https://www.anduril.com",
+      "hq_city": "Costa Mesa",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 33.64,
+      "lon": -117.92,
+      "founded": 2017,
+      "segment": "Defense & Security",
+      "subsegment": "Autonomous defense systems (air, land, sea) and Lattice software",
+      "product": "Lattice; Ghost, Altius, Roadrunner, Fury (CCA), Dive-LD / Ghost Shark UUVs",
+      "robot_type": "Drone",
+      "ai_approach": "Lattice autonomy / sensor fusion",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": 11000000000,
+      "funding_note": "~$11B total (directory estimate); Series F $1.5B at $14B (2024); Series G $2.5B at $30.5B led by Founders Fund (2025); Series H $5B at $61B led by a16z and Thrive (May 2026, aggregator)",
+      "investors": [
+        "founders-fund",
+        "andreessen-horowitz",
+        "thrive-capital"
+      ],
+      "customers": [
+        "US Department of Defense"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Multiple autonomous systems in production for US and allied militaries; ~$2.2B reported revenue (aggregator)",
+      "suppliers": [],
+      "tags": [
+        "defense",
+        "autonomy",
+        "drones",
+        "uuv"
+      ],
+      "summary": "Anduril builds autonomous defense hardware including drones, counter-drone interceptors and underwater vehicles on its Lattice software platform.",
+      "sources": [
+        {
+          "url": "https://www.ocbj.com/defense-2/anduril-valuation-more-than-doubles-to-30-5b/",
+          "label": "OCBJ: $30.5B valuation"
+        },
+        {
+          "url": "https://multiples.vc/private-comps/anduril",
+          "label": "Multiples.vc"
+        },
+        {
+          "url": "https://www.ocbj.com/defense-2/anduril-confirms-1-5b-funding-round/",
+          "label": "OCBJ: $1.5B round"
+        }
+      ],
+      "confidence": "third-party-estimate",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "knightscope",
+      "name": "Knightscope",
+      "kind": "robotics",
+      "website": "https://www.knightscope.com",
+      "hq_city": "Mountain View",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.39,
+      "lon": -122.08,
+      "founded": 2013,
+      "segment": "Defense & Security",
+      "subsegment": "Autonomous security robots and security services",
+      "product": "K5 / K7 autonomous security robots; H1 wearable; Autonomous Security Force",
+      "robot_type": "Security robot",
+      "ai_approach": "Autonomous patrol with remote monitoring",
+      "models": [],
+      "stage": "Public",
+      "ticker": "KSCP",
+      "funding_usd": null,
+      "funding_note": "Public (Nasdaq: KSCP); $8.2M cash end Q2 2026; seeking additional financing",
+      "investors": [],
+      "customers": [
+        "434 clients across 42 states (company-reported)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Q2 2026 revenue ~$9.0M (+228% YoY) boosted by Feb 2026 acquisition of Event Risk LLC; K7 deployments expected Q3/Q4 2026",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "security-robots"
+      ],
+      "summary": "Nasdaq-listed Knightscope sells autonomous security robots and, since its 2026 Event Risk acquisition, licensed security services to 434 clients.",
+      "sources": [
+        {
+          "url": "https://secure.businesswire.com/news/home/20260812055445/en/Knightscope-Reports-Record-Second-Quarter-2026-Financial-Results",
+          "label": "Business Wire: Knightscope Q2 2026"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "cobalt-robotics",
+      "name": "Cobalt Robotics",
+      "kind": "robotics",
+      "website": "https://www.cobaltrobotics.com",
+      "hq_city": "San Mateo",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.56,
+      "lon": -122.32,
+      "founded": 2016,
+      "segment": "Defense & Security",
+      "subsegment": "Indoor autonomous security robots (RaaS)",
+      "product": "Cobalt indoor security robot",
+      "robot_type": "Security robot",
+      "ai_approach": "Autonomous patrol + ML anomaly detection with human specialists",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 50000000,
+      "funding_note": "$50M total incl. $35M Series B led by Coatue (company-reported; no 2025-26 round found)",
+      "investors": [
+        "coatue"
+      ],
+      "customers": [
+        "Fortune 50 companies (unnamed)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Robots-as-a-service across tech, defense, finance and manufacturing clients (company-reported)",
+      "suppliers": [],
+      "tags": [
+        "security-robots",
+        "raas"
+      ],
+      "summary": "Cobalt Robotics provides indoor security patrol robots paired with remote human specialists on a robots-as-a-service model.",
+      "sources": [
+        {
+          "url": "https://www.securitysales.com/news/cobalt-robotics-funding-round/97019/",
+          "label": "Security Sales: $35M Series B"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "ghost-robotics",
+      "name": "Ghost Robotics",
+      "kind": "robotics",
+      "website": "https://www.ghostrobotics.io",
+      "hq_city": "Philadelphia",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 39.95,
+      "lon": -75.17,
+      "founded": 2015,
+      "segment": "Defense & Security",
+      "subsegment": "Legged robots for defense and security",
+      "product": "Vision 60 quadruped",
+      "robot_type": "Quadruped",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. Majority acquired by LIG Nex1 (2024) per prior reporting.",
+      "investors": [],
+      "customers": [
+        "US Air Force (base security)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "defense",
+        "quadruped"
+      ],
+      "summary": "Ghost Robotics builds the Vision 60 quadruped used for perimeter security and defense applications.",
+      "sources": [
+        {
+          "url": "https://www.ghostrobotics.io",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "aerovironment",
+      "name": "AeroVironment",
+      "kind": "robotics",
+      "website": "https://www.avinc.com",
+      "hq_city": "Arlington",
+      "hq_state": "VA",
+      "hq_country": "US",
+      "lat": 38.88,
+      "lon": -77.1,
+      "founded": 1971,
+      "segment": "Defense & Security",
+      "subsegment": "Unmanned aircraft and loitering munitions",
+      "product": "Switchblade, Puma, JUMP 20",
+      "robot_type": "Drone",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "AVAV",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [
+        "US Department of Defense"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "defense",
+        "drones",
+        "public"
+      ],
+      "summary": "AeroVironment is a public US maker of small unmanned aircraft and Switchblade loitering munitions.",
+      "sources": [
+        {
+          "url": "https://www.avinc.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "red-cat",
+      "name": "Red Cat Holdings",
+      "kind": "robotics",
+      "website": "https://www.redcat.red",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Defense & Security",
+      "subsegment": "Small military drones (Teal Drones)",
+      "product": "Teal Black Widow (Army SRR program)",
+      "robot_type": "Drone",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "RCAT",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [
+        "US Army"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. HQ not verified this pass.",
+      "suppliers": [],
+      "tags": [
+        "defense",
+        "drones",
+        "public"
+      ],
+      "summary": "Red Cat Holdings, through Teal Drones, supplies the Black Widow small reconnaissance drone to the US Army.",
+      "sources": [
+        {
+          "url": "https://www.redcat.red",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "saronic",
+      "name": "Saronic Technologies",
+      "kind": "robotics",
+      "website": "https://www.saronic.com",
+      "hq_city": "Austin",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 30.27,
+      "lon": -97.74,
+      "founded": 2022,
+      "segment": "Defense & Security",
+      "subsegment": "Autonomous surface vessels",
+      "product": "Corsair, Cutlass, Spyglass autonomous vessels",
+      "robot_type": "Autonomous surface vessel",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "investors": [],
+      "customers": [
+        "US Navy"
+      ],
+      "deployment": "Unknown",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "defense",
+        "maritime-autonomy"
+      ],
+      "summary": "Saronic builds autonomous surface vessels for naval missions.",
+      "sources": [
+        {
+          "url": "https://www.saronic.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "forterra",
+      "name": "Forterra",
+      "kind": "robotics",
+      "website": "https://www.forterra.com",
+      "hq_city": "Clarksburg",
+      "hq_state": "MD",
+      "hq_country": "US",
+      "lat": 39.24,
+      "lon": -77.28,
+      "founded": null,
+      "segment": "Defense & Security",
+      "subsegment": "Autonomous ground vehicle kits for defense",
+      "product": "AutoDrive autonomy kit",
+      "robot_type": "Autonomous ground vehicle",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "investors": [],
+      "customers": [
+        "US Army / Marine Corps"
+      ],
+      "deployment": "Unknown",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "defense",
+        "ugv"
+      ],
+      "summary": "Forterra (formerly RoboticResearch's autonomy business) develops autonomy kits for military ground vehicles.",
+      "sources": [
+        {
+          "url": "https://www.forterra.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "applied-intuition",
+      "name": "Applied Intuition",
+      "kind": "ai",
+      "website": "https://www.appliedintuition.com",
+      "hq_city": "Mountain View",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.39,
+      "lon": -122.08,
+      "founded": 2017,
+      "segment": "Defense & Security",
+      "subsegment": "Autonomy software for automotive and defense vehicles",
+      "product": "Vehicle OS, simulation, defense autonomy stack",
+      "robot_type": null,
+      "ai_approach": "Autonomy and simulation software",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "software",
+        "defense",
+        "autonomy"
+      ],
+      "summary": "Applied Intuition provides simulation and autonomy software for automotive OEMs and defense ground, air and maritime vehicles.",
+      "sources": [
+        {
+          "url": "https://www.appliedintuition.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "brain-corp",
+      "name": "Brain Corp",
+      "kind": "robotics",
+      "website": "https://www.braincorp.com",
+      "hq_city": "San Diego",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 32.72,
+      "lon": -117.16,
+      "founded": 2009,
+      "segment": "Service & Commercial",
+      "subsegment": "Autonomy software for commercial floor cleaners and inventory scanning",
+      "product": "BrainOS; inventory scan modules",
+      "robot_type": "AMR",
+      "ai_approach": "BrainOS autonomy",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. SoftBank Vision Fund led 2017 Series C per prior reporting.",
+      "investors": [
+        "softbank",
+        "qualcomm"
+      ],
+      "customers": [
+        "Walmart",
+        "Sam's Club"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "cleaning",
+        "retail",
+        "autonomy-software"
+      ],
+      "summary": "Brain Corp supplies the BrainOS autonomy platform that powers OEM floor scrubbers and retail inventory-scanning robots.",
+      "sources": [
+        {
+          "url": "https://www.braincorp.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "avidbots",
+      "name": "Avidbots",
+      "kind": "robotics",
+      "website": "https://avidbots.com",
+      "hq_city": "Kitchener",
+      "hq_state": "ON",
+      "hq_country": "CA",
+      "lat": 43.45,
+      "lon": -80.49,
+      "founded": 2014,
+      "segment": "Service & Commercial",
+      "subsegment": "Autonomous floor-cleaning robots",
+      "product": "Neo autonomous floor scrubber; Kas",
+      "robot_type": "Cleaning robot",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. US office not verified.",
+      "suppliers": [],
+      "tags": [
+        "cleaning"
+      ],
+      "summary": "Canadian company Avidbots builds the Neo autonomous floor scrubber sold into US commercial facilities.",
+      "sources": [
+        {
+          "url": "https://avidbots.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "tennant",
+      "name": "Tennant Company",
+      "kind": "robotics",
+      "website": "https://www.tennantco.com",
+      "hq_city": "Eden Prairie",
+      "hq_state": "MN",
+      "hq_country": "US",
+      "lat": 44.85,
+      "lon": -93.47,
+      "founded": 1870,
+      "segment": "Service & Commercial",
+      "subsegment": "Commercial cleaning equipment incl. autonomous scrubbers",
+      "product": "T380AMR / T7AMR autonomous scrubbers (BrainOS-powered)",
+      "robot_type": "Cleaning robot",
+      "ai_approach": "BrainOS (Brain Corp)",
+      "models": [],
+      "stage": "Public",
+      "ticker": "TNC",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [
+        "brain-corp"
+      ],
+      "tags": [
+        "cleaning",
+        "oem",
+        "public"
+      ],
+      "summary": "Tennant is a public commercial cleaning equipment maker whose AMR floor scrubbers run Brain Corp's autonomy software.",
+      "sources": [
+        {
+          "url": "https://www.tennantco.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "bear-robotics",
+      "name": "Bear Robotics",
+      "kind": "robotics",
+      "website": "https://www.bearrobotics.ai",
+      "hq_city": "Redwood City",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.49,
+      "lon": -122.24,
+      "founded": 2017,
+      "segment": "Service & Commercial",
+      "subsegment": "Restaurant and hospitality service robots",
+      "product": "Servi, Servi Plus, Carti",
+      "robot_type": "Service robot",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. LG Electronics acquired a majority stake (2025) per prior reporting; HQ city not re-verified.",
+      "investors": [
+        "lg"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "food-service",
+        "hospitality"
+      ],
+      "summary": "Bear Robotics makes Servi food-running and Carti logistics robots for restaurants and facilities.",
+      "sources": [
+        {
+          "url": "https://www.bearrobotics.ai",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "miso-robotics",
+      "name": "Miso Robotics",
+      "kind": "robotics",
+      "website": "https://misorobotics.com",
+      "hq_city": "Pasadena",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 34.15,
+      "lon": -118.14,
+      "founded": 2016,
+      "segment": "Service & Commercial",
+      "subsegment": "Kitchen automation robots",
+      "product": "Flippy fry-station robot",
+      "robot_type": "Kitchen robot",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "investors": [],
+      "customers": [
+        "White Castle"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "food-service",
+        "kitchen-automation"
+      ],
+      "summary": "Miso Robotics builds the Flippy robotic fry station for quick-service restaurants.",
+      "sources": [
+        {
+          "url": "https://misorobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "chef-robotics",
+      "name": "Chef Robotics",
+      "kind": "robotics",
+      "website": "https://www.chefrobotics.ai",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2019,
+      "segment": "Service & Commercial",
+      "subsegment": "AI robotic food assembly",
+      "product": "Chef food-assembly robot",
+      "robot_type": "Industrial arm",
+      "ai_approach": "AI manipulation (company-described)",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "food-production",
+        "physical-ai"
+      ],
+      "summary": "Chef Robotics deploys AI-driven robotic arms that assemble meals on food-production lines.",
+      "sources": [
+        {
+          "url": "https://www.chefrobotics.ai",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "richtech-robotics",
+      "name": "Richtech Robotics",
+      "kind": "robotics",
+      "website": "https://www.richtechrobotics.com",
+      "hq_city": "Las Vegas",
+      "hq_state": "NV",
+      "hq_country": "US",
+      "lat": 36.17,
+      "lon": -115.14,
+      "founded": 2016,
+      "segment": "Service & Commercial",
+      "subsegment": "Service robots for food & beverage, hospitality and healthcare",
+      "product": "ADAM robot barista; Titan; Medbot",
+      "robot_type": "Service robot",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "RR",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "food-service",
+        "hospitality"
+      ],
+      "summary": "Nasdaq-listed Richtech Robotics sells service robots including the ADAM drink-making robot.",
+      "sources": [
+        {
+          "url": "https://www.richtechrobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "pudu-robotics",
+      "name": "Pudu Robotics",
+      "kind": "robotics",
+      "website": "https://www.pudurobotics.com",
+      "hq_city": "Shenzhen",
+      "hq_state": null,
+      "hq_country": "CN",
+      "lat": 22.54,
+      "lon": 114.06,
+      "founded": 2016,
+      "segment": "Service & Commercial",
+      "subsegment": "Commercial service and cleaning robots",
+      "product": "BellaBot, KettyBot, CC1 cleaning robot",
+      "robot_type": "Service robot",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. China-HQ; US operations exist but US office city not verified.",
+      "suppliers": [],
+      "tags": [
+        "food-service",
+        "cleaning",
+        "china"
+      ],
+      "summary": "Shenzhen-based Pudu Robotics sells delivery and cleaning service robots internationally, including in the US.",
+      "sources": [
+        {
+          "url": "https://www.pudurobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "keenon-robotics",
+      "name": "Keenon Robotics",
+      "kind": "robotics",
+      "website": "https://www.keenon.com",
+      "hq_city": "Shanghai",
+      "hq_state": null,
+      "hq_country": "CN",
+      "lat": 31.23,
+      "lon": 121.47,
+      "founded": 2010,
+      "segment": "Service & Commercial",
+      "subsegment": "Restaurant, hotel and hospital service robots",
+      "product": "Dinerbot, Butlerbot",
+      "robot_type": "Service robot",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. China-HQ; US office city not verified.",
+      "suppliers": [],
+      "tags": [
+        "food-service",
+        "hospitality",
+        "china"
+      ],
+      "summary": "Shanghai-based Keenon Robotics sells delivery robots for restaurants, hotels and hospitals worldwide, including the US.",
+      "sources": [
+        {
+          "url": "https://www.keenon.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "simbe-robotics",
+      "name": "Simbe Robotics",
+      "kind": "robotics",
+      "website": "https://www.simberobotics.com",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2014,
+      "segment": "Service & Commercial",
+      "subsegment": "Retail inventory robots and computer vision",
+      "product": "Tally inventory robot; Store Intelligence platform",
+      "robot_type": "AMR",
+      "ai_approach": "Computer vision shelf analytics",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "investors": [],
+      "customers": [
+        "Schnucks",
+        "BJ's Wholesale Club"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "retail",
+        "inventory"
+      ],
+      "summary": "Simbe Robotics deploys the Tally shelf-scanning robot and computer-vision analytics in grocery and wholesale stores.",
+      "sources": [
+        {
+          "url": "https://www.simberobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "badger-technologies",
+      "name": "Badger Technologies",
+      "kind": "robotics",
+      "website": "https://www.badger-technologies.com",
+      "hq_city": "Nashua",
+      "hq_state": "NH",
+      "hq_country": "US",
+      "lat": 42.77,
+      "lon": -71.47,
+      "founded": null,
+      "segment": "Service & Commercial",
+      "subsegment": "Retail store robots (hazard detection, inventory)",
+      "product": "Badger autonomous retail robot ('Marty' at Ahold Delhaize USA stores)",
+      "robot_type": "AMR",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. Product division of Jabil.",
+      "investors": [
+        "jabil"
+      ],
+      "customers": [
+        "Ahold Delhaize USA (Giant, Stop & Shop)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "retail"
+      ],
+      "summary": "Badger Technologies, part of Jabil, makes autonomous store robots that detect spills and shelf issues in US grocery chains.",
+      "sources": [
+        {
+          "url": "https://www.badger-technologies.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "aethon",
+      "name": "Aethon",
+      "kind": "robotics",
+      "website": "https://aethon.com",
+      "hq_city": "Pittsburgh",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.44,
+      "lon": -79.99,
+      "founded": 2001,
+      "segment": "Service & Commercial",
+      "subsegment": "Hospital logistics AMRs",
+      "product": "TUG autonomous mobile robot",
+      "robot_type": "AMR",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. Acquired by ST Engineering (2017).",
+      "investors": [],
+      "customers": [
+        "US hospitals"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "hospital-logistics"
+      ],
+      "summary": "Aethon, owned by ST Engineering, makes TUG autonomous robots that move supplies in hospitals.",
+      "sources": [
+        {
+          "url": "https://aethon.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "diligent-robotics",
+      "name": "Diligent Robotics",
+      "kind": "robotics",
+      "website": "https://www.diligentrobots.com",
+      "hq_city": "Austin",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 30.27,
+      "lon": -97.74,
+      "founded": 2017,
+      "segment": "Service & Commercial",
+      "subsegment": "Hospital service robots",
+      "product": "Moxi hospital robot",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Serve Robotics reports operating 100+ Moxi robots (Q2 2026), indicating Diligent/Moxi is now part of Serve; deal terms not verified this pass",
+      "investors": [],
+      "customers": [
+        "US hospitals"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "100+ Moxi robots in operation (per Serve Q2 2026 reporting)",
+      "suppliers": [],
+      "tags": [
+        "hospital-logistics"
+      ],
+      "summary": "Diligent Robotics created Moxi, a hospital delivery robot now operated within Serve Robotics' fleet.",
+      "sources": [
+        {
+          "url": "https://www.quiverquant.com/news/Serve+Robotics+Q2+Revenue+Reaches+%243.2+Million+as+Fleet+Expands",
+          "label": "Quiver Quant: Serve Q2 2026 incl. Moxi"
+        }
+      ],
+      "confidence": "third-party-estimate",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "relay-robotics",
+      "name": "Relay Robotics",
+      "kind": "robotics",
+      "website": "https://www.relayrobotics.com",
+      "hq_city": "San Jose",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.34,
+      "lon": -121.89,
+      "founded": 2013,
+      "segment": "Service & Commercial",
+      "subsegment": "Hotel and hospital delivery robots",
+      "product": "Relay delivery robot",
+      "robot_type": "Service robot",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. Formerly Savioke.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "hospitality",
+        "hospital-logistics"
+      ],
+      "summary": "Relay Robotics, formerly Savioke, makes indoor delivery robots for hotels and hospitals.",
+      "sources": [
+        {
+          "url": "https://www.relayrobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "gecko-robotics",
+      "name": "Gecko Robotics",
+      "kind": "robotics",
+      "website": "https://www.geckorobotics.com",
+      "hq_city": "Pittsburgh",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.44,
+      "lon": -79.99,
+      "founded": 2013,
+      "segment": "Construction & Infrastructure",
+      "subsegment": "Robotic inspection of industrial assets",
+      "product": "Wall-climbing inspection robots; Cantilever data platform",
+      "robot_type": "Inspection robot",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "inspection",
+        "infrastructure",
+        "defense"
+      ],
+      "summary": "Gecko Robotics uses wall-climbing robots and software to inspect industrial and defense assets.",
+      "sources": [
+        {
+          "url": "https://www.geckorobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "waymo",
+      "name": "Waymo",
+      "kind": "robotics",
+      "website": "https://waymo.com",
+      "hq_city": "Mountain View",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.39,
+      "lon": -122.08,
+      "founded": 2009,
+      "segment": "Drones & Autonomous Systems",
+      "subsegment": "Robotaxi (autonomous driving; robotics-relevant)",
+      "product": "Waymo Driver; Waymo One robotaxi",
+      "robot_type": "Autonomous vehicle",
+      "ai_approach": "Waymo Driver",
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "investors": [
+        "alphabet"
+      ],
+      "customers": [
+        "Uber (select markets)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "robotaxi",
+        "autonomous-driving"
+      ],
+      "summary": "Alphabet's Waymo operates driverless robotaxi services in multiple US cities.",
+      "sources": [
+        {
+          "url": "https://waymo.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "zoox",
+      "name": "Zoox",
+      "kind": "robotics",
+      "website": "https://zoox.com",
+      "hq_city": "Foster City",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.56,
+      "lon": -122.27,
+      "founded": 2014,
+      "segment": "Drones & Autonomous Systems",
+      "subsegment": "Purpose-built robotaxi (autonomous driving; robotics-relevant)",
+      "product": "Zoox bidirectional robotaxi",
+      "robot_type": "Autonomous vehicle",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. Acquired by Amazon (2020).",
+      "investors": [
+        "amazon"
+      ],
+      "customers": [],
+      "deployment": "Pilot",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "robotaxi",
+        "autonomous-driving"
+      ],
+      "summary": "Amazon-owned Zoox develops a purpose-built driverless robotaxi.",
+      "sources": [
+        {
+          "url": "https://zoox.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "aurora-innovation",
+      "name": "Aurora Innovation",
+      "kind": "robotics",
+      "website": "https://aurora.tech",
+      "hq_city": "Pittsburgh",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.44,
+      "lon": -79.99,
+      "founded": 2017,
+      "segment": "Drones & Autonomous Systems",
+      "subsegment": "Autonomous trucking (robotics-relevant)",
+      "product": "Aurora Driver for Class 8 trucks",
+      "robot_type": "Autonomous truck",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "AUR",
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "autonomous-trucking",
+        "public"
+      ],
+      "summary": "Nasdaq-listed Aurora develops the Aurora Driver for driverless Class 8 trucking in Texas.",
+      "sources": [
+        {
+          "url": "https://aurora.tech",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "kodiak-ai",
+      "name": "Kodiak AI (Kodiak Robotics)",
+      "kind": "robotics",
+      "website": "https://kodiak.ai",
+      "hq_city": "Mountain View",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.39,
+      "lon": -122.08,
+      "founded": 2018,
+      "segment": "Drones & Autonomous Systems",
+      "subsegment": "Autonomous trucking (robotics-relevant)",
+      "product": "Kodiak Driver",
+      "robot_type": "Autonomous truck",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. Went public via SPAC in 2025 per prior reporting; ticker not re-verified.",
+      "investors": [],
+      "customers": [
+        "Atlas Energy Solutions"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "autonomous-trucking"
+      ],
+      "summary": "Kodiak develops the Kodiak Driver for autonomous trucks, including driverless operations in the Permian Basin.",
+      "sources": [
+        {
+          "url": "https://kodiak.ai",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "gatik",
+      "name": "Gatik",
+      "kind": "robotics",
+      "website": "https://gatik.ai",
+      "hq_city": "Mountain View",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.39,
+      "lon": -122.08,
+      "founded": 2017,
+      "segment": "Drones & Autonomous Systems",
+      "subsegment": "Autonomous middle-mile box trucks (robotics-relevant)",
+      "product": "Gatik autonomous box trucks",
+      "robot_type": "Autonomous truck",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "investors": [],
+      "customers": [
+        "Walmart",
+        "Kroger"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Not re-verified by web search in this pass (search budget exhausted); baseline facts only. ",
+      "suppliers": [],
+      "tags": [
+        "autonomous-trucking",
+        "middle-mile"
+      ],
+      "summary": "Gatik operates autonomous box trucks for short-haul middle-mile retail logistics.",
+      "sources": [
+        {
+          "url": "https://gatik.ai",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    }
+  ],
+  "funding_rounds": [
+    {
+      "org": "coco-robotics",
+      "date": "2025-06",
+      "round": "Unspecified",
+      "amount_usd": 80000000,
+      "lead": null,
+      "investors": [
+        "sam-altman",
+        "pelion-venture-partners",
+        "offline-ventures",
+        "outlander"
+      ],
+      "note": "Lead reported as SNR by some outlets; also DeepWater Asset Management, Ryan Graves, Max Altman",
+      "source": "https://techcrunch.com/2025/06/11/sam-altman-backed-coco-robotics-raises-80m/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "starship-technologies",
+      "date": "2025-10",
+      "round": "Series C",
+      "amount_usd": 50000000,
+      "lead": "plural",
+      "investors": [
+        "karma-vc",
+        "latitude",
+        "coefficient-capital",
+        "smartcap",
+        "skaala"
+      ],
+      "note": "Total funding >$280M",
+      "source": "https://www.businesswire.com/news/home/20251015387447/en",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "nuro",
+      "date": "2025-08",
+      "round": "Series E",
+      "amount_usd": 203000000,
+      "lead": null,
+      "investors": [
+        "uber",
+        "nvidia",
+        "baillie-gifford",
+        "icehouse-ventures",
+        "kindred-ventures",
+        "pledge-ventures"
+      ],
+      "note": "$6B valuation; includes $106M first tranche (Apr 2025)",
+      "source": "https://www.nuro.ai/blog/nuro-closes-203-million-series-e-financing-to-advance-its-ai-first-self-driving-technology-and-commercial-partnerships",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "cartken",
+      "date": "2024-07",
+      "round": "Unspecified",
+      "amount_usd": 10000000,
+      "lead": "468-capital",
+      "investors": [
+        "magna",
+        "shell-ventures",
+        "mitsubishi-electric"
+      ],
+      "note": "Brings total to $22.5M",
+      "source": "https://www.startbase.com/news/cartken-hat-finanzierung-in-hoehe-von-225-millionen-usd-abgeschlossen/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "avride",
+      "date": "2025",
+      "round": "Strategic",
+      "amount_usd": 375000000,
+      "lead": null,
+      "investors": [
+        "uber",
+        "nebius"
+      ],
+      "note": "Month not verified",
+      "source": "https://en.wikipedia.org/wiki/Avride",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "zipline",
+      "date": "2026-01",
+      "round": "Series H",
+      "amount_usd": 600000000,
+      "lead": "valor-equity-partners",
+      "investors": [
+        "tiger-global",
+        "fidelity",
+        "baillie-gifford"
+      ],
+      "note": "$7.6B valuation",
+      "source": "https://www.therobotreport.com/zipline-raises-over-600m-in-funding-surpasses-2m-commercial-drone-deliveries/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "zipline",
+      "date": "2026-03",
+      "round": "Series H extension",
+      "amount_usd": 200000000,
+      "lead": null,
+      "investors": [
+        "paradigm"
+      ],
+      "note": "Brings Series H to ~$800M (press-reported)",
+      "source": "https://dronexl.co/2026/01/20/zipline-reaches-7-6-billion-valuation-drone",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "flytrex",
+      "date": "2025-09",
+      "round": "Strategic",
+      "amount_usd": null,
+      "lead": "uber",
+      "investors": [],
+      "note": "Undisclosed; Uber said not material",
+      "source": "https://www.bloomberg.com/news/articles/2025-09-18/uber-gets-back-into-drone-delivery-with-flytrex-investment",
+      "confidence": "verified"
+    },
+    {
+      "org": "matternet",
+      "date": "2026-05",
+      "round": "PIPE (go-public)",
+      "amount_usd": 33000000,
+      "lead": null,
+      "investors": [
+        "ee-holdings",
+        "montrose-capital-partners"
+      ],
+      "note": "Private placement alongside reverse merger with Los Altos Ventures Corp",
+      "source": "https://www.matternet.com/newsroom/matternet-the-worlds-only-faa-type-certified-drone-delivery-platform-raises-33m-private-placement-as-part-of-go-public-transaction",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "skydio",
+      "date": "2026-04",
+      "round": "Series F",
+      "amount_usd": 110000000,
+      "lead": null,
+      "investors": [],
+      "note": "$4.4B post-money",
+      "source": "https://dronexl.co/2026/04/23/skydio-110m-series-f-44-billion-valuation/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "shield-ai",
+      "date": "2025-03",
+      "round": "Series F-1",
+      "amount_usd": 240000000,
+      "lead": null,
+      "investors": [],
+      "note": "$5.3B valuation (aggregator)",
+      "source": "https://sacra.com/c/shield-ai/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "shield-ai",
+      "date": "2026-03",
+      "round": "Series G",
+      "amount_usd": 1500000000,
+      "lead": "advent-international",
+      "investors": [
+        "jpmorgan",
+        "blackstone"
+      ],
+      "note": "$12.7B post; plus $500M preferred from Blackstone; totals vary by outlet (aggregator)",
+      "source": "https://sacra.com/c/shield-ai/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "anduril",
+      "date": "2024",
+      "round": "Series F",
+      "amount_usd": 1500000000,
+      "lead": null,
+      "investors": [],
+      "note": "$14B valuation",
+      "source": "https://www.ocbj.com/defense-2/anduril-confirms-1-5b-funding-round/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "anduril",
+      "date": "2025",
+      "round": "Series G",
+      "amount_usd": 2500000000,
+      "lead": "founders-fund",
+      "investors": [],
+      "note": "$30.5B valuation",
+      "source": "https://www.ocbj.com/defense-2/anduril-valuation-more-than-doubles-to-30-5b/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "anduril",
+      "date": "2026-05",
+      "round": "Series H",
+      "amount_usd": 5000000000,
+      "lead": "andreessen-horowitz",
+      "investors": [
+        "thrive-capital"
+      ],
+      "note": "$61B valuation; co-led with Thrive; aggregator source, not primary",
+      "source": "https://multiples.vc/private-comps/anduril",
+      "confidence": "company-reported"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "uber",
+      "to": "serve-robotics",
+      "type": "partnership",
+      "note": "Uber Eats delivery partner; Uber delivery volume drove FY2026 guidance cut",
+      "source": "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-announces-second-quarter-2026-results",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "doordash",
+      "to": "serve-robotics",
+      "type": "partnership",
+      "note": "DoorDash partnership revenue grew ~50% QoQ in Q2 2026",
+      "source": "https://investors.serverobotics.com/news-releases/news-release-details/serve-robotics-announces-second-quarter-2026-results",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "serve-robotics",
+      "to": "diligent-robotics",
+      "type": "acquisition",
+      "note": "Serve reports operating 100+ Moxi hospital robots; deal terms not verified",
+      "source": "https://www.quiverquant.com/news/Serve+Robotics+Q2+Revenue+Reaches+%243.2+Million+as+Fleet+Expands",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "doordash",
+      "to": "coco-robotics",
+      "type": "partnership",
+      "note": "Robot delivery in LA, Chicago; expanded to Miami and DashMart groceries (Nov 2025)",
+      "source": "https://about.doordash.com/en-us/news/doordash-coco-expand-partnership",
+      "confidence": "verified"
+    },
+    {
+      "from": "uber",
+      "to": "coco-robotics",
+      "type": "partnership",
+      "note": "Uber Eats robot delivery pilots in Miami and Los Angeles",
+      "source": "https://www.aol.com/articles/delivery-bot-coming-l-built-110000914.html",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "sodexo",
+      "to": "robot-com",
+      "type": "invests",
+      "note": "Investor in Kiwibot pre-Series A (Feb 2022)",
+      "source": "https://us.sodexo.com/newsroom/2022/kiwibot-sodexo",
+      "confidence": "verified"
+    },
+    {
+      "from": "sodexo",
+      "to": "robot-com",
+      "type": "customer",
+      "note": "$20M contract expansion for campus robot delivery (2022)",
+      "source": "https://www.restaurantdive.com/news/kiwibot-and-sodexo-to-bring-over-1k-delivery-robots-to-50-college-campuses/618997",
+      "confidence": "verified"
+    },
+    {
+      "from": "headline",
+      "to": "robot-com",
+      "type": "invests",
+      "note": "Investor in Kiwibot pre-Series A (2022)",
+      "source": "https://www.robotics247.com/article/kiwibot_completes_preseries_a_7M_closes_expansion_deal_sodexo",
+      "confidence": "verified"
+    },
+    {
+      "from": "grubhub",
+      "to": "robot-com",
+      "type": "partnership",
+      "note": "Kiwibot robot delivery on Grubhub at college campuses, starting University of North Dakota (Dec 2022)",
+      "source": "https://hospitalitytech.com/grubhub-kiwibot-partner-robot-delivery-college-campuses",
+      "confidence": "verified"
+    },
+    {
+      "from": "field-ai",
+      "to": "robot-com",
+      "type": "partnership",
+      "note": "FieldAI providing navigation stack for production R-dog legged robot (Aug 2026)",
+      "source": "https://runtimewire.com/article/robot-com-r-dog-legged-delivery-robot-fieldai",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "grubhub",
+      "to": "starship-technologies",
+      "type": "partnership",
+      "note": "Campus robot delivery since 2022",
+      "source": "https://www.restaurantdive.com/news/starship-technologies-raises-50-million-us-robotics-delivery/802863/",
+      "confidence": "verified"
+    },
+    {
+      "from": "grubhub",
+      "to": "cartken",
+      "type": "partnership",
+      "note": "Campus robot delivery partner (listed alongside Starship)",
+      "source": "https://www.restaurantdive.com/news/grubhub-kiwibot-robotic-delivery-colleges/638350/",
+      "confidence": "verified"
+    },
+    {
+      "from": "plural",
+      "to": "starship-technologies",
+      "type": "invests",
+      "note": "Led $50M Series C (Oct 2025)",
+      "source": "https://www.businesswire.com/news/home/20251015387447/en",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "uber",
+      "to": "nuro",
+      "type": "invests",
+      "note": "Series E participant; ~ $500M milestone-based commitment reported",
+      "source": "https://www.nuro.ai/blog/nuro-closes-203-million-series-e-financing-to-advance-its-ai-first-self-driving-technology-and-commercial-partnerships",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "nuro",
+      "type": "invests",
+      "note": "Series E participant (2025)",
+      "source": "https://www.nuro.ai/blog/nuro-closes-203-million-series-e-financing-to-advance-its-ai-first-self-driving-technology-and-commercial-partnerships",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "uber",
+      "to": "nuro",
+      "type": "partnership",
+      "note": "Three-way robotaxi program with Lucid Gravity vehicles on Uber",
+      "source": "https://autotechinsight.spglobal.com/news/5288731/uber-commits-nearly-500-million-to-nuro-in-robo-taxi-partnership-with-lucid",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "lucid",
+      "to": "nuro",
+      "type": "partnership",
+      "note": "Lucid Gravity robotaxis with Nuro Driver for Uber",
+      "source": "https://autotechinsight.spglobal.com/news/5288731/uber-commits-nearly-500-million-to-nuro-in-robo-taxi-partnership-with-lucid",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "468-capital",
+      "to": "cartken",
+      "type": "invests",
+      "note": "Led $10M round (Jul 2024)",
+      "source": "https://www.startbase.com/news/cartken-hat-finanzierung-in-hoehe-von-225-millionen-usd-abgeschlossen/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "mitsubishi-electric",
+      "to": "cartken",
+      "type": "invests",
+      "note": "Strategic investor in latest round",
+      "source": "https://www.cartken.com/press-release/a-mitsubishi-electric-group-company-expands-partnership-with-cartken-and-orders-nearly-100-autonomous-cartken-hauler-robots-for-industrial-applications",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "mitsubishi-electric",
+      "to": "cartken",
+      "type": "customer",
+      "note": "Melco Mobility Solutions ordered ~100 Hauler robots; distributor/operator in Japan since 2022",
+      "source": "https://www.cartken.com/press-release/a-mitsubishi-electric-group-company-expands-partnership-with-cartken-and-orders-nearly-100-autonomous-cartken-hauler-robots-for-industrial-applications",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "uber",
+      "to": "avride",
+      "type": "invests",
+      "note": "Part of $375M from Uber and Nebius",
+      "source": "https://en.wikipedia.org/wiki/Avride",
+      "confidence": "verified"
+    },
+    {
+      "from": "nebius",
+      "to": "avride",
+      "type": "invests",
+      "note": "Parent group; part of $375M with Uber",
+      "source": "https://en.wikipedia.org/wiki/Avride",
+      "confidence": "verified"
+    },
+    {
+      "from": "uber",
+      "to": "avride",
+      "type": "partnership",
+      "note": "Uber Eats sidewalk delivery (Austin, Dallas, Jersey City) and Dallas robotaxi from Dec 2025",
+      "source": "https://njbiz.com/uber-eats-enlists-robots-for-jersey-city-deliveries/",
+      "confidence": "verified"
+    },
+    {
+      "from": "grubhub",
+      "to": "avride",
+      "type": "partnership",
+      "note": "Jersey City robot delivery pilot from Wonder location",
+      "source": "https://www.therobotreport.com/grubhub-partners-avride-future-food-delivery/",
+      "confidence": "verified"
+    },
+    {
+      "from": "valor-equity-partners",
+      "to": "zipline",
+      "type": "invests",
+      "note": "Led $600M+ Series H at $7.6B (Jan 2026)",
+      "source": "https://www.therobotreport.com/zipline-raises-over-600m-in-funding-surpasses-2m-commercial-drone-deliveries/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "walmart",
+      "to": "zipline",
+      "type": "partnership",
+      "note": "P2 drone delivery from Walmart stores in Mesquite and Waxahachie, TX",
+      "source": "https://www.ttnews.com/articles/drone-delivery-zipline-76b",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "walmart",
+      "to": "wing",
+      "type": "partnership",
+      "note": "Expansion to 150 more Walmart stores (Jan 2026), 270+ total",
+      "source": "https://www.axios.com/2026/01/11/walmart-drone-delivery-wing-los-angeles-miami",
+      "confidence": "verified"
+    },
+    {
+      "from": "doordash",
+      "to": "wing",
+      "type": "partnership",
+      "note": "Wing drone delivery partnership with DoorDash",
+      "source": "https://www.modernretail.co/technology/drone-delivery-isnt-just-an-experiment-anymore",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "uber",
+      "to": "flytrex",
+      "type": "invests",
+      "note": "First Uber drone-delivery investment, undisclosed (Sep 2025)",
+      "source": "https://www.bloomberg.com/news/articles/2025-09-18/uber-gets-back-into-drone-delivery-with-flytrex-investment",
+      "confidence": "verified"
+    },
+    {
+      "from": "uber",
+      "to": "flytrex",
+      "type": "partnership",
+      "note": "Uber Eats drone delivery pilots in US markets",
+      "source": "https://www.bloomberg.com/news/articles/2025-09-18/uber-gets-back-into-drone-delivery-with-flytrex-investment",
+      "confidence": "verified"
+    },
+    {
+      "from": "walmart",
+      "to": "flytrex",
+      "type": "customer",
+      "note": "Walmart named as Flytrex customer",
+      "source": "https://www.bloomberg.com/news/articles/2025-09-18/uber-gets-back-into-drone-delivery-with-flytrex-investment",
+      "confidence": "verified"
+    },
+    {
+      "from": "doordash",
+      "to": "flytrex",
+      "type": "customer",
+      "note": "DoorDash named as Flytrex customer",
+      "source": "https://www.bloomberg.com/news/articles/2025-09-18/uber-gets-back-into-drone-delivery-with-flytrex-investment",
+      "confidence": "verified"
+    },
+    {
+      "from": "walmart",
+      "to": "droneup",
+      "type": "partnership",
+      "note": "Walmart delivery partner; reported ended 2025 (aggregator)",
+      "source": "https://www.freightwaves.com/news/walmart-delivery-partner-droneup-cuts-jobs",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "ups",
+      "to": "matternet",
+      "type": "partnership",
+      "note": "Healthcare drone delivery partner",
+      "source": "https://sacra.com/c/matternet",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "softbank-robotics-america",
+      "to": "matternet",
+      "type": "partnership",
+      "note": "Ground infrastructure partnership (Apr 2026)",
+      "source": "https://sacra.com/c/matternet",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "us-army",
+      "to": "skydio",
+      "type": "customer",
+      "note": ">$52M order for X10D drones (Mar 2026)",
+      "source": "https://dronexl.co/2026/03/22/skydio-x10d-army-52-million-order",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "us-army",
+      "to": "skydio",
+      "type": "customer",
+      "note": "SRR Tranche 2 contract award",
+      "source": "https://www.army.mil/article/289642/army_awards_skydio_inc_contract_for_tranche_2_short_range_reconnaissance_systems",
+      "confidence": "verified"
+    },
+    {
+      "from": "saic",
+      "to": "skydio",
+      "type": "partnership",
+      "note": "SAIC partner on $7.9M Army SRR Tranche 2 LRIP award (Oct 2025)",
+      "source": "https://www.tipranks.com/news/the-fly/saic-partner-skydio-awarded-7-9m-u-s-army-contract-thefly",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "advent-international",
+      "to": "shield-ai",
+      "type": "invests",
+      "note": "Led Series G at $12.7B (Mar 2026), aggregator-reported",
+      "source": "https://sacra.com/c/shield-ai/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "blackstone",
+      "to": "shield-ai",
+      "type": "invests",
+      "note": "$500M preferred equity (Mar 2026), aggregator-reported",
+      "source": "https://sacra.com/c/shield-ai/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "us-air-force",
+      "to": "shield-ai",
+      "type": "customer",
+      "note": "Hivemind selected for CCA prototype program (Feb 2026), aggregator-reported",
+      "source": "https://sacra.com/c/shield-ai/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "founders-fund",
+      "to": "anduril",
+      "type": "invests",
+      "note": "Led Series G at $30.5B (2025)",
+      "source": "https://www.ocbj.com/defense-2/anduril-valuation-more-than-doubles-to-30-5b/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "andreessen-horowitz",
+      "to": "anduril",
+      "type": "invests",
+      "note": "Co-led Series H at $61B (May 2026), aggregator-reported",
+      "source": "https://multiples.vc/private-comps/anduril",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "thrive-capital",
+      "to": "anduril",
+      "type": "invests",
+      "note": "Co-led Series H at $61B (May 2026), aggregator-reported",
+      "source": "https://multiples.vc/private-comps/anduril",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "knightscope",
+      "to": "event-risk",
+      "type": "acquisition",
+      "note": "Acquired Event Risk LLC (Feb 27, 2026) adding licensed security personnel",
+      "source": "https://secure.businesswire.com/news/home/20260812055445/en/Knightscope-Reports-Record-Second-Quarter-2026-Financial-Results",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "coatue",
+      "to": "cobalt-robotics",
+      "type": "invests",
+      "note": "Led $35M Series B",
+      "source": "https://www.securitysales.com/news/cobalt-robotics-funding-round/97019/",
+      "confidence": "company-reported"
+    }
+  ]
+}

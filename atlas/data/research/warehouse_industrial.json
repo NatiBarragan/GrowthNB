@@ -1,0 +1,3121 @@
+{
+  "organizations": [
+    {
+      "id": "locus-robotics",
+      "name": "Locus Robotics",
+      "kind": "robotics",
+      "website": "https://locusrobotics.com",
+      "hq_city": "Wilmington",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.55,
+      "lon": -71.17,
+      "founded": 2014,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Fulfillment AMRs (person-to-goods picking)",
+      "product": "LocusONE platform, Locus Origin/Vector AMRs, Locus Array (2025)",
+      "robot_type": "AMR",
+      "ai_approach": "Classical autonomy + fleet optimization software",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Over $400M raised through 2022 (Series F $117M, Nov 2022, ~$2B valuation); Series G ~$41.6M from existing investors reported 2025 (round open, amount per Axios). Total not consolidated.",
+      "investors": [
+        "goldman-sachs-asset-management",
+        "g2-venture-partners",
+        "tiger-global-management",
+        "zebra-technologies"
+      ],
+      "customers": [
+        "DHL Supply Chain",
+        "GEODIS"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Large-scale commercial AMR fleets in 3PL/retail warehouses (company-reported). Acquired Nexera Robotics (gripping) in 2025.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "amr",
+        "raas"
+      ],
+      "summary": "Massachusetts maker of collaborative warehouse picking AMRs and the LocusONE fleet platform.",
+      "sources": [
+        {
+          "url": "https://locusrobotics.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.supplychain247.com/article/locus-robotics-41-million-series-g-funding",
+          "label": "SC247 – Series G $41.6M"
+        },
+        {
+          "url": "https://retaildive.com/news/locus-robotics-raises-150m/595277",
+          "label": "Retail Dive – $150M round"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "symbotic",
+      "name": "Symbotic",
+      "kind": "robotics",
+      "website": "https://www.symbotic.com",
+      "hq_city": "Wilmington",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.55,
+      "lon": -71.17,
+      "founded": 2007,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "AI-enabled warehouse automation (case handling, storage & retrieval)",
+      "product": "Symbotic System (SymBots, structure, palletizing); Walmart APD micro-fulfillment systems",
+      "robot_type": "AMR",
+      "ai_approach": "AI-driven orchestration software + autonomous mobile bots",
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: SYM",
+      "funding_usd": null,
+      "funding_note": "Public company (listed via SPAC 2022). SoftBank is a major shareholder and GreenBox JV partner.",
+      "investors": [
+        "softbank"
+      ],
+      "customers": [
+        "Walmart",
+        "Target",
+        "Albertsons",
+        "C&S Wholesale Grocers"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Systems deployed in Walmart regional DCs; Walmart APD program (up to 400 sites if performance met) signed Jan 2025 (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "asrs",
+        "physical-ai"
+      ],
+      "summary": "Public warehouse-automation company; acquired Walmart's Advanced Systems & Robotics unit (Jan 2025) and Veo Robotics assets (2024).",
+      "sources": [
+        {
+          "url": "https://www.symbotic.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://ir.symbotic.com/news-releases/news-release-details/symbotic-acquire-walmarts-advanced-systems-and-robotics-business",
+          "label": "Symbotic IR – Walmart ASR acquisition"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724025000278/sym-20250927.htm",
+          "label": "Symbotic FY2025 10-K"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "berkshire-grey",
+      "name": "Berkshire Grey",
+      "kind": "robotics",
+      "website": "https://www.berkshiregrey.com",
+      "hq_city": "Bedford",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.49,
+      "lon": -71.28,
+      "founded": 2013,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Robotic picking, sortation, store replenishment",
+      "product": "Robotic Put Wall, Robotic Picking, Robotic Each Sortation",
+      "robot_type": "Industrial arm",
+      "ai_approach": "AI-enabled robotic picking (vision + grasp planning)",
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Formerly NASDAQ: BGRY; taken private by SoftBank Group in 2023.",
+      "investors": [
+        "softbank"
+      ],
+      "customers": [
+        "FedEx",
+        "Walmart"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial deployments with parcel and retail customers (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "acquired",
+        "softbank-portfolio"
+      ],
+      "summary": "Bedford, MA warehouse robotics maker taken private by SoftBank Group in 2023.",
+      "sources": [
+        {
+          "url": "https://www.berkshiregrey.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "dexterity",
+      "name": "Dexterity",
+      "kind": "robotics",
+      "website": "https://www.dexterity.ai",
+      "hq_city": "Redwood City",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.49,
+      "lon": -122.24,
+      "founded": 2017,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Truck loading/unloading, palletizing, parcel handling",
+      "product": "Mech (dual-arm mobile truck loader); DexR",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": "Physical AI / learned manipulation (company describes as 'physical AI')",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "$95M round (Mar 2025) at $1.65B valuation led by Lightspeed and Sumitomo; total raised ~nearly $300M (Bloomberg).",
+      "investors": [
+        "lightspeed-venture-partners",
+        "sumitomo-corporation"
+      ],
+      "customers": [
+        "FedEx"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Robots deployed with logistics customers incl. FedEx truck-loading program (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "unicorn",
+        "physical-ai",
+        "truck-loading"
+      ],
+      "summary": "Bay Area physical-AI company building robots for truck loading and parcel handling.",
+      "sources": [
+        {
+          "url": "https://www.dexterity.ai",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.therobotreport.com/dexterity-picks-up-95m-funding-container-unloading-robots/",
+          "label": "The Robot Report – $95M"
+        },
+        {
+          "url": "https://www.bloomberg.com/news/articles/2025-03-11/ai-robotics-startup-dexterity-lands-1-65-billion-valuation",
+          "label": "Bloomberg – $1.65B valuation"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "ambi-robotics",
+      "name": "Ambi Robotics",
+      "kind": "robotics",
+      "website": "https://www.ambirobotics.com",
+      "hq_city": "Berkeley",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.87,
+      "lon": -122.27,
+      "founded": 2018,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "AI parcel sortation and palletizing",
+      "product": "AmbiSort, AmbiStack; PRIME-1 foundation model (company-reported)",
+      "robot_type": "Industrial arm",
+      "ai_approach": "Sim-to-real AI (Dex-Net lineage, UC Berkeley)",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 64100000,
+      "funding_note": "Seed $6.1M (2021) + Series A $26M (2021, Tiger Global) + $32M SAFE (2022, Tiger Global & Bow Capital); sum of disclosed rounds. No 2024–25 round found.",
+      "investors": [
+        "tiger-global-management",
+        "bow-capital",
+        "vertex-ventures",
+        "the-house-fund",
+        "ahren",
+        "pitney-bowes"
+      ],
+      "customers": [
+        "Pitney Bowes"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "AmbiSort systems deployed with Pitney Bowes ($23M deal, company-reported).",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "uc-berkeley-spinout"
+      ],
+      "summary": "UC Berkeley spinout using sim-to-real AI for robotic parcel sorting and stacking.",
+      "sources": [
+        {
+          "url": "https://www.ambirobotics.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.businesswire.com/news/home/20210330005358/en/Ambi-Robotics-Emerges-From-Stealth-with-Advanced-Simulation-to-Reality-Artificial-Intelligence",
+          "label": "BusinessWire – emerges from stealth"
+        },
+        {
+          "url": "https://www.robotics247.com/article/ambi_robotics_raises_26m_series_a_funding_led_by_tiger_global/ambi_robotics",
+          "label": "Robotics 24/7 – Series A"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "covariant",
+      "name": "Covariant",
+      "kind": "ai",
+      "website": "https://covariant.ai",
+      "hq_city": "Emeryville",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.83,
+      "lon": -122.29,
+      "founded": 2017,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Robotics foundation models for picking",
+      "product": "Covariant Brain; RFM-1",
+      "robot_type": null,
+      "ai_approach": "Robotics foundation model (RFM-1)",
+      "models": [
+        "rfm-1"
+      ],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Total funding not verified in this pass. Aug 2024: Amazon hired co-founders Abbeel, Chen, Duan and ~1/4 of staff and took a non-exclusive model license (whistleblower alleges ~$380M license fee; unverified allegation).",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Covariant Brain deployed in picking stations via integration partners (company-reported); continues independently under CEO Ted Stinson.",
+      "suppliers": [],
+      "tags": [
+        "ai",
+        "foundation-model",
+        "amazon-license-deal"
+      ],
+      "summary": "AI company building robotics foundation models for warehouse picking; founders joined Amazon in a 2024 license-and-hire deal.",
+      "sources": [
+        {
+          "url": "https://covariant.ai",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.geekwire.com/2024/amazon-hires-covariant-founders-inks-licensing-deal-with-robotics-ai-startup-in-latest-reverse-acquihire-deal/",
+          "label": "GeekWire – Amazon deal"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Covariant_(company)",
+          "label": "Wikipedia"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "amazon-robotics",
+      "name": "Amazon Robotics",
+      "kind": "robotics",
+      "website": "https://www.amazon.science/research-areas/robotics",
+      "hq_city": "North Reading",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.58,
+      "lon": -71.08,
+      "founded": 2003,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "In-house fulfillment robotics",
+      "product": "Proteus, Hercules drive units, Sparrow, Cardinal, Sequoia, Vulcan; DeepFleet model",
+      "robot_type": "AMR",
+      "ai_approach": "Fleet AI (DeepFleet foundation model, company-reported) + manipulation AI",
+      "models": [
+        "deepfleet"
+      ],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Founded as Kiva Systems (2003); acquired by Amazon in 2012 for $775M.",
+      "investors": [],
+      "customers": [
+        "Amazon (internal)"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Very large internal fleet (Amazon reported >1M robots deployed, 2025; company-reported).",
+      "suppliers": [],
+      "tags": [
+        "subsidiary",
+        "big-tech"
+      ],
+      "summary": "Amazon's internal robotics organization (ex-Kiva Systems) building fulfillment robots.",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/operations/amazon-robotics-robots-fulfillment-center",
+          "label": "About Amazon – robotics"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Amazon_Robotics",
+          "label": "Wikipedia"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "greyorange",
+      "name": "GreyOrange",
+      "kind": "robotics",
+      "website": "https://www.greyorange.com",
+      "hq_city": "Roswell",
+      "hq_state": "GA",
+      "hq_country": "US",
+      "lat": 34.02,
+      "lon": -84.36,
+      "founded": 2011,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Fulfillment orchestration software + AMRs",
+      "product": "GreyMatter orchestration platform; Ranger robots",
+      "robot_type": "AMR",
+      "ai_approach": "AI orchestration / optimization software",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Series D $135M (late 2023) led by Anthelion Capital; total reported ~$420–470M depending on source.",
+      "investors": [
+        "anthelion-capital",
+        "mithril-capital",
+        "3state-ventures",
+        "blume-ventures"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial deployments in retail/3PL fulfillment (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "growth",
+        "orchestration"
+      ],
+      "summary": "Atlanta-area warehouse orchestration software and AMR company founded in India in 2011.",
+      "sources": [
+        {
+          "url": "https://www.greyorange.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://inc42.com/buzz/greyorange/",
+          "label": "Inc42 – $135M Series D"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "geek-plus",
+      "name": "Geek+ (Geekplus)",
+      "kind": "robotics",
+      "website": "https://www.geekplus.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "CN",
+      "lat": null,
+      "lon": null,
+      "founded": 2015,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Goods-to-person AMRs, shelf/tote robots",
+      "product": "P-series, RoboShuttle, PopPick",
+      "robot_type": "AMR",
+      "ai_approach": "Fleet management + AI scheduling",
+      "models": [],
+      "stage": "Public",
+      "ticker": "HKEX: 2590",
+      "funding_usd": null,
+      "funding_note": "Listed in Hong Kong in July 2025 (analyst knowledge; not re-verified this pass). US office city not verified.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial AMR deployments globally incl. North America (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "china",
+        "us-ops"
+      ],
+      "summary": "Beijing-based AMR maker with US operations; US office location not verified in this pass.",
+      "sources": [
+        {
+          "url": "https://www.geekplus.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "exotec",
+      "name": "Exotec",
+      "kind": "robotics",
+      "website": "https://www.exotec.com",
+      "hq_city": "Atlanta",
+      "hq_state": "GA",
+      "hq_country": "FR",
+      "lat": 33.75,
+      "lon": -84.39,
+      "founded": 2015,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Goods-to-person ASRS (3D climbing robots)",
+      "product": "Skypod system",
+      "robot_type": "AMR",
+      "ai_approach": "Classical autonomy + software orchestration",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Series D $335M (2022) at ~$2B valuation (analyst knowledge; not re-verified this pass).",
+      "investors": [],
+      "customers": [
+        "Gap Inc."
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Skypod deployed at retailers in Europe and North America (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "unicorn",
+        "france",
+        "us-ops",
+        "asrs"
+      ],
+      "summary": "French ASRS maker (Skypod) with North American office in Atlanta.",
+      "sources": [
+        {
+          "url": "https://www.exotec.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "autostore",
+      "name": "AutoStore",
+      "kind": "robotics",
+      "website": "https://www.autostoresystem.com",
+      "hq_city": "Derry",
+      "hq_state": "NH",
+      "hq_country": "NO",
+      "lat": 42.88,
+      "lon": -71.33,
+      "founded": 1996,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Cube storage ASRS",
+      "product": "AutoStore grid, R5/R5 Pro robots, ports",
+      "robot_type": "AMR",
+      "ai_approach": "Classical control + software",
+      "models": [],
+      "stage": "Public",
+      "ticker": "OSE: AUTO",
+      "funding_usd": null,
+      "funding_note": "Public (Oslo). SoftBank acquired ~40% stake in 2021 (analyst knowledge). US office location (Derry, NH) not re-verified this pass.",
+      "investors": [
+        "softbank"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Thousands of systems installed globally via integrators (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "norway",
+        "us-ops",
+        "asrs"
+      ],
+      "summary": "Norwegian cube-storage ASRS company with US operations, sold via integrator partners.",
+      "sources": [
+        {
+          "url": "https://www.autostoresystem.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/AutoStore",
+          "label": "Wikipedia"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "6-river-systems",
+      "name": "6 River Systems",
+      "kind": "robotics",
+      "website": "https://6river.com",
+      "hq_city": "Waltham",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.38,
+      "lon": -71.24,
+      "founded": 2015,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Collaborative picking AMRs",
+      "product": "Chuck",
+      "robot_type": "AMR",
+      "ai_approach": "Classical autonomy",
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Acquired by Shopify (2019), then sold to Ocado Group (2023) (analyst knowledge).",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Chuck AMRs deployed in fulfillment centers (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "acquired",
+        "ocado"
+      ],
+      "summary": "Waltham, MA collaborative picking AMR maker, now part of Ocado Group.",
+      "sources": [
+        {
+          "url": "https://6river.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "fetch-robotics",
+      "name": "Fetch Robotics (Zebra)",
+      "kind": "robotics",
+      "website": "https://www.zebra.com",
+      "hq_city": "San Jose",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.34,
+      "lon": -121.89,
+      "founded": 2014,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Warehouse AMRs",
+      "product": "Zebra/Fetch AMRs",
+      "robot_type": "AMR",
+      "ai_approach": "Classical autonomy",
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Acquired by Zebra Technologies in 2021 (~$290M for remaining stake).",
+      "investors": [
+        "zebra-technologies"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Sold as Zebra Symmetry/Fetch AMR line (company-reported); current product status not re-verified.",
+      "suppliers": [],
+      "tags": [
+        "acquired"
+      ],
+      "summary": "San Jose AMR maker acquired by Zebra Technologies in 2021.",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Zebra_Technologies",
+          "label": "Wikipedia – Zebra Technologies"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "zebra-technologies",
+      "name": "Zebra Technologies",
+      "kind": "enabler",
+      "website": "https://www.zebra.com",
+      "hq_city": "Lincolnshire",
+      "hq_state": "IL",
+      "hq_country": "US",
+      "lat": 42.19,
+      "lon": -87.91,
+      "founded": 1969,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Enterprise data capture, machine vision, AMRs",
+      "product": "Fetch AMRs, Photoneo 3D vision, scanners",
+      "robot_type": "AMR",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: ZBRA",
+      "funding_usd": null,
+      "funding_note": "Public company; acquired Fetch Robotics (2021) and Photoneo (2025).",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial.",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "corporate"
+      ],
+      "summary": "Illinois enterprise-technology company that owns Fetch Robotics and Photoneo 3D vision.",
+      "sources": [
+        {
+          "url": "https://www.zebra.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.robotics247.com/article/zebra-technologies-closes-photoneo-acquisition-with-photoneo-brightpick-group/zebra_technologies",
+          "label": "Robotics 24/7 – Photoneo acquisition"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "vecna-robotics",
+      "name": "Vecna Robotics",
+      "kind": "robotics",
+      "website": "https://www.vecnarobotics.com",
+      "hq_city": "Waltham",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.38,
+      "lon": -71.24,
+      "founded": 2018,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Autonomous forklifts / tuggers",
+      "product": "Vecna autonomous pallet jacks, tuggers; Pivotal orchestration",
+      "robot_type": "AMR",
+      "ai_approach": "Classical autonomy + orchestration",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Series C closed at $100M total incl. $40M new equity+debt (Jun 2024; Tiger Global, Proficio, IMPULSE). A $140M/$900M-valuation figure (Nov 2024) appears only in an aggregator — unverified.",
+      "investors": [
+        "tiger-global-management",
+        "proficio-capital-partners",
+        "impulse"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial autonomous material-handling deployments (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "growth",
+        "autonomous-forklift"
+      ],
+      "summary": "Waltham, MA maker of autonomous forklifts and tuggers for warehouses and factories.",
+      "sources": [
+        {
+          "url": "https://www.vecnarobotics.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.robotics247.com/article/vecna_robotics_closes_100_million_series_c_appoints_new_coo",
+          "label": "Robotics 24/7 – Series C close"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "seegrid",
+      "name": "Seegrid",
+      "kind": "robotics",
+      "website": "https://seegrid.com",
+      "hq_city": "Pittsburgh",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.44,
+      "lon": -79.99,
+      "founded": 2003,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Vision-guided autonomous tow tractors / pallet trucks",
+      "product": "Palion lift and tow AMRs",
+      "robot_type": "AMR",
+      "ai_approach": "Vision-based navigation (classical)",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial deployments in manufacturing/logistics (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "amr",
+        "autonomous-forklift"
+      ],
+      "summary": "Pittsburgh-area maker of vision-guided autonomous lift trucks and tuggers.",
+      "sources": [
+        {
+          "url": "https://seegrid.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "mujin",
+      "name": "Mujin",
+      "kind": "robotics",
+      "website": "https://mujin-corp.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "JP",
+      "lat": null,
+      "lon": null,
+      "founded": 2011,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Robot controller/OS for picking, palletizing, truck unloading",
+      "product": "MujinController, MujinOS, TruckBot",
+      "robot_type": null,
+      "ai_approach": "Motion planning + 3D vision (classical + AI)",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not re-verified this pass; US office city not verified.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial deployments in Japan and US logistics (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "japan",
+        "us-ops",
+        "software"
+      ],
+      "summary": "Tokyo-based robot intelligence company with US operations; controller software for picking and palletizing.",
+      "sources": [
+        {
+          "url": "https://mujin-corp.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "plus-one-robotics",
+      "name": "Plus One Robotics",
+      "kind": "robotics",
+      "website": "https://plusonerobotics.com",
+      "hq_city": "San Antonio",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 29.42,
+      "lon": -98.49,
+      "founded": 2016,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Vision + human-in-the-loop parcel picking",
+      "product": "PickOne; Yonder remote supervision",
+      "robot_type": null,
+      "ai_approach": "AI vision with human-in-the-loop (Yonder)",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not re-verified this pass.",
+      "investors": [],
+      "customers": [
+        "FedEx"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Parcel induction systems with parcel carriers (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "human-in-the-loop"
+      ],
+      "summary": "San Antonio company providing AI vision software with remote human assistance for parcel picking.",
+      "sources": [
+        {
+          "url": "https://plusonerobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "pickle-robot",
+      "name": "Pickle Robot",
+      "kind": "robotics",
+      "website": "https://picklerobot.com",
+      "hq_city": "Cambridge",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.37,
+      "lon": -71.11,
+      "founded": 2018,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Truck/container unloading",
+      "product": "Pickle Unload System",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": "AI perception + grasping",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 97000000,
+      "funding_note": "~$97M raised since 2018 per PitchBook (third-party estimate). Added first CFO (Dec 2025).",
+      "investors": [],
+      "customers": [
+        "UPS",
+        "UEC"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "UPS reportedly to spend ~$120M on ~400 robots, deployments from H2 2026 into 2027 (Bloomberg; UPS-reported, Pickle declined comment).",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "truck-unloading"
+      ],
+      "summary": "Massachusetts startup building robots that unload trucks and containers.",
+      "sources": [
+        {
+          "url": "https://picklerobot.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.automatedwarehouseonline.com/ups-to-spend-120m-on-400-pickle-truck-unloading-robots/",
+          "label": "Automated Warehouse – UPS order"
+        },
+        {
+          "url": "https://techcrunch.com/2025/12/18/pickle-robot-adds-tesla-veteran-as-first-cfo/",
+          "label": "TechCrunch – CFO hire"
+        }
+      ],
+      "confidence": "third-party-estimate",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "righthand-robotics",
+      "name": "RightHand Robotics",
+      "kind": "robotics",
+      "website": "https://www.righthandrobotics.com",
+      "hq_city": "Somerville",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.39,
+      "lon": -71.1,
+      "founded": 2014,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Piece-picking",
+      "product": "RightPick",
+      "robot_type": "Industrial arm",
+      "ai_approach": "AI grasping + compliant gripper",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Raised >$120M incl. $66M Series C (third-party summary); Rockwell Automation strategic minority investment (Mar 2025, undisclosed).",
+      "investors": [
+        "rockwell-automation"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Piece-picking systems integrated with AutoStore and others (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "piece-picking"
+      ],
+      "summary": "Massachusetts piece-picking robot company backed strategically by Rockwell Automation (2025).",
+      "sources": [
+        {
+          "url": "https://www.righthandrobotics.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.robotics247.com/article/rockwell_automation_makes_strategic_investment_in_righthand_robotics/Rockwell_Automation",
+          "label": "Robotics 24/7 – Rockwell investment"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "osaro",
+      "name": "OSARO",
+      "kind": "robotics",
+      "website": "https://www.osaro.com",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2015,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Bagging and piece-picking",
+      "product": "OSARO Robotic Bagging, SightWorks",
+      "robot_type": "Industrial arm",
+      "ai_approach": "Deep learning vision + ML grasping",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial e-commerce bagging/picking cells (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "startup"
+      ],
+      "summary": "San Francisco company applying machine learning to robotic piece-picking and bagging.",
+      "sources": [
+        {
+          "url": "https://www.osaro.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "nimble-robotics",
+      "name": "Nimble Robotics",
+      "kind": "robotics",
+      "website": "https://www.nimble.ai",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2017,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Autonomous fulfillment / 3PL",
+      "product": "Nimble general-purpose fulfillment robots; autonomous 3PL",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": "AI manipulation + teleoperation-assisted learning",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Series C $106M (Oct 2024) at $1B valuation, led by FedEx, co-led by Cedar Pine. Total not verified (aggregators $115–221M).",
+      "investors": [
+        "fedex",
+        "cedar-pine"
+      ],
+      "customers": [
+        "FedEx Fulfillment"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Operates own autonomous fulfillment centers; FedEx commercial agreement to scale FedEx Fulfillment (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "unicorn",
+        "physical-ai"
+      ],
+      "summary": "San Francisco company running autonomous fulfillment centers with its own robots, backed by FedEx.",
+      "sources": [
+        {
+          "url": "https://www.nimble.ai",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.businesswire.com/news/home/20241023998446/en/Nimble-Closes-106-Million-Series-C-Funding-Round-Scales-Fully-Autonomous-Fulfillment-with-FedEx",
+          "label": "BusinessWire – Series C"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "mytra",
+      "name": "Mytra",
+      "kind": "robotics",
+      "website": "https://mytra.ai",
+      "hq_city": "Brisbane",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.68,
+      "lon": -122.4,
+      "founded": 2022,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "3D grid storage & pallet/heavy-material movement",
+      "product": "Mytra storage and retrieval system",
+      "robot_type": "AMR",
+      "ai_approach": "Software-defined orchestration",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": 198000000,
+      "funding_note": "$78M at launch (seed/A Eclipse, B Greenoaks) + $120M Series C (Jan 2026, Avenir Growth). Sum ~$198M. HQ city (Brisbane, CA) from analyst knowledge.",
+      "investors": [
+        "avenir-growth",
+        "eclipse-ventures",
+        "greenoaks",
+        "abstract-ventures",
+        "promus-ventures",
+        "d-e-shaw-ventures",
+        "kivu-ventures",
+        "liquid-2-ventures",
+        "offline-ventures"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Early commercial deployments (company-reported); customer names not verified this pass.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "ex-tesla"
+      ],
+      "summary": "Bay Area startup founded by ex-Tesla/Rivian engineers building modular storage-and-retrieval robotics for heavy goods.",
+      "sources": [
+        {
+          "url": "https://mytra.ai",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.therobotreport.com/mytra-closes-150m-series-c-funding-pallet-storing-robots/",
+          "label": "The Robot Report – Series C"
+        },
+        {
+          "url": "https://www.supplychain247.com/article/mytra-startup-warehouse-automation-78-million-funding/news",
+          "label": "SC247 – $78M launch"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "hai-robotics",
+      "name": "Hai Robotics",
+      "kind": "robotics",
+      "website": "https://www.hairobotics.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "CN",
+      "lat": null,
+      "lon": null,
+      "founded": 2016,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Autonomous case-handling robots (ACR)",
+      "product": "HaiPick systems",
+      "robot_type": "AMR",
+      "ai_approach": "Classical autonomy + software",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding and US office not verified this pass.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial deployments globally incl. US (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "china",
+        "us-ops",
+        "asrs"
+      ],
+      "summary": "Shenzhen-based maker of tote-handling ACR robots with US operations.",
+      "sources": [
+        {
+          "url": "https://www.hairobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "corvus-robotics",
+      "name": "Corvus Robotics",
+      "kind": "robotics",
+      "website": "https://www.corvus-robotics.com",
+      "hq_city": "Mountain View",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.39,
+      "lon": -122.08,
+      "founded": 2017,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Autonomous inventory drones",
+      "product": "Corvus One",
+      "robot_type": "Drone",
+      "ai_approach": "Vision-based GPS-denied autonomy",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass; HQ city from analyst knowledge.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Indoor inventory drones in warehouses (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "inventory-drone"
+      ],
+      "summary": "Startup making autonomous indoor drones for warehouse inventory scanning.",
+      "sources": [
+        {
+          "url": "https://www.corvus-robotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "gather-ai",
+      "name": "Gather AI",
+      "kind": "robotics",
+      "website": "https://gather.ai",
+      "hq_city": "Pittsburgh",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.44,
+      "lon": -79.99,
+      "founded": 2017,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Inventory-monitoring drones and vision",
+      "product": "Gather AI drone + forklift-camera inventory platform",
+      "robot_type": "Drone",
+      "ai_approach": "Vision AI on off-the-shelf drones, GPS-free autonomy",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 74000000,
+      "funding_note": "$40M Series B (Feb 2026) led by Smith Point Capital; total $74M since 2017 CMU spinout (TechCrunch).",
+      "investors": [
+        "smith-point-capital",
+        "bain-capital-ventures",
+        "tribeca-venture-partners",
+        "bling-capital",
+        "dundee-venture-capital",
+        "xrc-ventures",
+        "the-hillman-company"
+      ],
+      "customers": [
+        "Kwik Trip",
+        "GEODIS",
+        "Axon",
+        "NFI Industries"
+      ],
+      "deployment": "Commercial",
+      "deployment_note": "Customer list from third-party profile; commercial deployments in warehouses.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "cmu-spinout",
+        "inventory-drone"
+      ],
+      "summary": "Pittsburgh CMU spinout using autonomous drones and vision AI for warehouse inventory.",
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/02/09/gather-ai-maker-of-curious-warehouse-drones-lands-40m-led-by-keith-blocks-firm/",
+          "label": "TechCrunch – Series B"
+        },
+        {
+          "url": "https://gather.ai",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "brightpick",
+      "name": "Brightpick",
+      "kind": "robotics",
+      "website": "https://brightpick.ai",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "SK",
+      "lat": null,
+      "lon": null,
+      "founded": 2021,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Autonomous mobile picking robots",
+      "product": "Brightpick Autopicker",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": "AI vision picking",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 47000000,
+      "funding_note": "Total $47M incl. $12M (Nov 2024, EBRD Venture Capital lead); proceeds from Zebra's Photoneo acquisition reinvested (company-reported). US office city not verified.",
+      "investors": [
+        "ebrd-venture-capital"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "~300 robots deployed across US and Europe (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "slovakia",
+        "us-ops"
+      ],
+      "summary": "Slovak-founded maker of the Autopicker mobile picking robot with US deployments.",
+      "sources": [
+        {
+          "url": "https://brightpick.ai",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.supplychain247.com/article/brightpick-12-million-funding-round-artificial-intelligence-robots",
+          "label": "SC247 – $12M round"
+        },
+        {
+          "url": "https://www.robotics247.com/article/zebra-technologies-closes-photoneo-acquisition-with-photoneo-brightpick-group/zebra_technologies",
+          "label": "Robotics 24/7 – Photoneo/Brightpick"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "robust-ai",
+      "name": "Robust.AI",
+      "kind": "robotics",
+      "website": "https://www.robust.ai",
+      "hq_city": "San Carlos",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.51,
+      "lon": -122.26,
+      "founded": 2019,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Collaborative mobile robots for picking",
+      "product": "Carter",
+      "robot_type": "AMR",
+      "ai_approach": "Human-robot collaboration software + AI perception",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass; HQ city from analyst knowledge.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": "Deployment scale not verified this pass.",
+      "suppliers": [],
+      "tags": [
+        "startup"
+      ],
+      "summary": "Bay Area startup co-founded by Rodney Brooks building the Carter collaborative warehouse robot.",
+      "sources": [
+        {
+          "url": "https://www.robust.ai",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "collaborative-robotics",
+      "name": "Collaborative Robotics (Cobot)",
+      "kind": "robotics",
+      "website": "https://www.co.bot",
+      "hq_city": "Santa Clara",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.35,
+      "lon": -121.96,
+      "founded": 2022,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Mobile manipulator for logistics/healthcare carts",
+      "product": "Proxie",
+      "robot_type": "Mobile manipulator",
+      "ai_approach": "Physical AI / learned manipulation",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Reported $100M Series B (2024, General Catalyst) — analyst knowledge, not re-verified this pass.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Pilot",
+      "deployment_note": "Early deployments (company-reported); not re-verified.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "physical-ai"
+      ],
+      "summary": "Santa Clara startup founded by ex-Amazon robotics VP Brad Porter building the Proxie mobile manipulator.",
+      "sources": [
+        {
+          "url": "https://www.co.bot",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "formic",
+      "name": "Formic",
+      "kind": "robotics",
+      "website": "https://formic.co",
+      "hq_city": "Chicago",
+      "hq_state": "IL",
+      "hq_country": "US",
+      "lat": 41.88,
+      "lon": -87.63,
+      "founded": 2020,
+      "segment": "Industrial",
+      "subsegment": "Robots-as-a-Service for manufacturers (palletizing, machine tending)",
+      "product": "Formic RaaS + FormicOS",
+      "robot_type": "Industrial arm",
+      "ai_approach": "Software monitoring + AI-driven automation",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 52000000,
+      "funding_note": "Series A totals >$52M (Lux-led $26.5M 2022 + $27.4M extension Jun 2024 led by Blackhorn); plus >$100M debt capital access (2022).",
+      "investors": [
+        "lux-capital",
+        "blackhorn-ventures"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "100,000 production hours at >99% uptime (company-reported, 2024).",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "raas"
+      ],
+      "summary": "Chicago Robots-as-a-Service provider deploying automation for small and mid-size US manufacturers.",
+      "sources": [
+        {
+          "url": "https://formic.co",
+          "label": "Company site"
+        },
+        {
+          "url": "https://businesswire.com/news/home/20240625420772/en/Formic-Raises-27.4-Million-to-Bring-Automation-to-More-Manufacturers/",
+          "label": "BusinessWire – $27.4M"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "path-robotics",
+      "name": "Path Robotics",
+      "kind": "robotics",
+      "website": "https://www.path-robotics.com",
+      "hq_city": "Columbus",
+      "hq_state": "OH",
+      "hq_country": "US",
+      "lat": 39.96,
+      "lon": -83.0,
+      "founded": 2014,
+      "segment": "Industrial",
+      "subsegment": "Autonomous welding",
+      "product": "AF1 autonomous welding system",
+      "robot_type": "Industrial arm",
+      "ai_approach": "AI vision + learned weld planning",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "$100M Series D (Oct 2024) led by Matter Venture Partners and Drive Capital; prior $56M B and $100M C (2021). Total estimates range $165–271M.",
+      "investors": [
+        "matter-venture-partners",
+        "drive-capital",
+        "yamaha-motor-ventures",
+        "taiwania-capital",
+        "mediatek",
+        "tiger-global-management",
+        "addition"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial welding cells at fabricators (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "welding",
+        "physical-ai"
+      ],
+      "summary": "Columbus, OH startup building AI-driven autonomous welding robots.",
+      "sources": [
+        {
+          "url": "https://www.path-robotics.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://aimresearch.co/?p=12012",
+          "label": "AIM Research – $100M Series D"
+        },
+        {
+          "url": "https://www.robotics247.com/article/path_robotics_raises_100m_in_series_c_financing_for_autonomous_welding",
+          "label": "Robotics 24/7 – Series C"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "machina-labs",
+      "name": "Machina Labs",
+      "kind": "robotics",
+      "website": "https://machinalabs.ai",
+      "hq_city": "Chatsworth",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 34.26,
+      "lon": -118.6,
+      "founded": 2019,
+      "segment": "Industrial",
+      "subsegment": "Robotic sheet-metal forming / AI manufacturing",
+      "product": "RoboCraftsman",
+      "robot_type": "Industrial arm",
+      "ai_approach": "AI-driven robotic incremental forming",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Series B $32M (Oct 2023, NVentures & Innovation Endeavors); Series C closed Feb 2026 (CB Insights lists $124M — third-party). Total not verified.",
+      "investors": [
+        "nvidia",
+        "innovation-endeavors",
+        "lockheed-martin-ventures",
+        "woven-capital",
+        "balerion-space-ventures"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Produces parts for aerospace/defense customers (company-reported); specific customers not verified.",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "defense",
+        "manufacturing"
+      ],
+      "summary": "Los Angeles-area company using AI-guided robot arms to form sheet-metal parts on demand.",
+      "sources": [
+        {
+          "url": "https://machinalabs.ai",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.lw.com/en/news/latham-advises-balerion-space-ventures-on-its-investment-in-machina-labs-series-c",
+          "label": "Latham – Series C"
+        },
+        {
+          "url": "https://payloadspace.com/machina-labs-nabs-32m-series-b",
+          "label": "Payload – Series B"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "bright-machines",
+      "name": "Bright Machines",
+      "kind": "robotics",
+      "website": "https://www.brightmachines.com",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2018,
+      "segment": "Industrial",
+      "subsegment": "Software-defined assembly (electronics, AI servers)",
+      "product": "Microfactories; Brightware software",
+      "robot_type": "Industrial arm",
+      "ai_approach": "Software-defined manufacturing + machine vision",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Series C $126M (Jun 2024): $106M equity led by BlackRock funds (NVIDIA, Microsoft, Eclipse, Jabil participated) + $20M J.P. Morgan venture debt. Total >$400M (company/press); CB Insights lists $608M.",
+      "investors": [
+        "blackrock",
+        "nvidia",
+        "microsoft",
+        "eclipse-ventures",
+        "jabil"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Automated assembly lines for electronics/AI server makers (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "growth",
+        "electronics-assembly"
+      ],
+      "summary": "San Francisco company providing software-defined robotic assembly lines for electronics manufacturing.",
+      "sources": [
+        {
+          "url": "https://www.brightmachines.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://pulse2.com/bright-machines-software-defined-manufacturing-company-closes-126-million-in-series-c-funding",
+          "label": "Pulse 2.0 – Series C"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "vention",
+      "name": "Vention",
+      "kind": "robotics",
+      "website": "https://vention.io",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "CA",
+      "lat": null,
+      "lon": null,
+      "founded": 2016,
+      "segment": "Industrial",
+      "subsegment": "Cloud-designed automation cells (MachineMotion)",
+      "product": "Vention MAP platform, MachineMotion, Rapid Series cells",
+      "robot_type": "Cobot",
+      "ai_approach": "Cloud design software; AI motion features (company-reported)",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not re-verified this pass. Montreal HQ; US office not verified.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Self-serve automation cells sold to manufacturers (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "canada",
+        "us-ops"
+      ],
+      "summary": "Montreal-based manufacturing automation platform selling modular robot cells into US factories.",
+      "sources": [
+        {
+          "url": "https://vention.io",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "standard-bots",
+      "name": "Standard Bots",
+      "kind": "robotics",
+      "website": "https://standardbots.com",
+      "hq_city": "Glen Cove",
+      "hq_state": "NY",
+      "hq_country": "US",
+      "lat": 40.86,
+      "lon": -73.63,
+      "founded": 2016,
+      "segment": "Industrial",
+      "subsegment": "US-built AI-native industrial robot arms",
+      "product": "RO1 robot arm; AI training platform",
+      "robot_type": "Cobot",
+      "ai_approach": "AI-native (learning from demonstration, company-reported)",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": 263000000,
+      "funding_note": "$63M (Jul 2024, Series B led by General Catalyst incl. AIIF, Samsung Next) + $200M Series C (Jun 2026) at $1B valuation led by RoboStrategy. Sum of these ~$263M.",
+      "investors": [
+        "general-catalyst",
+        "amazon-industrial-innovation-fund",
+        "samsung",
+        "robostrategy",
+        "quiet-capital",
+        "468-capital",
+        "lachy-groom"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Company claims pace to 10% of new US industrial robot deployments (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "unicorn",
+        "made-in-usa"
+      ],
+      "summary": "Glen Cove, NY maker of US-manufactured AI-native industrial robot arms.",
+      "sources": [
+        {
+          "url": "https://standardbots.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://pulse2.com/standard-bots-robotics-automation-company-closes-63-million/",
+          "label": "Pulse 2.0 – $63M"
+        },
+        {
+          "url": "https://www.robotics247.com/article/standard-bots-raises-200-million-series-c-at-1-billion-valuation",
+          "label": "Robotics 24/7 – Series C"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "mech-mind",
+      "name": "Mech-Mind Robotics",
+      "kind": "supplier",
+      "website": "https://www.mech-mind.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "CN",
+      "lat": null,
+      "lon": null,
+      "founded": 2016,
+      "segment": "Industrial",
+      "subsegment": "3D vision for robot guidance",
+      "product": "Mech-Eye cameras, Mech-Vision software",
+      "robot_type": null,
+      "ai_approach": "AI 3D vision",
+      "models": [],
+      "stage": "Growth",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding and US office not verified this pass.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial 3D vision sold globally (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "china",
+        "us-ops",
+        "vision"
+      ],
+      "summary": "Beijing-based 3D robot vision company with US operations.",
+      "sources": [
+        {
+          "url": "https://www.mech-mind.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "veo-robotics",
+      "name": "Veo Robotics",
+      "kind": "robotics",
+      "website": "https://www.symbotic.com",
+      "hq_city": "Waltham",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.38,
+      "lon": -71.24,
+      "founded": 2016,
+      "segment": "Industrial",
+      "subsegment": "3D safeguarding for industrial robot workcells",
+      "product": "FreeMove",
+      "robot_type": null,
+      "ai_approach": "3D sensing + computer vision",
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Substantially all assets acquired by Symbotic for $8.7M (Jul/Aug 2024).",
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": "Technology absorbed into Symbotic; team joined Symbotic.",
+      "suppliers": [],
+      "tags": [
+        "acquired"
+      ],
+      "summary": "Waltham, MA robot-safety vision company whose assets Symbotic bought in 2024.",
+      "sources": [
+        {
+          "url": "https://ir.symbotic.com/news-releases/news-release-details/symbotic-acquires-veo-robotics-enhance-efficiency-and-safety",
+          "label": "Symbotic IR – Veo acquisition"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1837240/000183724024000168/sym-20240629.htm",
+          "label": "Symbotic 10-Q"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "realtime-robotics",
+      "name": "Realtime Robotics",
+      "kind": "robotics",
+      "website": "https://rtr.ai",
+      "hq_city": "Boston",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.36,
+      "lon": -71.06,
+      "founded": 2016,
+      "segment": "Industrial",
+      "subsegment": "Motion planning & workcell optimization",
+      "product": "RapidPlan, Optimization-as-a-Service",
+      "robot_type": null,
+      "ai_approach": "Accelerated collision-free motion planning",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Series B (2024) led by Mitsubishi Electric, amount undisclosed; Mitsubishi also in Series A and equity stake since 2019.",
+      "investors": [
+        "mitsubishi-electric"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Software sold to automotive/industrial users (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "software"
+      ],
+      "summary": "Boston motion-planning software company backed by Mitsubishi Electric.",
+      "sources": [
+        {
+          "url": "https://rtr.ai",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.businesswire.com/news/home/20240528367498/en/Mitsubishi-Electric-Corporation-Leads-Series-B-Investment-in-Realtime-Robotics",
+          "label": "BusinessWire – Series B"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "ready-robotics",
+      "name": "READY Robotics",
+      "kind": "robotics",
+      "website": null,
+      "hq_city": "Columbus",
+      "hq_state": "OH",
+      "hq_country": "US",
+      "lat": 39.96,
+      "lon": -83.0,
+      "founded": 2016,
+      "segment": "Industrial",
+      "subsegment": "Robot operating software (ForgeOS)",
+      "product": "ForgeOS, TaskMate",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Shut down Aug 2024 after a funding round collapsed (The Robot Report).",
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": "Defunct (Aug 2024).",
+      "suppliers": [],
+      "tags": [
+        "defunct"
+      ],
+      "summary": "Columbus, OH maker of ForgeOS robot software that shut down in 2024.",
+      "sources": [
+        {
+          "url": "https://www.therobotreport.com/ready-robotics-maker-of-forgeos-shuts-down/",
+          "label": "The Robot Report – shutdown"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "abb",
+      "name": "ABB Robotics",
+      "kind": "robotics",
+      "website": "https://new.abb.com/products/robotics",
+      "hq_city": "Auburn Hills",
+      "hq_state": "MI",
+      "hq_country": "CH",
+      "lat": 42.69,
+      "lon": -83.23,
+      "founded": 1988,
+      "segment": "Industrial",
+      "subsegment": "Industrial robots, cobots, AMRs",
+      "product": "IRB arms, GoFa/SWIFTI/YuMi cobots, Flexley AMRs",
+      "robot_type": "Industrial arm",
+      "ai_approach": "Classical control + AI features",
+      "models": [],
+      "stage": "Corporate",
+      "ticker": "SIX: ABBN",
+      "funding_usd": null,
+      "funding_note": "Robotics division agreed to be sold to SoftBank Group for $5.375B (Oct 8, 2025). EU cleared Mar 12, 2026; close expected mid-to-late 2026. Completion NOT confirmed in this pass.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Global commercial installed base.",
+      "suppliers": [],
+      "tags": [
+        "corporate",
+        "pending-acquisition"
+      ],
+      "summary": "Swiss industrial robot maker whose robotics division is being sold to SoftBank; US robotics HQ in Auburn Hills, MI.",
+      "sources": [
+        {
+          "url": "https://new.abb.com/news/detail/129685/abb-to-divest-robotics-division-to-softbank-group",
+          "label": "ABB – divestment to SoftBank"
+        },
+        {
+          "url": "https://group.softbank/en/news/press/20251008",
+          "label": "SoftBank press release"
+        },
+        {
+          "url": "https://ieu-monitoring.com/editorial/eu-commission-clears-acquisition-of-abb-robotics-by-softbank/895117",
+          "label": "EU clearance"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "fanuc",
+      "name": "FANUC America",
+      "kind": "robotics",
+      "website": "https://www.fanucamerica.com",
+      "hq_city": "Rochester Hills",
+      "hq_state": "MI",
+      "hq_country": "JP",
+      "lat": 42.66,
+      "lon": -83.15,
+      "founded": 1972,
+      "segment": "Industrial",
+      "subsegment": "Industrial robots, CNC, cobots",
+      "product": "R-/M-series arms, CRX cobots",
+      "robot_type": "Industrial arm",
+      "ai_approach": "Classical control + AI vision",
+      "models": [],
+      "stage": "Public",
+      "ticker": "TYO: 6954",
+      "funding_usd": null,
+      "funding_note": "Public parent FANUC Corp.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Largest industrial robot installed base globally (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "corporate",
+        "japan"
+      ],
+      "summary": "US arm of Japanese industrial robot leader FANUC, headquartered in Rochester Hills, MI.",
+      "sources": [
+        {
+          "url": "https://www.fanucamerica.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "universal-robots",
+      "name": "Universal Robots",
+      "kind": "robotics",
+      "website": "https://www.universal-robots.com",
+      "hq_city": "Novi",
+      "hq_state": "MI",
+      "hq_country": "DK",
+      "lat": 42.48,
+      "lon": -83.48,
+      "founded": 2005,
+      "segment": "Industrial",
+      "subsegment": "Collaborative robot arms",
+      "product": "UR3e–UR30 cobots, PolyScope X, AI Accelerator",
+      "robot_type": "Cobot",
+      "ai_approach": "Classical control + AI Accelerator (NVIDIA Isaac based, company-reported)",
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Acquired by Teradyne (2015). US office city from analyst knowledge.",
+      "investors": [
+        "teradyne"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Large global cobot installed base (company-reported).",
+      "suppliers": [
+        "nvidia"
+      ],
+      "tags": [
+        "subsidiary",
+        "denmark",
+        "us-ops"
+      ],
+      "summary": "Danish cobot leader owned by Teradyne with US operations.",
+      "sources": [
+        {
+          "url": "https://www.universal-robots.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Universal_Robots",
+          "label": "Wikipedia"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "teradyne",
+      "name": "Teradyne",
+      "kind": "robotics",
+      "website": "https://www.teradyne.com",
+      "hq_city": "North Reading",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.58,
+      "lon": -71.08,
+      "founded": 1960,
+      "segment": "Industrial",
+      "subsegment": "Test equipment + robotics group (UR, MiR)",
+      "product": "Teradyne Robotics (Universal Robots, Mobile Industrial Robots)",
+      "robot_type": "Cobot",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NASDAQ: TER",
+      "funding_usd": null,
+      "funding_note": "Public company.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial via UR and MiR.",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "corporate"
+      ],
+      "summary": "Massachusetts test-equipment company that owns Universal Robots and Mobile Industrial Robots.",
+      "sources": [
+        {
+          "url": "https://www.teradyne.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "kuka",
+      "name": "KUKA Robotics (US)",
+      "kind": "robotics",
+      "website": "https://www.kuka.com",
+      "hq_city": "Shelby Township",
+      "hq_state": "MI",
+      "hq_country": "DE",
+      "lat": 42.67,
+      "lon": -83.03,
+      "founded": 1898,
+      "segment": "Industrial",
+      "subsegment": "Industrial robots and automation systems",
+      "product": "KR-series arms, LBR iisy/iiwa cobots, KMR AMRs",
+      "robot_type": "Industrial arm",
+      "ai_approach": "Classical control",
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Owned by Midea Group (China) since 2017.",
+      "investors": [
+        "midea-group"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Global commercial installed base.",
+      "suppliers": [],
+      "tags": [
+        "corporate",
+        "germany",
+        "us-ops"
+      ],
+      "summary": "German industrial robot maker owned by Midea, with US robotics HQ in Shelby Township, MI.",
+      "sources": [
+        {
+          "url": "https://www.kuka.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/KUKA",
+          "label": "Wikipedia"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "yaskawa",
+      "name": "Yaskawa Motoman",
+      "kind": "robotics",
+      "website": "https://www.motoman.com",
+      "hq_city": "Miamisburg",
+      "hq_state": "OH",
+      "hq_country": "JP",
+      "lat": 39.64,
+      "lon": -84.29,
+      "founded": 1915,
+      "segment": "Industrial",
+      "subsegment": "Industrial robots (welding, handling, painting)",
+      "product": "Motoman GP/AR/HC series",
+      "robot_type": "Industrial arm",
+      "ai_approach": "Classical control",
+      "models": [],
+      "stage": "Public",
+      "ticker": "TYO: 6506",
+      "funding_usd": null,
+      "funding_note": "Public parent Yaskawa Electric.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Global commercial installed base.",
+      "suppliers": [],
+      "tags": [
+        "corporate",
+        "japan",
+        "us-ops"
+      ],
+      "summary": "US robotics division of Japan's Yaskawa Electric, headquartered in Miamisburg, OH.",
+      "sources": [
+        {
+          "url": "https://www.motoman.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "kawasaki-robotics",
+      "name": "Kawasaki Robotics USA",
+      "kind": "robotics",
+      "website": "https://kawasakirobotics.com",
+      "hq_city": "Wixom",
+      "hq_state": "MI",
+      "hq_country": "JP",
+      "lat": 42.52,
+      "lon": -83.54,
+      "founded": null,
+      "segment": "Industrial",
+      "subsegment": "Industrial robots",
+      "product": "R/B/M-series arms, duAro cobot",
+      "robot_type": "Industrial arm",
+      "ai_approach": "Classical control",
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Subsidiary of Kawasaki Heavy Industries (TYO: 7012).",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial.",
+      "suppliers": [],
+      "tags": [
+        "corporate",
+        "japan",
+        "us-ops"
+      ],
+      "summary": "US robotics arm of Kawasaki Heavy Industries, based in Wixom, MI.",
+      "sources": [
+        {
+          "url": "https://kawasakirobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "epson-robots",
+      "name": "Epson Robots",
+      "kind": "robotics",
+      "website": "https://epson.com/robots",
+      "hq_city": "Carson",
+      "hq_state": "CA",
+      "hq_country": "JP",
+      "lat": 33.83,
+      "lon": -118.28,
+      "founded": null,
+      "segment": "Industrial",
+      "subsegment": "SCARA and 6-axis robots",
+      "product": "Epson SCARA (T/GX/RS series), VT6L 6-axis",
+      "robot_type": "Industrial arm",
+      "ai_approach": "Classical control",
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Division of Seiko Epson (TYO: 6724). US city from analyst knowledge.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial.",
+      "suppliers": [],
+      "tags": [
+        "corporate",
+        "japan",
+        "us-ops",
+        "scara"
+      ],
+      "summary": "US robotics unit of Seiko Epson, a leading SCARA robot maker.",
+      "sources": [
+        {
+          "url": "https://epson.com/robots",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "denso-robotics",
+      "name": "DENSO Robotics",
+      "kind": "robotics",
+      "website": "https://www.densorobotics.com",
+      "hq_city": "Long Beach",
+      "hq_state": "CA",
+      "hq_country": "JP",
+      "lat": 33.77,
+      "lon": -118.19,
+      "founded": null,
+      "segment": "Industrial",
+      "subsegment": "Small industrial robots / SCARA",
+      "product": "VS/VM 6-axis, HSR SCARA, COBOTTA",
+      "robot_type": "Industrial arm",
+      "ai_approach": "Classical control",
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Division of DENSO Corp (TYO: 6902). US city from analyst knowledge.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial.",
+      "suppliers": [],
+      "tags": [
+        "corporate",
+        "japan",
+        "us-ops"
+      ],
+      "summary": "US robotics unit of Japanese auto supplier DENSO, making compact industrial robots.",
+      "sources": [
+        {
+          "url": "https://www.densorobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "rockwell-automation",
+      "name": "Rockwell Automation",
+      "kind": "enabler",
+      "website": "https://www.rockwellautomation.com",
+      "hq_city": "Milwaukee",
+      "hq_state": "WI",
+      "hq_country": "US",
+      "lat": 43.04,
+      "lon": -87.91,
+      "founded": 1903,
+      "segment": "Industrial",
+      "subsegment": "Industrial automation; AMRs via Clearpath/OTTO",
+      "product": "OTTO AMRs, Logix controllers, FactoryTalk",
+      "robot_type": "AMR",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Public",
+      "ticker": "NYSE: ROK",
+      "funding_usd": null,
+      "funding_note": "Public; acquired Clearpath Robotics/OTTO Motors (2023); strategic investor in RightHand Robotics (2025).",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial.",
+      "suppliers": [],
+      "tags": [
+        "public",
+        "corporate"
+      ],
+      "summary": "Milwaukee industrial-automation leader that owns OTTO Motors and invests in RightHand Robotics.",
+      "sources": [
+        {
+          "url": "https://www.rockwellautomation.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.robotics247.com/article/rockwell_automation_makes_strategic_investment_in_righthand_robotics/Rockwell_Automation",
+          "label": "Robotics 24/7"
+        }
+      ],
+      "confidence": "verified",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "otto-motors",
+      "name": "OTTO Motors (Rockwell)",
+      "kind": "robotics",
+      "website": "https://ottomotors.com",
+      "hq_city": "Milwaukee",
+      "hq_state": "WI",
+      "hq_country": "US",
+      "lat": 43.04,
+      "lon": -87.91,
+      "founded": 2009,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Industrial AMRs for factory material movement",
+      "product": "OTTO 100/600/1500, OTTO Lifter",
+      "robot_type": "AMR",
+      "ai_approach": "Classical autonomy",
+      "models": [],
+      "stage": "Acquired",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Clearpath Robotics/OTTO Motors (Kitchener, ON) acquired by Rockwell Automation in 2023; city set to parent HQ, operations in Kitchener, Canada.",
+      "investors": [
+        "rockwell-automation"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "acquired",
+        "canada-origin"
+      ],
+      "summary": "Canadian-origin industrial AMR maker (Clearpath) acquired by Rockwell Automation in 2023.",
+      "sources": [
+        {
+          "url": "https://ottomotors.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.robotics247.com/article/rockwell_automation_makes_strategic_investment_in_righthand_robotics/Rockwell_Automation",
+          "label": "Robotics 24/7 (mentions 2023 acquisition)"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "graymatter-robotics",
+      "name": "GrayMatter Robotics",
+      "kind": "robotics",
+      "website": "https://graymatter-robotics.com",
+      "hq_city": "Los Angeles",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 34.05,
+      "lon": -118.24,
+      "founded": 2020,
+      "segment": "Industrial",
+      "subsegment": "AI robotic surface finishing (sanding, polishing, spraying)",
+      "product": "Scan&Sand, Scan&Polish, Scan&Spray",
+      "robot_type": "Industrial arm",
+      "ai_approach": "Physics-informed AI, autonomous path planning",
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": 70400000,
+      "funding_note": "$45M Series B (Jun 2024) led by Wellington Management; total $70.4M (company-reported).",
+      "investors": [
+        "wellington-management",
+        "3m-ventures",
+        "b-capital"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial finishing cells (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "physical-ai"
+      ],
+      "summary": "Los Angeles startup building AI-powered robots for sanding, polishing and spraying.",
+      "sources": [
+        {
+          "url": "https://graymatter-robotics.com",
+          "label": "Company site"
+        },
+        {
+          "url": "https://www.manufacturingdive.com/press-release/20240619-graymatter-raises-45m-series-b-to-accelerate-its-unique-ai-powered-robotic-1",
+          "label": "Manufacturing Dive – Series B"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "rapid-robotics",
+      "name": "Rapid Robotics",
+      "kind": "robotics",
+      "website": "https://www.rapidrobotics.com",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2019,
+      "segment": "Industrial",
+      "subsegment": "Machine tending",
+      "product": "Rapid Machine Operator",
+      "robot_type": "Cobot",
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding and current status not verified this pass.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Unknown",
+      "deployment_note": "Status not verified this pass.",
+      "suppliers": [],
+      "tags": [
+        "startup"
+      ],
+      "summary": "San Francisco startup offering pre-trained cobot cells for machine tending.",
+      "sources": [
+        {
+          "url": "https://www.rapidrobotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "flexxbotics",
+      "name": "Flexxbotics",
+      "kind": "robotics",
+      "website": "https://flexxbotics.com",
+      "hq_city": "Boston",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.36,
+      "lon": -71.06,
+      "founded": null,
+      "segment": "Industrial",
+      "subsegment": "Robot-driven manufacturing software (machine tending orchestration)",
+      "product": "FlexxCORE",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Startup",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Funding not verified this pass.",
+      "investors": [],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Software deployed with machine-tending cells (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "startup",
+        "software"
+      ],
+      "summary": "Software company connecting robots to machine tools for autonomous machine-tending workcells.",
+      "sources": [
+        {
+          "url": "https://flexxbotics.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "mobile-industrial-robots",
+      "name": "Mobile Industrial Robots (MiR)",
+      "kind": "robotics",
+      "website": "https://mobile-industrial-robots.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "DK",
+      "lat": null,
+      "lon": null,
+      "founded": 2013,
+      "segment": "Warehouse & Logistics",
+      "subsegment": "Industrial AMRs",
+      "product": "MiR250, MiR600, MiR1200 Pallet Jack",
+      "robot_type": "AMR",
+      "ai_approach": "Classical autonomy; AI pallet detection (company-reported)",
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": "Acquired by Teradyne (2018). US office city not verified.",
+      "investors": [
+        "teradyne"
+      ],
+      "customers": [],
+      "deployment": "Commercial",
+      "deployment_note": "Commercial (company-reported).",
+      "suppliers": [],
+      "tags": [
+        "subsidiary",
+        "denmark",
+        "us-ops"
+      ],
+      "summary": "Danish AMR maker owned by Teradyne with US sales operations.",
+      "sources": [
+        {
+          "url": "https://mobile-industrial-robots.com",
+          "label": "Company site"
+        }
+      ],
+      "confidence": "analyst",
+      "verified": "2026-10-15"
+    }
+  ],
+  "funding_rounds": [
+    {
+      "org": "dexterity",
+      "date": "2025-03",
+      "round": "Unspecified",
+      "amount_usd": 95000000,
+      "lead": "lightspeed-venture-partners",
+      "investors": [
+        "sumitomo-corporation"
+      ],
+      "note": "Co-led by Lightspeed and Sumitomo Corp; $1.65B valuation.",
+      "source": "https://www.therobotreport.com/dexterity-picks-up-95m-funding-container-unloading-robots/",
+      "confidence": "verified"
+    },
+    {
+      "org": "locus-robotics",
+      "date": "2025",
+      "round": "Series G",
+      "amount_usd": 41600000,
+      "lead": null,
+      "investors": [],
+      "note": "From existing investors; round reported open (Axios). Exact date not verified.",
+      "source": "https://www.supplychain247.com/article/locus-robotics-41-million-series-g-funding",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "mytra",
+      "date": "2026-01",
+      "round": "Series C",
+      "amount_usd": 120000000,
+      "lead": "avenir-growth",
+      "investors": [
+        "kivu-ventures",
+        "liquid-2-ventures",
+        "d-e-shaw-ventures",
+        "offline-ventures",
+        "eclipse-ventures",
+        "greenoaks",
+        "abstract-ventures",
+        "promus-ventures"
+      ],
+      "note": "",
+      "source": "https://www.therobotreport.com/mytra-closes-150m-series-c-funding-pallet-storing-robots/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "standard-bots",
+      "date": "2024-07",
+      "round": "Series B",
+      "amount_usd": 63000000,
+      "lead": "general-catalyst",
+      "investors": [
+        "amazon-industrial-innovation-fund",
+        "samsung",
+        "lachy-groom",
+        "quiet-capital",
+        "468-capital",
+        "lightscape-partners",
+        "boxgroup"
+      ],
+      "note": "$63M total announced; Bloomberg says $39M of it was the Series B proper.",
+      "source": "https://pulse2.com/standard-bots-robotics-automation-company-closes-63-million/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "standard-bots",
+      "date": "2026-06",
+      "round": "Series C",
+      "amount_usd": 200000000,
+      "lead": "robostrategy",
+      "investors": [
+        "general-catalyst"
+      ],
+      "note": "$1B valuation; some sources say co-led with General Catalyst.",
+      "source": "https://www.robotics247.com/article/standard-bots-raises-200-million-series-c-at-1-billion-valuation",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "path-robotics",
+      "date": "2024-10",
+      "round": "Series D",
+      "amount_usd": 100000000,
+      "lead": "matter-venture-partners",
+      "investors": [
+        "drive-capital",
+        "yamaha-motor-ventures",
+        "taiwania-capital",
+        "mediatek"
+      ],
+      "note": "Co-led by Matter Venture Partners and Drive Capital.",
+      "source": "https://aimresearch.co/?p=12012",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "machina-labs",
+      "date": "2026-02",
+      "round": "Series C",
+      "amount_usd": null,
+      "lead": null,
+      "investors": [
+        "woven-capital",
+        "lockheed-martin-ventures",
+        "balerion-space-ventures",
+        "strategic-development-fund"
+      ],
+      "note": "Amount not confirmed from primary source (CB Insights lists $124M).",
+      "source": "https://www.lw.com/en/news/latham-advises-balerion-space-ventures-on-its-investment-in-machina-labs-series-c",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "bright-machines",
+      "date": "2024-06",
+      "round": "Series C",
+      "amount_usd": 126000000,
+      "lead": "blackrock",
+      "investors": [
+        "nvidia",
+        "microsoft",
+        "eclipse-ventures",
+        "jabil",
+        "shinhan-securities"
+      ],
+      "note": "$106M equity + $20M J.P. Morgan venture debt.",
+      "source": "https://pulse2.com/bright-machines-software-defined-manufacturing-company-closes-126-million-in-series-c-funding",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "formic",
+      "date": "2024-06",
+      "round": "Series A extension",
+      "amount_usd": 27400000,
+      "lead": "blackhorn-ventures",
+      "investors": [],
+      "note": "Brings Series A total to >$52M.",
+      "source": "https://businesswire.com/news/home/20240625420772/en/Formic-Raises-27.4-Million-to-Bring-Automation-to-More-Manufacturers/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "nimble-robotics",
+      "date": "2024-10",
+      "round": "Series C",
+      "amount_usd": 106000000,
+      "lead": "fedex",
+      "investors": [
+        "cedar-pine"
+      ],
+      "note": "$1B valuation; Cedar Pine co-led; paired with FedEx commercial agreement.",
+      "source": "https://www.businesswire.com/news/home/20241023998446/en/Nimble-Closes-106-Million-Series-C-Funding-Round-Scales-Fully-Autonomous-Fulfillment-with-FedEx",
+      "confidence": "verified"
+    },
+    {
+      "org": "gather-ai",
+      "date": "2026-02",
+      "round": "Series B",
+      "amount_usd": 40000000,
+      "lead": "smith-point-capital",
+      "investors": [
+        "bain-capital-ventures",
+        "tribeca-venture-partners",
+        "bling-capital",
+        "dundee-venture-capital",
+        "xrc-ventures",
+        "the-hillman-company"
+      ],
+      "note": "Total raised $74M.",
+      "source": "https://techcrunch.com/2026/02/09/gather-ai-maker-of-curious-warehouse-drones-lands-40m-led-by-keith-blocks-firm/",
+      "confidence": "verified"
+    },
+    {
+      "org": "gather-ai",
+      "date": "2024-03",
+      "round": "Unspecified",
+      "amount_usd": 17000000,
+      "lead": null,
+      "investors": [],
+      "note": "Per PitchBook at $72M valuation (cited by TechCrunch).",
+      "source": "https://techcrunch.com/2026/02/09/gather-ai-maker-of-curious-warehouse-drones-lands-40m-led-by-keith-blocks-firm/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "brightpick",
+      "date": "2024-11",
+      "round": "Equity + venture debt",
+      "amount_usd": 12000000,
+      "lead": "ebrd-venture-capital",
+      "investors": [],
+      "note": "Brings total to $47M.",
+      "source": "https://www.supplychain247.com/article/brightpick-12-million-funding-round-artificial-intelligence-robots",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "vecna-robotics",
+      "date": "2024-06",
+      "round": "Series C (close)",
+      "amount_usd": 40000000,
+      "lead": null,
+      "investors": [
+        "tiger-global-management",
+        "proficio-capital-partners",
+        "impulse"
+      ],
+      "note": "$40M new equity+debt bringing Series C to $100M total.",
+      "source": "https://www.robotics247.com/article/vecna_robotics_closes_100_million_series_c_appoints_new_coo",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "graymatter-robotics",
+      "date": "2024-06",
+      "round": "Series B",
+      "amount_usd": 45000000,
+      "lead": "wellington-management",
+      "investors": [
+        "3m-ventures",
+        "b-capital"
+      ],
+      "note": "Total raised $70.4M.",
+      "source": "https://www.manufacturingdive.com/press-release/20240619-graymatter-raises-45m-series-b-to-accelerate-its-unique-ai-powered-robotic-1",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "realtime-robotics",
+      "date": "2024-05",
+      "round": "Series B",
+      "amount_usd": null,
+      "lead": "mitsubishi-electric",
+      "investors": [],
+      "note": "Amount undisclosed.",
+      "source": "https://www.businesswire.com/news/home/20240528367498/en/Mitsubishi-Electric-Corporation-Leads-Series-B-Investment-in-Realtime-Robotics",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "righthand-robotics",
+      "date": "2025-03",
+      "round": "Strategic",
+      "amount_usd": null,
+      "lead": "rockwell-automation",
+      "investors": [],
+      "note": "Minority strategic investment; amount undisclosed.",
+      "source": "https://www.robotics247.com/article/rockwell_automation_makes_strategic_investment_in_righthand_robotics/Rockwell_Automation",
+      "confidence": "company-reported"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "walmart",
+      "to": "symbotic",
+      "type": "customer",
+      "note": "Walmart APD program (up to 400 sites if criteria met) + $520M development program; long-standing DC automation customer",
+      "source": "https://ir.symbotic.com/news-releases/news-release-details/symbotic-acquire-walmarts-advanced-systems-and-robotics-business",
+      "confidence": "verified"
+    },
+    {
+      "from": "symbotic",
+      "to": "walmart-advanced-systems-and-robotics",
+      "type": "acquisition",
+      "note": "Acquired Walmart's ASR business for $200M cash (closed Jan 2025)",
+      "source": "https://www.sec.gov/Archives/edgar/data/1837240/000183724025000278/sym-20250927.htm",
+      "confidence": "verified"
+    },
+    {
+      "from": "symbotic",
+      "to": "veo-robotics",
+      "type": "acquisition",
+      "note": "Acquired substantially all assets for $8.7M (2024)",
+      "source": "https://ir.symbotic.com/news-releases/news-release-details/symbotic-acquires-veo-robotics-enhance-efficiency-and-safety",
+      "confidence": "verified"
+    },
+    {
+      "from": "softbank",
+      "to": "abb",
+      "type": "acquisition",
+      "note": "Agreed Oct 2025 to buy ABB Robotics division for $5.375B; EU cleared Mar 2026; closing not confirmed as of this pass",
+      "source": "https://group.softbank/en/news/press/20251008",
+      "confidence": "verified"
+    },
+    {
+      "from": "amazon",
+      "to": "covariant",
+      "type": "partnership",
+      "note": "Aug 2024 non-exclusive license of Covariant models + hiring of 3 co-founders and ~25% of staff",
+      "source": "https://www.geekwire.com/2024/amazon-hires-covariant-founders-inks-licensing-deal-with-robotics-ai-startup-in-latest-reverse-acquihire-deal/",
+      "confidence": "verified"
+    },
+    {
+      "from": "amazon",
+      "to": "amazon-robotics",
+      "type": "acquisition",
+      "note": "Acquired Kiva Systems (2012, $775M), now Amazon Robotics",
+      "source": "https://en.wikipedia.org/wiki/Amazon_Robotics",
+      "confidence": "verified"
+    },
+    {
+      "from": "teradyne",
+      "to": "universal-robots",
+      "type": "acquisition",
+      "note": "Acquired 2015",
+      "source": "https://en.wikipedia.org/wiki/Universal_Robots",
+      "confidence": "verified"
+    },
+    {
+      "from": "teradyne",
+      "to": "mobile-industrial-robots",
+      "type": "acquisition",
+      "note": "Acquired MiR 2018",
+      "source": "https://www.teradyne.com",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "rockwell-automation",
+      "to": "otto-motors",
+      "type": "acquisition",
+      "note": "Acquired Clearpath Robotics/OTTO Motors (2023)",
+      "source": "https://www.robotics247.com/article/rockwell_automation_makes_strategic_investment_in_righthand_robotics/Rockwell_Automation",
+      "confidence": "verified"
+    },
+    {
+      "from": "rockwell-automation",
+      "to": "righthand-robotics",
+      "type": "invests",
+      "note": "Strategic minority investment (Mar 2025)",
+      "source": "https://www.robotics247.com/article/rockwell_automation_makes_strategic_investment_in_righthand_robotics/Rockwell_Automation",
+      "confidence": "verified"
+    },
+    {
+      "from": "zebra-technologies",
+      "to": "fetch-robotics",
+      "type": "acquisition",
+      "note": "Acquired 2021",
+      "source": "https://en.wikipedia.org/wiki/Zebra_Technologies",
+      "confidence": "verified"
+    },
+    {
+      "from": "zebra-technologies",
+      "to": "photoneo",
+      "type": "acquisition",
+      "note": "Acquired Photoneo 3D vision; Brightpick spun out of group and received proceeds",
+      "source": "https://www.robotics247.com/article/zebra-technologies-closes-photoneo-acquisition-with-photoneo-brightpick-group/zebra_technologies",
+      "confidence": "verified"
+    },
+    {
+      "from": "ocado-group",
+      "to": "6-river-systems",
+      "type": "acquisition",
+      "note": "Acquired from Shopify (2023)",
+      "source": "https://6river.com",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "softbank",
+      "to": "berkshire-grey",
+      "type": "acquisition",
+      "note": "Took Berkshire Grey private (2023)",
+      "source": "https://www.berkshiregrey.com",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "softbank",
+      "to": "autostore",
+      "type": "invests",
+      "note": "Acquired ~40% stake (2021)",
+      "source": "https://en.wikipedia.org/wiki/AutoStore",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "midea-group",
+      "to": "kuka",
+      "type": "acquisition",
+      "note": "Midea acquired control of KUKA (2017)",
+      "source": "https://en.wikipedia.org/wiki/KUKA",
+      "confidence": "verified"
+    },
+    {
+      "from": "fedex",
+      "to": "nimble-robotics",
+      "type": "invests",
+      "note": "Led $106M Series C (Oct 2024)",
+      "source": "https://www.businesswire.com/news/home/20241023998446/en/Nimble-Closes-106-Million-Series-C-Funding-Round-Scales-Fully-Autonomous-Fulfillment-with-FedEx",
+      "confidence": "verified"
+    },
+    {
+      "from": "fedex",
+      "to": "nimble-robotics",
+      "type": "customer",
+      "note": "Commercial agreement to scale FedEx Fulfillment with Nimble",
+      "source": "https://www.businesswire.com/news/home/20241023998446/en/Nimble-Closes-106-Million-Series-C-Funding-Round-Scales-Fully-Autonomous-Fulfillment-with-FedEx",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "ups",
+      "to": "pickle-robot",
+      "type": "customer",
+      "note": "Reported ~$120M purchase of ~400 truck-unloading robots (Bloomberg, Dec 2025)",
+      "source": "https://www.automatedwarehouseonline.com/ups-to-spend-120m-on-400-pickle-truck-unloading-robots/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "pitney-bowes",
+      "to": "ambi-robotics",
+      "type": "customer",
+      "note": "$23M deal for AmbiSort systems; also strategic investor",
+      "source": "https://www.robotics247.com/article/ambi_robotics_raises_26m_series_a_funding_led_by_tiger_global/ambi_robotics",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "uc-berkeley",
+      "to": "ambi-robotics",
+      "type": "spinout",
+      "note": "Founded from UC Berkeley AUTOLAB (Dex-Net) research",
+      "source": "https://www.businesswire.com/news/home/20210330005358/en/Ambi-Robotics-Emerges-From-Stealth-with-Advanced-Simulation-to-Reality-Artificial-Intelligence",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "carnegie-mellon-university",
+      "to": "gather-ai",
+      "type": "spinout",
+      "note": "Spun out of CMU in 2017",
+      "source": "https://techcrunch.com/2026/02/09/gather-ai-maker-of-curious-warehouse-drones-lands-40m-led-by-keith-blocks-firm/",
+      "confidence": "verified"
+    },
+    {
+      "from": "mitsubishi-electric",
+      "to": "realtime-robotics",
+      "type": "invests",
+      "note": "Led Series B (2024); also Series A participant",
+      "source": "https://www.businesswire.com/news/home/20240528367498/en/Mitsubishi-Electric-Corporation-Leads-Series-B-Investment-in-Realtime-Robotics",
+      "confidence": "verified"
+    },
+    {
+      "from": "nvidia",
+      "to": "bright-machines",
+      "type": "invests",
+      "note": "Participated in Series C (2024)",
+      "source": "https://pulse2.com/bright-machines-software-defined-manufacturing-company-closes-126-million-in-series-c-funding",
+      "confidence": "verified"
+    },
+    {
+      "from": "microsoft",
+      "to": "bright-machines",
+      "type": "invests",
+      "note": "Participated in Series C (2024)",
+      "source": "https://pulse2.com/bright-machines-software-defined-manufacturing-company-closes-126-million-in-series-c-funding",
+      "confidence": "verified"
+    },
+    {
+      "from": "jabil",
+      "to": "bright-machines",
+      "type": "invests",
+      "note": "Participated in Series C (2024)",
+      "source": "https://pulse2.com/bright-machines-software-defined-manufacturing-company-closes-126-million-in-series-c-funding",
+      "confidence": "verified"
+    },
+    {
+      "from": "blackrock",
+      "to": "bright-machines",
+      "type": "invests",
+      "note": "Funds managed by BlackRock led Series C (2024)",
+      "source": "https://pulse2.com/bright-machines-software-defined-manufacturing-company-closes-126-million-in-series-c-funding",
+      "confidence": "verified"
+    },
+    {
+      "from": "eclipse-ventures",
+      "to": "bright-machines",
+      "type": "invests",
+      "note": "Led Series B; participated in Series C",
+      "source": "https://pulse2.com/bright-machines-software-defined-manufacturing-company-closes-126-million-in-series-c-funding",
+      "confidence": "verified"
+    },
+    {
+      "from": "nvidia",
+      "to": "machina-labs",
+      "type": "invests",
+      "note": "NVentures co-led $32M Series B (2023)",
+      "source": "https://payloadspace.com/machina-labs-nabs-32m-series-b",
+      "confidence": "verified"
+    },
+    {
+      "from": "lockheed-martin-ventures",
+      "to": "machina-labs",
+      "type": "invests",
+      "note": "Participated in Series C (2026)",
+      "source": "https://www.lw.com/en/news/latham-advises-balerion-space-ventures-on-its-investment-in-machina-labs-series-c",
+      "confidence": "verified"
+    },
+    {
+      "from": "general-catalyst",
+      "to": "standard-bots",
+      "type": "invests",
+      "note": "Led 2024 Series B; participated in 2026 Series C",
+      "source": "https://pulse2.com/standard-bots-robotics-automation-company-closes-63-million/",
+      "confidence": "verified"
+    },
+    {
+      "from": "amazon-industrial-innovation-fund",
+      "to": "standard-bots",
+      "type": "invests",
+      "note": "Participated in 2024 Series B",
+      "source": "https://pulse2.com/standard-bots-robotics-automation-company-closes-63-million/",
+      "confidence": "verified"
+    },
+    {
+      "from": "samsung",
+      "to": "standard-bots",
+      "type": "invests",
+      "note": "Samsung Next participated in 2024 Series B",
+      "source": "https://pulse2.com/standard-bots-robotics-automation-company-closes-63-million/",
+      "confidence": "verified"
+    },
+    {
+      "from": "robostrategy",
+      "to": "standard-bots",
+      "type": "invests",
+      "note": "Led $200M Series C (Jun 2026)",
+      "source": "https://www.robotics247.com/article/standard-bots-raises-200-million-series-c-at-1-billion-valuation",
+      "confidence": "verified"
+    },
+    {
+      "from": "lightspeed-venture-partners",
+      "to": "dexterity",
+      "type": "invests",
+      "note": "Co-led $95M round (Mar 2025)",
+      "source": "https://www.therobotreport.com/dexterity-picks-up-95m-funding-container-unloading-robots/",
+      "confidence": "verified"
+    },
+    {
+      "from": "sumitomo-corporation",
+      "to": "dexterity",
+      "type": "invests",
+      "note": "Co-led $95M round (Mar 2025)",
+      "source": "https://www.therobotreport.com/dexterity-picks-up-95m-funding-container-unloading-robots/",
+      "confidence": "verified"
+    },
+    {
+      "from": "avenir-growth",
+      "to": "mytra",
+      "type": "invests",
+      "note": "Led $120M Series C (Jan 2026)",
+      "source": "https://www.therobotreport.com/mytra-closes-150m-series-c-funding-pallet-storing-robots/",
+      "confidence": "verified"
+    },
+    {
+      "from": "eclipse-ventures",
+      "to": "mytra",
+      "type": "invests",
+      "note": "Led seed and Series A; Series C participant",
+      "source": "https://www.supplychain247.com/article/mytra-startup-warehouse-automation-78-million-funding/news",
+      "confidence": "verified"
+    },
+    {
+      "from": "matter-venture-partners",
+      "to": "path-robotics",
+      "type": "invests",
+      "note": "Co-led $100M Series D (Oct 2024)",
+      "source": "https://aimresearch.co/?p=12012",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "drive-capital",
+      "to": "path-robotics",
+      "type": "invests",
+      "note": "Co-led $100M Series D (Oct 2024)",
+      "source": "https://aimresearch.co/?p=12012",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "lux-capital",
+      "to": "formic",
+      "type": "invests",
+      "note": "Led $26.5M Series A (2022)",
+      "source": "https://www.automation.com/article/formic-technologies-raises-26-5-million-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "blackhorn-ventures",
+      "to": "formic",
+      "type": "invests",
+      "note": "Led $27.4M Series A extension (Jun 2024)",
+      "source": "https://businesswire.com/news/home/20240625420772/en/Formic-Raises-27.4-Million-to-Bring-Automation-to-More-Manufacturers/",
+      "confidence": "verified"
+    },
+    {
+      "from": "smith-point-capital",
+      "to": "gather-ai",
+      "type": "invests",
+      "note": "Led $40M Series B (Feb 2026)",
+      "source": "https://techcrunch.com/2026/02/09/gather-ai-maker-of-curious-warehouse-drones-lands-40m-led-by-keith-blocks-firm/",
+      "confidence": "verified"
+    },
+    {
+      "from": "wellington-management",
+      "to": "graymatter-robotics",
+      "type": "invests",
+      "note": "Led $45M Series B (Jun 2024)",
+      "source": "https://www.manufacturingdive.com/press-release/20240619-graymatter-raises-45m-series-b-to-accelerate-its-unique-ai-powered-robotic-1",
+      "confidence": "verified"
+    },
+    {
+      "from": "tiger-global-management",
+      "to": "vecna-robotics",
+      "type": "invests",
+      "note": "Joined Series C (2024)",
+      "source": "https://www.robotics247.com/article/vecna_robotics_closes_100_million_series_c_appoints_new_coo",
+      "confidence": "verified"
+    },
+    {
+      "from": "anthelion-capital",
+      "to": "greyorange",
+      "type": "invests",
+      "note": "Led $135M Series D (2023)",
+      "source": "https://inc42.com/buzz/greyorange/",
+      "confidence": "verified"
+    },
+    {
+      "from": "ebrd-venture-capital",
+      "to": "brightpick",
+      "type": "invests",
+      "note": "Led $12M round (Nov 2024)",
+      "source": "https://www.supplychain247.com/article/brightpick-12-million-funding-round-artificial-intelligence-robots",
+      "confidence": "verified"
+    },
+    {
+      "from": "tiger-global-management",
+      "to": "ambi-robotics",
+      "type": "invests",
+      "note": "Led $26M Series A (2021) and $32M round (2022)",
+      "source": "https://www.robotics247.com/article/ambi_robotics_raises_26m_series_a_funding_led_by_tiger_global/ambi_robotics",
+      "confidence": "verified"
+    },
+    {
+      "from": "rockwell-automation",
+      "to": "righthand-robotics",
+      "type": "partnership",
+      "note": "Integration with OTTO/AutoStore ecosystems alongside investment",
+      "source": "https://www.robotics247.com/article/rockwell_automation_makes_strategic_investment_in_righthand_robotics/Rockwell_Automation",
+      "confidence": "company-reported"
+    }
+  ]
+}

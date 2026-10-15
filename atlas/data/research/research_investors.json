@@ -1,0 +1,3991 @@
+{
+  "organizations": [
+    {
+      "id": "mit",
+      "name": "Massachusetts Institute of Technology",
+      "kind": "research",
+      "website": "https://www.mit.edu",
+      "hq_city": "Cambridge",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.37,
+      "lon": -71.11,
+      "founded": 1861,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "CSAIL; Biomimetic Robotics Lab; Leg Laboratory (historic)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university whose CSAIL and Biomimetic Robotics Lab work on manipulation, legged locomotion and robot learning; Boston Dynamics was founded in 1992 as an MIT spin-off.",
+      "sources": [
+        {
+          "url": "https://www.mit.edu",
+          "label": "Official site"
+        },
+        {
+          "url": "https://cbmm.mit.edu/about/people/raibert",
+          "label": "MIT CBMM – Marc Raibert profile"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "stanford",
+      "name": "Stanford University",
+      "kind": "research",
+      "website": "https://www.stanford.edu",
+      "hq_city": "Stanford",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.43,
+      "lon": -122.17,
+      "founded": 1885,
+      "segment": "Research",
+      "subsegment": "University AI & robotics research",
+      "product": "Stanford AI Lab (SAIL); IRIS Lab",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university whose Stanford AI Lab (SAIL) and IRIS lab study robot learning, manipulation and embodied AI.",
+      "sources": [
+        {
+          "url": "https://www.stanford.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "carnegie-mellon-university",
+      "name": "Carnegie Mellon University",
+      "kind": "research",
+      "website": "https://www.cmu.edu",
+      "hq_city": "Pittsburgh",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.44,
+      "lon": -80.0,
+      "founded": 1900,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Robotics Institute; National Robotics Engineering Center (NREC)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university home to the Robotics Institute and NREC; spinouts include Seegrid and Gecko Robotics, and Skild AI was founded by RI faculty.",
+      "sources": [
+        {
+          "url": "https://www.cmu.edu",
+          "label": "Official site"
+        },
+        {
+          "url": "https://www.ri.cmu.edu",
+          "label": "CMU Robotics Institute"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "national-robotics-engineering-center",
+      "name": "National Robotics Engineering Center (NREC)",
+      "kind": "research",
+      "website": "https://www.nrec.ri.cmu.edu",
+      "hq_city": "Pittsburgh",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.44,
+      "lon": -80.0,
+      "founded": null,
+      "segment": "Research",
+      "subsegment": "Applied robotics R&D center",
+      "product": "Field robotics, autonomy and defense/industry contract R&D",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university",
+        "applied-research"
+      ],
+      "summary": "Applied robotics R&D center operated by Carnegie Mellon University's Robotics Institute that develops field robots and autonomy for government and industry sponsors.",
+      "sources": [
+        {
+          "url": "https://www.nrec.ri.cmu.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "uc-berkeley",
+      "name": "University of California, Berkeley",
+      "kind": "research",
+      "website": "https://www.berkeley.edu",
+      "hq_city": "Berkeley",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.87,
+      "lon": -122.27,
+      "founded": 1868,
+      "segment": "Research",
+      "subsegment": "University AI & robotics research",
+      "product": "Berkeley AI Research (BAIR); Robotic AI & Learning Lab (RAIL)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university whose BAIR and RAIL labs work on deep reinforcement learning and robot learning; Covariant was founded in 2017 by Pieter Abbeel and three of his Berkeley students.",
+      "sources": [
+        {
+          "url": "https://www.berkeley.edu",
+          "label": "Official site"
+        },
+        {
+          "url": "https://bair.berkeley.edu",
+          "label": "BAIR"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "georgia-tech",
+      "name": "Georgia Institute of Technology",
+      "kind": "research",
+      "website": "https://www.gatech.edu",
+      "hq_city": "Atlanta",
+      "hq_state": "GA",
+      "hq_country": "US",
+      "lat": 33.75,
+      "lon": -84.39,
+      "founded": 1885,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Institute for Robotics and Intelligent Machines (IRIM)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university whose Institute for Robotics and Intelligent Machines (IRIM) coordinates robotics research across campus.",
+      "sources": [
+        {
+          "url": "https://www.gatech.edu",
+          "label": "Official site"
+        },
+        {
+          "url": "https://research.gatech.edu/robotics",
+          "label": "Georgia Tech IRIM"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "university-of-michigan",
+      "name": "University of Michigan",
+      "kind": "research",
+      "website": "https://umich.edu",
+      "hq_city": "Ann Arbor",
+      "hq_state": "MI",
+      "hq_country": "US",
+      "lat": 42.28,
+      "lon": -83.74,
+      "founded": 1817,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Robotics Department (Ford Motor Company Robotics Building)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university with a standalone Robotics Department covering legged locomotion, manipulation and autonomous vehicles.",
+      "sources": [
+        {
+          "url": "https://umich.edu",
+          "label": "Official site"
+        },
+        {
+          "url": "https://robotics.umich.edu",
+          "label": "Michigan Robotics"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "university-of-pennsylvania",
+      "name": "University of Pennsylvania",
+      "kind": "research",
+      "website": "https://www.upenn.edu",
+      "hq_city": "Philadelphia",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 39.95,
+      "lon": -75.17,
+      "founded": 1740,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "GRASP Laboratory",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university whose GRASP Lab works on aerial robotics, perception, manipulation and multi-robot systems.",
+      "sources": [
+        {
+          "url": "https://www.upenn.edu",
+          "label": "Official site"
+        },
+        {
+          "url": "https://www.grasp.upenn.edu",
+          "label": "GRASP Lab"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "university-of-washington",
+      "name": "University of Washington",
+      "kind": "research",
+      "website": "https://www.washington.edu",
+      "hq_city": "Seattle",
+      "hq_state": "WA",
+      "hq_country": "US",
+      "lat": 47.61,
+      "lon": -122.33,
+      "founded": 1861,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Paul G. Allen School robotics research",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university whose Paul G. Allen School of Computer Science & Engineering conducts robot learning and manipulation research.",
+      "sources": [
+        {
+          "url": "https://www.washington.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "caltech",
+      "name": "California Institute of Technology",
+      "kind": "research",
+      "website": "https://www.caltech.edu",
+      "hq_city": "Pasadena",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 34.15,
+      "lon": -118.14,
+      "founded": 1891,
+      "segment": "Research",
+      "subsegment": "University autonomy research",
+      "product": "Center for Autonomous Systems and Technologies (CAST)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university whose Center for Autonomous Systems and Technologies (CAST) studies drones, legged robots and autonomy; Caltech manages NASA JPL.",
+      "sources": [
+        {
+          "url": "https://www.caltech.edu",
+          "label": "Official site"
+        },
+        {
+          "url": "https://cast.caltech.edu",
+          "label": "Caltech CAST"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "toyota-research-institute",
+      "name": "Toyota Research Institute",
+      "kind": "research",
+      "website": "https://www.tri.global",
+      "hq_city": "Los Altos",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.39,
+      "lon": -122.11,
+      "founded": 2015,
+      "segment": "Research",
+      "subsegment": "Corporate research lab",
+      "product": "Large Behavior Models (LBMs), diffusion policy, robotics & automated driving research",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "corporate-lab",
+        "physical-ai"
+      ],
+      "summary": "Toyota-funded research institute developing Large Behavior Models for robots; collaborates with Boston Dynamics on LBM-driven Atlas humanoid behaviors.",
+      "sources": [
+        {
+          "url": "https://www.tri.global",
+          "label": "Official site"
+        },
+        {
+          "url": "https://tri.global/news/ai-powered-robot-boston-dynamics-and-toyota-research-institute-takes-key-step-towards-general",
+          "label": "TRI news (Aug 2025)"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "columbia-university",
+      "name": "Columbia University",
+      "kind": "research",
+      "website": "https://www.columbia.edu",
+      "hq_city": "New York",
+      "hq_state": "NY",
+      "hq_country": "US",
+      "lat": 40.71,
+      "lon": -74.01,
+      "founded": 1754,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Columbia Engineering robotics labs (e.g., Creative Machines Lab, Robotics Lab)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university with robotics groups in Columbia Engineering working on robot learning, manipulation and self-modeling machines.",
+      "sources": [
+        {
+          "url": "https://www.columbia.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "cornell-university",
+      "name": "Cornell University",
+      "kind": "research",
+      "website": "https://www.cornell.edu",
+      "hq_city": "Ithaca",
+      "hq_state": "NY",
+      "hq_country": "US",
+      "lat": 42.44,
+      "lon": -76.5,
+      "founded": 1865,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Cornell robotics (Mechanical & Aerospace Eng., Computer Science)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university with robotics research spanning soft robotics, human-robot interaction and autonomy.",
+      "sources": [
+        {
+          "url": "https://www.cornell.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "princeton-university",
+      "name": "Princeton University",
+      "kind": "research",
+      "website": "https://www.princeton.edu",
+      "hq_city": "Princeton",
+      "hq_state": "NJ",
+      "hq_country": "US",
+      "lat": 40.36,
+      "lon": -74.67,
+      "founded": 1746,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Princeton robotics (Intelligent Robot Motion Lab, Safe Robotics Lab)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university with robotics groups focused on robot learning, safety and motion planning.",
+      "sources": [
+        {
+          "url": "https://www.princeton.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "uc-san-diego",
+      "name": "University of California San Diego",
+      "kind": "research",
+      "website": "https://ucsd.edu",
+      "hq_city": "San Diego",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 32.72,
+      "lon": -117.16,
+      "founded": 1960,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Contextual Robotics Institute",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university whose Contextual Robotics Institute coordinates robotics research across engineering and computer science.",
+      "sources": [
+        {
+          "url": "https://ucsd.edu",
+          "label": "Official site"
+        },
+        {
+          "url": "https://contextualrobotics.ucsd.edu",
+          "label": "UCSD Contextual Robotics Institute"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "ucla",
+      "name": "University of California, Los Angeles",
+      "kind": "research",
+      "website": "https://www.ucla.edu",
+      "hq_city": "Los Angeles",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 34.05,
+      "lon": -118.24,
+      "founded": 1919,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Robotics & Mechanisms Laboratory (RoMeLa)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university whose RoMeLa lab develops humanoid and legged robots.",
+      "sources": [
+        {
+          "url": "https://www.ucla.edu",
+          "label": "Official site"
+        },
+        {
+          "url": "https://www.romela.org",
+          "label": "RoMeLa"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "university-of-southern-california",
+      "name": "University of Southern California",
+      "kind": "research",
+      "website": "https://www.usc.edu",
+      "hq_city": "Los Angeles",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 34.05,
+      "lon": -118.24,
+      "founded": 1880,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "USC Viterbi robotics (Robotics and Autonomous Systems Center)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university with robotics research in USC Viterbi covering socially assistive robotics, multi-robot systems and robot learning.",
+      "sources": [
+        {
+          "url": "https://www.usc.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "harvard-university",
+      "name": "Harvard University",
+      "kind": "research",
+      "website": "https://www.harvard.edu",
+      "hq_city": "Cambridge",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.37,
+      "lon": -71.11,
+      "founded": 1636,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Wyss Institute for Biologically Inspired Engineering; Harvard Microrobotics Lab",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university whose Wyss Institute and SEAS labs work on soft robotics, soft exosuits and microrobotics.",
+      "sources": [
+        {
+          "url": "https://www.harvard.edu",
+          "label": "Official site"
+        },
+        {
+          "url": "https://wyss.harvard.edu",
+          "label": "Wyss Institute"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "oregon-state-university",
+      "name": "Oregon State University",
+      "kind": "research",
+      "website": "https://oregonstate.edu",
+      "hq_city": "Corvallis",
+      "hq_state": "OR",
+      "hq_country": "US",
+      "lat": 44.56,
+      "lon": -123.26,
+      "founded": 1868,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Dynamic Robotics Laboratory (ATRIAS, Cassie)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university whose Dynamic Robotics Laboratory developed the ATRIAS and Cassie bipeds; Cassie was produced by OSU spinout Agility Robotics.",
+      "sources": [
+        {
+          "url": "https://oregonstate.edu",
+          "label": "Official site"
+        },
+        {
+          "url": "https://news.oregonstate.edu/news/bipedal-robot-developed-oregon-state-makes-history-learning-run-completing-5k",
+          "label": "OSU news – Cassie 5K"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "ut-austin",
+      "name": "The University of Texas at Austin",
+      "kind": "research",
+      "website": "https://www.utexas.edu",
+      "hq_city": "Austin",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 30.27,
+      "lon": -97.74,
+      "founded": 1883,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Texas Robotics; Human Centered Robotics Lab",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university whose Texas Robotics program spans humanoid and legged robotics; Apptronik was founded in 2016 out of its Human Centered Robotics Lab.",
+      "sources": [
+        {
+          "url": "https://www.utexas.edu",
+          "label": "Official site"
+        },
+        {
+          "url": "https://robotics.utexas.edu",
+          "label": "Texas Robotics"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "texas-am-university",
+      "name": "Texas A&M University",
+      "kind": "research",
+      "website": "https://www.tamu.edu",
+      "hq_city": "College Station",
+      "hq_state": "TX",
+      "hq_country": "US",
+      "lat": 30.63,
+      "lon": -96.33,
+      "founded": 1876,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Texas A&M robotics research (Engineering)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university with robotics research in its College of Engineering.",
+      "sources": [
+        {
+          "url": "https://www.tamu.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "purdue-university",
+      "name": "Purdue University",
+      "kind": "research",
+      "website": "https://www.purdue.edu",
+      "hq_city": "West Lafayette",
+      "hq_state": "IN",
+      "hq_country": "US",
+      "lat": 40.43,
+      "lon": -86.91,
+      "founded": 1869,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Purdue robotics research (Engineering)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university with robotics research spanning manufacturing automation, agricultural robotics and autonomy.",
+      "sources": [
+        {
+          "url": "https://www.purdue.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "university-of-illinois-urbana-champaign",
+      "name": "University of Illinois Urbana-Champaign",
+      "kind": "research",
+      "website": "https://illinois.edu",
+      "hq_city": "Urbana",
+      "hq_state": "IL",
+      "hq_country": "US",
+      "lat": 40.11,
+      "lon": -88.21,
+      "founded": 1867,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Illinois robotics (Coordinated Science Laboratory)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university with robotics research in its Grainger College of Engineering.",
+      "sources": [
+        {
+          "url": "https://illinois.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "johns-hopkins-university",
+      "name": "Johns Hopkins University",
+      "kind": "research",
+      "website": "https://www.jhu.edu",
+      "hq_city": "Baltimore",
+      "hq_state": "MD",
+      "hq_country": "US",
+      "lat": 39.29,
+      "lon": -76.61,
+      "founded": 1876,
+      "segment": "Research",
+      "subsegment": "University medical robotics research",
+      "product": "Laboratory for Computational Sensing and Robotics (LCSR)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university whose LCSR focuses on medical and surgical robotics, computer-integrated surgery and perception.",
+      "sources": [
+        {
+          "url": "https://www.jhu.edu",
+          "label": "Official site"
+        },
+        {
+          "url": "https://lcsr.jhu.edu",
+          "label": "JHU LCSR"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "worcester-polytechnic-institute",
+      "name": "Worcester Polytechnic Institute",
+      "kind": "research",
+      "website": "https://www.wpi.edu",
+      "hq_city": "Worcester",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.26,
+      "lon": -71.8,
+      "founded": 1865,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Robotics Engineering department",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Technical university that offers dedicated robotics engineering degrees and research.",
+      "sources": [
+        {
+          "url": "https://www.wpi.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "northeastern-university",
+      "name": "Northeastern University",
+      "kind": "research",
+      "website": "https://www.northeastern.edu",
+      "hq_city": "Boston",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.36,
+      "lon": -71.06,
+      "founded": 1898,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Institute for Experiential Robotics",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university whose Institute for Experiential Robotics coordinates robotics research.",
+      "sources": [
+        {
+          "url": "https://www.northeastern.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "new-york-university",
+      "name": "New York University",
+      "kind": "research",
+      "website": "https://www.nyu.edu",
+      "hq_city": "New York",
+      "hq_state": "NY",
+      "hq_country": "US",
+      "lat": 40.71,
+      "lon": -74.01,
+      "founded": 1831,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "NYU robotics (Courant / Tandon)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university with robot learning and robotics research at Courant and Tandon.",
+      "sources": [
+        {
+          "url": "https://www.nyu.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "brown-university",
+      "name": "Brown University",
+      "kind": "research",
+      "website": "https://www.brown.edu",
+      "hq_city": "Providence",
+      "hq_state": "RI",
+      "hq_country": "US",
+      "lat": 41.82,
+      "lon": -71.41,
+      "founded": 1764,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Brown robotics (Computer Science, Engineering)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university with robotics research on human-robot interaction, language and robot learning.",
+      "sources": [
+        {
+          "url": "https://www.brown.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "yale-university",
+      "name": "Yale University",
+      "kind": "research",
+      "website": "https://www.yale.edu",
+      "hq_city": "New Haven",
+      "hq_state": "CT",
+      "hq_country": "US",
+      "lat": 41.31,
+      "lon": -72.92,
+      "founded": 1701,
+      "segment": "Research",
+      "subsegment": "University robotics research",
+      "product": "Yale robotics (GRAB Lab, Faboratory)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Academic",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "university"
+      ],
+      "summary": "Research university with robotics labs focused on grasping, manipulation and soft robotics.",
+      "sources": [
+        {
+          "url": "https://www.yale.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "rai-institute",
+      "name": "RAI Institute (Robotics and AI Institute)",
+      "kind": "research",
+      "website": "https://rai-inst.com",
+      "hq_city": "Cambridge",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.37,
+      "lon": -71.11,
+      "founded": 2022,
+      "segment": "Research",
+      "subsegment": "Robotics & AI research institute",
+      "product": "Legged locomotion, dexterous manipulation, robot learning",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Subsidiary",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "corporate-lab",
+        "physical-ai"
+      ],
+      "summary": "Research institute founded in 2022 by Hyundai Motor Group as the Boston Dynamics AI Institute, led by Marc Raibert, later renamed the Robotics and AI Institute.",
+      "sources": [
+        {
+          "url": "https://rai-inst.com",
+          "label": "Official site"
+        },
+        {
+          "url": "https://www.hyundai.news/eu/articles/press-releases/hyundai-launches-boston-dynamics-ai-institute.html",
+          "label": "Hyundai press release (Aug 2022)"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "allen-institute-for-ai",
+      "name": "Allen Institute for AI (Ai2)",
+      "kind": "research",
+      "website": "https://allenai.org",
+      "hq_city": "Seattle",
+      "hq_state": "WA",
+      "hq_country": "US",
+      "lat": 47.61,
+      "lon": -122.33,
+      "founded": 2014,
+      "segment": "Research",
+      "subsegment": "Nonprofit AI research institute",
+      "product": "Embodied AI research (AI2-THOR simulator; open robotics models)",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Nonprofit",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "nonprofit",
+        "open-source"
+      ],
+      "summary": "Nonprofit AI research institute in Seattle whose embodied-AI work includes the AI2-THOR simulation environment and open robotics models.",
+      "sources": [
+        {
+          "url": "https://allenai.org",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "nasa-jpl",
+      "name": "NASA Jet Propulsion Laboratory",
+      "kind": "research",
+      "website": "https://www.jpl.nasa.gov",
+      "hq_city": "Pasadena",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 34.15,
+      "lon": -118.14,
+      "founded": 1936,
+      "segment": "Research",
+      "subsegment": "Federal lab (FFRDC)",
+      "product": "Planetary rovers, space robotics and autonomy",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Government",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "government-lab"
+      ],
+      "summary": "NASA federally funded R&D center managed by Caltech that builds planetary rovers and space robotics.",
+      "sources": [
+        {
+          "url": "https://www.jpl.nasa.gov",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "nist",
+      "name": "National Institute of Standards and Technology",
+      "kind": "research",
+      "website": "https://www.nist.gov",
+      "hq_city": "Gaithersburg",
+      "hq_state": "MD",
+      "hq_country": "US",
+      "lat": 39.14,
+      "lon": -77.2,
+      "founded": 1901,
+      "segment": "Research",
+      "subsegment": "Federal standards lab",
+      "product": "Robotics test methods, performance metrics and standards",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Government",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "government-lab"
+      ],
+      "summary": "US federal measurement-science agency that develops robotics performance test methods and standards.",
+      "sources": [
+        {
+          "url": "https://www.nist.gov",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "sandia-national-laboratories",
+      "name": "Sandia National Laboratories",
+      "kind": "research",
+      "website": "https://www.sandia.gov",
+      "hq_city": "Albuquerque",
+      "hq_state": "NM",
+      "hq_country": "US",
+      "lat": 35.08,
+      "lon": -106.65,
+      "founded": 1949,
+      "segment": "Research",
+      "subsegment": "DOE national lab",
+      "product": "Robotics and intelligent systems for national security",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Government",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "government-lab"
+      ],
+      "summary": "DOE national security laboratory with robotics and intelligent-systems research.",
+      "sources": [
+        {
+          "url": "https://www.sandia.gov",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "oak-ridge-national-laboratory",
+      "name": "Oak Ridge National Laboratory",
+      "kind": "research",
+      "website": "https://www.ornl.gov",
+      "hq_city": "Oak Ridge",
+      "hq_state": "TN",
+      "hq_country": "US",
+      "lat": 36.01,
+      "lon": -84.27,
+      "founded": 1943,
+      "segment": "Research",
+      "subsegment": "DOE national lab",
+      "product": "Robotics for manufacturing, nuclear and hazardous environments",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Government",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "government-lab"
+      ],
+      "summary": "DOE national laboratory with robotics research for advanced manufacturing and hazardous-environment operations.",
+      "sources": [
+        {
+          "url": "https://www.ornl.gov",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "idaho-national-laboratory",
+      "name": "Idaho National Laboratory",
+      "kind": "research",
+      "website": "https://inl.gov",
+      "hq_city": "Idaho Falls",
+      "hq_state": "ID",
+      "hq_country": "US",
+      "lat": 43.49,
+      "lon": -112.03,
+      "founded": 1949,
+      "segment": "Research",
+      "subsegment": "DOE national lab",
+      "product": "Robotics and autonomy for nuclear energy and critical infrastructure",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Government",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "government-lab"
+      ],
+      "summary": "DOE national laboratory focused on nuclear energy that applies robotics and autonomy to nuclear and infrastructure operations.",
+      "sources": [
+        {
+          "url": "https://inl.gov",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "mit-lincoln-laboratory",
+      "name": "MIT Lincoln Laboratory",
+      "kind": "research",
+      "website": "https://www.ll.mit.edu",
+      "hq_city": "Lexington",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.45,
+      "lon": -71.23,
+      "founded": 1951,
+      "segment": "Research",
+      "subsegment": "DoD FFRDC",
+      "product": "Autonomous systems, unmanned vehicles, sensing",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Government",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "government-lab"
+      ],
+      "summary": "Federally funded R&D center operated by MIT for the Department of Defense, with autonomous-systems research.",
+      "sources": [
+        {
+          "url": "https://www.ll.mit.edu",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "army-research-laboratory",
+      "name": "DEVCOM Army Research Laboratory",
+      "kind": "research",
+      "website": "https://arl.devcom.army.mil",
+      "hq_city": "Adelphi",
+      "hq_state": "MD",
+      "hq_country": "US",
+      "lat": 39.0,
+      "lon": -76.97,
+      "founded": 1992,
+      "segment": "Research",
+      "subsegment": "Military research lab",
+      "product": "Ground robotics, autonomy and human-agent teaming",
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Government",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "Research",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "government-lab"
+      ],
+      "summary": "US Army's foundational research laboratory, including autonomy and ground-robotics research.",
+      "sources": [
+        {
+          "url": "https://arl.devcom.army.mil",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "andreessen-horowitz",
+      "name": "Andreessen Horowitz (a16z)",
+      "kind": "investor",
+      "website": "https://a16z.com",
+      "hq_city": "Menlo Park",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.45,
+      "lon": -122.18,
+      "founded": 2009,
+      "segment": "Investor",
+      "subsegment": "Multi-stage VC (American Dynamism)",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Multi-stage venture firm; robotics/defense investments include co-leading Mind Robotics' $500M Series A (2026) and participating in Saronic's Series D.",
+      "sources": [
+        {
+          "url": "https://a16z.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "sequoia-capital",
+      "name": "Sequoia Capital",
+      "kind": "investor",
+      "website": "https://www.sequoiacap.com",
+      "hq_city": "Menlo Park",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.45,
+      "lon": -122.18,
+      "founded": 1972,
+      "segment": "Investor",
+      "subsegment": "Multi-stage VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Multi-stage venture firm; robotics investments include Skild AI's Series A.",
+      "sources": [
+        {
+          "url": "https://www.sequoiacap.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "khosla-ventures",
+      "name": "Khosla Ventures",
+      "kind": "investor",
+      "website": "https://www.khoslaventures.com",
+      "hq_city": "Menlo Park",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.45,
+      "lon": -122.18,
+      "founded": 2004,
+      "segment": "Investor",
+      "subsegment": "Early-stage VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Venture firm; robotics investments include co-leading Genesis AI's $105M seed (2025) and investing in FieldAI.",
+      "sources": [
+        {
+          "url": "https://www.khoslaventures.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "eclipse-ventures",
+      "name": "Eclipse",
+      "kind": "investor",
+      "website": "https://eclipse.vc",
+      "hq_city": "Palo Alto",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.44,
+      "lon": -122.14,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Industrial / physical-economy VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Venture firm focused on the physical economy; co-led Genesis AI's seed, led Mind Robotics' seed and invested in Bedrock Robotics.",
+      "sources": [
+        {
+          "url": "https://eclipse.vc",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "dcvc",
+      "name": "DCVC",
+      "kind": "investor",
+      "website": "https://www.dcvc.com",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Deep-tech VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Deep-tech venture firm; an existing investor in Agility Robotics.",
+      "sources": [
+        {
+          "url": "https://www.dcvc.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "lux-capital",
+      "name": "Lux Capital",
+      "kind": "investor",
+      "website": "https://www.luxcapital.com",
+      "hq_city": "New York",
+      "hq_state": "NY",
+      "hq_country": "US",
+      "lat": 40.71,
+      "lon": -74.01,
+      "founded": 2000,
+      "segment": "Investor",
+      "subsegment": "Deep-tech VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Deep-tech venture firm; investor in Physical Intelligence and led Formic's 2022 Series A.",
+      "sources": [
+        {
+          "url": "https://www.luxcapital.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "thrive-capital",
+      "name": "Thrive Capital",
+      "kind": "investor",
+      "website": "https://thrivecap.com",
+      "hq_city": "New York",
+      "hq_state": "NY",
+      "hq_country": "US",
+      "lat": 40.71,
+      "lon": -74.01,
+      "founded": 2009,
+      "segment": "Investor",
+      "subsegment": "Multi-stage VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Venture firm; investor in Physical Intelligence's 2024 round.",
+      "sources": [
+        {
+          "url": "https://thrivecap.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "bezos-expeditions",
+      "name": "Bezos Expeditions",
+      "kind": "investor",
+      "website": "https://www.bezosexpeditions.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Family office / personal investment firm",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "family-office"
+      ],
+      "summary": "Jeff Bezos' personal investment firm; robotics investments include Skild AI, FieldAI and Generalist AI.",
+      "sources": [
+        {
+          "url": "https://www.bezosexpeditions.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "jeff-bezos",
+      "name": "Jeff Bezos",
+      "kind": "investor",
+      "website": "https://www.bezosexpeditions.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Individual investor",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "angel"
+      ],
+      "summary": "Amazon founder who personally invested in Physical Intelligence (2024); also invests via Bezos Expeditions.",
+      "sources": [
+        {
+          "url": "https://www.bezosexpeditions.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "parkway-venture-capital",
+      "name": "Parkway Venture Capital",
+      "kind": "investor",
+      "website": "https://www.parkwayvc.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Venture firm",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Venture firm that led Figure AI's Series C at a $39B post-money valuation (Sep 2025).",
+      "sources": [
+        {
+          "url": "https://www.parkwayvc.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "softbank",
+      "name": "SoftBank Group (SoftBank Vision Fund)",
+      "kind": "investor",
+      "website": "https://group.softbank/en",
+      "hq_city": "San Carlos",
+      "hq_state": "CA",
+      "hq_country": "JP",
+      "lat": 37.51,
+      "lon": -122.26,
+      "founded": 1981,
+      "segment": "Investor",
+      "subsegment": "Corporate investor / Vision Fund",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "corporate",
+        "growth"
+      ],
+      "summary": "Japanese technology investor whose Vision Fund has a US office in San Carlos, CA; led Skild AI's ~$1.4B round (Jan 2026).",
+      "sources": [
+        {
+          "url": "https://group.softbank/en",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "intel-capital",
+      "name": "Intel Capital",
+      "kind": "investor",
+      "website": "https://www.intelcapital.com",
+      "hq_city": "Santa Clara",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.35,
+      "lon": -121.96,
+      "founded": 1991,
+      "segment": "Investor",
+      "subsegment": "Corporate VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "cvc"
+      ],
+      "summary": "Intel's venture arm; robotics investments include FieldAI and Figure AI's Series C.",
+      "sources": [
+        {
+          "url": "https://www.intelcapital.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "amazon-industrial-innovation-fund",
+      "name": "Amazon Industrial Innovation Fund",
+      "kind": "investor",
+      "website": null,
+      "hq_city": "Seattle",
+      "hq_state": "WA",
+      "hq_country": "US",
+      "lat": 47.61,
+      "lon": -122.33,
+      "founded": 2022,
+      "segment": "Investor",
+      "subsegment": "Corporate VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "cvc"
+      ],
+      "summary": "Amazon corporate venture fund for supply-chain, logistics and robotics technology; investor in Agility Robotics and Dyna Robotics.",
+      "sources": [
+        {
+          "url": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+          "label": "Dyna Series A announcement (Gunderson)"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "toyota-ventures",
+      "name": "Toyota Ventures",
+      "kind": "investor",
+      "website": "https://www.toyota-ventures.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Corporate VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "cvc"
+      ],
+      "summary": "Toyota's corporate venture capital arm investing in early-stage startups including robotics and autonomy.",
+      "sources": [
+        {
+          "url": "https://www.toyota-ventures.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "samsung-next",
+      "name": "Samsung Next",
+      "kind": "investor",
+      "website": "https://www.samsungnext.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Corporate VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "cvc"
+      ],
+      "summary": "Samsung's venture arm; participated in Dyna Robotics' $120M Series A (2025).",
+      "sources": [
+        {
+          "url": "https://www.samsungnext.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "m12",
+      "name": "M12 (Microsoft's Venture Fund)",
+      "kind": "investor",
+      "website": "https://m12.vc",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Corporate VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "cvc"
+      ],
+      "summary": "Microsoft's corporate venture fund.",
+      "sources": [
+        {
+          "url": "https://m12.vc",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "openai-startup-fund",
+      "name": "OpenAI Startup Fund",
+      "kind": "investor",
+      "website": "https://www.openai.fund",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Corporate-affiliated VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "cvc"
+      ],
+      "summary": "Venture fund affiliated with OpenAI that invests in AI-native startups.",
+      "sources": [
+        {
+          "url": "https://www.openai.fund",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "founders-fund",
+      "name": "Founders Fund",
+      "kind": "investor",
+      "website": "https://foundersfund.com",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2005,
+      "segment": "Investor",
+      "subsegment": "Multi-stage VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Venture firm investing in defense, hardware and AI.",
+      "sources": [
+        {
+          "url": "https://foundersfund.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "general-catalyst",
+      "name": "General Catalyst",
+      "kind": "investor",
+      "website": "https://www.generalcatalyst.com",
+      "hq_city": "Cambridge",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.37,
+      "lon": -71.11,
+      "founded": 2000,
+      "segment": "Investor",
+      "subsegment": "Multi-stage VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Venture firm; investor in Skild AI's Series A.",
+      "sources": [
+        {
+          "url": "https://www.generalcatalyst.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "lightspeed-venture-partners",
+      "name": "Lightspeed Venture Partners",
+      "kind": "investor",
+      "website": "https://lsvp.com",
+      "hq_city": "Menlo Park",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.45,
+      "lon": -122.18,
+      "founded": 2000,
+      "segment": "Investor",
+      "subsegment": "Multi-stage VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Venture firm; long-time backer of Dexterity, including its $95M 2025 round.",
+      "sources": [
+        {
+          "url": "https://lsvp.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "felicis",
+      "name": "Felicis",
+      "kind": "investor",
+      "website": "https://www.felicis.com",
+      "hq_city": "Menlo Park",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.45,
+      "lon": -122.18,
+      "founded": 2006,
+      "segment": "Investor",
+      "subsegment": "Early-stage VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Venture firm; investor in Skild AI's Series A.",
+      "sources": [
+        {
+          "url": "https://www.felicis.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "playground-global",
+      "name": "Playground Global",
+      "kind": "investor",
+      "website": "https://playground.global",
+      "hq_city": "Palo Alto",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.44,
+      "lon": -122.14,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Deep-tech VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Deep-tech venture firm; an existing investor in Agility Robotics.",
+      "sources": [
+        {
+          "url": "https://playground.global",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "the-engine",
+      "name": "The Engine",
+      "kind": "investor",
+      "website": "https://engine.xyz",
+      "hq_city": "Cambridge",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.37,
+      "lon": -71.11,
+      "founded": 2016,
+      "segment": "Investor",
+      "subsegment": "Tough-tech VC / incubator",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc",
+        "incubator"
+      ],
+      "summary": "Venture firm and lab space for 'tough tech' founders, founded by MIT.",
+      "sources": [
+        {
+          "url": "https://engine.xyz",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "construct-capital",
+      "name": "Construct Capital",
+      "kind": "investor",
+      "website": "https://www.constructcap.com",
+      "hq_city": "Washington",
+      "hq_state": "DC",
+      "hq_country": "US",
+      "lat": 38.91,
+      "lon": -77.04,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Early-stage VC (industrial/foundational industries)",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Early-stage venture firm investing in startups modernizing foundational industries such as manufacturing and logistics.",
+      "sources": [
+        {
+          "url": "https://www.constructcap.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "promus-ventures",
+      "name": "Promus Ventures",
+      "kind": "investor",
+      "website": "https://www.promusventures.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Early-stage VC (frontier tech)",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Venture firm investing in frontier technology including space, robotics and autonomy.",
+      "sources": [
+        {
+          "url": "https://www.promusventures.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "root-ventures",
+      "name": "Root Ventures",
+      "kind": "investor",
+      "website": "https://root.vc",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Seed VC (hard tech)",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Seed-stage venture firm focused on hardware and deep-tech founders.",
+      "sources": [
+        {
+          "url": "https://root.vc",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "cybernetix-ventures",
+      "name": "Cybernetix Ventures",
+      "kind": "investor",
+      "website": "https://www.cybernetix.vc",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Robotics-focused VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Venture firm focused on robotics, automation and physical AI startups.",
+      "sources": [
+        {
+          "url": "https://www.cybernetix.vc",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "tiger-global",
+      "name": "Tiger Global Management",
+      "kind": "investor",
+      "website": "https://www.tigerglobal.com",
+      "hq_city": "New York",
+      "hq_state": "NY",
+      "hq_country": "US",
+      "lat": 40.71,
+      "lon": -74.01,
+      "founded": 2001,
+      "segment": "Investor",
+      "subsegment": "Growth investor",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "growth"
+      ],
+      "summary": "Investment firm; participated in Zipline's $600M round (Jan 2026).",
+      "sources": [
+        {
+          "url": "https://www.tigerglobal.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "prosperity7-ventures",
+      "name": "Prosperity7 Ventures",
+      "kind": "investor",
+      "website": "https://prosperity7vc.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Investor",
+      "subsegment": "Corporate-affiliated growth VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "cvc"
+      ],
+      "summary": "Diversified growth fund of Aramco Ventures investing in deep tech.",
+      "sources": [
+        {
+          "url": "https://prosperity7vc.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "bain-capital-ventures",
+      "name": "Bain Capital Ventures",
+      "kind": "investor",
+      "website": "https://baincapitalventures.com",
+      "hq_city": "Boston",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.36,
+      "lon": -71.06,
+      "founded": 2001,
+      "segment": "Investor",
+      "subsegment": "Multi-stage VC",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "vc"
+      ],
+      "summary": "Venture arm of Bain Capital investing from seed to growth.",
+      "sources": [
+        {
+          "url": "https://baincapitalventures.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "capitalg",
+      "name": "CapitalG",
+      "kind": "investor",
+      "website": "https://www.capitalg.com",
+      "hq_city": null,
+      "hq_state": null,
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": 2013,
+      "segment": "Investor",
+      "subsegment": "Growth fund (Alphabet)",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Corporate",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "cvc",
+        "growth"
+      ],
+      "summary": "Alphabet's independent growth fund; led Physical Intelligence's $600M round (Nov 2025) and co-led Bedrock Robotics' $270M Series B (Feb 2026).",
+      "sources": [
+        {
+          "url": "https://www.capitalg.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "y-combinator",
+      "name": "Y Combinator",
+      "kind": "enabler",
+      "website": "https://www.ycombinator.com",
+      "hq_city": "San Francisco",
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": 37.77,
+      "lon": -122.42,
+      "founded": 2005,
+      "segment": "Accelerator & Enabler",
+      "subsegment": "Startup accelerator",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "accelerator"
+      ],
+      "summary": "Startup accelerator that funds batches of early-stage companies, including robotics startups.",
+      "sources": [
+        {
+          "url": "https://www.ycombinator.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "techstars",
+      "name": "Techstars",
+      "kind": "enabler",
+      "website": "https://www.techstars.com",
+      "hq_city": "Boulder",
+      "hq_state": "CO",
+      "hq_country": "US",
+      "lat": 40.01,
+      "lon": -105.27,
+      "founded": 2006,
+      "segment": "Accelerator & Enabler",
+      "subsegment": "Startup accelerator",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": null,
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "accelerator"
+      ],
+      "summary": "Global startup accelerator network that has run industry-themed programs.",
+      "sources": [
+        {
+          "url": "https://www.techstars.com",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "mass-robotics",
+      "name": "MassRobotics",
+      "kind": "enabler",
+      "website": "https://www.massrobotics.org",
+      "hq_city": "Boston",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.36,
+      "lon": -71.06,
+      "founded": null,
+      "segment": "Accelerator & Enabler",
+      "subsegment": "Robotics innovation hub / accelerator",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Nonprofit",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "nonprofit",
+        "accelerator",
+        "hub"
+      ],
+      "summary": "Boston-based independent nonprofit robotics innovation hub offering startup space, accelerator programs and industry convening.",
+      "sources": [
+        {
+          "url": "https://www.massrobotics.org",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "a3",
+      "name": "Association for Advancing Automation (A3)",
+      "kind": "enabler",
+      "website": "https://www.automate.org",
+      "hq_city": "Ann Arbor",
+      "hq_state": "MI",
+      "hq_country": "US",
+      "lat": 42.28,
+      "lon": -83.74,
+      "founded": null,
+      "segment": "Accelerator & Enabler",
+      "subsegment": "Industry association",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Nonprofit",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "association"
+      ],
+      "summary": "Trade association for robotics, vision, motion control and AI that organizes the Automate show and publishes robot order statistics.",
+      "sources": [
+        {
+          "url": "https://www.automate.org",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "pittsburgh-robotics-network",
+      "name": "Pittsburgh Robotics Network",
+      "kind": "enabler",
+      "website": "https://www.pghrobotics.org",
+      "hq_city": "Pittsburgh",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.44,
+      "lon": -80.0,
+      "founded": null,
+      "segment": "Accelerator & Enabler",
+      "subsegment": "Regional robotics cluster organization",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Nonprofit",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "nonprofit",
+        "cluster"
+      ],
+      "summary": "Nonprofit that convenes and promotes Pittsburgh's robotics cluster.",
+      "sources": [
+        {
+          "url": "https://www.pghrobotics.org",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "robotics-factory",
+      "name": "Robotics Factory",
+      "kind": "enabler",
+      "website": "https://www.roboticsfactory.org",
+      "hq_city": "Pittsburgh",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.44,
+      "lon": -80.0,
+      "founded": null,
+      "segment": "Accelerator & Enabler",
+      "subsegment": "Robotics startup accelerator",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Nonprofit",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "accelerator"
+      ],
+      "summary": "Pittsburgh robotics startup accelerator and venture-creation program.",
+      "sources": [
+        {
+          "url": "https://www.roboticsfactory.org",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "silicon-valley-robotics",
+      "name": "Silicon Valley Robotics",
+      "kind": "enabler",
+      "website": "https://svrobo.org",
+      "hq_city": null,
+      "hq_state": "CA",
+      "hq_country": "US",
+      "lat": null,
+      "lon": null,
+      "founded": null,
+      "segment": "Accelerator & Enabler",
+      "subsegment": "Regional robotics industry group",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Nonprofit",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "nonprofit",
+        "cluster"
+      ],
+      "summary": "Nonprofit industry group supporting the San Francisco Bay Area robotics ecosystem.",
+      "sources": [
+        {
+          "url": "https://svrobo.org",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "national-science-foundation",
+      "name": "National Science Foundation",
+      "kind": "enabler",
+      "website": "https://www.nsf.gov",
+      "hq_city": "Alexandria",
+      "hq_state": "VA",
+      "hq_country": "US",
+      "lat": 38.8,
+      "lon": -77.05,
+      "founded": 1950,
+      "segment": "Accelerator & Enabler",
+      "subsegment": "Federal research funder",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Government",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "government",
+        "funder"
+      ],
+      "summary": "US federal research funder whose Foundational Research in Robotics (FRR) program, successor to the National Robotics Initiative (NRI), funds academic robotics research.",
+      "sources": [
+        {
+          "url": "https://www.nsf.gov",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "darpa",
+      "name": "DARPA",
+      "kind": "enabler",
+      "website": "https://www.darpa.mil",
+      "hq_city": "Arlington",
+      "hq_state": "VA",
+      "hq_country": "US",
+      "lat": 38.88,
+      "lon": -77.1,
+      "founded": 1958,
+      "segment": "Accelerator & Enabler",
+      "subsegment": "Defense research funder",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Government",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "government",
+        "funder"
+      ],
+      "summary": "US Department of Defense research agency that funds robotics and autonomy programs; it funded development of Oregon State's Cassie biped.",
+      "sources": [
+        {
+          "url": "https://www.darpa.mil",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "arm-institute",
+      "name": "ARM Institute (Advanced Robotics for Manufacturing)",
+      "kind": "enabler",
+      "website": "https://arminstitute.org",
+      "hq_city": "Pittsburgh",
+      "hq_state": "PA",
+      "hq_country": "US",
+      "lat": 40.44,
+      "lon": -80.0,
+      "founded": 2017,
+      "segment": "Accelerator & Enabler",
+      "subsegment": "Manufacturing USA institute",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Nonprofit",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "nonprofit",
+        "manufacturing-usa"
+      ],
+      "summary": "Department of Defense-sponsored Manufacturing USA institute in Pittsburgh focused on robotics for manufacturing.",
+      "sources": [
+        {
+          "url": "https://arminstitute.org",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    },
+    {
+      "id": "massachusetts-technology-collaborative",
+      "name": "Massachusetts Technology Collaborative (MassTech)",
+      "kind": "enabler",
+      "website": "https://masstech.org",
+      "hq_city": "Westborough",
+      "hq_state": "MA",
+      "hq_country": "US",
+      "lat": 42.27,
+      "lon": -71.62,
+      "founded": null,
+      "segment": "Accelerator & Enabler",
+      "subsegment": "State economic development agency",
+      "product": null,
+      "robot_type": null,
+      "ai_approach": null,
+      "models": [],
+      "stage": "Government",
+      "ticker": null,
+      "funding_usd": null,
+      "funding_note": null,
+      "investors": [],
+      "customers": [],
+      "deployment": "N/A",
+      "deployment_note": null,
+      "suppliers": [],
+      "tags": [
+        "government"
+      ],
+      "summary": "Massachusetts state economic-development agency that supports the innovation economy, including robotics initiatives.",
+      "sources": [
+        {
+          "url": "https://masstech.org",
+          "label": "Official site"
+        }
+      ],
+      "confidence": "company-reported",
+      "verified": "2026-10-15"
+    }
+  ],
+  "relationships": [
+    {
+      "from": "mit",
+      "to": "boston-dynamics",
+      "type": "spinout",
+      "note": "Founded 1992 by MIT professor Marc Raibert as an MIT spin-off from the Leg Laboratory",
+      "source": "https://cbmm.mit.edu/about/people/raibert",
+      "confidence": "verified"
+    },
+    {
+      "from": "oregon-state-university",
+      "to": "agility-robotics",
+      "type": "spinout",
+      "note": "Agility Robotics described by OSU as its spinout; co-founded 2017 by Dynamic Robotics Lab director Jonathan Hurst; produced Cassie",
+      "source": "https://news.oregonstate.edu/news/bipedal-robot-developed-oregon-state-makes-history-learning-run-completing-5k",
+      "confidence": "verified"
+    },
+    {
+      "from": "ut-austin",
+      "to": "apptronik",
+      "type": "spinout",
+      "note": "Founded 2016 out of UT Austin's Human Centered Robotics Lab (Luis Sentis et al.)",
+      "source": "https://aiwiki.ai/wiki/apptronik",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "uc-berkeley",
+      "to": "covariant",
+      "type": "spinout",
+      "note": "Founded 2017 by Berkeley professor Pieter Abbeel and his students Peter Chen, Rocky Duan, Tianhao Zhang",
+      "source": "https://en.wikipedia.org/wiki/Covariant_(company)",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "carnegie-mellon-university",
+      "to": "seegrid",
+      "type": "spinout",
+      "note": "Founded in Pittsburgh in 2003 as a spinout of CMU's Robotics Institute (Hans Moravec)",
+      "source": "https://globaluniversityventuring.com/seegrid-reframes-latest-round-to-52m",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "carnegie-mellon-university",
+      "to": "gecko-robotics",
+      "type": "spinout",
+      "note": "Described by CMU Swartz Center as a 'CMU spinoff' (Dec 2019 news)",
+      "source": "https://www.cmu.edu/swartz-center-for-entrepreneurship/community-and-news/news/news-archive-2019.html",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "carnegie-mellon-university",
+      "to": "skild-ai",
+      "type": "invests",
+      "note": "CMU named among Series A participants; founders Deepak Pathak and Abhinav Gupta are CMU Robotics Institute faculty",
+      "source": "https://pittsburghstartupnews.substack.com/p/skild-ai-confirms-300mil-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "toyota-research-institute",
+      "to": "boston-dynamics",
+      "type": "research_collab",
+      "note": "Joint Large Behavior Model research for Atlas humanoid (announced Aug 2025; partnership began 2024)",
+      "source": "https://tri.global/news/ai-powered-robot-boston-dynamics-and-toyota-research-institute-takes-key-step-towards-general",
+      "confidence": "verified"
+    },
+    {
+      "from": "hyundai",
+      "to": "rai-institute",
+      "type": "invests",
+      "note": "Hyundai Motor Group launched the Boston Dynamics AI Institute (now RAI Institute) with $400M+ from the Group and Boston Dynamics (Aug 2022)",
+      "source": "https://www.hyundai.news/eu/articles/press-releases/hyundai-launches-boston-dynamics-ai-institute.html",
+      "confidence": "verified"
+    },
+    {
+      "from": "darpa",
+      "to": "oregon-state-university",
+      "type": "research_collab",
+      "note": "DARPA grant ($1M, 16 months) funded development of the Cassie biped under Jonathan Hurst",
+      "source": "https://news.oregonstate.edu/news/bipedal-robot-developed-oregon-state-makes-history-learning-run-completing-5k",
+      "confidence": "verified"
+    },
+    {
+      "from": "parkway-venture-capital",
+      "to": "figure-ai",
+      "type": "invests",
+      "note": "Led Series C (2025-09)",
+      "source": "https://finance.yahoo.com/news/figure-reaches-39b-valuation-latest-164944663.html",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "figure-ai",
+      "type": "invests",
+      "note": "Participated in Series C (2025-09)",
+      "source": "https://finance.yahoo.com/news/figure-reaches-39b-valuation-latest-164944663.html",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "intel-capital",
+      "to": "figure-ai",
+      "type": "invests",
+      "note": "Participated in Series C (2025-09)",
+      "source": "https://finance.yahoo.com/news/figure-reaches-39b-valuation-latest-164944663.html",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "lg",
+      "to": "figure-ai",
+      "type": "invests",
+      "note": "Participated in Series C (2025-09)",
+      "source": "https://finance.yahoo.com/news/figure-reaches-39b-valuation-latest-164944663.html",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "capitalg",
+      "to": "physical-intelligence",
+      "type": "invests",
+      "note": "Led Series B (2025-11)",
+      "source": "https://news.bloomberglaw.com/private-equity/robotics-startup-physical-intelligence-valued-at-5-6-billion",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "softbank",
+      "to": "skild-ai",
+      "type": "invests",
+      "note": "Led Series C (2026-01)",
+      "source": "https://news.bloomberglaw.com/private-equity/robotics-startup-skild-ai-valued-above-14-billion-in-new-round",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "skild-ai",
+      "type": "invests",
+      "note": "Participated in Series C (2026-01)",
+      "source": "https://news.bloomberglaw.com/private-equity/robotics-startup-skild-ai-valued-above-14-billion-in-new-round",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "bezos-expeditions",
+      "to": "skild-ai",
+      "type": "invests",
+      "note": "Participated in Series C (2026-01)",
+      "source": "https://news.bloomberglaw.com/private-equity/robotics-startup-skild-ai-valued-above-14-billion-in-new-round",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "google",
+      "to": "apptronik",
+      "type": "invests",
+      "note": "Participated in Series A extension (A-X) (2026-02)",
+      "source": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "bezos-expeditions",
+      "to": "field-ai",
+      "type": "invests",
+      "note": "Participated in Series A/B (two consecutive rounds) (2025-08)",
+      "source": "https://www.intelcapital.com/?p=11907",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "intel-capital",
+      "to": "field-ai",
+      "type": "invests",
+      "note": "Participated in Series A/B (two consecutive rounds) (2025-08)",
+      "source": "https://www.intelcapital.com/?p=11907",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "khosla-ventures",
+      "to": "field-ai",
+      "type": "invests",
+      "note": "Participated in Series A/B (two consecutive rounds) (2025-08)",
+      "source": "https://www.intelcapital.com/?p=11907",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "field-ai",
+      "type": "invests",
+      "note": "Participated in Series A/B (two consecutive rounds) (2025-08)",
+      "source": "https://www.intelcapital.com/?p=11907",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "amazon-industrial-innovation-fund",
+      "to": "agility-robotics",
+      "type": "invests",
+      "note": "Participated in Series C (2025-03)",
+      "source": "https://www.freightwaves.com/?p=531755",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "playground-global",
+      "to": "agility-robotics",
+      "type": "invests",
+      "note": "Participated in Series C (2025-03)",
+      "source": "https://www.freightwaves.com/?p=531755",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "dcvc",
+      "to": "agility-robotics",
+      "type": "invests",
+      "note": "Participated in Series C (2025-03)",
+      "source": "https://www.freightwaves.com/?p=531755",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "lightspeed-venture-partners",
+      "to": "dexterity",
+      "type": "invests",
+      "note": "Participated in Venture round (2025-03)",
+      "source": "https://www.robotics247.com/article/ai-powered-dexterity-valued-at-1.65-billion",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "eclipse-ventures",
+      "to": "genesis-ai",
+      "type": "invests",
+      "note": "Led Seed (2025-07)",
+      "source": "https://techcrunch.com/2025/07/01/genesis-ai-launches-with-105m-seed-funding-from-eclipse-khosla-to-build-ai-models-for-robots",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "khosla-ventures",
+      "to": "genesis-ai",
+      "type": "invests",
+      "note": "Led Seed (2025-07)",
+      "source": "https://techcrunch.com/2025/07/01/genesis-ai-launches-with-105m-seed-funding-from-eclipse-khosla-to-build-ai-models-for-robots",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "dyna-robotics",
+      "type": "invests",
+      "note": "Participated in Series A (2025-09)",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "amazon-industrial-innovation-fund",
+      "to": "dyna-robotics",
+      "type": "invests",
+      "note": "Participated in Series A (2025-09)",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "samsung-next",
+      "to": "dyna-robotics",
+      "type": "invests",
+      "note": "Participated in Series A (2025-09)",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "lg",
+      "to": "dyna-robotics",
+      "type": "invests",
+      "note": "Participated in Series A (2025-09)",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "andreessen-horowitz",
+      "to": "mind-robotics",
+      "type": "invests",
+      "note": "Led Series A (2026-03)",
+      "source": "https://www.ocbj.com/automobiles/rivian-backed-mind-robotics-startup-raises-500-million/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "eclipse-ventures",
+      "to": "mind-robotics",
+      "type": "invests",
+      "note": "Led Seed (2025)",
+      "source": "https://www.ocbj.com/automobiles/rivian-backed-mind-robotics-startup-raises-500-million/",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "andreessen-horowitz",
+      "to": "saronic",
+      "type": "invests",
+      "note": "Participated in Series D (2026-03)",
+      "source": "https://www.gunder.com/en/news-insights/client-news/kleiner-perkins-leads-saronics-dollar1-75-billion-usd-series-d",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "capitalg",
+      "to": "bedrock-robotics",
+      "type": "invests",
+      "note": "Led Series B (2026-02)",
+      "source": "https://www.robotics247.com/article/bedrock-robotics-raises-270m-series-b-to-accelerate-autonomous-construction-technology",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "eclipse-ventures",
+      "to": "bedrock-robotics",
+      "type": "invests",
+      "note": "Participated in Series B (2026-02)",
+      "source": "https://www.robotics247.com/article/bedrock-robotics-raises-270m-series-b-to-accelerate-autonomous-construction-technology",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "bedrock-robotics",
+      "type": "invests",
+      "note": "Participated in Series B (2026-02)",
+      "source": "https://www.robotics247.com/article/bedrock-robotics-raises-270m-series-b-to-accelerate-autonomous-construction-technology",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "mit",
+      "to": "bedrock-robotics",
+      "type": "invests",
+      "note": "Participated in Series B (2026-02)",
+      "source": "https://www.robotics247.com/article/bedrock-robotics-raises-270m-series-b-to-accelerate-autonomous-construction-technology",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "tiger-global",
+      "to": "zipline",
+      "type": "invests",
+      "note": "Participated in Venture round (2026-01)",
+      "source": "https://www.bloomberg.com/news/articles/2026-01-20/drone-delivery-startup-zipline-hits-7-6-billion-valuation",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "nvidia",
+      "to": "generalist-ai",
+      "type": "invests",
+      "note": "Participated in Series B (2026-06)",
+      "source": "https://news.bgov.com/private-equity/nvidia-backed-robotics-firm-generalist-ai-valued-at-2-billion",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "bezos-expeditions",
+      "to": "generalist-ai",
+      "type": "invests",
+      "note": "Participated in Series B (2026-06)",
+      "source": "https://news.bgov.com/private-equity/nvidia-backed-robotics-firm-generalist-ai-valued-at-2-billion",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "thrive-capital",
+      "to": "physical-intelligence",
+      "type": "invests",
+      "note": "Participated in $400M round (Nov 2024)",
+      "source": "https://nbcphiladelphia.com/news/business/money-report/jeff-bezos-and-openai-invest-in-robot-startup-physical-intelligence-at-2-4-billion-valuation/4018119",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "lux-capital",
+      "to": "physical-intelligence",
+      "type": "invests",
+      "note": "Participated in $400M round (Nov 2024)",
+      "source": "https://nbcphiladelphia.com/news/business/money-report/jeff-bezos-and-openai-invest-in-robot-startup-physical-intelligence-at-2-4-billion-valuation/4018119",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "jeff-bezos",
+      "to": "physical-intelligence",
+      "type": "invests",
+      "note": "Participated in $400M round (Nov 2024)",
+      "source": "https://nbcphiladelphia.com/news/business/money-report/jeff-bezos-and-openai-invest-in-robot-startup-physical-intelligence-at-2-4-billion-valuation/4018119",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "openai",
+      "to": "physical-intelligence",
+      "type": "invests",
+      "note": "Participated in $400M round (Nov 2024)",
+      "source": "https://nbcphiladelphia.com/news/business/money-report/jeff-bezos-and-openai-invest-in-robot-startup-physical-intelligence-at-2-4-billion-valuation/4018119",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "sequoia-capital",
+      "to": "skild-ai",
+      "type": "invests",
+      "note": "Participated in $300M Series A (2024)",
+      "source": "https://pittsburghstartupnews.substack.com/p/skild-ai-confirms-300mil-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "general-catalyst",
+      "to": "skild-ai",
+      "type": "invests",
+      "note": "Participated in $300M Series A (2024)",
+      "source": "https://pittsburghstartupnews.substack.com/p/skild-ai-confirms-300mil-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "felicis",
+      "to": "skild-ai",
+      "type": "invests",
+      "note": "Participated in $300M Series A (2024)",
+      "source": "https://pittsburghstartupnews.substack.com/p/skild-ai-confirms-300mil-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "amazon",
+      "to": "skild-ai",
+      "type": "invests",
+      "note": "Participated in $300M Series A (2024)",
+      "source": "https://pittsburghstartupnews.substack.com/p/skild-ai-confirms-300mil-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "from": "lux-capital",
+      "to": "formic",
+      "type": "invests",
+      "note": "Led $26.5M Series A (Jan 2022)",
+      "source": "https://www.businesswire.com/news/home/20220118005537/en/Formic-Technologies-Raises-26.5-Million-Series-A-Led-By-Lux-Capital",
+      "confidence": "verified"
+    }
+  ],
+  "funding_rounds": [
+    {
+      "org": "figure-ai",
+      "date": "2025-09",
+      "round": "Series C",
+      "amount_usd": 1000000000,
+      "lead": "parkway-venture-capital",
+      "investors": [
+        "nvidia",
+        "intel-capital",
+        "brookfield-asset-management",
+        "lg",
+        "salesforce",
+        "t-mobile-ventures",
+        "qualcomm"
+      ],
+      "note": "Over $1B committed at $39B post-money (company-reported); LG via LG Technology Ventures, Qualcomm via Qualcomm Ventures",
+      "source": "https://finance.yahoo.com/news/figure-reaches-39b-valuation-latest-164944663.html",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "physical-intelligence",
+      "date": "2025-11",
+      "round": "Series B",
+      "amount_usd": 600000000,
+      "lead": "capitalg",
+      "investors": [
+        "index-ventures",
+        "t-rowe-price"
+      ],
+      "note": "Reported $5.6B valuation (Bloomberg)",
+      "source": "https://news.bloomberglaw.com/private-equity/robotics-startup-physical-intelligence-valued-at-5-6-billion",
+      "confidence": "third-party-estimate"
+    },
+    {
+      "org": "skild-ai",
+      "date": "2026-01",
+      "round": "Series C",
+      "amount_usd": 1400000000,
+      "lead": "softbank",
+      "investors": [
+        "nvidia",
+        "macquarie",
+        "1789-capital",
+        "bezos-expeditions"
+      ],
+      "note": "About $1.4B at a valuation above $14B (Bloomberg); closed Jan 14, 2026",
+      "source": "https://news.bloomberglaw.com/private-equity/robotics-startup-skild-ai-valued-above-14-billion-in-new-round",
+      "confidence": "third-party-estimate"
+    },
+    {
+      "org": "apptronik",
+      "date": "2026-02",
+      "round": "Series A extension (A-X)",
+      "amount_usd": 520000000,
+      "lead": null,
+      "investors": [
+        "b-capital",
+        "google",
+        "mercedes-benz",
+        "peak6",
+        "at-t-ventures",
+        "john-deere",
+        "qatar-investment-authority"
+      ],
+      "note": "Brings Series A to over $935M; Bloomberg reported valuation >$5.5B",
+      "source": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "apptronik",
+      "date": "2025-02",
+      "round": "Series A",
+      "amount_usd": 415000000,
+      "lead": null,
+      "investors": [
+        "b-capital",
+        "google"
+      ],
+      "note": "Initial oversubscribed Series A (total $415M per company Feb 2026 release)",
+      "source": "https://apptronik.com/news-collection/apptronik-closes-over-935-million-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "field-ai",
+      "date": "2025-08",
+      "round": "Series A/B (two consecutive rounds)",
+      "amount_usd": 405000000,
+      "lead": null,
+      "investors": [
+        "bezos-expeditions",
+        "bhp-ventures",
+        "canaan-partners",
+        "emerson-collective",
+        "intel-capital",
+        "khosla-ventures",
+        "nvidia",
+        "prysm",
+        "temasek"
+      ],
+      "note": "$405M across two rounds; reported $2B valuation; NVIDIA via NVentures",
+      "source": "https://www.intelcapital.com/?p=11907",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "agility-robotics",
+      "date": "2025-03",
+      "round": "Series C",
+      "amount_usd": 400000000,
+      "lead": "wp-global-partners",
+      "investors": [
+        "amazon-industrial-innovation-fund",
+        "playground-global",
+        "dcvc"
+      ],
+      "note": "Reported ~$400M at ~$1.75B pre-money (PitchBook/press); not company-announced",
+      "source": "https://www.freightwaves.com/?p=531755",
+      "confidence": "third-party-estimate"
+    },
+    {
+      "org": "dexterity",
+      "date": "2025-03",
+      "round": "Venture round",
+      "amount_usd": 95000000,
+      "lead": null,
+      "investors": [
+        "lightspeed-venture-partners",
+        "sumitomo"
+      ],
+      "note": "$1.65B valuation",
+      "source": "https://www.robotics247.com/article/ai-powered-dexterity-valued-at-1.65-billion",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "genesis-ai",
+      "date": "2025-07",
+      "round": "Seed",
+      "amount_usd": 105000000,
+      "lead": [
+        "eclipse-ventures",
+        "khosla-ventures"
+      ],
+      "investors": [
+        "bpifrance",
+        "hsg"
+      ],
+      "note": "Co-led by Eclipse and Khosla; also Eric Schmidt, Xavier Niel; Palo Alto & Paris",
+      "source": "https://techcrunch.com/2025/07/01/genesis-ai-launches-with-105m-seed-funding-from-eclipse-khosla-to-build-ai-models-for-robots",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "dyna-robotics",
+      "date": "2025-09",
+      "round": "Series A",
+      "amount_usd": 120000000,
+      "lead": [
+        "robostrategy",
+        "crv",
+        "first-round-capital"
+      ],
+      "investors": [
+        "salesforce-ventures",
+        "nvidia",
+        "amazon-industrial-innovation-fund",
+        "samsung-next",
+        "lg"
+      ],
+      "note": "NVIDIA via NVentures; LG via LG Technology Ventures",
+      "source": "https://www.gunder.com/en/news-insights/client-news/dyna-robotics-raises-120-million-dollar-series-a",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "dyna-robotics",
+      "date": "2025-03",
+      "round": "Seed",
+      "amount_usd": 23500000,
+      "lead": null,
+      "investors": [],
+      "note": "Seed referenced in Series A announcement",
+      "source": "https://pulse2.com/dyna-robotics-120-million-series-a-raised-for-scaling-intelligent-robots/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "the-bot-company",
+      "date": "2025-03",
+      "round": "Venture round",
+      "amount_usd": 150000000,
+      "lead": "greenoaks",
+      "investors": [],
+      "note": "Reported $2B valuation (Reuters, sources); home robots, founded by Kyle Vogt",
+      "source": "https://www.forbes.com.au/news/entrepreneurs/cruise-cofounder-raised-150m-for-household-robot-startup/",
+      "confidence": "third-party-estimate"
+    },
+    {
+      "org": "mind-robotics",
+      "date": "2026-03",
+      "round": "Series A",
+      "amount_usd": 500000000,
+      "lead": [
+        "accel",
+        "andreessen-horowitz"
+      ],
+      "investors": [],
+      "note": "Rivian spin-out; reported ~$2B valuation",
+      "source": "https://www.ocbj.com/automobiles/rivian-backed-mind-robotics-startup-raises-500-million/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "mind-robotics",
+      "date": "2025",
+      "round": "Seed",
+      "amount_usd": 115000000,
+      "lead": "eclipse-ventures",
+      "investors": [],
+      "note": "Seed led by Eclipse in late 2025 (exact month not stated in source)",
+      "source": "https://www.ocbj.com/automobiles/rivian-backed-mind-robotics-startup-raises-500-million/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "saronic",
+      "date": "2026-03",
+      "round": "Series D",
+      "amount_usd": 1750000000,
+      "lead": "kleiner-perkins",
+      "investors": [
+        "advent-international",
+        "bessemer-venture-partners",
+        "dfj-growth",
+        "8vc",
+        "andreessen-horowitz",
+        "franklin-templeton"
+      ],
+      "note": "Autonomous surface vessels; $9.25B valuation",
+      "source": "https://www.gunder.com/en/news-insights/client-news/kleiner-perkins-leads-saronics-dollar1-75-billion-usd-series-d",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "shield-ai",
+      "date": "2026-03",
+      "round": "Series G",
+      "amount_usd": 1500000000,
+      "lead": [
+        "advent-international",
+        "jpmorgan-chase"
+      ],
+      "investors": [
+        "blackstone"
+      ],
+      "note": "$1.5B Series G plus $500M Blackstone preferred equity ($2B total) at $12.7B valuation",
+      "source": "https://www.bloomberg.com/news/articles/2026-03-26/defense-startup-shield-ai-nabs-2-billion-at-12-7-billion-value",
+      "confidence": "third-party-estimate"
+    },
+    {
+      "org": "coco-robotics",
+      "date": "2025-06",
+      "round": "Venture round",
+      "amount_usd": 80000000,
+      "lead": "snr",
+      "investors": [
+        "pelion-venture-partners",
+        "offline-ventures"
+      ],
+      "note": "Total raised >$110M",
+      "source": "https://www.therobotreport.com/coco-robotics-raises-80m-to-scale-sidewalk-delivery-robots/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "serve-robotics",
+      "date": "2025-10",
+      "round": "Registered direct offering",
+      "amount_usd": 100000000,
+      "lead": null,
+      "investors": [],
+      "note": "Approx. $100M gross proceeds (Nasdaq: SERV)",
+      "source": "https://www.orrick.com/en/News/2025/10/Serve-Robotics-Registered-Direct-Offering-to-Raise-100-Million",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "bedrock-robotics",
+      "date": "2026-02",
+      "round": "Series B",
+      "amount_usd": 270000000,
+      "lead": [
+        "capitalg",
+        "valor-equity-partners"
+      ],
+      "investors": [
+        "xora",
+        "8vc",
+        "eclipse-ventures",
+        "nvidia",
+        "mit"
+      ],
+      "note": "$1.75B valuation; co-lead listed as Valor Atreides AI Fund; NVIDIA via NVentures",
+      "source": "https://www.robotics247.com/article/bedrock-robotics-raises-270m-series-b-to-accelerate-autonomous-construction-technology",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "chef-robotics",
+      "date": "2025-04",
+      "round": "Series A",
+      "amount_usd": 43100000,
+      "lead": "avataar-venture-partners",
+      "investors": [],
+      "note": "Total raised ~$65.6M",
+      "source": "https://www.builtinsf.com/articles/chef-robotics-raises-43m-series-a-20250403",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "gecko-robotics",
+      "date": "2025-06",
+      "round": "Series D",
+      "amount_usd": 125000000,
+      "lead": "cox-enterprises",
+      "investors": [],
+      "note": "$1.25B valuation",
+      "source": "https://siliconangle.com/2025/06/12/gecko-robotics-raises-125m-inspect-monitor-critical-infrastructure/",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "zipline",
+      "date": "2026-01",
+      "round": "Venture round",
+      "amount_usd": 600000000,
+      "lead": null,
+      "investors": [
+        "valor-equity-partners",
+        "tiger-global",
+        "fidelity",
+        "baillie-gifford"
+      ],
+      "note": "$7.6B valuation; one report names Valor as lead",
+      "source": "https://www.bloomberg.com/news/articles/2026-01-20/drone-delivery-startup-zipline-hits-7-6-billion-valuation",
+      "confidence": "company-reported"
+    },
+    {
+      "org": "generalist-ai",
+      "date": "2026-06",
+      "round": "Series B",
+      "amount_usd": 400000000,
+      "lead": "radical-ventures",
+      "investors": [
+        "8vc",
+        "union-square-ventures",
+        "norwest",
+        "nvidia",
+        "bezos-expeditions"
+      ],
+      "note": "Reported $2B valuation (Bloomberg); later reports of a ~$200M extension at $3B not included",
+      "source": "https://news.bgov.com/private-equity/nvidia-backed-robotics-firm-generalist-ai-valued-at-2-billion",
+      "confidence": "third-party-estimate"
+    },
+    {
+      "org": "neura-robotics",
+      "date": "2026-06",
+      "round": "Series C",
+      "amount_usd": 1400000000,
+      "lead": "tether",
+      "investors": [],
+      "note": "Germany-based; 'up to $1.4B' (EU trackers report EUR 1.2B)",
+      "source": "https://news.crunchbase.com/robotics/startup-venture-funding-surges-2026-data/",
+      "confidence": "third-party-estimate"
+    },
+    {
+      "org": "persona-ai",
+      "date": "2025-05",
+      "round": "Pre-seed",
+      "amount_usd": 42000000,
+      "lead": null,
+      "investors": [],
+      "note": "Houston humanoid startup; $42M pre-seed per founder statement",
+      "source": "https://www.trysignalbase.com/news/funding/persona-ai-raises-420m-pre",
+      "confidence": "third-party-estimate"
+    }
+  ]
+}

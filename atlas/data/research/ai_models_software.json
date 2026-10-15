@@ -1,0 +1,4399 @@
+{
+ "organizations": [
+  {
+   "id": "google-deepmind",
+   "name": "Google DeepMind",
+   "kind": "ai",
+   "website": "https://deepmind.google",
+   "hq_city": "Mountain View",
+   "hq_state": "CA",
+   "hq_country": "GB",
+   "lat": 37.39,
+   "lon": -122.08,
+   "founded": 2010,
+   "segment": "Physical AI & General-Purpose",
+   "subsegment": "Robot foundation models (VLA, embodied reasoning, world models)",
+   "product": "Gemini Robotics",
+   "robot_type": null,
+   "ai_approach": "VLA + embodied reasoning (Gemini Robotics)",
+   "models": [
+    "rt-1",
+    "rt-2",
+    "autort",
+    "open-x-embodiment",
+    "gemini-robotics",
+    "gemini-robotics-er",
+    "gemini-robotics-on-device",
+    "gemini-robotics-1-5",
+    "gemini-robotics-er-1-5",
+    "genie-3",
+    "mujoco",
+    "mujoco-playground",
+    "newton"
+   ],
+   "stage": "Subsidiary",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": "Subsidiary of Alphabet/Google",
+   "investors": [],
+   "customers": [],
+   "deployment": "Research",
+   "deployment_note": "Gemini Robotics offered to trusted testers; Gemini Robotics-ER 1.5 available via Gemini API (preview)",
+   "suppliers": [],
+   "tags": [
+    "big-tech",
+    "vla",
+    "world-model"
+   ],
+   "summary": "Google's AI lab (HQ London) that develops the Gemini Robotics VLA/embodied-reasoning models, the RT series, Genie world models and the MuJoCo simulator.",
+   "sources": [
+    {
+     "url": "https://deepmind.google/models/gemini-robotics/",
+     "label": "Gemini Robotics page"
+    },
+    {
+     "url": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+     "label": "Gemini Robotics launch blog (Mar 2025)"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "physical-intelligence",
+   "name": "Physical Intelligence",
+   "kind": "ai",
+   "website": "https://www.physicalintelligence.company",
+   "hq_city": "San Francisco",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.77,
+   "lon": -122.42,
+   "founded": 2024,
+   "segment": "Physical AI & General-Purpose",
+   "subsegment": "General-purpose robot foundation models (VLA)",
+   "product": "π0 / π0.5 / π*0.6",
+   "robot_type": null,
+   "ai_approach": "VLA (π series, flow matching)",
+   "models": [
+    "pi0",
+    "pi0-fast",
+    "pi0-5",
+    "pi-star-0-6"
+   ],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": 1070000000,
+   "funding_note": "~$70M seed (Mar 2024), $400M (Nov 2024, $2.4B post), $600M led by CapitalG (Nov 2025, $5.6B) — press-reported; 2026 Series C talks (~$11B) unconfirmed",
+   "investors": [
+    "thrive-capital",
+    "lux-capital",
+    "bezos-expeditions",
+    "openai",
+    "capitalg"
+   ],
+   "customers": [],
+   "deployment": "Research",
+   "deployment_note": "Models released for research; open weights (openpi)",
+   "suppliers": [],
+   "tags": [
+    "startup",
+    "vla",
+    "open-weights"
+   ],
+   "summary": "San Francisco startup building general-purpose robot foundation models (π0, π0.5, π*0.6), several released as open weights via openpi.",
+   "sources": [
+    {
+     "url": "https://www.physicalintelligence.company",
+     "label": "Company site"
+    },
+    {
+     "url": "https://nbcphiladelphia.com/news/business/money-report/jeff-bezos-and-openai-invest-in-robot-startup-physical-intelligence-at-2-4-billion-valuation/4018119",
+     "label": "CNBC/NBC: $400M at $2.4B (Nov 2024)"
+    },
+    {
+     "url": "https://news.bloomberglaw.com/private-equity/robotics-startup-physical-intelligence-valued-at-5-6-billion",
+     "label": "Bloomberg: $600M at $5.6B (Nov 2025)"
+    },
+    {
+     "url": "https://github.com/Physical-Intelligence/openpi",
+     "label": "openpi repo"
+    }
+   ],
+   "confidence": "third-party-estimate",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "skild-ai",
+   "name": "Skild AI",
+   "kind": "ai",
+   "website": "https://www.skild.ai",
+   "hq_city": "Pittsburgh",
+   "hq_state": "PA",
+   "hq_country": "US",
+   "lat": 40.44,
+   "lon": -79.99,
+   "founded": 2023,
+   "segment": "Physical AI & General-Purpose",
+   "subsegment": "Embodiment-agnostic robot brain",
+   "product": "Skild Brain",
+   "robot_type": null,
+   "ai_approach": "Robot foundation model (Skild Brain)",
+   "models": [
+    "skild-brain"
+   ],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": "$300M Series A at $1.5B (Jul 2024); Series B SoftBank-backed (~$4.5–4.7B, 2025); ~$1.4B Series C led by SoftBank at >$14B (Jan 2026). CEO says >$2B raised total (press-reported)",
+   "investors": [
+    "softbank",
+    "nvidia",
+    "bezos-expeditions",
+    "lightspeed-venture-partners",
+    "coatue",
+    "macquarie",
+    "1789-capital"
+   ],
+   "customers": [],
+   "deployment": "Pilot",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "startup",
+    "foundation-model"
+   ],
+   "summary": "Pittsburgh-based startup building Skild Brain, a general-purpose robot foundation model intended to run across robot embodiments.",
+   "sources": [
+    {
+     "url": "https://www.skild.ai",
+     "label": "Company site"
+    },
+    {
+     "url": "https://www.bloomberg.com/news/articles/2026-01-14/robotics-startup-skild-valued-above-14-billion-after-softbank-led-funding-round",
+     "label": "Bloomberg: valued above $14B (Jan 2026)"
+    },
+    {
+     "url": "https://www.cbinsights.com/company/skild-ai/financials",
+     "label": "CB Insights financials"
+    }
+   ],
+   "confidence": "third-party-estimate",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "field-ai",
+   "name": "FieldAI",
+   "kind": "ai",
+   "website": "https://www.fieldai.com",
+   "hq_city": "Irvine",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 33.68,
+   "lon": -117.83,
+   "founded": 2023,
+   "segment": "Physical AI & General-Purpose",
+   "subsegment": "Autonomy for unstructured/field environments",
+   "product": "Field Foundation Models",
+   "robot_type": null,
+   "ai_approach": "Field Foundation Models (risk-aware embodied AI)",
+   "models": [
+    "field-foundation-models"
+   ],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": 405000000,
+   "funding_note": "$405M across two rounds, ~$2B valuation (Aug 2025, press-reported)",
+   "investors": [
+    "bezos-expeditions",
+    "nvidia",
+    "khosla-ventures",
+    "intel-capital",
+    "bhp-ventures",
+    "canaan-partners",
+    "emerson-collective",
+    "temasek",
+    "prysm-capital"
+   ],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "startup",
+    "autonomy",
+    "industrial"
+   ],
+   "summary": "Irvine, CA startup developing Field Foundation Models that give robots autonomy in unstructured industrial and outdoor environments.",
+   "sources": [
+    {
+     "url": "https://www.fieldai.com",
+     "label": "Company site"
+    },
+    {
+     "url": "https://www.ocbj.com/technology/fieldai-raises-405m-for-2b-valuation/",
+     "label": "OCBJ: FieldAI raises $405M at $2B (Aug 2025)"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "intrinsic",
+   "name": "Intrinsic",
+   "kind": "ai",
+   "website": "https://www.intrinsic.ai",
+   "hq_city": "Mountain View",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.39,
+   "lon": -122.08,
+   "founded": 2021,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Industrial robot software platform",
+   "product": "Flowstate",
+   "robot_type": null,
+   "ai_approach": "AI-assisted robot programming (Flowstate) with Gemini models",
+   "models": [
+    "intrinsic-flowstate"
+   ],
+   "stage": "Subsidiary",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": "Alphabet-funded; no outside funding disclosed",
+   "investors": [],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "big-tech",
+    "platform",
+    "ros"
+   ],
+   "summary": "Robotics software company spun out of Alphabet's X in 2021; builds the Flowstate platform and joined Google as a distinct unit in Feb 2026.",
+   "sources": [
+    {
+     "url": "https://www.intrinsic.ai",
+     "label": "Company site"
+    },
+    {
+     "url": "https://techcrunch.com/2026/02/25/alphabet-owned-robotics-software-company-intrinsic-joins-google",
+     "label": "TechCrunch: Intrinsic joins Google (Feb 2026)"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "hugging-face",
+   "name": "Hugging Face",
+   "kind": "ai",
+   "website": "https://huggingface.co",
+   "hq_city": "New York",
+   "hq_state": "NY",
+   "hq_country": "US",
+   "lat": 40.71,
+   "lon": -74.01,
+   "founded": 2016,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Open-source robot learning library & hardware",
+   "product": "LeRobot / SmolVLA",
+   "robot_type": null,
+   "ai_approach": "Open-source VLA & imitation learning (LeRobot)",
+   "models": [
+    "lerobot",
+    "smolvla"
+   ],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": "LeRobot open source; Reachy 2 humanoid via Pollen Robotics",
+   "suppliers": [],
+   "tags": [
+    "open-source",
+    "platform"
+   ],
+   "summary": "Open-source AI platform company (NYC/Paris) whose LeRobot library and SmolVLA model are widely used for open robot learning; acquired Pollen Robotics in 2025.",
+   "sources": [
+    {
+     "url": "https://github.com/huggingface/lerobot",
+     "label": "LeRobot GitHub"
+    },
+    {
+     "url": "https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition",
+     "label": "Pollen Robotics acquisition blog"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "openai",
+   "name": "OpenAI",
+   "kind": "ai",
+   "website": "https://openai.com",
+   "hq_city": "San Francisco",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.77,
+   "lon": -122.42,
+   "founded": 2015,
+   "segment": "Physical AI & General-Purpose",
+   "subsegment": "Robotics team (rebuilt 2024–2025)",
+   "product": null,
+   "robot_type": null,
+   "ai_approach": null,
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Research",
+   "deployment_note": "No public robot model release as of Oct 2026",
+   "suppliers": [],
+   "tags": [
+    "big-tech",
+    "frontier-lab"
+   ],
+   "summary": "AI lab that disbanded its original robotics team in 2021 and began rebuilding robotics/hardware efforts in 2024, hiring former Meta AR hardware lead Caitlin Kalinowski; investor in Physical Intelligence.",
+   "sources": [
+    {
+     "url": "https://techcrunch.com/2024/11/04/metas-former-hardware-lead-for-orion-is-joining-openai/",
+     "label": "TechCrunch: Kalinowski joins OpenAI to lead robotics & consumer hardware (Nov 2024)"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "meta",
+   "name": "Meta (FAIR robotics)",
+   "kind": "ai",
+   "website": "https://ai.meta.com",
+   "hq_city": "Menlo Park",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.45,
+   "lon": -122.18,
+   "founded": 2004,
+   "segment": "Physical AI & General-Purpose",
+   "subsegment": "Embodied AI research (world models, tactile sensing)",
+   "product": "V-JEPA 2",
+   "robot_type": null,
+   "ai_approach": "Self-supervised video world models (V-JEPA)",
+   "models": [
+    "v-jepa-2",
+    "v-jepa-2-1"
+   ],
+   "stage": "Public",
+   "ticker": "META",
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Research",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "big-tech",
+    "world-model"
+   ],
+   "summary": "Meta's FAIR lab conducts embodied AI research including the V-JEPA 2 world model used for zero-shot robot planning.",
+   "sources": [
+    {
+     "url": "https://github.com/facebookresearch/vjepa2",
+     "label": "V-JEPA 2 GitHub"
+    },
+    {
+     "url": "https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/",
+     "label": "Meta AI blog: V-JEPA 2"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft Research",
+   "kind": "ai",
+   "website": "https://www.microsoft.com/en-us/research/",
+   "hq_city": "Redmond",
+   "hq_state": "WA",
+   "hq_country": "US",
+   "lat": 47.67,
+   "lon": -122.12,
+   "founded": 1975,
+   "segment": "Physical AI & General-Purpose",
+   "subsegment": "Multimodal agent foundation models",
+   "product": "Magma",
+   "robot_type": null,
+   "ai_approach": "Multimodal agentic foundation model (Magma)",
+   "models": [
+    "magma"
+   ],
+   "stage": "Public",
+   "ticker": "MSFT",
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Research",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "big-tech"
+   ],
+   "summary": "Microsoft Research released Magma, an open multimodal foundation model for digital and robotic agents (Feb 2025).",
+   "sources": [
+    {
+     "url": "https://github.com/microsoft/Magma",
+     "label": "Magma GitHub"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon (Robotics / Frontier AI & Robotics)",
+   "kind": "ai",
+   "website": "https://www.aboutamazon.com",
+   "hq_city": "Seattle",
+   "hq_state": "WA",
+   "hq_country": "US",
+   "lat": 47.61,
+   "lon": -122.33,
+   "founded": 1994,
+   "segment": "Physical AI & General-Purpose",
+   "subsegment": "Warehouse robotics AI & foundation models",
+   "product": "DeepFleet",
+   "robot_type": null,
+   "ai_approach": "Fleet foundation model (DeepFleet); robot foundation models via FAR team",
+   "models": [
+    "deepfleet"
+   ],
+   "stage": "Public",
+   "ticker": "AMZN",
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "big-tech",
+    "warehouse"
+   ],
+   "summary": "Amazon operates one of the largest robot fleets and in 2024 formed a Frontier AI & Robotics team after hiring Covariant's founders under a licensing deal.",
+   "sources": [
+    {
+     "url": "https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model",
+     "label": "About Amazon: 1 millionth robot & DeepFleet (Jul 2025)"
+    },
+    {
+     "url": "https://techcrunch.com/2024/08/30/amazon-hires-the-founders-of-robotics-ai-startup-covariant/",
+     "label": "TechCrunch: Amazon hires Covariant founders (Aug 2024)"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "world-labs",
+   "name": "World Labs",
+   "kind": "ai",
+   "website": "https://www.worldlabs.ai",
+   "hq_city": "San Francisco",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.77,
+   "lon": -122.42,
+   "founded": 2024,
+   "segment": "Physical AI & General-Purpose",
+   "subsegment": "Spatial intelligence / 3D world models",
+   "product": "Marble",
+   "robot_type": null,
+   "ai_approach": "Generative 3D world models",
+   "models": [
+    "marble"
+   ],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": 1230000000,
+   "funding_note": "~$230M across two rounds (2024) + $1B (Feb 2026, valuation undisclosed; Autodesk $200M) — press-reported",
+   "investors": [
+    "andreessen-horowitz",
+    "nvidia",
+    "autodesk",
+    "amd",
+    "fidelity",
+    "emerson-collective",
+    "sea"
+   ],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "startup",
+    "world-model"
+   ],
+   "summary": "Fei-Fei Li's San Francisco startup building large world models for spatial intelligence; its first product Marble generates 3D worlds from text or images.",
+   "sources": [
+    {
+     "url": "https://www.worldlabs.ai",
+     "label": "Company site"
+    },
+    {
+     "url": "https://www.bloomberg.com/news/articles/2026-02-18/ai-pioneer-fei-fei-li-s-startup-world-labs-raises-1-billion",
+     "label": "Bloomberg: World Labs raises $1B (Feb 2026)"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "genesis-ai",
+   "name": "Genesis AI",
+   "kind": "ai",
+   "website": "https://genesis-ai.company",
+   "hq_city": "Palo Alto",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.44,
+   "lon": -122.14,
+   "founded": null,
+   "segment": "Physical AI & General-Purpose",
+   "subsegment": "Physics engine + robotics foundation model",
+   "product": "Genesis World simulator",
+   "robot_type": null,
+   "ai_approach": "Synthetic data from proprietary physics engine",
+   "models": [
+    "genesis-simulator"
+   ],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": 105000000,
+   "funding_note": "$105M seed co-led by Eclipse and Khosla (Jul 2025)",
+   "investors": [
+    "eclipse-ventures",
+    "khosla-ventures",
+    "bpifrance"
+   ],
+   "customers": [],
+   "deployment": "Research",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "startup",
+    "simulation"
+   ],
+   "summary": "Physical AI lab (Palo Alto/Paris) founded by Zhou Xian and Théophile Gervet that supports the open-source Genesis simulator and builds a general-purpose robotics foundation model.",
+   "sources": [
+    {
+     "url": "https://www.techcrunch.com/2025/07/01/genesis-ai-launches-with-105m-seed-funding-from-eclipse-khosla-to-build-ai-models-for-robots",
+     "label": "TechCrunch: $105M seed (Jul 2025)"
+    },
+    {
+     "url": "https://github.com/Genesis-Embodied-AI/Genesis",
+     "label": "Genesis GitHub"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "open-robotics",
+   "name": "Open Robotics (OSRF)",
+   "kind": "ai",
+   "website": "https://www.openrobotics.org",
+   "hq_city": "Mountain View",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.39,
+   "lon": -122.08,
+   "founded": 2012,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Open-source robot middleware & simulation",
+   "product": "ROS 2 / Gazebo",
+   "robot_type": null,
+   "ai_approach": "N/A",
+   "models": [
+    "ros-2",
+    "gazebo"
+   ],
+   "stage": "Nonprofit",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "open-source",
+    "middleware"
+   ],
+   "summary": "Nonprofit Open Source Robotics Foundation that stewards ROS 2 and Gazebo; its commercial arm was acquired by Intrinsic in Dec 2022 and it launched the Open Source Robotics Alliance in 2024.",
+   "sources": [
+    {
+     "url": "https://www.openrobotics.org",
+     "label": "Open Robotics site"
+    },
+    {
+     "url": "https://www.ros.org",
+     "label": "ROS site"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "foxglove",
+   "name": "Foxglove",
+   "kind": "ai",
+   "website": "https://foxglove.dev",
+   "hq_city": "San Francisco",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.77,
+   "lon": -122.42,
+   "founded": 2021,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Robotics data visualization & observability",
+   "product": "Foxglove platform",
+   "robot_type": null,
+   "ai_approach": "N/A",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": 58000000,
+   "funding_note": "$40M Series B led by Bessemer (Nov 2025); >$58M total (company-reported)",
+   "investors": [
+    "bessemer-venture-partners",
+    "eclipse-ventures",
+    "amplify-partners"
+   ],
+   "customers": [
+    "NVIDIA",
+    "Amazon",
+    "Anduril",
+    "Wayve",
+    "Dexterity"
+   ],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "startup",
+    "devtools",
+    "observability"
+   ],
+   "summary": "San Francisco data and observability platform for robotics teams (multimodal log visualization and data management).",
+   "sources": [
+    {
+     "url": "https://foxglove.dev",
+     "label": "Company site"
+    },
+    {
+     "url": "https://www.businesswire.com/news/home/20251112126106/en/Foxglove-Raises-%2440-Million-Series-B-to-Power-the-Future-of-Physical-AI",
+     "label": "Business Wire: $40M Series B (Nov 2025)"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "viam",
+   "name": "Viam",
+   "kind": "ai",
+   "website": "https://www.viam.com",
+   "hq_city": "New York",
+   "hq_state": "NY",
+   "hq_country": "US",
+   "lat": 40.71,
+   "lon": -74.01,
+   "founded": 2020,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Robotics/IoT software platform",
+   "product": "Viam platform",
+   "robot_type": null,
+   "ai_approach": "N/A",
+   "models": [
+    "viam-platform"
+   ],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": 117000000,
+   "funding_note": "$30M Series C led by Union Square Ventures (Mar 2025); $117M total",
+   "investors": [
+    "union-square-ventures",
+    "battery-ventures"
+   ],
+   "customers": [
+    "UBS Arena / New York Islanders",
+    "Viking Yachts",
+    "Kongsberg Discovery"
+   ],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "startup",
+    "platform"
+   ],
+   "summary": "New York software platform for building, deploying and managing robots and smart machines, founded by MongoDB co-founder Eliot Horowitz.",
+   "sources": [
+    {
+     "url": "https://www.viam.com",
+     "label": "Company site"
+    },
+    {
+     "url": "https://fortune.com/2025/03/03/mongodb-viam-union-square-ventures-albert-wenger-ai-robotics/",
+     "label": "Fortune: $30M Series C (Mar 2025)"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "formant",
+   "name": "Formant",
+   "kind": "ai",
+   "website": "https://formant.io",
+   "hq_city": "San Francisco",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.77,
+   "lon": -122.42,
+   "founded": 2017,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Robot fleet operations platform",
+   "product": "Formant platform",
+   "robot_type": null,
+   "ai_approach": "N/A",
+   "models": [
+    "formant-platform"
+   ],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": 23000000,
+   "funding_note": "$6M seed (2018) + $18M Series A led by SignalFire (Jan 2022); later rounds unconfirmed",
+   "investors": [
+    "signalfire"
+   ],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "startup",
+    "fleet-management"
+   ],
+   "summary": "San Francisco cloud platform for monitoring, teleoperating and analyzing heterogeneous robot fleets.",
+   "sources": [
+    {
+     "url": "https://formant.io",
+     "label": "Company site"
+    },
+    {
+     "url": "https://venturebeat.com/business/formant-raises-18m-to-help-companies-manage-fleets-of-robots",
+     "label": "VentureBeat: $18M Series A (Jan 2022)"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "inorbit",
+   "name": "InOrbit",
+   "kind": "ai",
+   "website": "https://www.inorbit.ai",
+   "hq_city": "Mountain View",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.39,
+   "lon": -122.08,
+   "founded": 2017,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Robot operations (RobOps) platform",
+   "product": "InOrbit RobOps platform",
+   "robot_type": null,
+   "ai_approach": "N/A",
+   "models": [
+    "inorbit-platform"
+   ],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": 12600000,
+   "funding_note": "$2.6M seed (2020) + ~$10M Series A co-led by L'ATTITUDE Ventures and Globant Ventures (Sep 2025)",
+   "investors": [
+    "lattitude-ventures",
+    "globant-ventures",
+    "animo-ventures"
+   ],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "startup",
+    "fleet-management"
+   ],
+   "summary": "Mountain View robot operations platform for orchestrating and monitoring multi-vendor robot fleets.",
+   "sources": [
+    {
+     "url": "https://www.inorbit.ai",
+     "label": "Company site"
+    },
+    {
+     "url": "https://finder.techleap.nl/news/feed/inorbit-ai-secures-series-a-funding",
+     "label": "Techleap: InOrbit Series A (Sep 2025)"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "applied-intuition",
+   "name": "Applied Intuition",
+   "kind": "ai",
+   "website": "https://www.appliedintuition.com",
+   "hq_city": "Mountain View",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.39,
+   "lon": -122.08,
+   "founded": 2017,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Simulation & autonomy software for vehicles and machines",
+   "product": "Simulation / autonomy stack",
+   "robot_type": null,
+   "ai_approach": "Vehicle intelligence & simulation",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": "$600M Series F & tender at $15B (Jun 2025) co-led by BlackRock funds and Kleiner Perkins; $250M Series E (Mar 2024)",
+   "investors": [
+    "kleiner-perkins",
+    "blackrock",
+    "lux-capital",
+    "general-catalyst",
+    "fidelity"
+   ],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "simulation",
+    "autonomy"
+   ],
+   "summary": "Mountain View company providing simulation, autonomy and vehicle-software tools for automotive, trucking, defense and other moving machines.",
+   "sources": [
+    {
+     "url": "https://appliedintuition.com/news/series-f",
+     "label": "Applied Intuition: Series F at $15B (Jun 2025)"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "scale-ai",
+   "name": "Scale AI",
+   "kind": "ai",
+   "website": "https://scale.com",
+   "hq_city": "San Francisco",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.77,
+   "lon": -122.42,
+   "founded": 2016,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Robotics training data (Physical AI Data Engine)",
+   "product": "Data Engine for Physical AI",
+   "robot_type": null,
+   "ai_approach": "N/A",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": "Meta took a ~49% stake for ~$14.3B in Jun 2025 (widely reported)",
+   "investors": [],
+   "customers": [
+    "Physical Intelligence",
+    "Generalist AI",
+    "Cobot"
+   ],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "data",
+    "physical-ai-data"
+   ],
+   "summary": "San Francisco data company that launched a Data Engine for Physical AI (Sep 2025) collecting and annotating robot demonstration data.",
+   "sources": [
+    {
+     "url": "https://scale.com/blog/physical-ai",
+     "label": "Scale blog: Physical AI data engine"
+    },
+    {
+     "url": "https://scale.com/robotics",
+     "label": "Scale robotics page"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "encord",
+   "name": "Encord",
+   "kind": "ai",
+   "website": "https://encord.com",
+   "hq_city": "San Francisco",
+   "hq_state": "CA",
+   "hq_country": "GB",
+   "lat": 37.77,
+   "lon": -122.42,
+   "founded": 2020,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Multimodal data platform for physical AI",
+   "product": "Encord data platform",
+   "robot_type": null,
+   "ai_approach": "N/A",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": 110000000,
+   "funding_note": "$60M Series C led by Wellington Management (Feb 2026); $110M total",
+   "investors": [
+    "wellington-management",
+    "y-combinator",
+    "crv",
+    "n47",
+    "crane-venture-partners"
+   ],
+   "customers": [
+    "Woven by Toyota",
+    "Skydio"
+   ],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "data",
+    "physical-ai-data"
+   ],
+   "summary": "London/San Francisco AI data management and annotation platform increasingly focused on physical AI (robotics, AV) customers.",
+   "sources": [
+    {
+     "url": "https://encord.com",
+     "label": "Company site"
+    },
+    {
+     "url": "https://pulse2.com/encord-60-million-series-c-raised-to-scale-ai-native-data-infrastructure",
+     "label": "Pulse 2.0: $60M Series C (Feb 2026)"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "tutor-intelligence",
+   "name": "Tutor Intelligence",
+   "kind": "ai",
+   "website": "https://www.tutorintelligence.com",
+   "hq_city": "Watertown",
+   "hq_state": "MA",
+   "hq_country": "US",
+   "lat": 42.37,
+   "lon": -71.18,
+   "founded": 2021,
+   "segment": "Physical AI & General-Purpose",
+   "subsegment": "AI warehouse robot workforce (RaaS)",
+   "product": "Tutor robot fleet",
+   "robot_type": "Cobot",
+   "ai_approach": "Central robot intelligence platform with human-in-the-loop",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": 42000000,
+   "funding_note": "$34M Series A led by Union Square Ventures (Dec 2025); ~$42M total",
+   "investors": [
+    "union-square-ventures",
+    "neo"
+   ],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "startup",
+    "warehouse"
+   ],
+   "summary": "MIT spinout providing AI-powered warehouse robot workers on subscription, trained via a central robot intelligence platform.",
+   "sources": [
+    {
+     "url": "https://www.tutorintelligence.com",
+     "label": "Company site"
+    },
+    {
+     "url": "https://pulse2.com/tutor-intelligence-34-million-series-a/amp/",
+     "label": "Pulse 2.0: $34M Series A (Dec 2025)"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "allen-institute-for-ai",
+   "name": "Ai2 (Allen Institute for AI)",
+   "kind": "ai",
+   "website": "https://allenai.org",
+   "hq_city": "Seattle",
+   "hq_state": "WA",
+   "hq_country": "US",
+   "lat": 47.61,
+   "lon": -122.33,
+   "founded": 2014,
+   "segment": "Physical AI & General-Purpose",
+   "subsegment": "Open embodied AI research",
+   "product": "MolmoAct",
+   "robot_type": null,
+   "ai_approach": "Action reasoning model (MolmoAct)",
+   "models": [
+    "molmoact"
+   ],
+   "stage": "Nonprofit",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Research",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "nonprofit",
+    "open-source"
+   ],
+   "summary": "Seattle nonprofit AI institute that released MolmoAct, an open action reasoning model for robotics (Aug 2025).",
+   "sources": [
+    {
+     "url": "https://allenai.org/blog/molmoact",
+     "label": "Ai2 blog: MolmoAct"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "picknik-robotics",
+   "name": "PickNik Robotics",
+   "kind": "ai",
+   "website": "https://picknik.ai",
+   "hq_city": "Boulder",
+   "hq_state": "CO",
+   "hq_country": "US",
+   "lat": 40.01,
+   "lon": -105.27,
+   "founded": 2015,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Motion planning software (MoveIt)",
+   "product": "MoveIt Pro",
+   "robot_type": null,
+   "ai_approach": "Motion planning + ML behaviors",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "ros",
+    "motion-planning"
+   ],
+   "summary": "Boulder, CO company behind the open-source MoveIt motion-planning framework and the commercial MoveIt Pro platform.",
+   "sources": [
+    {
+     "url": "https://picknik.ai",
+     "label": "Company site"
+    },
+    {
+     "url": "https://moveit.ai",
+     "label": "MoveIt site"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "brain-corp",
+   "name": "Brain Corp",
+   "kind": "ai",
+   "website": "https://www.braincorp.com",
+   "hq_city": "San Diego",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 32.72,
+   "lon": -117.16,
+   "founded": 2009,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Autonomy software for commercial robots",
+   "product": "BrainOS",
+   "robot_type": null,
+   "ai_approach": "Classical autonomy + ML (BrainOS)",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "autonomy",
+    "retail"
+   ],
+   "summary": "San Diego company whose BrainOS autonomy platform powers commercial floor scrubbers and inventory-scanning robots.",
+   "sources": [
+    {
+     "url": "https://www.braincorp.com",
+     "label": "Company site"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "plus-one-robotics",
+   "name": "Plus One Robotics",
+   "kind": "ai",
+   "website": "https://www.plusonerobotics.com",
+   "hq_city": "San Antonio",
+   "hq_state": "TX",
+   "hq_country": "US",
+   "lat": 29.42,
+   "lon": -98.49,
+   "founded": 2016,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Vision software for parcel picking with remote human-in-the-loop",
+   "product": "PickOne",
+   "robot_type": null,
+   "ai_approach": "Vision AI + remote supervision",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "warehouse",
+    "human-in-the-loop"
+   ],
+   "summary": "San Antonio company providing AI vision software for robotic parcel handling with remote human-in-the-loop assistance.",
+   "sources": [
+    {
+     "url": "https://www.plusonerobotics.com",
+     "label": "Company site"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "osaro",
+   "name": "Osaro",
+   "kind": "ai",
+   "website": "https://www.osaro.com",
+   "hq_city": "San Francisco",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.77,
+   "lon": -122.42,
+   "founded": 2015,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "ML-based robotic picking software",
+   "product": "Osaro Robotic Bagging / picking",
+   "robot_type": null,
+   "ai_approach": "Deep learning vision & control",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "warehouse",
+    "picking"
+   ],
+   "summary": "San Francisco company developing machine-learning software for robotic piece-picking and e-commerce fulfillment.",
+   "sources": [
+    {
+     "url": "https://www.osaro.com",
+     "label": "Company site"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "polymath-robotics",
+   "name": "Polymath Robotics",
+   "kind": "ai",
+   "website": "https://www.polymathrobotics.com",
+   "hq_city": "San Francisco",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.77,
+   "lon": -122.42,
+   "founded": 2021,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Autonomy software for industrial vehicles",
+   "product": "Polymath autonomy SDK",
+   "robot_type": null,
+   "ai_approach": "Classical autonomy",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "autonomy",
+    "industrial-vehicles"
+   ],
+   "summary": "San Francisco startup offering a general autonomy software layer for industrial off-road vehicles.",
+   "sources": [
+    {
+     "url": "https://www.polymathrobotics.com",
+     "label": "Company site"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "robust-ai",
+   "name": "Robust.AI",
+   "kind": "ai",
+   "website": "https://www.robust.ai",
+   "hq_city": "San Carlos",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.51,
+   "lon": -122.26,
+   "founded": 2019,
+   "segment": "Physical AI & General-Purpose",
+   "subsegment": "Collaborative mobile robots with AI software",
+   "product": "Carter",
+   "robot_type": "AMR",
+   "ai_approach": "Hybrid AI + human-centered autonomy",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "warehouse",
+    "amr"
+   ],
+   "summary": "San Carlos, CA company co-founded by Rodney Brooks building AI software and the Carter collaborative mobile robot for warehouses.",
+   "sources": [
+    {
+     "url": "https://www.robust.ai",
+     "label": "Company site"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "duality-robotics",
+   "name": "Duality Robotics",
+   "kind": "ai",
+   "website": "https://www.duality.ai",
+   "hq_city": "San Mateo",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.56,
+   "lon": -122.32,
+   "founded": null,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Digital-twin simulation & synthetic data",
+   "product": "Falcon",
+   "robot_type": null,
+   "ai_approach": "Simulation / synthetic data",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "simulation",
+    "synthetic-data"
+   ],
+   "summary": "Digital-twin simulation company whose Falcon platform generates synthetic data and tests autonomy for robots and off-road systems.",
+   "sources": [
+    {
+     "url": "https://www.duality.ai",
+     "label": "Company site"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "parallel-domain",
+   "name": "Parallel Domain",
+   "kind": "ai",
+   "website": "https://paralleldomain.com",
+   "hq_city": "San Francisco",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.77,
+   "lon": -122.42,
+   "founded": 2017,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Synthetic sensor data for perception",
+   "product": "Parallel Domain synthetic data platform",
+   "robot_type": null,
+   "ai_approach": "Simulation / synthetic data",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "simulation",
+    "synthetic-data"
+   ],
+   "summary": "Synthetic data platform generating simulated camera, lidar and radar data for training and testing perception in autonomous systems.",
+   "sources": [
+    {
+     "url": "https://paralleldomain.com",
+     "label": "Company site"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "bifrost-ai",
+   "name": "Bifrost AI",
+   "kind": "ai",
+   "website": "https://www.bifrost.ai",
+   "hq_city": "San Francisco",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.77,
+   "lon": -122.42,
+   "founded": 2020,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Synthetic data for robotics/autonomy",
+   "product": "Bifrost synthetic data platform",
+   "robot_type": null,
+   "ai_approach": "Simulation / synthetic data",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "synthetic-data"
+   ],
+   "summary": "Synthetic 3D data generation company for training vision models in autonomous and robotic systems (defense, maritime, aerial).",
+   "sources": [
+    {
+     "url": "https://www.bifrost.ai",
+     "label": "Company site"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "teleo",
+   "name": "Teleo",
+   "kind": "ai",
+   "website": "https://teleo.ai",
+   "hq_city": "Palo Alto",
+   "hq_state": "CA",
+   "hq_country": "US",
+   "lat": 37.44,
+   "lon": -122.14,
+   "founded": 2019,
+   "segment": "Robotics Software & Tools",
+   "subsegment": "Supervised autonomy / teleoperation kits for heavy equipment",
+   "product": "Teleo Supervised Autonomy",
+   "robot_type": null,
+   "ai_approach": "Teleoperation + supervised autonomy",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Commercial",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "teleoperation",
+    "construction"
+   ],
+   "summary": "Palo Alto company converting existing construction and mining equipment into remotely operated, supervised-autonomous robots.",
+   "sources": [
+    {
+     "url": "https://teleo.ai",
+     "label": "Company site"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "mbodi",
+   "name": "Mbodi AI",
+   "kind": "ai",
+   "website": "https://www.mbodi.ai",
+   "hq_city": "New York",
+   "hq_state": "NY",
+   "hq_country": "US",
+   "lat": 40.71,
+   "lon": -74.01,
+   "founded": null,
+   "segment": "Physical AI & General-Purpose",
+   "subsegment": "Agentic AI layer for training robots via natural language",
+   "product": "Mbodi platform",
+   "robot_type": null,
+   "ai_approach": "Embodied agent framework",
+   "models": [],
+   "stage": "Startup",
+   "ticker": null,
+   "funding_usd": null,
+   "funding_note": null,
+   "investors": [],
+   "customers": [],
+   "deployment": "Pilot",
+   "deployment_note": null,
+   "suppliers": [],
+   "tags": [
+    "startup",
+    "agents"
+   ],
+   "summary": "New York startup building an AI layer that lets industrial robots be taught new tasks through natural-language interaction.",
+   "sources": [
+    {
+     "url": "https://www.mbodi.ai",
+     "label": "Company site"
+    }
+   ],
+   "confidence": "company-reported",
+   "verified": "2026-10-15"
+  }
+ ],
+ "models": [
+  {
+   "id": "rt-1",
+   "name": "RT-1 (Robotics Transformer 1)",
+   "developer": "google-deepmind",
+   "released": "2022-12",
+   "category": "Robot foundation model",
+   "embodiments": [
+    "mobile manipulator"
+   ],
+   "license": "open-source",
+   "docs": "https://robotics-transformer1.github.io/",
+   "integrations": [],
+   "capabilities": "Transformer policy trained on ~130k real-world episodes from Everyday Robots mobile manipulators across 700+ tasks.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://arxiv.org/abs/2212.06817",
+     "label": "arXiv 2212.06817"
+    },
+    {
+     "url": "https://github.com/google-research/robotics_transformer",
+     "label": "Code"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "rt-2",
+   "name": "RT-2",
+   "developer": "google-deepmind",
+   "released": "2023-07",
+   "category": "VLA",
+   "embodiments": [
+    "mobile manipulator"
+   ],
+   "license": "proprietary",
+   "docs": "https://robotics-transformer2.github.io/",
+   "integrations": [],
+   "capabilities": "Early vision-language-action model co-fine-tuning web-scale VLMs (PaLI-X, PaLM-E) to output robot actions as tokens.",
+   "availability": "Research",
+   "sources": [
+    {
+     "url": "https://arxiv.org/abs/2307.15818",
+     "label": "arXiv 2307.15818"
+    },
+    {
+     "url": "https://deepmind.google/discover/blog/rt-2-new-model-translates-vision-and-language-into-action/",
+     "label": "DeepMind blog"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "autort",
+   "name": "AutoRT",
+   "developer": "google-deepmind",
+   "released": "2024-01",
+   "category": "Robot foundation model",
+   "embodiments": [
+    "mobile manipulator"
+   ],
+   "license": "proprietary",
+   "docs": "https://auto-rt.github.io/",
+   "integrations": [],
+   "capabilities": "System using LLM/VLM orchestration to direct fleets of robots for large-scale in-the-wild data collection with a robot constitution for safety.",
+   "availability": "Research",
+   "sources": [
+    {
+     "url": "https://arxiv.org/abs/2401.12963",
+     "label": "arXiv 2401.12963"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "open-x-embodiment",
+   "name": "Open X-Embodiment (RT-X)",
+   "developer": "google-deepmind",
+   "released": "2023-10",
+   "category": "Dataset",
+   "embodiments": [
+    "single-arm",
+    "bimanual",
+    "mobile manipulator",
+    "quadruped"
+   ],
+   "license": "open-source",
+   "docs": "https://robotics-transformer-x.github.io/",
+   "integrations": [],
+   "capabilities": "Pooled dataset of 1M+ trajectories from 22 robot embodiments contributed by 21 institutions, with RT-1-X/RT-2-X models.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://arxiv.org/abs/2310.08864",
+     "label": "arXiv 2310.08864"
+    },
+    {
+     "url": "https://github.com/google-deepmind/open_x_embodiment",
+     "label": "GitHub"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "gemini-robotics",
+   "name": "Gemini Robotics",
+   "developer": "google-deepmind",
+   "released": "2025-03",
+   "category": "VLA",
+   "embodiments": [
+    "bimanual",
+    "humanoid"
+   ],
+   "license": "proprietary",
+   "docs": "https://deepmind.google/models/gemini-robotics/",
+   "integrations": [
+    "ALOHA 2",
+    "Franka bi-arm",
+    "Apptronik Apollo"
+   ],
+   "capabilities": "Gemini 2.0-based VLA for general, interactive and dexterous manipulation; adapted to bi-arm and humanoid embodiments.",
+   "availability": "Research",
+   "sources": [
+    {
+     "url": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+     "label": "DeepMind blog (Mar 2025)"
+    },
+    {
+     "url": "https://arxiv.org/abs/2503.20020",
+     "label": "Tech report arXiv 2503.20020"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "gemini-robotics-er",
+   "name": "Gemini Robotics-ER",
+   "developer": "google-deepmind",
+   "released": "2025-03",
+   "category": "VLM",
+   "embodiments": [
+    "single-arm",
+    "bimanual",
+    "humanoid"
+   ],
+   "license": "proprietary",
+   "docs": "https://deepmind.google/models/gemini-robotics/",
+   "integrations": [],
+   "capabilities": "Embodied-reasoning VLM with enhanced spatial understanding (pointing, 3D detection, grasp/trajectory prediction) for robot controllers.",
+   "availability": "Research",
+   "sources": [
+    {
+     "url": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+     "label": "DeepMind blog (Mar 2025)"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "gemini-robotics-on-device",
+   "name": "Gemini Robotics On-Device",
+   "developer": "google-deepmind",
+   "released": "2025-06",
+   "category": "VLA",
+   "embodiments": [
+    "bimanual",
+    "humanoid"
+   ],
+   "license": "proprietary",
+   "docs": "https://deepmind.google/discover/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/",
+   "integrations": [
+    "ALOHA",
+    "Gemini Robotics SDK"
+   ],
+   "capabilities": "Local, low-latency version of Gemini Robotics VLA that runs on the robot and can be fine-tuned with 50–100 demonstrations.",
+   "availability": "Research",
+   "sources": [
+    {
+     "url": "https://deepmind.google/discover/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/",
+     "label": "DeepMind blog"
+    },
+    {
+     "url": "https://github.com/google-deepmind/gemini-robotics-sdk",
+     "label": "Gemini Robotics SDK (trusted testers)"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "gemini-robotics-1-5",
+   "name": "Gemini Robotics 1.5",
+   "developer": "google-deepmind",
+   "released": "2025-09",
+   "category": "VLA",
+   "embodiments": [
+    "bimanual",
+    "humanoid"
+   ],
+   "license": "proprietary",
+   "docs": "https://deepmind.google/models/gemini-robotics/",
+   "integrations": [
+    "ALOHA 2",
+    "Franka bi-arm",
+    "Apptronik Apollo"
+   ],
+   "capabilities": "VLA that 'thinks before acting' and transfers motions across embodiments; paired with Gemini Robotics-ER 1.5 for agentic multi-step tasks.",
+   "availability": "Research",
+   "sources": [
+    {
+     "url": "https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+     "label": "DeepMind blog (Sep 2025)"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "gemini-robotics-er-1-5",
+   "name": "Gemini Robotics-ER 1.5",
+   "developer": "google-deepmind",
+   "released": "2025-09",
+   "category": "VLM",
+   "embodiments": [
+    "single-arm",
+    "bimanual",
+    "humanoid"
+   ],
+   "license": "proprietary",
+   "docs": "https://ai.google.dev/gemini-api/docs/robotics-overview",
+   "integrations": [
+    "Gemini API",
+    "Google AI Studio"
+   ],
+   "capabilities": "Embodied-reasoning model for spatial understanding, planning and tool calling; first Gemini Robotics model generally available to developers via the Gemini API (preview).",
+   "availability": "Commercial",
+   "sources": [
+    {
+     "url": "https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+     "label": "DeepMind blog (Sep 2025)"
+    },
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/robotics-overview",
+     "label": "Gemini API robotics docs"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "genie-3",
+   "name": "Genie 3",
+   "developer": "google-deepmind",
+   "released": "2025-08",
+   "category": "World model",
+   "embodiments": [],
+   "license": "proprietary",
+   "docs": "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/",
+   "integrations": [],
+   "capabilities": "General-purpose interactive world model generating navigable environments in real time from text prompts; positioned for training embodied agents.",
+   "availability": "Research",
+   "sources": [
+    {
+     "url": "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/",
+     "label": "DeepMind blog"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "mujoco",
+   "name": "MuJoCo",
+   "developer": "google-deepmind",
+   "released": "2022-05",
+   "category": "Simulation",
+   "embodiments": [
+    "single-arm",
+    "humanoid",
+    "quadruped"
+   ],
+   "license": "open-source",
+   "docs": "https://mujoco.readthedocs.io/",
+   "integrations": [
+    "MJX (JAX)",
+    "MuJoCo Warp",
+    "Newton"
+   ],
+   "capabilities": "Physics engine for contact-rich robot simulation; acquired by DeepMind in 2021 and open-sourced under Apache 2.0 in 2022.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://github.com/google-deepmind/mujoco",
+     "label": "GitHub"
+    },
+    {
+     "url": "https://mujoco.org",
+     "label": "MuJoCo site"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "mujoco-playground",
+   "name": "MuJoCo Playground",
+   "developer": "google-deepmind",
+   "released": "2025-02",
+   "category": "RL framework",
+   "embodiments": [
+    "single-arm",
+    "humanoid",
+    "quadruped"
+   ],
+   "license": "open-source",
+   "docs": "https://github.com/google-deepmind/mujoco_playground",
+   "integrations": [
+    "MuJoCo MJX",
+    "MuJoCo Warp"
+   ],
+   "capabilities": "GPU-accelerated library of environments (locomotion, manipulation, classic control) for RL and sim-to-real transfer, e.g. Unitree G1, Franka Panda.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://github.com/google-deepmind/mujoco_playground",
+     "label": "GitHub"
+    },
+    {
+     "url": "https://arxiv.org/abs/2502.08844",
+     "label": "arXiv 2502.08844"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "aloha",
+   "name": "ALOHA",
+   "developer": "stanford",
+   "released": "2023-04",
+   "category": "Teleoperation",
+   "embodiments": [
+    "bimanual"
+   ],
+   "license": "open-source",
+   "docs": "https://tonyzhaozh.github.io/aloha/",
+   "integrations": [
+    "ACT",
+    "LeRobot"
+   ],
+   "capabilities": "Low-cost open-source bimanual teleoperation hardware with the ACT (Action Chunking with Transformers) imitation learning policy.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://arxiv.org/abs/2304.13705",
+     "label": "arXiv 2304.13705"
+    },
+    {
+     "url": "https://github.com/tonyzhaozh/aloha",
+     "label": "GitHub"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "mobile-aloha",
+   "name": "Mobile ALOHA",
+   "developer": "stanford",
+   "released": "2024-01",
+   "category": "Teleoperation",
+   "embodiments": [
+    "mobile manipulator",
+    "bimanual"
+   ],
+   "license": "open-source",
+   "docs": "https://mobile-aloha.github.io/",
+   "integrations": [],
+   "capabilities": "Low-cost whole-body teleoperation system and co-training recipe for bimanual mobile manipulation.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://arxiv.org/abs/2401.02117",
+     "label": "arXiv 2401.02117"
+    },
+    {
+     "url": "https://github.com/MarkFzp/mobile-aloha",
+     "label": "GitHub"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "pi0",
+   "name": "π0",
+   "developer": "physical-intelligence",
+   "released": "2024-10",
+   "category": "VLA",
+   "embodiments": [
+    "single-arm",
+    "bimanual",
+    "mobile manipulator"
+   ],
+   "license": "open-weights",
+   "docs": "https://github.com/Physical-Intelligence/openpi",
+   "integrations": [
+    "LeRobot",
+    "ALOHA",
+    "DROID"
+   ],
+   "capabilities": "Flow-matching VLA built on a PaliGemma VLM, pretrained on cross-embodiment data; weights released via openpi (Feb 2025).",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://www.physicalintelligence.company/blog/pi0",
+     "label": "PI blog"
+    },
+    {
+     "url": "https://arxiv.org/abs/2410.24164",
+     "label": "arXiv 2410.24164"
+    },
+    {
+     "url": "https://github.com/Physical-Intelligence/openpi",
+     "label": "openpi"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "pi0-fast",
+   "name": "π0-FAST",
+   "developer": "physical-intelligence",
+   "released": "2025-01",
+   "category": "VLA",
+   "embodiments": [
+    "single-arm",
+    "bimanual",
+    "mobile manipulator"
+   ],
+   "license": "open-weights",
+   "docs": "https://github.com/Physical-Intelligence/openpi",
+   "integrations": [
+    "LeRobot",
+    "DROID"
+   ],
+   "capabilities": "Autoregressive variant of π0 using the FAST frequency-space action tokenizer for faster training.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://arxiv.org/abs/2501.09747",
+     "label": "FAST arXiv 2501.09747"
+    },
+    {
+     "url": "https://github.com/Physical-Intelligence/openpi",
+     "label": "openpi"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "pi0-5",
+   "name": "π0.5",
+   "developer": "physical-intelligence",
+   "released": "2025-04",
+   "category": "VLA",
+   "embodiments": [
+    "mobile manipulator",
+    "single-arm",
+    "bimanual"
+   ],
+   "license": "open-weights",
+   "docs": "https://github.com/Physical-Intelligence/openpi",
+   "integrations": [
+    "LeRobot",
+    "DROID",
+    "LIBERO"
+   ],
+   "capabilities": "VLA with improved open-world generalization (e.g. cleaning unseen homes) via co-training on heterogeneous data; weights added to openpi Sep 2025.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://www.physicalintelligence.company/blog/pi05",
+     "label": "PI blog"
+    },
+    {
+     "url": "https://arxiv.org/abs/2504.16054",
+     "label": "arXiv 2504.16054"
+    },
+    {
+     "url": "https://github.com/Physical-Intelligence/openpi",
+     "label": "openpi (π0.5 released Sep 2025)"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "pi-star-0-6",
+   "name": "π*0.6",
+   "developer": "physical-intelligence",
+   "released": "2025-11",
+   "category": "VLA",
+   "embodiments": [
+    "single-arm",
+    "bimanual",
+    "mobile manipulator"
+   ],
+   "license": "proprietary",
+   "docs": "https://www.physicalintelligence.company/blog/pistar06",
+   "integrations": [],
+   "capabilities": "π0.6-based VLA improved with Recap, an RL-from-experience method using demonstrations, corrections and autonomous rollouts.",
+   "availability": "Research",
+   "sources": [
+    {
+     "url": "https://www.physicalintelligence.company/blog/pistar06",
+     "label": "PI blog"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "gr00t-n1",
+   "name": "Isaac GR00T N1",
+   "developer": "nvidia",
+   "released": "2025-03",
+   "category": "VLA",
+   "embodiments": [
+    "humanoid",
+    "bimanual"
+   ],
+   "license": "open-weights",
+   "docs": "https://github.com/NVIDIA/Isaac-GR00T",
+   "integrations": [
+    "Isaac Sim",
+    "Isaac Lab",
+    "Cosmos"
+   ],
+   "capabilities": "Open foundation model for generalist humanoid robots with a dual-system (VLM + diffusion transformer action) architecture.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://nvidianews.nvidia.com/news/nvidia-isaac-gr00t-n1-open-humanoid-robot-foundation-model-simulation-frameworks",
+     "label": "NVIDIA newsroom (GTC Mar 2025)"
+    },
+    {
+     "url": "https://arxiv.org/abs/2503.14734",
+     "label": "arXiv 2503.14734"
+    },
+    {
+     "url": "https://github.com/NVIDIA/Isaac-GR00T",
+     "label": "GitHub"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "gr00t-n1-5",
+   "name": "Isaac GR00T N1.5",
+   "developer": "nvidia",
+   "released": "2025-05",
+   "category": "VLA",
+   "embodiments": [
+    "humanoid",
+    "bimanual",
+    "single-arm"
+   ],
+   "license": "open-weights",
+   "docs": "https://github.com/NVIDIA/Isaac-GR00T",
+   "integrations": [
+    "Isaac Lab",
+    "Cosmos"
+   ],
+   "capabilities": "Updated GR00T model with improved language following and data efficiency, trained partly on synthetic GR00T-Dreams data.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://research.nvidia.com/labs/gear/gr00t-n1_5/",
+     "label": "NVIDIA GEAR page"
+    },
+    {
+     "url": "https://github.com/NVIDIA/Isaac-GR00T",
+     "label": "GitHub (n1d5 branch)"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "gr00t-n1-6",
+   "name": "Isaac GR00T N1.6",
+   "developer": "nvidia",
+   "released": null,
+   "category": "VLA",
+   "embodiments": [
+    "humanoid",
+    "bimanual",
+    "single-arm"
+   ],
+   "license": "open-weights",
+   "docs": "https://github.com/NVIDIA/Isaac-GR00T",
+   "integrations": [
+    "Cosmos Reason"
+   ],
+   "capabilities": "GR00T release using an Eagle VLM backbone; listed under previous releases (n1d6 branch). Release month not confirmed.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://github.com/NVIDIA/Isaac-GR00T",
+     "label": "GitHub (n1d6 branch)"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "gr00t-n1-7",
+   "name": "Isaac GR00T N1.7",
+   "developer": "nvidia",
+   "released": null,
+   "category": "VLA",
+   "embodiments": [
+    "humanoid",
+    "bimanual",
+    "single-arm"
+   ],
+   "license": "open-weights",
+   "docs": "https://github.com/NVIDIA/Isaac-GR00T",
+   "integrations": [
+    "LeRobot",
+    "Cosmos Reason 2",
+    "Unitree G1"
+   ],
+   "capabilities": "Current GA GR00T release using a Cosmos-Reason2-2B (Qwen3-VL) backbone and 20K hours of human video in pretraining; available as a LeRobot policy.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://github.com/NVIDIA/Isaac-GR00T",
+     "label": "GitHub README"
+    },
+    {
+     "url": "https://github.com/huggingface/lerobot",
+     "label": "LeRobot supported policies"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "cosmos",
+   "name": "NVIDIA Cosmos (world foundation models)",
+   "developer": "nvidia",
+   "released": "2025-01",
+   "category": "World model",
+   "embodiments": [],
+   "license": "open-weights",
+   "docs": "https://www.nvidia.com/en-us/ai/cosmos/",
+   "integrations": [
+    "Isaac Sim",
+    "Omniverse",
+    "GR00T"
+   ],
+   "capabilities": "Family of open world foundation models — Predict (future video), Transfer (sim-to-real style transfer), Reason (physical reasoning VLM) — for synthetic data and physical AI.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://arxiv.org/abs/2501.03575",
+     "label": "arXiv 2501.03575"
+    },
+    {
+     "url": "https://github.com/nvidia-cosmos",
+     "label": "GitHub org (Predict2.5/Transfer2.5/Reason2)"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "isaac-sim",
+   "name": "NVIDIA Isaac Sim",
+   "developer": "nvidia",
+   "released": null,
+   "category": "Simulation",
+   "embodiments": [
+    "single-arm",
+    "humanoid",
+    "AMR",
+    "quadruped"
+   ],
+   "license": "open-source",
+   "docs": "https://developer.nvidia.com/isaac/sim",
+   "integrations": [
+    "Omniverse",
+    "Isaac Lab",
+    "ROS 2"
+   ],
+   "capabilities": "Omniverse-based robot simulator with GPU physics, RTX sensor rendering, URDF/MJCF import and synthetic data generation; source on GitHub under Apache 2.0.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://github.com/isaac-sim/IsaacSim",
+     "label": "GitHub"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "isaac-lab",
+   "name": "NVIDIA Isaac Lab",
+   "developer": "nvidia",
+   "released": "2024-03",
+   "category": "RL framework",
+   "embodiments": [
+    "single-arm",
+    "humanoid",
+    "quadruped"
+   ],
+   "license": "open-source",
+   "docs": "https://isaac-sim.github.io/IsaacLab/",
+   "integrations": [
+    "Isaac Sim",
+    "Newton"
+   ],
+   "capabilities": "GPU-accelerated framework (successor to Orbit) for robot RL, imitation learning and motion planning; v3.0 supports kit-less Newton workflows.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://github.com/isaac-sim/IsaacLab",
+     "label": "GitHub"
+    },
+    {
+     "url": "https://arxiv.org/abs/2511.04831",
+     "label": "arXiv 2511.04831"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "isaac-ros",
+   "name": "NVIDIA Isaac ROS",
+   "developer": "nvidia",
+   "released": null,
+   "category": "OS/Middleware",
+   "embodiments": [
+    "AMR",
+    "single-arm"
+   ],
+   "license": "open-source",
+   "docs": "https://nvidia-isaac-ros.github.io/",
+   "integrations": [
+    "ROS 2",
+    "Jetson"
+   ],
+   "capabilities": "Collection of GPU-accelerated ROS 2 packages (perception, VSLAM, nvblox, cuMotion) for NVIDIA Jetson and GPUs.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://developer.nvidia.com/isaac/ros",
+     "label": "NVIDIA Isaac ROS page"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "omniverse",
+   "name": "NVIDIA Omniverse",
+   "developer": "nvidia",
+   "released": "2020-12",
+   "category": "Simulation",
+   "embodiments": [],
+   "license": "proprietary",
+   "docs": "https://www.nvidia.com/en-us/omniverse/",
+   "integrations": [
+    "OpenUSD",
+    "Isaac Sim",
+    "Cosmos"
+   ],
+   "capabilities": "OpenUSD-based platform for building physically based digital twins and simulation applications; foundation of Isaac Sim.",
+   "availability": "Commercial",
+   "sources": [
+    {
+     "url": "https://www.nvidia.com/en-us/omniverse/",
+     "label": "NVIDIA Omniverse"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "newton",
+   "name": "Newton physics engine",
+   "developer": "nvidia",
+   "released": "2025-03",
+   "category": "Simulation",
+   "embodiments": [
+    "single-arm",
+    "humanoid",
+    "quadruped"
+   ],
+   "license": "open-source",
+   "docs": "https://github.com/newton-physics/newton",
+   "integrations": [
+    "NVIDIA Warp",
+    "MuJoCo Warp",
+    "OpenUSD",
+    "Isaac Lab"
+   ],
+   "capabilities": "GPU-accelerated physics engine built on NVIDIA Warp with MuJoCo Warp as primary backend; initiated by Disney Research, Google DeepMind and NVIDIA; Linux Foundation project.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://github.com/newton-physics/newton",
+     "label": "GitHub"
+    },
+    {
+     "url": "https://nvidianews.nvidia.com/news/nvidia-isaac-gr00t-n1-open-humanoid-robot-foundation-model-simulation-frameworks",
+     "label": "NVIDIA newsroom announcement (Mar 2025)"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "openvla",
+   "name": "OpenVLA",
+   "developer": "stanford",
+   "released": "2024-06",
+   "category": "VLA",
+   "embodiments": [
+    "single-arm"
+   ],
+   "license": "open-weights",
+   "docs": "https://openvla.github.io/",
+   "integrations": [
+    "Open X-Embodiment",
+    "LoRA fine-tuning"
+   ],
+   "capabilities": "7B-parameter open VLA built on Prismatic (DINOv2+SigLIP, Llama 2) trained on 970k Open X-Embodiment trajectories.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://github.com/openvla/openvla",
+     "label": "GitHub"
+    },
+    {
+     "url": "https://arxiv.org/abs/2406.09246",
+     "label": "arXiv 2406.09246"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "octo",
+   "name": "Octo",
+   "developer": "uc-berkeley",
+   "released": "2024-05",
+   "category": "Robot foundation model",
+   "embodiments": [
+    "single-arm",
+    "bimanual"
+   ],
+   "license": "open-source",
+   "docs": "https://octo-models.github.io/",
+   "integrations": [
+    "Open X-Embodiment"
+   ],
+   "capabilities": "Open-source transformer diffusion policy pretrained on 800k Open X-Embodiment trajectories, fine-tunable to new robots.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://arxiv.org/abs/2405.12213",
+     "label": "arXiv 2405.12213"
+    },
+    {
+     "url": "https://github.com/octo-models/octo",
+     "label": "GitHub"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "droid",
+   "name": "DROID dataset",
+   "developer": "stanford",
+   "released": "2024-03",
+   "category": "Dataset",
+   "embodiments": [
+    "single-arm"
+   ],
+   "license": "open-source",
+   "docs": "https://droid-dataset.github.io/",
+   "integrations": [
+    "openpi",
+    "Franka"
+   ],
+   "capabilities": "Large in-the-wild manipulation dataset (~76k trajectories, 350 hours, 564 scenes) collected on a shared Franka Panda platform by 13 institutions.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://arxiv.org/abs/2403.12945",
+     "label": "arXiv 2403.12945"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "lerobot",
+   "name": "LeRobot",
+   "developer": "hugging-face",
+   "released": "2024-05",
+   "category": "RL framework",
+   "embodiments": [
+    "single-arm",
+    "bimanual",
+    "mobile manipulator",
+    "humanoid"
+   ],
+   "license": "open-source",
+   "docs": "https://huggingface.co/docs/lerobot",
+   "integrations": [
+    "π0",
+    "π0.5",
+    "SmolVLA",
+    "GR00T N1.7",
+    "SO-100",
+    "LeKiwi",
+    "Reachy 2",
+    "Unitree G1"
+   ],
+   "capabilities": "Open-source PyTorch library for end-to-end robot learning: datasets format, imitation/RL policies (ACT, Diffusion, VLAs) and low-cost hardware support.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://github.com/huggingface/lerobot",
+     "label": "GitHub"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "smolvla",
+   "name": "SmolVLA",
+   "developer": "hugging-face",
+   "released": "2025-06",
+   "category": "VLA",
+   "embodiments": [
+    "single-arm"
+   ],
+   "license": "open-source",
+   "docs": "https://huggingface.co/blog/smolvla",
+   "integrations": [
+    "LeRobot",
+    "SO-100"
+   ],
+   "capabilities": "Compact (~450M-parameter) open VLA trained on community LeRobot datasets, designed to run on consumer hardware.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://huggingface.co/blog/smolvla",
+     "label": "Hugging Face blog"
+    },
+    {
+     "url": "https://arxiv.org/abs/2506.01844",
+     "label": "arXiv 2506.01844"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "helix",
+   "name": "Helix",
+   "developer": "figure-ai",
+   "released": "2025-02",
+   "category": "VLA",
+   "embodiments": [
+    "humanoid"
+   ],
+   "license": "proprietary",
+   "docs": "https://www.figure.ai/news/helix",
+   "integrations": [
+    "Figure 02",
+    "Figure 03"
+   ],
+   "capabilities": "Generalist VLA with a fast visuomotor 'System 1' and VLM 'System 2' providing full upper-body humanoid control, running on onboard GPUs.",
+   "availability": "Internal",
+   "sources": [
+    {
+     "url": "https://www.figure.ai/news/helix",
+     "label": "Figure: Helix announcement"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "redwood-ai",
+   "name": "Redwood AI",
+   "developer": "1x-technologies",
+   "released": "2025-06",
+   "category": "VLA",
+   "embodiments": [
+    "humanoid"
+   ],
+   "license": "proprietary",
+   "docs": "https://www.1x.tech/discover/redwood-ai",
+   "integrations": [
+    "NEO"
+   ],
+   "capabilities": "1X's onboard AI model for the NEO humanoid enabling mobile manipulation and household tasks.",
+   "availability": "Internal",
+   "sources": [
+    {
+     "url": "https://www.1x.tech/discover/redwood-ai",
+     "label": "1X: Redwood AI"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "1x-world-model",
+   "name": "1X World Model",
+   "developer": "1x-technologies",
+   "released": "2024-09",
+   "category": "World model",
+   "embodiments": [
+    "humanoid"
+   ],
+   "license": "proprietary",
+   "docs": "https://www.1x.tech/discover/1x-world-model",
+   "integrations": [],
+   "capabilities": "Learned world model that simulates EVE/NEO humanoid first-person observations for policy evaluation; public challenge dataset of 100+ hours.",
+   "availability": "Research",
+   "sources": [
+    {
+     "url": "https://www.1x.tech/discover/1x-world-model",
+     "label": "1X blog"
+    },
+    {
+     "url": "https://github.com/1x-technologies/1xgpt",
+     "label": "1X World Model Challenge repo"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "skild-brain",
+   "name": "Skild Brain",
+   "developer": "skild-ai",
+   "released": "2025-07",
+   "category": "Robot foundation model",
+   "embodiments": [
+    "quadruped",
+    "humanoid",
+    "single-arm",
+    "mobile manipulator"
+   ],
+   "license": "proprietary",
+   "docs": "https://www.skild.ai",
+   "integrations": [],
+   "capabilities": "Embodiment-agnostic robot foundation model for locomotion and manipulation across robot types.",
+   "availability": "Commercial",
+   "sources": [
+    {
+     "url": "https://www.skild.ai",
+     "label": "Skild AI site"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "field-foundation-models",
+   "name": "Field Foundation Models (FFMs)",
+   "developer": "field-ai",
+   "released": null,
+   "category": "Robot foundation model",
+   "embodiments": [
+    "quadruped",
+    "humanoid",
+    "AMR",
+    "wheeled"
+   ],
+   "license": "proprietary",
+   "docs": "https://www.fieldai.com",
+   "integrations": [],
+   "capabilities": "Risk-aware embodied AI models enabling robots to navigate and operate without maps/GPS in unstructured environments (construction, energy, mining).",
+   "availability": "Commercial",
+   "sources": [
+    {
+     "url": "https://www.fieldai.com",
+     "label": "FieldAI site"
+    },
+    {
+     "url": "https://www.ocbj.com/technology/fieldai-raises-405m-for-2b-valuation/",
+     "label": "OCBJ"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "tri-lbm",
+   "name": "TRI Large Behavior Models",
+   "developer": "toyota-research-institute",
+   "released": "2023-09",
+   "category": "Robot foundation model",
+   "embodiments": [
+    "bimanual",
+    "humanoid"
+   ],
+   "license": "proprietary",
+   "docs": "https://www.tri.global/",
+   "integrations": [
+    "Boston Dynamics Atlas"
+   ],
+   "capabilities": "Diffusion-policy-based multitask manipulation models; 2025 study showed LBM pretraining reduces data needed for new tasks.",
+   "availability": "Research",
+   "sources": [
+    {
+     "url": "https://arxiv.org/abs/2507.05331",
+     "label": "arXiv 2507.05331: A Careful Examination of LBMs"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "diffusion-policy",
+   "name": "Diffusion Policy",
+   "developer": "columbia-university",
+   "released": "2023-03",
+   "category": "RL framework",
+   "embodiments": [
+    "single-arm",
+    "bimanual"
+   ],
+   "license": "open-source",
+   "docs": "https://diffusion-policy.cs.columbia.edu/",
+   "integrations": [
+    "LeRobot"
+   ],
+   "capabilities": "Visuomotor policy learning method representing actions as a conditional denoising diffusion process (Columbia, TRI, MIT).",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://arxiv.org/abs/2303.04137",
+     "label": "arXiv 2303.04137"
+    },
+    {
+     "url": "https://github.com/real-stanford/diffusion_policy",
+     "label": "GitHub"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "umi",
+   "name": "UMI (Universal Manipulation Interface)",
+   "developer": "stanford",
+   "released": "2024-02",
+   "category": "Teleoperation",
+   "embodiments": [
+    "single-arm",
+    "bimanual"
+   ],
+   "license": "open-source",
+   "docs": "https://umi-gripper.github.io/",
+   "integrations": [
+    "Diffusion Policy"
+   ],
+   "capabilities": "Handheld gripper data-collection system enabling in-the-wild demonstrations transferable to robot policies (Stanford, Columbia, TRI).",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://arxiv.org/abs/2402.10329",
+     "label": "arXiv 2402.10329"
+    },
+    {
+     "url": "https://github.com/real-stanford/universal_manipulation_interface",
+     "label": "GitHub"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "rfm-1",
+   "name": "RFM-1",
+   "developer": "covariant",
+   "released": "2024-03",
+   "category": "Robot foundation model",
+   "embodiments": [
+    "single-arm"
+   ],
+   "license": "proprietary",
+   "docs": "https://covariant.ai/",
+   "integrations": [],
+   "capabilities": "8B-parameter multimodal robotics foundation model trained on warehouse pick data, text, images and video.",
+   "availability": "Commercial",
+   "sources": [
+    {
+     "url": "https://covariant.ai/insights/introducing-rfm-1-giving-robots-human-like-reasoning-capabilities/",
+     "label": "Covariant: Introducing RFM-1"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "v-jepa-2",
+   "name": "V-JEPA 2 / V-JEPA 2-AC",
+   "developer": "meta",
+   "released": "2025-06",
+   "category": "World model",
+   "embodiments": [
+    "single-arm"
+   ],
+   "license": "open-source",
+   "docs": "https://github.com/facebookresearch/vjepa2",
+   "integrations": [
+    "Franka"
+   ],
+   "capabilities": "Self-supervised video world model; action-conditioned V-JEPA 2-AC enables zero-shot reach/grasp/pick-and-place planning from image goals on a Franka arm.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://github.com/facebookresearch/vjepa2",
+     "label": "GitHub"
+    },
+    {
+     "url": "https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/",
+     "label": "Meta AI blog"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "v-jepa-2-1",
+   "name": "V-JEPA 2.1",
+   "developer": "meta",
+   "released": "2026-03",
+   "category": "World model",
+   "embodiments": [],
+   "license": "open-source",
+   "docs": "https://github.com/facebookresearch/vjepa2",
+   "integrations": [],
+   "capabilities": "Successor family learning dense, temporally consistent video features; checkpoints from 80M to 2B parameters.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://github.com/facebookresearch/vjepa2",
+     "label": "GitHub (released Mar 16, 2026)"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "magma",
+   "name": "Magma",
+   "developer": "microsoft",
+   "released": "2025-02",
+   "category": "VLM",
+   "embodiments": [
+    "single-arm"
+   ],
+   "license": "open-source",
+   "docs": "https://github.com/microsoft/Magma",
+   "integrations": [
+    "Hugging Face",
+    "Azure AI Foundry"
+   ],
+   "capabilities": "8B multimodal agentic foundation model for UI navigation and robot manipulation planning (research use).",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://github.com/microsoft/Magma",
+     "label": "GitHub"
+    },
+    {
+     "url": "https://arxiv.org/abs/2502.13130",
+     "label": "arXiv 2502.13130"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "ros-2",
+   "name": "ROS 2",
+   "developer": "open-robotics",
+   "released": "2017-12",
+   "category": "OS/Middleware",
+   "embodiments": [
+    "single-arm",
+    "AMR",
+    "humanoid",
+    "quadruped",
+    "drone"
+   ],
+   "license": "open-source",
+   "docs": "https://docs.ros.org/",
+   "integrations": [
+    "Gazebo",
+    "Isaac ROS",
+    "MoveIt",
+    "Foxglove"
+   ],
+   "capabilities": "Open-source robotics middleware (DDS-based) with tools and libraries; de facto standard robot software framework.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://www.ros.org",
+     "label": "ROS site"
+    },
+    {
+     "url": "https://docs.ros.org/",
+     "label": "ROS 2 docs"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "gazebo",
+   "name": "Gazebo",
+   "developer": "open-robotics",
+   "released": null,
+   "category": "Simulation",
+   "embodiments": [
+    "single-arm",
+    "AMR",
+    "drone",
+    "quadruped"
+   ],
+   "license": "open-source",
+   "docs": "https://gazebosim.org/docs",
+   "integrations": [
+    "ROS 2"
+   ],
+   "capabilities": "Open-source robot simulator (successor to Gazebo Classic, formerly Ignition) with ROS 2 integration.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://gazebosim.org",
+     "label": "Gazebo site"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "genesis-simulator",
+   "name": "Genesis / Genesis World",
+   "developer": "genesis-ai",
+   "released": "2024-12",
+   "category": "Simulation",
+   "embodiments": [
+    "single-arm",
+    "quadruped",
+    "humanoid",
+    "drone"
+   ],
+   "license": "open-source",
+   "docs": "https://github.com/Genesis-Embodied-AI/Genesis",
+   "integrations": [
+    "URDF",
+    "MJCF",
+    "USD"
+   ],
+   "capabilities": "Multi-physics simulation platform (rigid, FEM, MPM, SPH, IPC) with Python API; started as academic project Dec 2024, Genesis World 1.0 in May 2026.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://github.com/Genesis-Embodied-AI/Genesis",
+     "label": "GitHub"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "intrinsic-flowstate",
+   "name": "Intrinsic Flowstate",
+   "developer": "intrinsic",
+   "released": "2023-05",
+   "category": "OS/Middleware",
+   "embodiments": [
+    "single-arm",
+    "Industrial arm"
+   ],
+   "license": "proprietary",
+   "docs": "https://intrinsic.ai/flowstate",
+   "integrations": [
+    "Google Cloud",
+    "Gemini"
+   ],
+   "capabilities": "Web-based development environment for building, simulating and deploying industrial robot applications.",
+   "availability": "Commercial",
+   "sources": [
+    {
+     "url": "https://www.intrinsic.ai",
+     "label": "Intrinsic site"
+    },
+    {
+     "url": "https://techcrunch.com/2026/02/25/alphabet-owned-robotics-software-company-intrinsic-joins-google",
+     "label": "TechCrunch (Feb 2026)"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "dyna-1",
+   "name": "DYNA-1",
+   "developer": "dyna-robotics",
+   "released": "2025-04",
+   "category": "Robot foundation model",
+   "embodiments": [
+    "single-arm"
+   ],
+   "license": "proprietary",
+   "docs": "https://www.dyna.co",
+   "integrations": [],
+   "capabilities": "Commercial robot foundation model for high-throughput, long-duration tasks such as napkin folding.",
+   "availability": "Commercial",
+   "sources": [
+    {
+     "url": "https://www.dyna.co",
+     "label": "Dyna Robotics site"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "marble",
+   "name": "Marble",
+   "developer": "world-labs",
+   "released": "2025-11",
+   "category": "World model",
+   "embodiments": [],
+   "license": "proprietary",
+   "docs": "https://marble.worldlabs.ai",
+   "integrations": [],
+   "capabilities": "Multimodal world model product generating persistent, editable 3D worlds from text, images or video.",
+   "availability": "Commercial",
+   "sources": [
+    {
+     "url": "https://www.worldlabs.ai",
+     "label": "World Labs"
+    },
+    {
+     "url": "https://www.bloomberg.com/news/articles/2026-02-18/ai-pioneer-fei-fei-li-s-startup-world-labs-raises-1-billion",
+     "label": "Bloomberg (Feb 2026)"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "deepfleet",
+   "name": "DeepFleet",
+   "developer": "amazon",
+   "released": "2025-07",
+   "category": "Fleet mgmt",
+   "embodiments": [
+    "AMR"
+   ],
+   "license": "proprietary",
+   "docs": "https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model",
+   "integrations": [],
+   "capabilities": "Foundation model coordinating movement of Amazon's warehouse robot fleet; Amazon reports ~10% improvement in fleet travel efficiency.",
+   "availability": "Internal",
+   "sources": [
+    {
+     "url": "https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model",
+     "label": "About Amazon (Jul 2025)"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "molmoact",
+   "name": "MolmoAct",
+   "developer": "allen-institute-for-ai",
+   "released": "2025-08",
+   "category": "VLA",
+   "embodiments": [
+    "single-arm"
+   ],
+   "license": "open-source",
+   "docs": "https://allenai.org/blog/molmoact",
+   "integrations": [
+    "LeRobot"
+   ],
+   "capabilities": "Open action reasoning model that plans in 3D (depth-aware tokens, visual trajectory) before producing actions.",
+   "availability": "Open release",
+   "sources": [
+    {
+     "url": "https://allenai.org/blog/molmoact",
+     "label": "Ai2 blog"
+    },
+    {
+     "url": "https://github.com/huggingface/lerobot",
+     "label": "LeRobot lists MolmoAct2 policy"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "viam-platform",
+   "name": "Viam platform",
+   "developer": "viam",
+   "released": null,
+   "category": "OS/Middleware",
+   "embodiments": [
+    "single-arm",
+    "AMR",
+    "drone"
+   ],
+   "license": "proprietary",
+   "docs": "https://docs.viam.com",
+   "integrations": [],
+   "capabilities": "Cloud + on-device software platform (open-source RDK) for configuring, controlling, collecting data and deploying ML on robots.",
+   "availability": "Commercial",
+   "sources": [
+    {
+     "url": "https://docs.viam.com",
+     "label": "Viam docs"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "formant-platform",
+   "name": "Formant platform",
+   "developer": "formant",
+   "released": null,
+   "category": "Fleet mgmt",
+   "embodiments": [
+    "AMR",
+    "quadruped",
+    "drone"
+   ],
+   "license": "proprietary",
+   "docs": "https://formant.io",
+   "integrations": [
+    "ROS"
+   ],
+   "capabilities": "Cloud platform for observability, teleoperation and analytics of heterogeneous robot fleets.",
+   "availability": "Commercial",
+   "sources": [
+    {
+     "url": "https://formant.io",
+     "label": "Formant site"
+    }
+   ],
+   "verified": "2026-10-15"
+  },
+  {
+   "id": "inorbit-platform",
+   "name": "InOrbit RobOps platform",
+   "developer": "inorbit",
+   "released": null,
+   "category": "Fleet mgmt",
+   "embodiments": [
+    "AMR"
+   ],
+   "license": "proprietary",
+   "docs": "https://www.inorbit.ai",
+   "integrations": [],
+   "capabilities": "Robot operations and multi-vendor orchestration platform for fleet monitoring, incident management and analytics.",
+   "availability": "Commercial",
+   "sources": [
+    {
+     "url": "https://www.inorbit.ai",
+     "label": "InOrbit site"
+    }
+   ],
+   "verified": "2026-10-15"
+  }
+ ],
+ "funding_rounds": [
+  {
+   "org": "physical-intelligence",
+   "date": "2024-11",
+   "round": "Series A",
+   "amount_usd": 400000000,
+   "lead": null,
+   "investors": [
+    "bezos-expeditions",
+    "openai",
+    "thrive-capital",
+    "lux-capital"
+   ],
+   "note": "$2.4B post-money (CNBC/Reuters); round label per press",
+   "source": "https://nbcphiladelphia.com/news/business/money-report/jeff-bezos-and-openai-invest-in-robot-startup-physical-intelligence-at-2-4-billion-valuation/4018119",
+   "confidence": "company-reported"
+  },
+  {
+   "org": "physical-intelligence",
+   "date": "2025-11",
+   "round": "Series B",
+   "amount_usd": 600000000,
+   "lead": "capitalg",
+   "investors": [
+    "lux-capital",
+    "thrive-capital",
+    "bezos-expeditions"
+   ],
+   "note": "$5.6B valuation (Bloomberg)",
+   "source": "https://news.bloomberglaw.com/private-equity/robotics-startup-physical-intelligence-valued-at-5-6-billion",
+   "confidence": "company-reported"
+  },
+  {
+   "org": "skild-ai",
+   "date": "2024-07",
+   "round": "Series A",
+   "amount_usd": 300000000,
+   "lead": null,
+   "investors": [
+    "lightspeed-venture-partners",
+    "coatue",
+    "softbank",
+    "bezos-expeditions"
+   ],
+   "note": "$1.5B valuation",
+   "source": "https://www.cbinsights.com/company/skild-ai/financials",
+   "confidence": "company-reported"
+  },
+  {
+   "org": "skild-ai",
+   "date": "2026-01",
+   "round": "Series C",
+   "amount_usd": 1400000000,
+   "lead": "softbank",
+   "investors": [
+    "nvidia",
+    "macquarie",
+    "1789-capital",
+    "bezos-expeditions"
+   ],
+   "note": ">$14B valuation (Bloomberg); amount approximate",
+   "source": "https://www.bloomberg.com/news/articles/2026-01-14/robotics-startup-skild-valued-above-14-billion-after-softbank-led-funding-round",
+   "confidence": "company-reported"
+  },
+  {
+   "org": "field-ai",
+   "date": "2025-08",
+   "round": "Series A",
+   "amount_usd": 405000000,
+   "lead": null,
+   "investors": [
+    "bezos-expeditions",
+    "nvidia",
+    "khosla-ventures",
+    "intel-capital",
+    "bhp-ventures",
+    "canaan-partners",
+    "emerson-collective",
+    "temasek",
+    "prysm-capital"
+   ],
+   "note": "$405M across two rounds (latest $314M), ~$2B valuation; round labels not disclosed",
+   "source": "https://www.ocbj.com/technology/fieldai-raises-405m-for-2b-valuation/",
+   "confidence": "company-reported"
+  },
+  {
+   "org": "genesis-ai",
+   "date": "2025-07",
+   "round": "Seed",
+   "amount_usd": 105000000,
+   "lead": "eclipse-ventures",
+   "investors": [
+    "khosla-ventures",
+    "bpifrance"
+   ],
+   "note": "Co-led by Eclipse and Khosla; also Eric Schmidt, Xavier Niel",
+   "source": "https://www.techcrunch.com/2025/07/01/genesis-ai-launches-with-105m-seed-funding-from-eclipse-khosla-to-build-ai-models-for-robots",
+   "confidence": "company-reported"
+  },
+  {
+   "org": "world-labs",
+   "date": "2026-02",
+   "round": "Undisclosed",
+   "amount_usd": 1000000000,
+   "lead": null,
+   "investors": [
+    "autodesk",
+    "andreessen-horowitz",
+    "nvidia",
+    "amd",
+    "fidelity",
+    "emerson-collective",
+    "sea"
+   ],
+   "note": "Valuation undisclosed; Autodesk $200M",
+   "source": "https://www.bloomberg.com/news/articles/2026-02-18/ai-pioneer-fei-fei-li-s-startup-world-labs-raises-1-billion",
+   "confidence": "company-reported"
+  },
+  {
+   "org": "foxglove",
+   "date": "2025-11",
+   "round": "Series B",
+   "amount_usd": 40000000,
+   "lead": "bessemer-venture-partners",
+   "investors": [
+    "eclipse-ventures",
+    "amplify-partners"
+   ],
+   "note": "",
+   "source": "https://www.businesswire.com/news/home/20251112126106/en/Foxglove-Raises-%2440-Million-Series-B-to-Power-the-Future-of-Physical-AI",
+   "confidence": "company-reported"
+  },
+  {
+   "org": "viam",
+   "date": "2025-03",
+   "round": "Series C",
+   "amount_usd": 30000000,
+   "lead": "union-square-ventures",
+   "investors": [
+    "battery-ventures"
+   ],
+   "note": "Total $117M",
+   "source": "https://fortune.com/2025/03/03/mongodb-viam-union-square-ventures-albert-wenger-ai-robotics/",
+   "confidence": "company-reported"
+  },
+  {
+   "org": "inorbit",
+   "date": "2025-09",
+   "round": "Series A",
+   "amount_usd": 10000000,
+   "lead": "lattitude-ventures",
+   "investors": [
+    "globant-ventures",
+    "animo-ventures"
+   ],
+   "note": "Co-led by L'ATTITUDE Ventures and Globant Ventures",
+   "source": "https://finder.techleap.nl/news/feed/inorbit-ai-secures-series-a-funding",
+   "confidence": "company-reported"
+  },
+  {
+   "org": "applied-intuition",
+   "date": "2025-06",
+   "round": "Series F",
+   "amount_usd": 600000000,
+   "lead": "kleiner-perkins",
+   "investors": [
+    "blackrock",
+    "fidelity",
+    "general-catalyst",
+    "lux-capital"
+   ],
+   "note": "Co-led by BlackRock-managed funds and Kleiner Perkins; includes tender offer; $15B valuation",
+   "source": "https://appliedintuition.com/news/series-f",
+   "confidence": "company-reported"
+  },
+  {
+   "org": "applied-intuition",
+   "date": "2024-03",
+   "round": "Series E",
+   "amount_usd": 250000000,
+   "lead": null,
+   "investors": [],
+   "note": "",
+   "source": "https://www.verdict.co.uk/applied-intuition-15bn-valuation/",
+   "confidence": "company-reported"
+  },
+  {
+   "org": "encord",
+   "date": "2026-02",
+   "round": "Series C",
+   "amount_usd": 60000000,
+   "lead": "wellington-management",
+   "investors": [
+    "y-combinator",
+    "crv",
+    "n47",
+    "crane-venture-partners"
+   ],
+   "note": "Total $110M",
+   "source": "https://pulse2.com/encord-60-million-series-c-raised-to-scale-ai-native-data-infrastructure",
+   "confidence": "company-reported"
+  },
+  {
+   "org": "tutor-intelligence",
+   "date": "2025-12",
+   "round": "Series A",
+   "amount_usd": 34000000,
+   "lead": "union-square-ventures",
+   "investors": [
+    "neo"
+   ],
+   "note": "Total ~$42M",
+   "source": "https://pulse2.com/tutor-intelligence-34-million-series-a/amp/",
+   "confidence": "company-reported"
+  }
+ ],
+ "relationships": [
+  {
+   "from": "google-deepmind",
+   "to": "rt-1",
+   "type": "develops",
+   "note": "Develops RT-1 (Robotics Transformer 1)",
+   "source": "https://arxiv.org/abs/2212.06817",
+   "confidence": "verified"
+  },
+  {
+   "from": "google-deepmind",
+   "to": "rt-2",
+   "type": "develops",
+   "note": "Develops RT-2",
+   "source": "https://arxiv.org/abs/2307.15818",
+   "confidence": "verified"
+  },
+  {
+   "from": "google-deepmind",
+   "to": "autort",
+   "type": "develops",
+   "note": "Develops AutoRT",
+   "source": "https://arxiv.org/abs/2401.12963",
+   "confidence": "verified"
+  },
+  {
+   "from": "google-deepmind",
+   "to": "open-x-embodiment",
+   "type": "develops",
+   "note": "Develops Open X-Embodiment (RT-X)",
+   "source": "https://arxiv.org/abs/2310.08864",
+   "confidence": "verified"
+  },
+  {
+   "from": "google-deepmind",
+   "to": "gemini-robotics",
+   "type": "develops",
+   "note": "Develops Gemini Robotics",
+   "source": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+   "confidence": "verified"
+  },
+  {
+   "from": "google-deepmind",
+   "to": "gemini-robotics-er",
+   "type": "develops",
+   "note": "Develops Gemini Robotics-ER",
+   "source": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+   "confidence": "verified"
+  },
+  {
+   "from": "google-deepmind",
+   "to": "gemini-robotics-on-device",
+   "type": "develops",
+   "note": "Develops Gemini Robotics On-Device",
+   "source": "https://deepmind.google/discover/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/",
+   "confidence": "verified"
+  },
+  {
+   "from": "google-deepmind",
+   "to": "gemini-robotics-1-5",
+   "type": "develops",
+   "note": "Develops Gemini Robotics 1.5",
+   "source": "https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+   "confidence": "verified"
+  },
+  {
+   "from": "google-deepmind",
+   "to": "gemini-robotics-er-1-5",
+   "type": "develops",
+   "note": "Develops Gemini Robotics-ER 1.5",
+   "source": "https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+   "confidence": "verified"
+  },
+  {
+   "from": "google-deepmind",
+   "to": "genie-3",
+   "type": "develops",
+   "note": "Develops Genie 3",
+   "source": "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/",
+   "confidence": "verified"
+  },
+  {
+   "from": "google-deepmind",
+   "to": "mujoco",
+   "type": "develops",
+   "note": "Develops MuJoCo",
+   "source": "https://github.com/google-deepmind/mujoco",
+   "confidence": "verified"
+  },
+  {
+   "from": "google-deepmind",
+   "to": "mujoco-playground",
+   "type": "develops",
+   "note": "Develops MuJoCo Playground",
+   "source": "https://github.com/google-deepmind/mujoco_playground",
+   "confidence": "verified"
+  },
+  {
+   "from": "stanford",
+   "to": "aloha",
+   "type": "develops",
+   "note": "Develops ALOHA",
+   "source": "https://arxiv.org/abs/2304.13705",
+   "confidence": "verified"
+  },
+  {
+   "from": "stanford",
+   "to": "mobile-aloha",
+   "type": "develops",
+   "note": "Develops Mobile ALOHA",
+   "source": "https://arxiv.org/abs/2401.02117",
+   "confidence": "verified"
+  },
+  {
+   "from": "physical-intelligence",
+   "to": "pi0",
+   "type": "develops",
+   "note": "Develops π0",
+   "source": "https://www.physicalintelligence.company/blog/pi0",
+   "confidence": "verified"
+  },
+  {
+   "from": "physical-intelligence",
+   "to": "pi0-fast",
+   "type": "develops",
+   "note": "Develops π0-FAST",
+   "source": "https://arxiv.org/abs/2501.09747",
+   "confidence": "verified"
+  },
+  {
+   "from": "physical-intelligence",
+   "to": "pi0-5",
+   "type": "develops",
+   "note": "Develops π0.5",
+   "source": "https://www.physicalintelligence.company/blog/pi05",
+   "confidence": "verified"
+  },
+  {
+   "from": "physical-intelligence",
+   "to": "pi-star-0-6",
+   "type": "develops",
+   "note": "Develops π*0.6",
+   "source": "https://www.physicalintelligence.company/blog/pistar06",
+   "confidence": "verified"
+  },
+  {
+   "from": "nvidia",
+   "to": "gr00t-n1",
+   "type": "develops",
+   "note": "Develops Isaac GR00T N1",
+   "source": "https://nvidianews.nvidia.com/news/nvidia-isaac-gr00t-n1-open-humanoid-robot-foundation-model-simulation-frameworks",
+   "confidence": "verified"
+  },
+  {
+   "from": "nvidia",
+   "to": "gr00t-n1-5",
+   "type": "develops",
+   "note": "Develops Isaac GR00T N1.5",
+   "source": "https://research.nvidia.com/labs/gear/gr00t-n1_5/",
+   "confidence": "verified"
+  },
+  {
+   "from": "nvidia",
+   "to": "gr00t-n1-6",
+   "type": "develops",
+   "note": "Develops Isaac GR00T N1.6",
+   "source": "https://github.com/NVIDIA/Isaac-GR00T",
+   "confidence": "verified"
+  },
+  {
+   "from": "nvidia",
+   "to": "gr00t-n1-7",
+   "type": "develops",
+   "note": "Develops Isaac GR00T N1.7",
+   "source": "https://github.com/NVIDIA/Isaac-GR00T",
+   "confidence": "verified"
+  },
+  {
+   "from": "nvidia",
+   "to": "cosmos",
+   "type": "develops",
+   "note": "Develops NVIDIA Cosmos (world foundation models)",
+   "source": "https://arxiv.org/abs/2501.03575",
+   "confidence": "verified"
+  },
+  {
+   "from": "nvidia",
+   "to": "isaac-sim",
+   "type": "develops",
+   "note": "Develops NVIDIA Isaac Sim",
+   "source": "https://github.com/isaac-sim/IsaacSim",
+   "confidence": "verified"
+  },
+  {
+   "from": "nvidia",
+   "to": "isaac-lab",
+   "type": "develops",
+   "note": "Develops NVIDIA Isaac Lab",
+   "source": "https://github.com/isaac-sim/IsaacLab",
+   "confidence": "verified"
+  },
+  {
+   "from": "nvidia",
+   "to": "isaac-ros",
+   "type": "develops",
+   "note": "Develops NVIDIA Isaac ROS",
+   "source": "https://developer.nvidia.com/isaac/ros",
+   "confidence": "verified"
+  },
+  {
+   "from": "nvidia",
+   "to": "omniverse",
+   "type": "develops",
+   "note": "Develops NVIDIA Omniverse",
+   "source": "https://www.nvidia.com/en-us/omniverse/",
+   "confidence": "verified"
+  },
+  {
+   "from": "nvidia",
+   "to": "newton",
+   "type": "develops",
+   "note": "Develops Newton physics engine",
+   "source": "https://github.com/newton-physics/newton",
+   "confidence": "verified"
+  },
+  {
+   "from": "stanford",
+   "to": "openvla",
+   "type": "develops",
+   "note": "Develops OpenVLA",
+   "source": "https://github.com/openvla/openvla",
+   "confidence": "verified"
+  },
+  {
+   "from": "uc-berkeley",
+   "to": "octo",
+   "type": "develops",
+   "note": "Develops Octo",
+   "source": "https://arxiv.org/abs/2405.12213",
+   "confidence": "verified"
+  },
+  {
+   "from": "stanford",
+   "to": "droid",
+   "type": "develops",
+   "note": "Develops DROID dataset",
+   "source": "https://arxiv.org/abs/2403.12945",
+   "confidence": "verified"
+  },
+  {
+   "from": "hugging-face",
+   "to": "lerobot",
+   "type": "develops",
+   "note": "Develops LeRobot",
+   "source": "https://github.com/huggingface/lerobot",
+   "confidence": "verified"
+  },
+  {
+   "from": "hugging-face",
+   "to": "smolvla",
+   "type": "develops",
+   "note": "Develops SmolVLA",
+   "source": "https://huggingface.co/blog/smolvla",
+   "confidence": "verified"
+  },
+  {
+   "from": "figure-ai",
+   "to": "helix",
+   "type": "develops",
+   "note": "Develops Helix",
+   "source": "https://www.figure.ai/news/helix",
+   "confidence": "verified"
+  },
+  {
+   "from": "1x-technologies",
+   "to": "redwood-ai",
+   "type": "develops",
+   "note": "Develops Redwood AI",
+   "source": "https://www.1x.tech/discover/redwood-ai",
+   "confidence": "verified"
+  },
+  {
+   "from": "1x-technologies",
+   "to": "1x-world-model",
+   "type": "develops",
+   "note": "Develops 1X World Model",
+   "source": "https://www.1x.tech/discover/1x-world-model",
+   "confidence": "verified"
+  },
+  {
+   "from": "skild-ai",
+   "to": "skild-brain",
+   "type": "develops",
+   "note": "Develops Skild Brain",
+   "source": "https://www.skild.ai",
+   "confidence": "verified"
+  },
+  {
+   "from": "field-ai",
+   "to": "field-foundation-models",
+   "type": "develops",
+   "note": "Develops Field Foundation Models (FFMs)",
+   "source": "https://www.fieldai.com",
+   "confidence": "verified"
+  },
+  {
+   "from": "toyota-research-institute",
+   "to": "tri-lbm",
+   "type": "develops",
+   "note": "Develops TRI Large Behavior Models",
+   "source": "https://arxiv.org/abs/2507.05331",
+   "confidence": "verified"
+  },
+  {
+   "from": "columbia-university",
+   "to": "diffusion-policy",
+   "type": "develops",
+   "note": "Develops Diffusion Policy",
+   "source": "https://arxiv.org/abs/2303.04137",
+   "confidence": "verified"
+  },
+  {
+   "from": "stanford",
+   "to": "umi",
+   "type": "develops",
+   "note": "Develops UMI (Universal Manipulation Interface)",
+   "source": "https://arxiv.org/abs/2402.10329",
+   "confidence": "verified"
+  },
+  {
+   "from": "covariant",
+   "to": "rfm-1",
+   "type": "develops",
+   "note": "Develops RFM-1",
+   "source": "https://covariant.ai/insights/introducing-rfm-1-giving-robots-human-like-reasoning-capabilities/",
+   "confidence": "verified"
+  },
+  {
+   "from": "meta",
+   "to": "v-jepa-2",
+   "type": "develops",
+   "note": "Develops V-JEPA 2 / V-JEPA 2-AC",
+   "source": "https://github.com/facebookresearch/vjepa2",
+   "confidence": "verified"
+  },
+  {
+   "from": "meta",
+   "to": "v-jepa-2-1",
+   "type": "develops",
+   "note": "Develops V-JEPA 2.1",
+   "source": "https://github.com/facebookresearch/vjepa2",
+   "confidence": "verified"
+  },
+  {
+   "from": "microsoft",
+   "to": "magma",
+   "type": "develops",
+   "note": "Develops Magma",
+   "source": "https://github.com/microsoft/Magma",
+   "confidence": "verified"
+  },
+  {
+   "from": "open-robotics",
+   "to": "ros-2",
+   "type": "develops",
+   "note": "Develops ROS 2",
+   "source": "https://www.ros.org",
+   "confidence": "verified"
+  },
+  {
+   "from": "open-robotics",
+   "to": "gazebo",
+   "type": "develops",
+   "note": "Develops Gazebo",
+   "source": "https://gazebosim.org",
+   "confidence": "verified"
+  },
+  {
+   "from": "genesis-ai",
+   "to": "genesis-simulator",
+   "type": "develops",
+   "note": "Develops Genesis / Genesis World",
+   "source": "https://github.com/Genesis-Embodied-AI/Genesis",
+   "confidence": "verified"
+  },
+  {
+   "from": "intrinsic",
+   "to": "intrinsic-flowstate",
+   "type": "develops",
+   "note": "Develops Intrinsic Flowstate",
+   "source": "https://www.intrinsic.ai",
+   "confidence": "verified"
+  },
+  {
+   "from": "dyna-robotics",
+   "to": "dyna-1",
+   "type": "develops",
+   "note": "Develops DYNA-1",
+   "source": "https://www.dyna.co",
+   "confidence": "verified"
+  },
+  {
+   "from": "world-labs",
+   "to": "marble",
+   "type": "develops",
+   "note": "Develops Marble",
+   "source": "https://www.worldlabs.ai",
+   "confidence": "verified"
+  },
+  {
+   "from": "amazon",
+   "to": "deepfleet",
+   "type": "develops",
+   "note": "Develops DeepFleet",
+   "source": "https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model",
+   "confidence": "verified"
+  },
+  {
+   "from": "allen-institute-for-ai",
+   "to": "molmoact",
+   "type": "develops",
+   "note": "Develops MolmoAct",
+   "source": "https://allenai.org/blog/molmoact",
+   "confidence": "verified"
+  },
+  {
+   "from": "viam",
+   "to": "viam-platform",
+   "type": "develops",
+   "note": "Develops Viam platform",
+   "source": "https://docs.viam.com",
+   "confidence": "verified"
+  },
+  {
+   "from": "formant",
+   "to": "formant-platform",
+   "type": "develops",
+   "note": "Develops Formant platform",
+   "source": "https://formant.io",
+   "confidence": "verified"
+  },
+  {
+   "from": "inorbit",
+   "to": "inorbit-platform",
+   "type": "develops",
+   "note": "Develops InOrbit RobOps platform",
+   "source": "https://www.inorbit.ai",
+   "confidence": "verified"
+  },
+  {
+   "from": "google-deepmind",
+   "to": "newton",
+   "type": "develops",
+   "note": "Co-initiator of Newton physics engine",
+   "source": "https://github.com/newton-physics/newton",
+   "confidence": "verified"
+  },
+  {
+   "from": "disney-research",
+   "to": "newton",
+   "type": "develops",
+   "note": "Co-initiator of Newton physics engine",
+   "source": "https://github.com/newton-physics/newton",
+   "confidence": "verified"
+  },
+  {
+   "from": "agility-robotics",
+   "to": "gr00t-n1",
+   "type": "uses_model",
+   "note": "Named among first to access GR00T N1 (GTC, Mar 2025)",
+   "source": "https://nvidianews.nvidia.com/news/nvidia-isaac-gr00t-n1-open-humanoid-robot-foundation-model-simulation-frameworks",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "boston-dynamics",
+   "to": "gr00t-n1",
+   "type": "uses_model",
+   "note": "Named among first to access GR00T N1 (GTC, Mar 2025)",
+   "source": "https://nvidianews.nvidia.com/news/nvidia-isaac-gr00t-n1-open-humanoid-robot-foundation-model-simulation-frameworks",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "mentee-robotics",
+   "to": "gr00t-n1",
+   "type": "uses_model",
+   "note": "Named among first to access GR00T N1 (GTC, Mar 2025)",
+   "source": "https://nvidianews.nvidia.com/news/nvidia-isaac-gr00t-n1-open-humanoid-robot-foundation-model-simulation-frameworks",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "neura-robotics",
+   "to": "gr00t-n1",
+   "type": "uses_model",
+   "note": "Named among first to access GR00T N1 (GTC, Mar 2025)",
+   "source": "https://nvidianews.nvidia.com/news/nvidia-isaac-gr00t-n1-open-humanoid-robot-foundation-model-simulation-frameworks",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "1x-technologies",
+   "to": "gr00t-n1",
+   "type": "uses_model",
+   "note": "Demonstrated NEO humanoid task using policy post-trained from GR00T N1 (GTC 2025 keynote)",
+   "source": "https://nvidianews.nvidia.com/news/nvidia-isaac-gr00t-n1-open-humanoid-robot-foundation-model-simulation-frameworks",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "apptronik",
+   "to": "google-deepmind",
+   "type": "partnership",
+   "note": "Strategic partnership to build humanoids with Gemini 2.0/Gemini Robotics (Apollo)",
+   "source": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "apptronik",
+   "to": "gemini-robotics",
+   "type": "uses_model",
+   "note": "Gemini Robotics adapted to Apptronik Apollo humanoid",
+   "source": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "agile-robots",
+   "to": "gemini-robotics-er",
+   "type": "uses_model",
+   "note": "Trusted tester of Gemini Robotics-ER (Mar 2025)",
+   "source": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "agility-robotics",
+   "to": "gemini-robotics-er",
+   "type": "uses_model",
+   "note": "Trusted tester of Gemini Robotics-ER (Mar 2025)",
+   "source": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "boston-dynamics",
+   "to": "gemini-robotics-er",
+   "type": "uses_model",
+   "note": "Trusted tester of Gemini Robotics-ER (Mar 2025)",
+   "source": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "enchanted-tools",
+   "to": "gemini-robotics-er",
+   "type": "uses_model",
+   "note": "Trusted tester of Gemini Robotics-ER (Mar 2025)",
+   "source": "https://deepmind.google/discover/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "physical-intelligence",
+   "to": "scale-ai",
+   "type": "customer",
+   "note": "PI named as customer of Scale's Data Engine for Physical AI",
+   "source": "https://scale.com/blog/physical-ai",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "generalist-ai",
+   "to": "scale-ai",
+   "type": "customer",
+   "note": "Generalist AI named as customer of Scale's Data Engine for Physical AI",
+   "source": "https://scale.com/blog/physical-ai",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "google",
+   "to": "intrinsic",
+   "type": "acquisition",
+   "note": "Intrinsic moved from Alphabet into Google as distinct unit (Feb 2026)",
+   "source": "https://techcrunch.com/2026/02/25/alphabet-owned-robotics-software-company-intrinsic-joins-google",
+   "confidence": "verified"
+  },
+  {
+   "from": "intrinsic",
+   "to": "google-deepmind",
+   "type": "partnership",
+   "note": "Works closely with Google DeepMind and uses Gemini models",
+   "source": "https://techcrunch.com/2026/02/25/alphabet-owned-robotics-software-company-intrinsic-joins-google",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "intrinsic",
+   "to": "open-robotics",
+   "type": "acquisition",
+   "note": "Acquired Open Robotics' commercial subsidiary (OSRC) in Dec 2022",
+   "source": "https://www.openrobotics.org",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "hugging-face",
+   "to": "pollen-robotics",
+   "type": "acquisition",
+   "note": "Acquired Pollen Robotics (Reachy 2) in Apr 2025",
+   "source": "https://huggingface.co/blog/hugging-face-pollen-robotics-acquisition",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "amazon",
+   "to": "covariant",
+   "type": "partnership",
+   "note": "Amazon hired Covariant founders and licensed its models (Aug 2024)",
+   "source": "https://techcrunch.com/2024/08/30/amazon-hires-the-founders-of-robotics-ai-startup-covariant/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "boston-dynamics",
+   "to": "toyota-research-institute",
+   "type": "research_collab",
+   "note": "Partnership to develop Large Behavior Models for Atlas humanoid (Oct 2024)",
+   "source": "https://pressroom.toyota.com/boston-dynamics-and-toyota-research-institute-announce-partnership-to-advance-robotics-research/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "stanford",
+   "to": "uc-berkeley",
+   "type": "research_collab",
+   "note": "OpenVLA co-authors/collaborators",
+   "source": "https://arxiv.org/abs/2406.09246",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "stanford",
+   "to": "toyota-research-institute",
+   "type": "research_collab",
+   "note": "OpenVLA co-authors/collaborators",
+   "source": "https://arxiv.org/abs/2406.09246",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "stanford",
+   "to": "google-deepmind",
+   "type": "research_collab",
+   "note": "OpenVLA co-authors/collaborators",
+   "source": "https://arxiv.org/abs/2406.09246",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "stanford",
+   "to": "mit",
+   "type": "research_collab",
+   "note": "OpenVLA co-authors/collaborators",
+   "source": "https://arxiv.org/abs/2406.09246",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "columbia-university",
+   "to": "toyota-research-institute",
+   "type": "research_collab",
+   "note": "Diffusion Policy co-developed by Columbia, TRI and MIT",
+   "source": "https://arxiv.org/abs/2303.04137",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "genesis-ai",
+   "to": "genesis-simulator",
+   "type": "develops",
+   "note": "Genesis AI officially supports Genesis simulator development",
+   "source": "https://github.com/Genesis-Embodied-AI/Genesis",
+   "confidence": "verified"
+  },
+  {
+   "from": "meta",
+   "to": "scale-ai",
+   "type": "invests",
+   "note": "~49% stake for ~$14.3B (Jun 2025, widely reported)",
+   "source": "https://scale.com/blog/physical-ai",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "openai",
+   "to": "physical-intelligence",
+   "type": "invests",
+   "note": "Participated in $400M round (Nov 2024)",
+   "source": "https://nbcphiladelphia.com/news/business/money-report/jeff-bezos-and-openai-invest-in-robot-startup-physical-intelligence-at-2-4-billion-valuation/4018119",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "bezos-expeditions",
+   "to": "physical-intelligence",
+   "type": "invests",
+   "note": "Participated in Series A (2024-11)",
+   "source": "https://nbcphiladelphia.com/news/business/money-report/jeff-bezos-and-openai-invest-in-robot-startup-physical-intelligence-at-2-4-billion-valuation/4018119",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "thrive-capital",
+   "to": "physical-intelligence",
+   "type": "invests",
+   "note": "Participated in Series A (2024-11)",
+   "source": "https://nbcphiladelphia.com/news/business/money-report/jeff-bezos-and-openai-invest-in-robot-startup-physical-intelligence-at-2-4-billion-valuation/4018119",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "lux-capital",
+   "to": "physical-intelligence",
+   "type": "invests",
+   "note": "Participated in Series A (2024-11)",
+   "source": "https://nbcphiladelphia.com/news/business/money-report/jeff-bezos-and-openai-invest-in-robot-startup-physical-intelligence-at-2-4-billion-valuation/4018119",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "capitalg",
+   "to": "physical-intelligence",
+   "type": "invests",
+   "note": "Led Series B (2025-11)",
+   "source": "https://news.bloomberglaw.com/private-equity/robotics-startup-physical-intelligence-valued-at-5-6-billion",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "lightspeed-venture-partners",
+   "to": "skild-ai",
+   "type": "invests",
+   "note": "Participated in Series A (2024-07)",
+   "source": "https://www.cbinsights.com/company/skild-ai/financials",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "coatue",
+   "to": "skild-ai",
+   "type": "invests",
+   "note": "Participated in Series A (2024-07)",
+   "source": "https://www.cbinsights.com/company/skild-ai/financials",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "softbank",
+   "to": "skild-ai",
+   "type": "invests",
+   "note": "Participated in Series A (2024-07)",
+   "source": "https://www.cbinsights.com/company/skild-ai/financials",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "bezos-expeditions",
+   "to": "skild-ai",
+   "type": "invests",
+   "note": "Participated in Series A (2024-07)",
+   "source": "https://www.cbinsights.com/company/skild-ai/financials",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "nvidia",
+   "to": "skild-ai",
+   "type": "invests",
+   "note": "Participated in Series C (2026-01)",
+   "source": "https://www.bloomberg.com/news/articles/2026-01-14/robotics-startup-skild-valued-above-14-billion-after-softbank-led-funding-round",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "macquarie",
+   "to": "skild-ai",
+   "type": "invests",
+   "note": "Participated in Series C (2026-01)",
+   "source": "https://www.bloomberg.com/news/articles/2026-01-14/robotics-startup-skild-valued-above-14-billion-after-softbank-led-funding-round",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "1789-capital",
+   "to": "skild-ai",
+   "type": "invests",
+   "note": "Participated in Series C (2026-01)",
+   "source": "https://www.bloomberg.com/news/articles/2026-01-14/robotics-startup-skild-valued-above-14-billion-after-softbank-led-funding-round",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "bezos-expeditions",
+   "to": "field-ai",
+   "type": "invests",
+   "note": "Participated in Series A (2025-08)",
+   "source": "https://www.ocbj.com/technology/fieldai-raises-405m-for-2b-valuation/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "nvidia",
+   "to": "field-ai",
+   "type": "invests",
+   "note": "Participated in Series A (2025-08)",
+   "source": "https://www.ocbj.com/technology/fieldai-raises-405m-for-2b-valuation/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "khosla-ventures",
+   "to": "field-ai",
+   "type": "invests",
+   "note": "Participated in Series A (2025-08)",
+   "source": "https://www.ocbj.com/technology/fieldai-raises-405m-for-2b-valuation/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "intel-capital",
+   "to": "field-ai",
+   "type": "invests",
+   "note": "Participated in Series A (2025-08)",
+   "source": "https://www.ocbj.com/technology/fieldai-raises-405m-for-2b-valuation/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "bhp-ventures",
+   "to": "field-ai",
+   "type": "invests",
+   "note": "Participated in Series A (2025-08)",
+   "source": "https://www.ocbj.com/technology/fieldai-raises-405m-for-2b-valuation/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "canaan-partners",
+   "to": "field-ai",
+   "type": "invests",
+   "note": "Participated in Series A (2025-08)",
+   "source": "https://www.ocbj.com/technology/fieldai-raises-405m-for-2b-valuation/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "emerson-collective",
+   "to": "field-ai",
+   "type": "invests",
+   "note": "Participated in Series A (2025-08)",
+   "source": "https://www.ocbj.com/technology/fieldai-raises-405m-for-2b-valuation/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "temasek",
+   "to": "field-ai",
+   "type": "invests",
+   "note": "Participated in Series A (2025-08)",
+   "source": "https://www.ocbj.com/technology/fieldai-raises-405m-for-2b-valuation/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "prysm-capital",
+   "to": "field-ai",
+   "type": "invests",
+   "note": "Participated in Series A (2025-08)",
+   "source": "https://www.ocbj.com/technology/fieldai-raises-405m-for-2b-valuation/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "eclipse-ventures",
+   "to": "genesis-ai",
+   "type": "invests",
+   "note": "Led Seed (2025-07)",
+   "source": "https://www.techcrunch.com/2025/07/01/genesis-ai-launches-with-105m-seed-funding-from-eclipse-khosla-to-build-ai-models-for-robots",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "khosla-ventures",
+   "to": "genesis-ai",
+   "type": "invests",
+   "note": "Participated in Seed (2025-07)",
+   "source": "https://www.techcrunch.com/2025/07/01/genesis-ai-launches-with-105m-seed-funding-from-eclipse-khosla-to-build-ai-models-for-robots",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "bpifrance",
+   "to": "genesis-ai",
+   "type": "invests",
+   "note": "Participated in Seed (2025-07)",
+   "source": "https://www.techcrunch.com/2025/07/01/genesis-ai-launches-with-105m-seed-funding-from-eclipse-khosla-to-build-ai-models-for-robots",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "autodesk",
+   "to": "world-labs",
+   "type": "invests",
+   "note": "Participated in Undisclosed (2026-02)",
+   "source": "https://www.bloomberg.com/news/articles/2026-02-18/ai-pioneer-fei-fei-li-s-startup-world-labs-raises-1-billion",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "andreessen-horowitz",
+   "to": "world-labs",
+   "type": "invests",
+   "note": "Participated in Undisclosed (2026-02)",
+   "source": "https://www.bloomberg.com/news/articles/2026-02-18/ai-pioneer-fei-fei-li-s-startup-world-labs-raises-1-billion",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "nvidia",
+   "to": "world-labs",
+   "type": "invests",
+   "note": "Participated in Undisclosed (2026-02)",
+   "source": "https://www.bloomberg.com/news/articles/2026-02-18/ai-pioneer-fei-fei-li-s-startup-world-labs-raises-1-billion",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "amd",
+   "to": "world-labs",
+   "type": "invests",
+   "note": "Participated in Undisclosed (2026-02)",
+   "source": "https://www.bloomberg.com/news/articles/2026-02-18/ai-pioneer-fei-fei-li-s-startup-world-labs-raises-1-billion",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "fidelity",
+   "to": "world-labs",
+   "type": "invests",
+   "note": "Participated in Undisclosed (2026-02)",
+   "source": "https://www.bloomberg.com/news/articles/2026-02-18/ai-pioneer-fei-fei-li-s-startup-world-labs-raises-1-billion",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "emerson-collective",
+   "to": "world-labs",
+   "type": "invests",
+   "note": "Participated in Undisclosed (2026-02)",
+   "source": "https://www.bloomberg.com/news/articles/2026-02-18/ai-pioneer-fei-fei-li-s-startup-world-labs-raises-1-billion",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "sea",
+   "to": "world-labs",
+   "type": "invests",
+   "note": "Participated in Undisclosed (2026-02)",
+   "source": "https://www.bloomberg.com/news/articles/2026-02-18/ai-pioneer-fei-fei-li-s-startup-world-labs-raises-1-billion",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "bessemer-venture-partners",
+   "to": "foxglove",
+   "type": "invests",
+   "note": "Led Series B (2025-11)",
+   "source": "https://www.businesswire.com/news/home/20251112126106/en/Foxglove-Raises-%2440-Million-Series-B-to-Power-the-Future-of-Physical-AI",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "eclipse-ventures",
+   "to": "foxglove",
+   "type": "invests",
+   "note": "Participated in Series B (2025-11)",
+   "source": "https://www.businesswire.com/news/home/20251112126106/en/Foxglove-Raises-%2440-Million-Series-B-to-Power-the-Future-of-Physical-AI",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "amplify-partners",
+   "to": "foxglove",
+   "type": "invests",
+   "note": "Participated in Series B (2025-11)",
+   "source": "https://www.businesswire.com/news/home/20251112126106/en/Foxglove-Raises-%2440-Million-Series-B-to-Power-the-Future-of-Physical-AI",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "union-square-ventures",
+   "to": "viam",
+   "type": "invests",
+   "note": "Led Series C (2025-03)",
+   "source": "https://fortune.com/2025/03/03/mongodb-viam-union-square-ventures-albert-wenger-ai-robotics/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "battery-ventures",
+   "to": "viam",
+   "type": "invests",
+   "note": "Participated in Series C (2025-03)",
+   "source": "https://fortune.com/2025/03/03/mongodb-viam-union-square-ventures-albert-wenger-ai-robotics/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "lattitude-ventures",
+   "to": "inorbit",
+   "type": "invests",
+   "note": "Led Series A (2025-09)",
+   "source": "https://finder.techleap.nl/news/feed/inorbit-ai-secures-series-a-funding",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "globant-ventures",
+   "to": "inorbit",
+   "type": "invests",
+   "note": "Participated in Series A (2025-09)",
+   "source": "https://finder.techleap.nl/news/feed/inorbit-ai-secures-series-a-funding",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "animo-ventures",
+   "to": "inorbit",
+   "type": "invests",
+   "note": "Participated in Series A (2025-09)",
+   "source": "https://finder.techleap.nl/news/feed/inorbit-ai-secures-series-a-funding",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "kleiner-perkins",
+   "to": "applied-intuition",
+   "type": "invests",
+   "note": "Led Series F (2025-06)",
+   "source": "https://appliedintuition.com/news/series-f",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "blackrock",
+   "to": "applied-intuition",
+   "type": "invests",
+   "note": "Participated in Series F (2025-06)",
+   "source": "https://appliedintuition.com/news/series-f",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "fidelity",
+   "to": "applied-intuition",
+   "type": "invests",
+   "note": "Participated in Series F (2025-06)",
+   "source": "https://appliedintuition.com/news/series-f",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "general-catalyst",
+   "to": "applied-intuition",
+   "type": "invests",
+   "note": "Participated in Series F (2025-06)",
+   "source": "https://appliedintuition.com/news/series-f",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "lux-capital",
+   "to": "applied-intuition",
+   "type": "invests",
+   "note": "Participated in Series F (2025-06)",
+   "source": "https://appliedintuition.com/news/series-f",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "wellington-management",
+   "to": "encord",
+   "type": "invests",
+   "note": "Led Series C (2026-02)",
+   "source": "https://pulse2.com/encord-60-million-series-c-raised-to-scale-ai-native-data-infrastructure",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "y-combinator",
+   "to": "encord",
+   "type": "invests",
+   "note": "Participated in Series C (2026-02)",
+   "source": "https://pulse2.com/encord-60-million-series-c-raised-to-scale-ai-native-data-infrastructure",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "crv",
+   "to": "encord",
+   "type": "invests",
+   "note": "Participated in Series C (2026-02)",
+   "source": "https://pulse2.com/encord-60-million-series-c-raised-to-scale-ai-native-data-infrastructure",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "n47",
+   "to": "encord",
+   "type": "invests",
+   "note": "Participated in Series C (2026-02)",
+   "source": "https://pulse2.com/encord-60-million-series-c-raised-to-scale-ai-native-data-infrastructure",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "crane-venture-partners",
+   "to": "encord",
+   "type": "invests",
+   "note": "Participated in Series C (2026-02)",
+   "source": "https://pulse2.com/encord-60-million-series-c-raised-to-scale-ai-native-data-infrastructure",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "union-square-ventures",
+   "to": "tutor-intelligence",
+   "type": "invests",
+   "note": "Led Series A (2025-12)",
+   "source": "https://pulse2.com/tutor-intelligence-34-million-series-a/amp/",
+   "confidence": "company-reported"
+  },
+  {
+   "from": "neo",
+   "to": "tutor-intelligence",
+   "type": "invests",
+   "note": "Participated in Series A (2025-12)",
+   "source": "https://pulse2.com/tutor-intelligence-34-million-series-a/amp/",
+   "confidence": "company-reported"
+  }
+ ]
+}
