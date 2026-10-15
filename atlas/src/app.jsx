@@ -973,14 +973,20 @@ function Modal({ modal, onClose, D }) {
   const taRef = useRef();
   useEffect(() => { const f = e => e.key === 'Escape' && onClose(); window.addEventListener('keydown', f); return () => window.removeEventListener('keydown', f); }, []);
   const copy = text => { navigator.clipboard?.writeText(text).then(() => setMsg('Copied to clipboard.'), () => { taRef.current?.select(); setMsg('Copy was blocked here. The text is selected; press Ctrl/Cmd+C.'); }) ?? (taRef.current?.select(), setMsg('Text selected; press Ctrl/Cmd+C.')); };
-  const download = (text, name, type) => { try { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], { type })); a.download = name; document.body.appendChild(a); a.click(); a.remove(); setMsg('Download started. If nothing happened, this viewer blocks downloads; use Copy instead.'); } catch { setMsg('Downloads are blocked in this viewer. Use Copy instead.'); } };
+  const download = async (text, name, type) => {
+    const dl = window.claude?.use ? await window.claude.use('downloads') : null;
+    if (dl) { try { await dl.save({ filename: name, data: text }); setMsg(`Saved ${name}.`); } catch (e) { setMsg(e?.code === 'declined' ? 'Save cancelled.' : 'Saving is not available here. Use Copy instead.'); } return; }
+    if (window.claude) { setMsg('Saving is not available in this view. Use Copy instead.'); return; }
+    // Opened as a local file outside the artifact viewer: a normal browser download works.
+    const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], { type })); a.setAttribute('download', name); document.body.appendChild(a); a.click(); a.remove(); setMsg(`Downloaded ${name}.`);
+  };
   if (modal.type === 'export') {
     const text = fmt === 'csv' ? modal.csv : modal.json;
     return <div className="modal"><div className="scrim" onClick={onClose} /><div className="modal-card" style={{ position: 'relative', zIndex: 71 }} role="dialog" aria-modal="true">
       <header><h3>{modal.title}</h3><span className="grow" style={{ flex: 1 }} /><Seg value={fmt} onChange={setFmt} options={[['csv', 'CSV'], ['json', 'JSON']]} /><button className="btn icon" onClick={onClose} aria-label="Close"><Icon d={I.x} /></button></header>
       <div className="body"><textarea id="export-text" ref={taRef} readOnly value={text} />
         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center' }}><button className="btn primary" onClick={() => copy(text)}>Copy {fmt.toUpperCase()}</button><button className="btn" onClick={() => download(text, `${modal.filename}.${fmt}`, fmt === 'csv' ? 'text/csv' : 'application/json')}>Download file</button><span className="small fg2">{msg}</span></div>
-        <p className="muted xs" style={{ margin: 0 }}>Some viewers block file downloads from embedded pages. Copy always works: paste into a spreadsheet or a .{fmt} file.</p></div></div></div>;
+        <p className="muted xs" style={{ margin: 0 }}>Download asks for your confirmation first. Copy always works: paste into a spreadsheet or a .{fmt} file.</p></div></div></div>;
   }
   // data import / export
   const full = JSON.stringify(D.raw, null, 1);
